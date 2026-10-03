@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giải Nghĩa Chư Tinh</title>
+<meta name="description" content="Giải nghĩa 97 sao Tử Vi theo Tân Biên và Toàn Thư, có hình minh họa từng sao và bảng độ sáng 12 cung.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:wght@600;700&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#efe2c2; --paper:#f8efd9; --paper2:#f3e6c6; --ink:#2a1c10; --ink2:#4f3a26; --muted:#86704f;
+  --line:#d8c297; --line2:#b8955a; --red:#9c1f14; --gold:#a8792a; --seal:#b3261a; --sealtext:#fff6e8;
+  --kim:#6f6656; --moc:#2c6e3c; --thuyc:#1f4e79; --hoa:#a8221a; --tho:#9a620f;
+  --medal-bg:#fbf4e2;
+  --b-m:#b3261a; --b-v:#d9782d; --b-d:#e8c25a; --b-b:#e9dcc0; --b-h:#b9c3c6; --b-ink:#2a1c10;
+  --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .1 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#140c08; --paper:#21150e; --paper2:#2a1a11; --ink:#f0e2c4; --ink2:#d6c39f; --muted:#a48c66;
+    --line:#4a3421; --line2:#7a5a30; --red:#e0584a; --gold:#d4a94e;
+    --kim:#c9c0ad; --moc:#7cc98e; --thuyc:#8fb8e0; --hoa:#ff7a66; --tho:#e6a84a; --medal-bg:#2a1a11;
+    --b-m:#c4392b; --b-v:#c96a24; --b-d:#b8962e; --b-b:#4a3b2a; --b-h:#3f4a4f; --b-ink:#fbf1dc;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#140c08; --paper:#21150e; --paper2:#2a1a11; --ink:#f0e2c4; --ink2:#d6c39f; --muted:#a48c66;
+  --line:#4a3421; --line2:#7a5a30; --red:#e0584a; --gold:#d4a94e;
+  --kim:#c9c0ad; --moc:#7cc98e; --thuyc:#8fb8e0; --hoa:#ff7a66; --tho:#e6a84a; --medal-bg:#2a1a11;
+  --b-m:#c4392b; --b-v:#c96a24; --b-d:#b8962e; --b-b:#4a3b2a; --b-h:#3f4a4f; --b-ink:#fbf1dc;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:70px}
+body{margin:0;color:var(--ink);font:15.5px/1.7 "Noto Serif",Georgia,serif;background:var(--noise),var(--bg)}
+.han{font-family:"Noto Serif SC","Songti SC","SimSun",serif;font-weight:900}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px 40px}
+header.top{text-align:center;padding:30px 0 14px}
+header.top .tt{font-size:15px;letter-spacing:.6em;color:var(--red);margin-left:.6em}
+header.top h1{font:700 clamp(28px,5vw,44px)/1.15 "Playfair Display","Noto Serif",serif;margin:6px 0 6px;color:var(--ink)}
+header.top p{margin:0 auto;max-width:680px;color:var(--ink2);font-size:14.5px}
+.toolbar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 0;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(4px);border-bottom:1px solid var(--line)}
+.toolbar input{flex:1 1 220px;min-width:0;font:inherit;padding:8px 12px;border:1px solid var(--line2);background:var(--paper);color:var(--ink);border-radius:2px}
+.btn{font:inherit;font-size:14px;padding:7px 12px;border:1px solid var(--line2);background:var(--paper);color:var(--ink);cursor:pointer;border-radius:2px}
+.btn:hover{border-color:var(--red);color:var(--red)}
+.btn:focus-visible,summary:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 6px}
+.toc a{font-size:13px;padding:3px 10px;border:1px solid var(--line);color:var(--ink2);text-decoration:none;background:var(--paper)}
+.toc a:hover{border-color:var(--red);color:var(--red)}
+.status{font-size:13px;color:var(--muted);min-height:20px;margin:6px 0 0}
+details{border:1px solid var(--line2);background:var(--paper);margin:10px 0}
+details>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:10px 14px;user-select:none}
+details>summary::-webkit-details-marker{display:none}
+details>summary::after{content:"";margin-left:auto;flex:none;width:9px;height:9px;border-right:2px solid var(--red);border-bottom:2px solid var(--red);transform:rotate(45deg) translateY(-3px);transition:transform .2s}
+details[open]>summary::after{transform:rotate(-135deg) translateY(-2px)}
+details.part{outline:3px double var(--line2);outline-offset:3px;margin:22px 4px}
+details.part>summary{padding:14px 16px;background:var(--paper2)}
+.pnum{flex:none;width:46px;height:46px;display:grid;place-items:center;background:var(--seal);color:var(--sealtext);font-size:22px;border-radius:3px}
+.ptitle{display:flex;flex-direction:column;line-height:1.3}
+.ptitle b{font-size:18px}
+.ptitle small{color:var(--muted);font-size:13px}
+.pbody{padding:6px 16px 16px}
+.pfig{margin:10px auto 6px;text-align:center}
+.pfig svg.chom{width:min(100%,420px);height:auto}
+.pfig svg.ring{width:min(100%,420px);height:auto}
+.pfig figcaption{font-size:13px;color:var(--muted);margin-top:4px}
+details.item{background:var(--paper);border-color:var(--line)}
+details.item>summary{padding:8px 12px}
+details.item>summary .mini{display:flex;gap:4px;flex:none}
+.stitle{font-weight:600}
+.stitle small{display:block;font-weight:400;color:var(--muted);font-size:12.5px}
+.ibody{padding:4px 14px 14px}
+.card{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start}
+.figs{display:flex;flex-direction:column;align-items:center;gap:8px;width:170px}
+.figs .pair{display:flex;gap:6px;justify-content:center}
+.figs figure{margin:0;text-align:center}
+.figs figcaption{font-size:12px;color:var(--muted);line-height:1.35;max-width:160px}
+.chip{display:inline-block;font-size:12px;padding:1px 8px;border:1px solid currentColor;border-radius:10px;margin:2px 2px 0}
+.legend{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;font-size:11px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:3px}
+.legend i{width:10px;height:10px;display:inline-block;border:1px solid var(--line2)}
+.text ul{padding-left:20px;margin:6px 0}
+.text li{margin:3px 0}
+.text p{margin:6px 0}
+.text b{color:var(--ink)}
+.tblwrap{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}
+th{background:var(--paper2);font-weight:700}
+dl.facts{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;margin:6px 0}
+dl.facts dt{font-weight:700;color:var(--red)}
+dl.facts dd{margin:0}
+.mosaic{display:grid;grid-template-columns:repeat(auto-fill,minmax(84px,1fr));gap:8px;margin:8px 0}
+.mosaic figure{margin:0;text-align:center;cursor:pointer}
+.mosaic figcaption{font-size:12px;color:var(--ink2);line-height:1.3}
+.lookup td:nth-child(3){font-family:"Noto Serif SC",serif;font-size:16px}
+.lookup a{color:var(--red);text-decoration:none;font-weight:600}
+.lookup a:hover{text-decoration:underline}
+.hidden{display:none!important}
+.searching .pfig,.searching .mosaic,.searching .pbody>.text{display:none}
+@media (max-width:640px){.toolbar .btn{padding:6px 9px;font-size:13px}.toolbar input{flex-basis:100%}}
+mark{background:color-mix(in srgb,var(--gold) 35%,transparent);color:inherit}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:28px}
+@media (max-width:640px){
+  .card{grid-template-columns:1fr}
+  .figs{width:auto;flex-direction:row;flex-wrap:wrap;justify-content:center}
+  details.part{margin:18px 2px}
+  .pbody,.ibody{padding-left:10px;padding-right:10px}
+  .ptitle b{font-size:16px}
+}
+@media print{
+  body{background:#fff}
+  .toolbar,.toc,.status{display:none}
+  details{break-inside:auto}
+  details.part{break-before:page;outline:none}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  details.item>summary,.figs,figure{break-inside:avoid}
+  .pfig{break-after:avoid}
+  details>summary::after{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="tt han">紫微斗數 · 諸星</div>
+  <h1>Giải nghĩa 97 sao Tử Vi</h1>
+  <p>Theo <i>Tử Vi Đẩu Số Tân Biên</i> và <i>Tử Vi Đẩu Số Toàn Thư</i>. Bấm vào từng phần, từng sao để mở ra nội dung.</p>
+</header>
+<div class="toolbar" role="search">
+  <input id="q" type="search" placeholder="Tìm sao hoặc từ khóa: Thái Âm, quý nhân, đào hoa…" aria-label="Tìm sao">
+  <button class="btn" id="openAll" type="button">Mở tất cả</button>
+  <button class="btn" id="closeAll" type="button">Thu gọn</button>
+  <button class="btn" id="theme" type="button" aria-label="Đổi giao diện sáng/tối">☯</button>
+</div>
+<nav class="toc" id="toc" aria-label="Mục lục"></nav>
+<div class="status" id="status" aria-live="polite"></div>
+<main id="main"></main>
+<footer>Lời giải diễn giải lại từ sách gốc, không chép nguyên văn. Hình minh họa do công cụ vẽ, mang tính biểu tượng.</footer>
+</div>
+<script>
+var DATA={"stars": [{"n": 1, "name": "Tử Vi", "han": "紫微", "hanh": "Dương Thổ", "nhom": "Chính tinh", "kw": "uy quyền, phúc đức, giải ách"}, {"n": 2, "name": "Thiên Cơ", "han": "天機", "hanh": "Âm Mộc", "nhom": "Chính tinh", "kw": "mưu trí, khéo léo, thiện tâm"}, {"n": 3, "name": "Thái Dương", "han": "太陽", "hanh": "Dương Hỏa", "nhom": "Chính tinh", "kw": "quan lộc, danh tiếng, cha/chồng"}, {"n": 4, "name": "Vũ Khúc", "han": "武曲", "hanh": "Âm Kim", "nhom": "Chính tinh", "kw": "tài tinh, cương nghị, cô độc"}, {"n": 5, "name": "Thiên Đồng", "han": "天同", "hanh": "Dương Thủy", "nhom": "Chính tinh", "kw": "phúc tinh, hưởng thụ, hay đổi ý"}, {"n": 6, "name": "Liêm Trinh", "han": "廉貞", "hanh": "Âm Hỏa", "nhom": "Chính tinh", "kw": "liêm chính, quan lộc; hãm thì hình ngục"}, {"n": 7, "name": "Thiên Phủ", "han": "天府", "hanh": "Âm Thổ", "nhom": "Chính tinh", "kw": "kho lộc, ổn định, chế sát"}, {"n": 8, "name": "Thái Âm", "han": "太陰", "hanh": "Âm Thủy", "nhom": "Chính tinh", "kw": "điền trạch, phú, mẹ/vợ"}, {"n": 9, "name": "Tham Lang", "han": "貪狼", "hanh": "Âm Thủy", "nhom": "Chính tinh", "kw": "ham muốn, giao tế, đào hoa"}, {"n": 10, "name": "Cự Môn", "han": "巨門", "hanh": "Âm Thủy", "nhom": "Chính tinh", "kw": "ngôn ngữ, thị phi, ám tinh"}, {"n": 11, "name": "Thiên Tướng", "han": "天相", "hanh": "Dương Thủy", "nhom": "Chính tinh", "kw": "ấn tín, nghĩa hiệp, chế Liêm"}, {"n": 12, "name": "Thiên Lương", "han": "天梁", "hanh": "Âm Mộc", "nhom": "Chính tinh", "kw": "thọ, che chở, giải ách"}, {"n": 13, "name": "Thất Sát", "han": "七殺", "hanh": "Dương Kim", "nhom": "Chính tinh", "kw": "uy vũ, quyết đoán, gian nan"}, {"n": 14, "name": "Phá Quân", "han": "破軍", "hanh": "Âm Thủy", "nhom": "Chính tinh", "kw": "phá cũ lập mới, hao tán"}, {"n": 15, "name": "Văn Xương", "han": "文昌", "hanh": "Dương Kim", "nhom": "Lục cát", "kw": "học vấn, khoa giáp"}, {"n": 16, "name": "Văn Khúc", "han": "文曲", "hanh": "Dương Thủy", "nhom": "Lục cát", "kw": "tài hoa, khẩu tài"}, {"n": 17, "name": "Tả Phù", "han": "左輔", "hanh": "Dương Thổ", "nhom": "Lục cát", "kw": "phò tá, trợ lực"}, {"n": 18, "name": "Hữu Bật", "han": "右弼", "hanh": "Dương Thủy", "nhom": "Lục cát", "kw": "phò tá, hiền lương"}, {"n": 19, "name": "Thiên Khôi", "han": "天魁", "hanh": "Dương Hỏa", "nhom": "Lục cát", "kw": "quý nhân (dương), khoa giáp"}, {"n": 20, "name": "Thiên Việt", "han": "天鉞", "hanh": "Âm Hỏa", "nhom": "Lục cát", "kw": "quý nhân (âm), may mắn"}, {"n": 21, "name": "Lộc Tồn", "han": "祿存", "hanh": "Dương Thổ", "nhom": "Lộc – Mã", "kw": "tài lộc, giữ của, cô độc"}, {"n": 22, "name": "Thiên Mã", "han": "天馬", "hanh": "Hỏa", "nhom": "Lộc – Mã", "kw": "di chuyển, đổi mới, năng động"}, {"n": 23, "name": "Kình Dương", "han": "擎羊", "hanh": "Dương Kim", "nhom": "Lục sát", "kw": "hình, quả quyết, tranh chấp"}, {"n": 24, "name": "Đà La", "han": "陀羅", "hanh": "Âm Kim", "nhom": "Lục sát", "kw": "kỵ, trì trệ, thành bại ngang"}, {"n": 25, "name": "Hỏa Tinh", "han": "火星", "hanh": "Dương Hỏa", "nhom": "Lục sát", "kw": "bùng phát, bất ngờ"}, {"n": 26, "name": "Linh Tinh", "han": "鈴星", "hanh": "Âm Hỏa", "nhom": "Lục sát", "kw": "thâm trầm, biến cố ngầm"}, {"n": 27, "name": "Địa Không", "han": "地空", "hanh": "Âm Hỏa", "nhom": "Lục sát", "kw": "hư không, hoạnh phá"}, {"n": 28, "name": "Địa Kiếp", "han": "地劫", "hanh": "Dương Hỏa", "nhom": "Lục sát", "kw": "phá tán, hoạnh phát hoạnh phá"}, {"n": 29, "name": "Hóa Lộc", "han": "化祿", "hanh": "Mộc đới Thổ", "nhom": "Tứ Hóa", "kw": "tăng tài lộc"}, {"n": 30, "name": "Hóa Quyền", "han": "化權", "hanh": "Mộc đới Thủy", "nhom": "Tứ Hóa", "kw": "quyền hành, oai"}, {"n": 31, "name": "Hóa Khoa", "han": "化科", "hanh": "Mộc đới Thủy", "nhom": "Tứ Hóa", "kw": "danh tiếng, thi cử, giải ách"}, {"n": 32, "name": "Hóa Kỵ", "han": "化忌", "hanh": "Thủy", "nhom": "Tứ Hóa", "kw": "trắc trở, thị phi, giữ của"}, {"n": 33, "name": "Đào Hoa", "han": "桃花", "hanh": "Mộc", "nhom": "Phụ tinh cát", "kw": "duyên, hấp dẫn, hỷ sự"}, {"n": 34, "name": "Hồng Loan", "han": "紅鸞", "hanh": "Thủy", "nhom": "Phụ tinh cát", "kw": "hôn nhân, hỷ sự"}, {"n": 35, "name": "Thiên Hỷ", "han": "天喜", "hanh": "Thủy", "nhom": "Phụ tinh cát", "kw": "tin mừng, sinh nở"}, {"n": 36, "name": "Tam Thai", "han": "三台", "hanh": "Thủy", "nhom": "Phụ tinh cát", "kw": "địa vị, bệ vệ"}, {"n": 37, "name": "Bát Tọa", "han": "八座", "hanh": "Mộc", "nhom": "Phụ tinh cát", "kw": "địa vị, nhà đất"}, {"n": 38, "name": "Long Trì", "han": "龍池", "hanh": "Thủy", "nhom": "Phụ tinh cát", "kw": "tài hoa, cưới hỏi"}, {"n": 39, "name": "Phượng Các", "han": "鳳閣", "hanh": "Mộc", "nhom": "Phụ tinh cát", "kw": "danh tiếng, thẩm mỹ"}, {"n": 40, "name": "Thai Phụ", "han": "台輔", "hanh": "Kim", "nhom": "Phụ tinh cát", "kw": "bằng sắc, đề bạt"}, {"n": 41, "name": "Phong Cáo", "han": "封訥", "hanh": "Thổ", "nhom": "Phụ tinh cát", "kw": "phong thưởng, hiếu danh"}, {"n": 42, "name": "Quốc Ấn", "han": "國印", "hanh": "Thổ", "nhom": "Phụ tinh cát", "kw": "ấn tín, chức vị"}, {"n": 43, "name": "Đường Phù", "han": "唐符", "hanh": "Mộc", "nhom": "Phụ tinh cát", "kw": "uy nghi, nhà đất"}, {"n": 44, "name": "Văn Tinh", "han": "文星", "hanh": "Hỏa", "nhom": "Phụ tinh cát", "kw": "học hành, bằng cấp"}, {"n": 45, "name": "Hoa Cái", "han": "華蓋", "hanh": "Kim", "nhom": "Phụ tinh cát", "kw": "uy nghi, nghệ thuật, tâm linh"}, {"n": 46, "name": "Ân Quang", "han": "恩光", "hanh": "Mộc", "nhom": "Phụ tinh cát", "kw": "ân nghĩa, quý nhân"}, {"n": 47, "name": "Thiên Quý", "han": "天貴", "hanh": "Thổ", "nhom": "Phụ tinh cát", "kw": "quý nhân, giải ách"}, {"n": 48, "name": "Thiên Đức", "han": "天德", "hanh": "Hỏa", "nhom": "Phụ tinh cát", "kw": "phúc đức, giải ách nhỏ"}, {"n": 49, "name": "Nguyệt Đức", "han": "月德", "hanh": "Hỏa", "nhom": "Phụ tinh cát", "kw": "hiền lương, giải ách nhỏ"}, {"n": 50, "name": "Giải Thần", "han": "解神", "hanh": "Mộc", "nhom": "Phụ tinh cát", "kw": "giải trừ tai ương"}, {"n": 51, "name": "Thiên Giải", "han": "天解", "hanh": "Hỏa", "nhom": "Phụ tinh cát", "kw": "hóa giải khó khăn"}, {"n": 52, "name": "Địa Giải", "han": "地解", "hanh": "Thổ", "nhom": "Phụ tinh cát", "kw": "giải trừ tai ương"}, {"n": 53, "name": "Thiên Quan", "han": "天官", "hanh": "Hỏa", "nhom": "Phụ tinh cát", "kw": "quý nhân, tín ngưỡng"}, {"n": 54, "name": "Thiên Phúc", "han": "天福", "hanh": "Thổ", "nhom": "Phụ tinh cát", "kw": "phúc, che chở"}, {"n": 55, "name": "Thiên Y", "han": "天醫", "hanh": "Thủy", "nhom": "Phụ tinh cát", "kw": "gặp thầy gặp thuốc"}, {"n": 56, "name": "Thiên Thọ", "han": "天壽", "hanh": "Thổ", "nhom": "Phụ tinh cát", "kw": "phúc thọ"}, {"n": 57, "name": "Thiên Trù", "han": "天廚", "hanh": "Thổ", "nhom": "Phụ tinh cát", "kw": "ăn uống, lộc ăn"}, {"n": 58, "name": "Thiên Tài", "han": "天才", "hanh": "Thổ", "nhom": "Trung tính", "kw": "giảm ảnh hưởng sao đồng cung"}, {"n": 59, "name": "Thiên Hình", "han": "天刑", "hanh": "Hỏa", "nhom": "Hung tinh", "kw": "kỷ luật, mổ cắt, kiện tụng"}, {"n": 60, "name": "Thiên Riêu", "han": "天姚", "hanh": "Thủy", "nhom": "Hung tinh", "kw": "đa nghi, đa tình, tín ngưỡng"}, {"n": 61, "name": "Thiên Khốc", "han": "天哭", "hanh": "Thủy", "nhom": "Bại tinh", "kw": "sầu, tiên trở hậu thành"}, {"n": 62, "name": "Thiên Hư", "han": "天虛", "hanh": "Thủy", "nhom": "Bại tinh", "kw": "hư hao, lo âu"}, {"n": 63, "name": "Cô Thần", "han": "孤辰", "hanh": "Thổ", "nhom": "Bại tinh", "kw": "cô độc, giữ của"}, {"n": 64, "name": "Quả Tú", "han": "寡宿", "hanh": "Thổ", "nhom": "Bại tinh", "kw": "cô quả, lạnh lùng"}, {"n": 65, "name": "Phá Toái", "han": "破碎", "hanh": "Hỏa", "nhom": "Hung tinh", "kw": "phá ngang, chóng chán"}, {"n": 66, "name": "Kiếp Sát", "han": "劫煞", "hanh": "Hỏa", "nhom": "Hung tinh", "kw": "sát phạt, mổ cắt"}, {"n": 67, "name": "Thiên Không", "han": "天空", "hanh": "Hỏa", "nhom": "Hung tinh", "kw": "hư không, mưu nhiều khó thành"}, {"n": 68, "name": "Lưu Hà", "han": "流霞", "hanh": "Thủy", "nhom": "Hung tinh", "kw": "tai họa bất ngờ"}, {"n": 69, "name": "Thiên La", "han": "天羅", "hanh": "Thổ", "nhom": "Hung tinh", "kw": "kìm hãm, trói buộc"}, {"n": 70, "name": "Địa Võng", "han": "地網", "hanh": "Thổ", "nhom": "Hung tinh", "kw": "vướng mắc, giam cầm"}, {"n": 71, "name": "Thiên Thương", "han": "天傷", "hanh": "Thổ", "nhom": "Hung tinh", "kw": "hư hao (sao hạn)"}, {"n": 72, "name": "Thiên Sứ", "han": "天使", "hanh": "Thủy", "nhom": "Hung tinh", "kw": "tin dữ, bệnh tật (sao hạn)"}, {"n": 73, "name": "Đẩu Quân", "han": "斗君", "hanh": "Hỏa", "nhom": "Hung tinh", "kw": "nghiêm khắc, giữ của"}, {"n": 74, "name": "Bác Sĩ", "han": "博士", "hanh": "Thủy", "nhom": "Vòng Bác Sĩ", "kw": "thông minh, học hành"}, {"n": 75, "name": "Lực Sĩ", "han": "力士", "hanh": "Hỏa", "nhom": "Vòng Bác Sĩ", "kw": "sức mạnh, uy lực"}, {"n": 76, "name": "Thanh Long", "han": "青龍", "hanh": "Thủy", "nhom": "Vòng Bác Sĩ", "kw": "hỷ sự, thăng tiến"}, {"n": 77, "name": "Tiểu Hao", "han": "小耗", "hanh": "Hỏa", "nhom": "Vòng Bác Sĩ", "kw": "hao nhỏ"}, {"n": 78, "name": "Tướng Quân", "han": "將軍", "hanh": "Mộc", "nhom": "Vòng Bác Sĩ", "kw": "uy thế, cầm đầu"}, {"n": 79, "name": "Tấu Thư", "han": "奏書", "hanh": "Kim", "nhom": "Vòng Bác Sĩ", "kw": "văn thư, khéo nói"}, {"n": 80, "name": "Phi Liêm", "han": "飛廉", "hanh": "Hỏa", "nhom": "Vòng Bác Sĩ", "kw": "nhanh chóng, tốt xấu đều nhanh"}, {"n": 81, "name": "Hỷ Thần", "han": "喜神", "hanh": "Hỏa", "nhom": "Vòng Bác Sĩ", "kw": "tin vui, cưới hỏi"}, {"n": 82, "name": "Bệnh Phù", "han": "病符", "hanh": "Thổ", "nhom": "Vòng Bác Sĩ", "kw": "đau yếu"}, {"n": 83, "name": "Đại Hao", "han": "大耗", "hanh": "Hỏa", "nhom": "Vòng Bác Sĩ", "kw": "hao lớn"}, {"n": 84, "name": "Phục Binh", "han": "伏兵", "hanh": "Hỏa", "nhom": "Vòng Bác Sĩ", "kw": "ám hại hoặc phò tá ngầm"}, {"n": 85, "name": "Quan Phủ", "han": "官府", "hanh": "Hỏa", "nhom": "Vòng Bác Sĩ", "kw": "phiền nhiễu, giấy tờ"}, {"n": 86, "name": "Thái Tuế", "han": "太歲", "hanh": "Hỏa", "nhom": "Vòng Thái Tuế", "kw": "lý luận, thị phi"}, {"n": 87, "name": "Thiếu Dương", "han": "少陽", "hanh": "Hỏa", "nhom": "Vòng Thái Tuế", "kw": "thông minh, vui vẻ"}, {"n": 88, "name": "Tang Môn", "han": "喪門", "hanh": "Mộc", "nhom": "Vòng Thái Tuế", "kw": "tang thương"}, {"n": 89, "name": "Thiếu Âm", "han": "少陰", "hanh": "Thủy", "nhom": "Vòng Thái Tuế", "kw": "hiền hòa"}, {"n": 90, "name": "Quan Phù", "han": "官符", "hanh": "Hỏa", "nhom": "Vòng Thái Tuế", "kw": "pháp lý, thị phi"}, {"n": 91, "name": "Tử Phù", "han": "死符", "hanh": "Hỏa", "nhom": "Vòng Thái Tuế", "kw": "buồn thảm"}, {"n": 92, "name": "Tuế Phá", "han": "歲破", "hanh": "Hỏa", "nhom": "Vòng Thái Tuế", "kw": "phá tán, ngang ngược"}, {"n": 93, "name": "Long Đức", "han": "龍德", "hanh": "Thủy", "nhom": "Vòng Thái Tuế", "kw": "đức độ, giải ách"}, {"n": 94, "name": "Bạch Hổ", "han": "白虎", "hanh": "Kim", "nhom": "Vòng Thái Tuế", "kw": "tai nạn, tang chế; uy dũng"}, {"n": 95, "name": "Phúc Đức", "han": "福德", "hanh": "Thổ", "nhom": "Vòng Thái Tuế", "kw": "phúc, giải ách"}, {"n": 96, "name": "Điếu Khách", "han": "弔客", "hanh": "Hỏa", "nhom": "Vòng Thái Tuế", "kw": "khoe khoang, tang thương"}, {"n": 97, "name": "Trực Phù", "han": "直符", "hanh": "Hỏa", "nhom": "Vòng Thái Tuế", "kw": "rắc rối, buồn phiền"}], "sections": [{"title": "Lời dẫn", "intro": "<p>Chương này giải nghĩa đủ 97 sao mà công cụ Lá Số Tử Vi đang an. Các sao được xếp thành 9 nhóm, đi từ chính tinh xuống tạp tinh, và cuối chương có bảng tra nhanh.</p>\n<p><b>Cách đọc mỗi mục sao</b></p>\n<ul><li><b>Tên sao:</b> viết tên Hán-Việt, kèm chữ Hán phồn thể trong ngoặc, ví dụ Tử Vi (紫微).</li><li><b>Hành – Âm dương – Loại:</b> cho biết sao thuộc ngũ hành nào, âm hay dương, và là phúc tinh, quyền tinh, tài tinh, sát tinh, v.v.</li><li><b>Miếu – Vượng – Hãm:</b> chỉ có ở 14 chính tinh và lục sát, là những sao mà sách cổ phân độ sáng theo 12 cung.</li><li><b>Tính chất:</b> sao đóng ở cung Mệnh thì chủ về tính cách và vận số như thế nào.</li><li><b>Hội hợp:</b> những bộ sao (cách) hay gặp, cả tốt lẫn xấu.</li></ul>\n<p><b>Về tên chữ Hán và chữ Nôm</b></p>\n<ul><li>Tên sao Tử Vi đều là từ Hán-Việt. Ngay trong các bản viết tay theo truyền thống Hán Nôm, tên sao vẫn được viết bằng chữ Hán.</li><li>Tôi không tìm thấy hệ tên sao viết riêng bằng chữ Nôm trong các sách đang có. Vì vậy chương này ghi <b>chữ Hán phồn thể</b> và không tự đặt chữ Nôm.</li></ul>\n<p><b>Nguồn</b></p>\n<ul><li>Ngũ hành, cách an sao và độ miếu hãm theo <i>Tử Vi Đẩu Số Tân Biên</i> (Vân Đằng Thái Thứ Lang).</li><li>Ý nghĩa sao và các câu phú theo <i>Tử Vi Đẩu Số Toàn Thư</i> (Hi Di Trần Đoàn), có đối chiếu thêm <i>Tử Vi</i> <i>Đẩu Số Thực Hành và Muốn luận đoán đúng số Tử Vi (Huyền Vi)</i>.</li><li>Toàn bộ lời giải là diễn giải lại bằng lời văn riêng, không chép nguyên văn sách.</li><li>Khi các sách nói khác nhau, chương ghi rõ là có dị bản thay vì tự chọn một cách.</li></ul>\n<p><b>Nguyên tắc luận</b></p>\n<ul><li>Không có sao nào tốt hay xấu tuyệt đối.</li><li>Phải xét cùng lúc độ sáng (miếu, vượng, đắc, bình, hãm), cung đóng, các sao hội chiếu từ tam hợp và xung chiếu, ngũ hành của sao so với bản mệnh, và vận hạn đang đi qua.</li></ul>", "items": [], "kind": "text"}, {"title": "Phần I – Chòm Tử Vi (紫微星系)", "intro": "<p>Chòm Tử Vi gồm 6 sao an theo vị trí của Tử Vi: Tử Vi, Thiên Cơ, Thái Dương, Vũ Khúc, Thiên Đồng, Liêm Trinh. Tử Vi là ngôi chủ của toàn lá số; Toàn Thư dạy phải xét Tử Vi trước rồi mới lập thành số.</p>", "items": [{"title": "1. Tử Vi (紫微) – Đế tinh", "stars": ["Tử Vi"], "body": "<ul><li><b>Hành:</b> Dương Thổ, thuộc cả Nam lẫn Bắc Đẩu. <b>Chủ:</b> uy quyền, tài lộc, phúc đức. Toàn Thư gọi là sao ở ngôi tôn.</li><li><b>Miếu:</b> Tỵ, Ngọ, Dần, Thân · <b>Vượng:</b> Thìn, Tuất · <b>Đắc:</b> Sửu, Mùi · <b>Bình hòa:</b> Hợi, Tý, Mão, Dậu.</li><li><b>Tính chất:</b> Sáng thì thông minh, trung hậu, nghiêm cẩn, có dáng uy nghi. Ở Thìn, Tuất giỏi mưu tính, có oai phong. Ở Sửu, Mùi có thao lược nhưng hay liều. Ở bình hòa thì kém rực rỡ, uy lực giảm, không đủ sức cứu giải tai ương lớn.</li><li><b>Đặc tính riêng:</b> Đóng ở cung nào thì giáng phúc cho cung ấy. Chế được tính hung của Hỏa, Linh.</li><li><b>Hội hợp:</b><ul><li>Gặp Tả Hữu, Xương Khúc, Khôi Việt, Thiên Tướng: như vua có bề tôi giỏi phò tá, uy quyền hiển hách.</li><li>Gặp Thiên Phủ: của cải tích tụ (Phủ là kho của vua). Gặp Lộc Tồn, Thiên Mã: thêm quyền lực.</li><li>Đồng cung Thất Sát: như vua mang kiếm báu; Sát được Tử Vi ban quyền nên trở nên rực rỡ.</li><li>Kỵ gặp Tuần, Triệt án ngữ và Kình, Đà, Không, Kiếp: như vua bị vây hãm, sinh nhiều điều chẳng lành.</li></ul></li></ul>", "children": []}, {"title": "2. Thiên Cơ (天機) – Thiện tinh", "stars": ["Thiên Cơ"], "body": "<ul><li><b>Hành:</b> Âm Mộc, Nam Đẩu. <b>Chủ:</b> huynh đệ, phúc thọ. Toàn Thư: hóa khí là <b>Thiện</b> (善).</li><li><b>Miếu:</b> Thìn, Tuất, Mão, Dậu · <b>Vượng:</b> Tỵ, Thân · <b>Đắc:</b> Tý, Ngọ, Sửu, Mùi · <b>Hãm:</b> Dần, Hợi.</li><li><b>Tính chất:</b> Sáng thì sáng suốt, khéo tay, giàu mưu cơ, nhân hậu. Hãm thì kém sáng suốt nhưng vẫn giữ lòng thiện.</li><li><b>Theo Toàn Thư:</b> Bản chất không ưa điều bất nhân bất nghĩa. Khi không gặp thời thường muốn lui về ở ẩn, dễ gần với đạo. Thiên Cơ đi cùng Thiên Lương là người khéo léo, tháo vát, giỏi lo toan việc nhà.</li><li><b>Hội hợp:</b> Gặp cát tinh dễ thành công nhờ mưu trí. Gặp hung tinh thì cái khéo dễ thành cái xảo.</li></ul>", "children": []}, {"title": "3. Thái Dương (太陽) – Quý tinh", "stars": ["Thái Dương"], "body": "<ul><li><b>Hành:</b> Dương Hỏa, Nam Đẩu. <b>Chủ:</b> quan lộc. Toàn Thư: hóa khí vừa <b>Quý</b> vừa <b>Lộc</b>, nên đóng cung Quan Lộc rất tốt.</li><li><b>Tượng:</b> mặt trời; cha, ông nội; với nữ mệnh còn là chồng.</li><li><b>Miếu:</b> Tỵ, Ngọ · <b>Vượng:</b> Dần, Mão, Thìn · <b>Đắc:</b> Sửu, Mùi · <b>Hãm:</b> Thân, Dậu, Tuất, Hợi, Tý.</li><li><b>Tính chất:</b> Sáng thì thông minh, nhân hậu, hơi nóng nảy, tài lộc và uy quyền đều thịnh. Hãm thì hay nhầm lẫn, uy quyền giảm. Miếu vượng mà sinh ban ngày là thuận lý, rực rỡ nhất.</li><li><b>Hội hợp:</b><ul><li>Gặp Đào, Hồng, Hỷ, hoặc Hỏa, Linh đắc địa: thêm rực rỡ.</li><li>Gặp Riêu, Đà, Kỵ hoặc Không, Kiếp: giảm sáng.</li><li>Miếu vượng gặp Tuần, Triệt: bị che ánh sáng. Ngược lại, hãm gặp Tuần, Triệt lại sáng hơn.</li><li>Đắc địa đồng cung Hóa Kỵ (ở Sửu, Mùi): như mặt trời có mây ngũ sắc chầu, là cách đẹp.</li></ul></li></ul>", "children": []}, {"title": "4. Vũ Khúc (武曲) – Tài tinh", "stars": ["Vũ Khúc"], "body": "<ul><li><b>Hành:</b> Âm Kim, Bắc Đẩu. <b>Chủ:</b> tài lộc; Toàn Thư xếp làm chủ tiền bạc ở cung Tài Bạch.</li><li><b>Miếu:</b> Thìn, Tuất, Sửu, Mùi · <b>Vượng:</b> Dần, Thân, Tý, Ngọ · <b>Đắc:</b> Mão, Dậu · <b>Hãm:</b> Tỵ, Hợi.</li><li><b>Tính chất:</b> Sáng thì cương nghị, dũng mãnh, quả quyết, tiền bạc tăng tiến. Hãm thì tham, ương ngạnh, dễ phá tán. Vũ Khúc còn mang tính cô độc như Cô Thần, Quả Tú.</li><li><b>Hội hợp:</b><ul><li>Miếu vượng gặp sát tinh: không đáng lo.</li><li>Gặp Lộc, Mã: tiền nhiều. Đồng cung Thiên Phủ: thọ.</li><li>Hãm gặp Tham Lang: khó chơi, bủn xỉn. Gặp Phá Quân: tiền đến tay rồi đi.</li></ul></li></ul>", "children": []}, {"title": "5. Thiên Đồng (天同) – Phúc tinh", "stars": ["Thiên Đồng"], "body": "<ul><li><b>Hành:</b> Dương Thủy, Nam Đẩu. <b>Chủ:</b> phúc thọ. Toàn Thư: chủ tể cung Phúc Đức, hóa khí là <b>Phúc</b> (福).</li><li><b>Miếu:</b> Dần, Thân · <b>Vượng:</b> Tý · <b>Đắc:</b> Mão, Tỵ, Hợi · <b>Hãm:</b> Ngọ, Dậu, Thìn, Tuất, Sửu, Mùi.</li><li><b>Tính chất:</b> Hay thay đổi ý định, nhân hậu, thích làm việc thiện. Sáng thì may mắn, vui vẻ. Hãm thì vẫn hiền nhưng dễ vướng thị phi, kiện cáo.</li><li><b>Theo Toàn Thư:</b> Tính bình thản, thâm trầm nên không sợ Tứ Sát phá phách. Đóng cung nào giáng phúc cho cung ấy, nhưng cần cát tinh trợ lực thì phúc mới đầy.</li></ul>", "children": []}, {"title": "6. Liêm Trinh (廉貞) – Tù tinh", "stars": ["Liêm Trinh"], "body": "<ul><li><b>Hành:</b> Âm Hỏa, Bắc Đẩu (theo Tân Biên). Bản Toàn Thư do Vũ Tài Lục dịch ghi thuộc Mộc; đây là dị bản. <b>Chủ:</b> quan lộc, hình ngục.</li><li><b>Miếu:</b> Thìn, Tuất · <b>Vượng:</b> Tý, Ngọ, Dần, Thân · <b>Đắc:</b> Sửu, Mùi · <b>Hãm:</b> Tỵ, Hợi, Mão, Dậu.</li><li><b>Tính chất:</b> Sáng thì liêm khiết, thẳng thắn, có tài tổ chức. Hãm thì khắc nghiệt.</li><li><b>Tên gọi khác:</b><ul><li><b>Đào Hoa thứ hai:</b> Liêm sáng thủ Mệnh, Thân thì mang thêm vẻ đào hoa.</li><li><b>Tù tinh:</b> Liêm sáng gặp Xương, Phù, hoặc Liêm hãm, đều chủ chuyện kiện cáo, giam giữ. Toàn Thư giải thích chữ \"Tù\" là do Liêm không sáng lại phạm Quan Phù.</li></ul></li><li><b>Hội hợp:</b><ul><li>Sáng gặp Lộc Tồn: giàu. Gặp Văn Xương: lịch thiệp. Gặp Thất Sát: hiển đạt võ nghiệp.</li><li>Hãm gặp sát tinh, Hóa Kỵ, Thiên Hình: tai họa nặng. Gặp Cự Môn hãm: hay dính thị phi.</li></ul></li></ul>", "children": []}], "kind": "part"}, {"title": "Phần II – Chòm Thiên Phủ (天府星系)", "intro": "<p>Chòm Thiên Phủ gồm 8 sao an theo vị trí của Thiên Phủ. Toàn Thư gọi Thiên Phủ là \"Nam Đẩu đệ nhất tinh\", đứng phò tá cho Tử Vi.</p>", "items": [{"title": "7. Thiên Phủ (天府) – Tài tinh, Quyền tinh", "stars": ["Thiên Phủ"], "body": "<ul><li><b>Hành:</b> Âm Thổ, Nam Đẩu. <b>Chủ:</b> tài lộc, uy quyền. Toàn Thư xem là chủ tinh của cung Tài Bạch, coi cả y lộc và điền trạch.</li><li><b>Miếu:</b> Dần, Thân, Tý, Ngọ · <b>Vượng:</b> Thìn, Tuất · <b>Đắc:</b> Tỵ, Hợi, Mùi · <b>Bình hòa:</b> Mão, Dậu, Sửu.</li><li><b>Tính chất:</b> Nhân hậu, đoan nhã, tướng mạo thanh thoát. Tăng quyền lộc, cứu giải bệnh tật và tai ương.</li><li><b>Đặc tính riêng:</b> Chế được tính hung của Kình, Đà, Hỏa, Linh. Nhưng nếu gặp đủ cả bốn sao thì quyền lộc cũng bị giảm.</li><li><b>Hội hợp:</b><ul><li>Gặp Lộc Tồn, Vũ Khúc: giàu lớn. Gặp Thái Dương, Xương Khúc: dễ đỗ đạt, có công danh.</li><li>Kỵ gặp Tuần, Triệt, Thiên Không, Địa Không, Địa Kiếp: như kho bị phá, hay hao tán.</li></ul></li></ul>", "children": []}, {"title": "8. Thái Âm (太陰) – Phú tinh", "stars": ["Thái Âm"], "body": "<ul><li><b>Hành:</b> Âm Thủy, Bắc Đẩu. <b>Chủ:</b> điền trạch. Toàn Thư: làm chủ cung Điền Trạch, hóa khí là <b>Phú</b> (富).</li><li><b>Tượng:</b> mặt trăng; mẹ, bà nội, và vợ.</li><li><b>Miếu:</b> Dậu, Tuất, Hợi · <b>Vượng:</b> Thân, Tý · <b>Đắc:</b> Sửu, Mùi · <b>Hãm:</b> Dần, Mão, Thìn, Tỵ, Ngọ.</li><li><b>Tính chất:</b> Sáng thì khoan hòa, nhân hậu, sung túc, có nhiều nhà đất. Hãm thì vẫn hiền nhưng hay nhầm lẫn, tài sản dễ phát tán.</li><li><b>Lưu ý ngày đêm:</b> Miếu vượng mà sinh ban đêm là thuận lý. Sinh trong nửa đầu tháng âm (mồng 1 đến 15, trăng thượng huyền) càng rực rỡ.</li><li><b>Hội hợp:</b><ul><li>Gặp Đào, Hồng, Hỷ: thêm tốt. Gặp Riêu, Đà, Kỵ hoặc Kình, Không, Kiếp: giảm sáng.</li><li>Tuần, Triệt: cùng quy luật như Thái Dương (sáng thì bị che, hãm thì được sáng lên).</li><li>Đắc địa đồng cung Hóa Kỵ: như trăng có mây ngũ sắc chầu.</li><li>Toàn Thư: Thái Âm ở Dậu, Thái Dương ở Mão chiếu sang, lại gặp nhiều cát tinh thì hưởng phúc lớn.</li></ul></li></ul>", "children": []}, {"title": "9. Tham Lang (貪狼) – Hung tinh, Đào hoa tinh", "stars": ["Tham Lang"], "body": "<ul><li><b>Hành:</b> Âm Thủy, Bắc Đẩu. Toàn Thư nói rõ hơn: khí thuộc Mộc, thể thuộc Thủy, hóa khí là <b>Đào Hoa</b> (桃花). <b>Chủ:</b> họa phúc, uy quyền.</li><li><b>Miếu:</b> Sửu, Mùi · <b>Vượng:</b> Thìn, Tuất · <b>Đắc:</b> Dần, Thân · <b>Hãm:</b> Tỵ, Hợi, Tý, Ngọ, Mão, Dậu.</li><li><b>Tính chất:</b> Sáng thì nhiều ham muốn, thích giao du, chơi bời nhưng có uy quyền và tài lộc. Hãm thì tham, dễ sa đà, hay gây họa và nhầm lẫn. Sao này vừa tạo phúc vừa gây họa.</li><li><b>Theo Toàn Thư:</b> Khéo thì rất khéo mà vụng cũng rất vụng.</li><li><b>Hội hợp:</b><ul><li>Gặp Lộc Tồn: tốt lành.</li><li>Gặp Phá Quân: dễ sa vào rượu chè, tình ái. Gặp Song Hao: việc dễ thành hư hoa.</li><li>Gặp Liêm Trinh hãm: dễ vướng tù tội. Gặp Thất Sát: dễ có chuyện quan tụng.</li><li>Ở Tỵ, Hợi đồng cung Hóa Kỵ: Kỵ lại chế được tính hung của Tham.</li></ul></li></ul>", "children": []}, {"title": "10. Cự Môn (巨門) – Ám tinh", "stars": ["Cự Môn"], "body": "<ul><li><b>Hành:</b> Âm Thủy, Bắc Đẩu (Toàn Thư gọi là sao thứ hai của Bắc Đẩu). Hóa khí là <b>Ám</b> (暗), nghĩa là che tối. <b>Chủ:</b> ngôn ngữ, thị phi.</li><li><b>Miếu:</b> Mão, Dậu · <b>Vượng:</b> Tý, Ngọ, Dần · <b>Đắc:</b> Thân, Hợi · <b>Hãm:</b> Thìn, Tuất, Sửu, Mùi, Tỵ.</li><li><b>Tính chất:</b> Sáng thì nhân hậu, vui vẻ, ăn nói đanh thép, có uy quyền và tài lộc. Hãm thì hay gây thị phi, kiện cáo, dễ bị hiểu lầm.</li><li><b>Hình ảnh trong sách:</b> Cự sáng như ngọc quý còn nằm trong đá. Cần Hóa Lộc đồng cung, hoặc Tuần, Triệt án ngữ, để \"phá đá lộ ngọc\".</li><li><b>Hội hợp:</b><ul><li>Hãm gặp Hóa Khoa: bớt lo, vì Khoa giải được tính hung của Cự.</li><li>Đồng cung Hóa Kỵ: dễ bệnh tật, tai họa nặng.</li><li>Toàn Thư lưu ý: Cự đóng ở Huynh Đệ, Phu Thê hay Nô Bộc dễ sinh bất hòa, oan trách trong các mối quan hệ ấy.</li></ul></li></ul>", "children": []}, {"title": "11. Thiên Tướng (天相) – Quyền tinh, Dũng tinh", "stars": ["Thiên Tướng"], "body": "<ul><li><b>Hành:</b> Dương Thủy, Nam Đẩu. <b>Chủ:</b> quan lộc, phúc thiện. Toàn Thư: hóa khí là <b>Ấn</b> (印), chuyên trợ giúp Tử Vi.</li><li><b>Miếu:</b> Dần, Thân · <b>Vượng:</b> Thìn, Tuất, Tý, Ngọ · <b>Đắc:</b> Sửu, Mùi, Tỵ, Hợi · <b>Hãm:</b> Mão, Dậu.</li><li><b>Tính chất:</b> Đôn hậu, can đảm, ưa cái đẹp, dễ đam mê. Có uy dũng, công danh, tài lộc.</li><li><b>Theo Toàn Thư:</b> Ăn nói thành thật, thấy người hoạn nạn thì động lòng, thấy việc ác thì bất bình. Không dễ bị hung sát làm đổi chí.</li><li><b>Hội hợp:</b><ul><li>Chế được tính nóng nảy của Liêm Trinh. Sáng thì chế được sát tinh, coi sát tinh như thuộc hạ.</li><li>Đồng cung Kình Dương: như dao kề trên đầu.</li><li>Gặp Tuần, Triệt: như tướng mất đầu, ấn bị sứt mẻ, dễ mất quyền lực và gặp tai họa.</li></ul></li></ul>", "children": []}, {"title": "12. Thiên Lương (天梁) – Thọ tinh, Ấm tinh", "stars": ["Thiên Lương"], "body": "<ul><li><b>Hành:</b> Âm Mộc, Nam Đẩu (theo Tân Biên). Bản Toàn Thư ghi thuộc Thổ; đây là dị bản. <b>Chủ:</b> phụ mẫu, phúc thọ. Hóa khí là <b>Ấm</b> (蔭), nghĩa là che chở.</li><li><b>Miếu:</b> Ngọ, Thìn, Tuất · <b>Vượng:</b> Tý, Mão, Dần, Thân · <b>Đắc:</b> Sửu, Mùi · <b>Hãm:</b> Dậu, Tỵ, Hợi.</li><li><b>Tính chất:</b> Sáng thì nhân hậu, khoan hòa, có mưu cơ, biết quyền biến, giải được bệnh tật và tai họa. Hãm thì vẫn hiền nhưng hay thay đổi, ham chơi.</li><li><b>Theo Toàn Thư:</b> Không sợ Thái Tuế xung hay Bạch Hổ phá. Nếu gặp Hao, Thiên Cơ và sát tinh thì hợp đường tu hành.</li><li><b>Hội hợp:</b> Gặp Thái Dương, Xương Khúc và cát tinh ở tam hợp: danh tiếng tốt, được trên dưới quý trọng.</li></ul>", "children": []}, {"title": "13. Thất Sát (七殺) – Quyền tinh, Dũng tinh", "stars": ["Thất Sát"], "body": "<ul><li><b>Hành:</b> Dương Kim, Nam Đẩu (theo Tân Biên). Toàn Thư ghi Hỏa Kim và gọi là \"thượng tướng\" của các sao. <b>Chủ:</b> uy vũ, sát phạt.</li><li><b>Miếu:</b> Dần, Thân, Tý, Ngọ · <b>Vượng:</b> Tỵ, Hợi · <b>Đắc:</b> Sửu, Mùi · <b>Hãm:</b> Mão, Dậu, Thìn, Tuất.</li><li><b>Tính chất:</b> Sáng thì can đảm, dũng mãnh, nóng nảy. Hãm thì liều lĩnh, dễ gây tai họa.</li><li><b>Theo Toàn Thư:</b> Người có Thất Sát thủ Mệnh thường trải nhiều gian nan. Đóng cung Quan Lộc thì rất tốt, biến họa thành phúc.</li><li><b>Hội hợp:</b> Gặp Kình Dương: dễ có tai họa lớn. Gặp Tử Vi đồng cung: được ban quyền, thành rực rỡ (xem Tử Vi).</li></ul>", "children": []}, {"title": "14. Phá Quân (破軍) – Hung tinh, Hao tinh", "stars": ["Phá Quân"], "body": "<ul><li><b>Hành:</b> Âm Thủy, Bắc Đẩu. <b>Chủ:</b> phu thê, hao tán. Toàn Thư: trên trời là sát khí, vào số thì hóa khí là <b>Hao</b> (耗).</li><li><b>Miếu:</b> Tý, Ngọ · <b>Vượng:</b> Sửu, Mùi · <b>Đắc:</b> Thìn, Tuất · <b>Hãm:</b> Mão, Dậu, Dần, Thân, Tỵ, Hợi.</li><li><b>Tính chất:</b> Sáng thì can đảm, dũng mãnh, cương nghị, đôi khi mưu mẹo. Hãm thì liều lĩnh, gây phá tán, đổ vỡ.</li><li><b>Theo Toàn Thư:</b> Người tuổi Giáp, tuổi Quý mà hợp cách thì phú quý. Hãm gặp Tứ Sát xung phá thì dễ bỏ quê, phá nghiệp.</li><li><b>Hội hợp:</b><ul><li>Gặp Thiên Lương, Hỷ (Hỷ Thần hoặc Thiên Hỷ) hay Lộc: bớt hung, vì các sao này chế được Phá.</li><li>Gặp Đại Hao, Tiểu Hao: càng phá tán.</li></ul></li></ul>", "children": []}], "kind": "part"}, {"title": "Phần III – Lục cát tinh, Lộc Tồn, Thiên Mã", "intro": "<p>Lục cát (六吉) gồm 3 cặp sao: Xương Khúc, Tả Hữu, Khôi Việt. Các sao này không tự mình làm nên cách cục mà phò tá cho chính tinh. Vì vậy chúng đẹp nhất khi đi đủ cặp và gặp chính tinh sáng.</p>", "items": [{"title": "15–16. Văn Xương (文昌) · Văn Khúc (文曲) – Văn tinh", "stars": ["Văn Xương", "Văn Khúc"], "body": "<ul><li><b>Hành:</b><ul><li>Văn Xương: Dương Kim đới Thổ, Bắc Đẩu.</li><li>Văn Khúc: Dương Thủy đới Hỏa. Tân Biên xếp vào Nam Đẩu, còn Toàn Thư ghi Bắc Đẩu; đây là dị bản.</li></ul></li><li><b>Chủ:</b> văn chương, mỹ thuật, khoa giáp.</li><li><b>Đắc địa:</b> Thìn, Tuất, Sửu, Mùi, Tỵ, Hợi.</li><li><b>Tính chất:</b> Thông minh, hiếu học, yêu văn chương, nghệ thuật. Toàn Thư tả người có Xương thủ Mệnh là nho nhã, thanh tú, học rộng; có Khúc thì tài hoa, phong nhã.</li><li><b>Hội hợp:</b><ul><li>Xương rất cần Hóa Quyền, Hóa Lộc để có danh phận.</li><li>Văn Khúc đơn thủ mà gặp hung tinh: khéo nói nhưng khó có chỗ đứng.</li><li>Gặp sát tinh, Hóa Kỵ, Thiên Riêu: dễ sa đà tình cảm, giảm thọ.</li></ul></li></ul>", "children": []}, {"title": "17–18. Tả Phù (左輔) · Hữu Bật (右弼) – Trợ tinh", "stars": ["Tả Phù", "Hữu Bật"], "body": "<ul><li><b>Tên gọi:</b> Chữ 輔 đọc Hán-Việt là \"Phụ\". Các sách Tân Biên và Toàn Thư viết Tả Phụ; dân gian và nhiều lá số quen đọc Tả Phù.</li><li><b>Hành:</b> Tả Phù là Dương Thổ đới Kim; Hữu Bật là Dương Thủy đới Thổ; cả hai đều thuộc Bắc Đẩu.</li><li><b>Chủ:</b> quyền lệnh, chuyên phò tá và giúp đỡ. Toàn Thư gọi là sao phò đế tọa.</li><li><b>Tính chất:</b> Người có Tả Phù thủ Mệnh thì đôn hậu, khẳng khái. Người có Hữu Bật thủ Mệnh thì giỏi văn tự, hiền lương. Cả hai đều được nhiều người giúp sức.</li><li><b>Quy tắc:</b> Gặp sao tốt thì làm tốt thêm; gặp sao xấu thì làm xấu thêm.</li><li><b>Hội hợp:</b><ul><li>Đi cùng Tử, Phủ, Quyền, Lộc: đại quý cách, văn võ đều hay.</li><li>Gặp Kình, Đà xung phá, hoặc Hỏa Tinh, Hóa Kỵ: giàu sang khó bền.</li></ul></li></ul>", "children": []}, {"title": "19–20. Thiên Khôi (天魁) · Thiên Việt (天鉞) – Quý nhân tinh", "stars": ["Thiên Khôi", "Thiên Việt"], "body": "<ul><li><b>Hành:</b> Thiên Khôi là Dương Hỏa đới Kim; Thiên Việt là Âm Hỏa đới Mộc; cả hai đều thuộc Nam Đẩu.</li><li><b>Tên gọi khác:</b> Thiên Ất quý nhân (天乙貴人). Khôi là dương quý nhân, Việt là âm quý nhân.</li><li><b>Chủ:</b> khoa giáp, quyền tước; được người trên nâng đỡ.</li><li><b>Tính chất:</b> Thông minh, cao thượng, nhân hậu, ưa văn chương.</li><li><b>Theo Toàn Thư:</b> Khôi Việt là thần của sự hòa hợp, hội cùng Tả Hữu thì ít ai không phú quý. Gặp nạn lớn cũng có quý nhân cứu giúp. Bộ \"Khôi ở Mệnh, Việt ở Thân\" (tọa quý hướng quý) thành danh sớm.</li><li><b>Kỵ:</b> Gặp Hỏa, Linh, Thiên Hình thì dễ có tai họa bất ngờ.</li></ul>", "children": []}, {"title": "21. Lộc Tồn (祿存) – Quý tinh", "stars": ["Lộc Tồn"], "body": "<ul><li><b>Hành:</b> Dương Thổ đới Thủy, Bắc Đẩu. <b>Chủ:</b> quyền tước, tài lộc, phúc thọ. Lộc Tồn an theo can năm sinh, luôn đứng giữa Kình Dương và Đà La.</li><li><b>Tính chất:</b> Thông minh, hiếu học, nghiêm cẩn, nhân hậu, nhưng có phần cô độc. Cứu khốn phò nguy, giải bệnh tật, tăng tài và thọ.</li><li><b>Đặc tính riêng:</b> Chế được tính đào hoa của Đào Hoa, Hồng Loan.</li><li><b>Theo Toàn Thư:</b><ul><li>Phò Tử Vi, Thiên Tướng thì tăng quyền; phò Nhật, Nguyệt thì tăng sáng.</li><li>Đóng Mệnh, Tài Bạch, Điền Trạch thì giàu.</li><li>Đứng một mình ở Mệnh, không có cát tinh, thì dễ thành người giữ của, kỹ tính.</li></ul></li><li><b>Hội hợp:</b><ul><li>Đồng cung Hóa Lộc (Song Lộc): giàu thêm.</li><li>Gặp Thiên Mã (Lộc Mã giao trì): tài lộc hanh thông.</li><li>Gặp Không, Kiếp: Lộc bị phá, giữ của khó.</li></ul></li></ul>", "children": []}, {"title": "22. Thiên Mã (天馬) – Dịch tinh", "stars": ["Thiên Mã"], "body": "<ul><li><b>Hành:</b> Hỏa. Chỉ đóng ở 4 cung Dần, Thân, Tỵ, Hợi. <b>Đắc địa:</b> Dần, Tỵ.</li><li><b>Chủ:</b> di chuyển, thay cũ đổi mới; những việc liên quan đến chân tay, xe cộ. Ảnh hưởng nhiều đến công danh, tài lộc.</li><li><b>Tính chất:</b> Tháo vát, nhanh nhẹn, hay đi xa. Mã đóng Mệnh hoặc Thân (Dịch Mã) là người đa tài.</li><li><b>Các cách Mã</b> (theo Tân Biên và Toàn Thư):</li></ul>\n<div class=\"tblwrap\"><table><thead><tr><th>Tên cách</th><th>Điều kiện</th><th>Ý nghĩa</th></tr></thead><tbody><tr><td>Phù Du Mã (ngựa kéo xe vua)</td><td>Mã ở Dần, Thân gặp Tử, Phủ</td><td>Tài giỏi, uy quyền, giàu sang</td></tr><tr><td>Thư Hùng Mã (ngựa đủ đôi)</td><td>Gặp Nhật, Nguyệt sáng</td><td>Đa tài, vinh hiển</td></tr><tr><td>Chiết Tiễn Mã (bẻ roi đánh ngựa)</td><td>Đồng cung Lộc Tồn</td><td>Mọi việc mau thành</td></tr><tr><td>Lộc Mã giao trì</td><td>Lộc Tồn xung chiếu Mã</td><td>Tài, quan đều đẹp</td></tr><tr><td>Chiến Mã (ngựa ra trận)</td><td>Đồng cung Hỏa hoặc Linh</td><td>Dũng mãnh, hợp binh quyền</td></tr><tr><td>Tuấn Mã (ngựa tốt)</td><td>Gặp Thiên Khốc, Điếu Khách</td><td>Giỏi thao lược, hợp việc binh</td></tr><tr><td>Phù Thi Mã (ngựa chở xác)</td><td>Đồng cung Thiên Hình</td><td>Tai họa nặng</td></tr><tr><td>Chiết Túc Mã (ngựa què)</td><td>Gặp Đà La đồng cung hay xung chiếu</td><td>Việc gì cũng bị ngăn trở</td></tr><tr><td>Cùng Đồ Mã (ngựa cùng đường)</td><td>Đồng cung Tuyệt, hoặc Mã ở Hợi</td><td>Bế tắc, thất bại</td></tr><tr><td>Tử Mã (ngựa chết)</td><td>Gặp Tuần, Triệt</td><td>Tai họa, bại hoại</td></tr></tbody></table></div>", "children": []}], "kind": "part"}, {"title": "Phần IV – Lục sát tinh (六煞)", "intro": "<p>Lục sát gồm 3 cặp: Kình Đà, Hỏa Linh, Không Kiếp. Chúng là sát tinh nhưng không phải lúc nào cũng xấu: ở đắc địa, gặp chính tinh mạnh, chúng hóa thành uy lực, giúp phát nhanh. Toàn Thư còn xếp \"Kình Dương nhập miếu\" và \"Tham Hỏa tương phùng\" vào các cách phú quý.</p>", "items": [{"title": "23–24. Kình Dương (擎羊) · Đà La (陀羅)", "stars": ["Kình Dương", "Đà La"], "body": "<ul><li><b>Hành:</b> Kình Dương là Dương Kim đới Hỏa; Đà La là Âm Kim đới Hỏa. Cả hai là trợ tinh của Bắc Đẩu, luôn đứng kẹp hai bên Lộc Tồn.</li><li><b>Hóa khí:</b> Kình là <b>Hình</b> (刑), Đà là <b>Kỵ</b> (忌). Vì thế Tân Biên gọi Kình là Hình tinh, Đà là Kỵ tinh.</li><li><b>Chủ:</b> sát phạt.</li><li><b>Đắc địa:</b> Thìn, Tuất, Sửu, Mùi. <b>Hãm:</b> các cung còn lại.</li><li><b>Tính chất:</b><ul><li>Đắc địa: can đảm, quả quyết, làm việc nhanh, có phần sỗ sàng.</li><li>Hãm địa: liều lĩnh, dễ gây tai họa, bệnh tật.</li><li>Kình thủ Mệnh (Toàn Thư): tính cương, hiếu thắng, ưa quyền; ở Mão, Dậu dễ gây hình khắc.</li><li>Đà thủ Mệnh (Toàn Thư): thành cũng ngang mà phá cũng ngang, hay buồn thầm, ít ổn định.</li></ul></li><li><b>Hội hợp:</b><ul><li>Kình đắc địa đơn thủ Mệnh ở Thìn, Tuất, Sửu, Mùi (Kình Dương nhập miếu): cách phú quý.</li><li>Đà miếu địa với người tuổi Thìn, Tuất, Sửu, Mùi: hợp ngành võ, ngành văn thì lận đận.</li><li>Gặp Thiên Tướng đồng cung (Kình), hoặc Thiên Mã (Đà): xem phần Thiên Tướng và Thiên Mã.</li><li>Đà La cùng Thiên Riêu, Hóa Kỵ hợp thành bộ <b>Tam Ám</b>, che ánh sáng của Nhật Nguyệt.</li></ul></li></ul>", "children": []}, {"title": "25–26. Hỏa Tinh (火星) · Linh Tinh (鈴星)", "stars": ["Hỏa Tinh", "Linh Tinh"], "body": "<ul><li><b>Hành:</b> Hỏa Tinh là Dương Hỏa đới Kim; Linh Tinh là Âm Hỏa đới Kim. Cả hai thuộc Nam Đẩu; Toàn Thư gọi là \"đại sát tướng\".</li><li><b>Chủ:</b> sát phạt. Tân Biên còn gọi là Đoản thọ sát tinh vì dễ làm giảm thọ.</li><li><b>Đắc địa:</b> Dần, Mão, Thìn, Tỵ, Ngọ. <b>Hãm:</b> các cung còn lại.</li><li><b>Tính chất:</b> Thâm trầm, khó đoán, cương cường. Hãm thì dễ gây tai họa bất ngờ: hỏa hoạn, thương tích, bệnh tật.</li><li><b>Hội hợp:</b><ul><li>Tham Lang miếu gặp Hỏa Tinh (Tham Hỏa tương phùng): cách phú quý, phát nhanh. Toàn Thư có câu: ở đất Tứ Mộ mà có Hỏa, Linh, Tham, Vũ thì có uy quyền, miễn không gặp Kình Dương.</li><li>Tử Vi chế được Hỏa, Linh; Thiên Phủ cải hóa được Hỏa, Linh.</li><li>Gặp Thiên Khôi, Thiên Việt, Thiên Hình: dễ có tai họa bất ngờ.</li></ul></li></ul>", "children": []}, {"title": "27–28. Địa Không (地空) · Địa Kiếp (地劫)", "stars": ["Địa Không", "Địa Kiếp"], "body": "<ul><li><b>Hành:</b> Địa Không là Âm Hỏa; Địa Kiếp là Dương Hỏa. An theo giờ sinh.</li><li><b>Chủ:</b> sát, phá tán.</li><li><b>Đắc địa:</b> Dần, Thân, Tỵ, Hợi. <b>Hãm:</b> các cung còn lại.</li><li><b>Tính chất:</b><ul><li>Đắc địa: thâm trầm, mưu lược, phát nhanh nhưng cũng phá nhanh (hoạnh phát, hoạnh phá).</li><li>Hãm địa: dễ phá tán, gặp bệnh tật, tai họa.</li></ul></li><li><b>Theo Toàn Thư:</b> Không Kiếp thủ Mệnh, gặp sao tốt thì tốt, gặp sao hung thì hung ngay. Đại, Tiểu hạn gặp Không Kiếp dễ hao tài, phá nghiệp. Người có Không Kiếp hợp với đường học thuật, tu dưỡng hơn là buôn bán.</li><li><b>Hội hợp:</b> Kỵ gặp Lộc Tồn, Hóa Lộc, Thiên Phủ (kho bị phá, lộc bị không).</li></ul>", "children": []}], "kind": "part"}, {"title": "Phần V – Tứ Hóa (四化)", "intro": "<p>Tứ Hóa không phải sao đứng riêng mà được gắn vào một sao khác theo can năm sinh. Vì vậy khi luận phải xét sao gốc trước: ví dụ Liêm Trinh hóa Lộc khác với Vũ Khúc hóa Lộc. Bảng dưới đây là bảng công cụ đang dùng, theo Tân Biên.</p>\n<div class=\"tblwrap\"><table><thead><tr><th>Can năm</th><th>Hóa Lộc</th><th>Hóa Quyền</th><th>Hóa Khoa</th><th>Hóa Kỵ</th></tr></thead><tbody><tr><td>Giáp 甲</td><td>Liêm Trinh</td><td>Phá Quân</td><td>Vũ Khúc</td><td>Thái Dương</td></tr><tr><td>Ất 乙</td><td>Thiên Cơ</td><td>Thiên Lương</td><td>Tử Vi</td><td>Thái Âm</td></tr><tr><td>Bính 丙</td><td>Thiên Đồng</td><td>Thiên Cơ</td><td>Văn Xương</td><td>Liêm Trinh</td></tr><tr><td>Đinh 丁</td><td>Thái Âm</td><td>Thiên Đồng</td><td>Thiên Cơ</td><td>Cự Môn</td></tr><tr><td>Mậu 戊</td><td>Tham Lang</td><td>Thái Âm</td><td>Hữu Bật</td><td>Thiên Cơ</td></tr><tr><td>Kỷ 己</td><td>Vũ Khúc</td><td>Tham Lang</td><td>Thiên Lương</td><td>Văn Khúc</td></tr><tr><td>Canh 庚</td><td>Thái Dương</td><td>Vũ Khúc</td><td>Thái Âm</td><td>Thiên Đồng</td></tr><tr><td>Tân 辛</td><td>Cự Môn</td><td>Thái Dương</td><td>Văn Khúc</td><td>Văn Xương</td></tr><tr><td>Nhâm 壬</td><td>Thiên Lương</td><td>Tử Vi</td><td>Tả Phù</td><td>Vũ Khúc</td></tr><tr><td>Quý 癸</td><td>Phá Quân</td><td>Cự Môn</td><td>Thái Âm</td><td>Tham Lang</td></tr></tbody></table></div>\n<p>Tứ Hóa của can Canh có dị bản giữa các phái; bảng trên theo Tân Biên.</p>", "items": [{"title": "29. Hóa Lộc (化祿) – Tài lộc tinh", "stars": ["Hóa Lộc"], "body": "<ul><li><b>Hành:</b> Mộc đới Thổ.</li><li><b>Chủ:</b> tài lộc, sự thu hoạch. Tân Biên và Toàn Thư đều gọi là thần của cung Phúc Đức, coi việc thu của ở Tài Bạch và Điền Trạch.</li><li><b>Tính chất:</b> Nhân hậu, tăng tài tiến lộc, giữ được chức vị và uy quyền, giải được bệnh tật.</li><li><b>Hội hợp:</b><ul><li>Đồng cung Tham, Vũ, hoặc Lộc Tồn: giàu thêm.</li><li>Gặp Không, Kiếp, Thiên Không hay Đại, Tiểu Hao: hao tán, suy bại.</li></ul></li></ul>", "children": []}, {"title": "30. Hóa Quyền (化權) – Quyền tinh", "stars": ["Hóa Quyền"], "body": "<ul><li><b>Hành:</b> Mộc đới Thủy.</li><li><b>Chủ:</b> quyền hành. Toàn Thư nói Quyền nắm việc sinh sát.</li><li><b>Tính chất:</b> Mạnh bạo, mau mắn, có dáng oai vệ, thích nắm quyền.</li><li><b>Quy tắc:</b> Gặp sao tốt thì làm tốt thêm, gặp sao xấu thì làm xấu thêm.</li></ul>", "children": []}, {"title": "31. Hóa Khoa (化科) – Văn tinh, Giải tinh", "stars": ["Hóa Khoa"], "body": "<ul><li><b>Hành:</b> Mộc đới Thủy.</li><li><b>Chủ:</b> thi cử, văn bài, danh tiếng. Được tôn là thần giám sát thi cử.</li><li><b>Tính chất:</b> Thông minh, lịch lãm, uyên bác, nhân hậu. Tăng phúc, tăng thọ, cứu khốn phò nguy.</li><li><b>Hội hợp:</b><ul><li>Gặp Xương, Khúc, Khôi, Việt: thành bộ Văn tinh.</li><li>Gặp Quyền, Lộc (Tam Hóa): thành bộ Quý tinh, lợi lớn cho công danh và tài lộc.</li><li>Gặp sát tinh: vô hại. Giải được tính hung của Cự Môn hãm.</li></ul></li></ul>", "children": []}, {"title": "32. Hóa Kỵ (化忌) – Ám tinh", "stars": ["Hóa Kỵ"], "body": "<ul><li><b>Hành:</b> Thủy. <b>Đắc địa:</b> Thìn, Tuất, Sửu, Mùi.</li><li><b>Tính chất:</b> Hay đa nghi, ganh ghét, nhầm lẫn; gây thị phi, kiện cáo, bệnh tật. Bù lại, Kỵ giữ của bền. Ở đắc địa thì đỡ lo bệnh tật, tai họa.</li><li><b>Theo Toàn Thư:</b> Kỵ thủ Mệnh, Thân thì đường đời nhiều trắc trở.</li><li><b>Giảm nhẹ:</b> Kỵ hãm thủ Mệnh nhưng cung Mệnh thuộc Dương và năm sinh cũng Dương thì Kỵ khó tác họa mạnh.</li><li><b>Hội hợp:</b><ul><li>Ở Sửu, Mùi đồng cung Nhật Nguyệt: như mây ngũ sắc chầu, làm Nhật Nguyệt thêm đẹp.</li><li>Ở Tỵ, Hợi đồng cung Liêm, Tham: chế được tính hung của Liêm, Tham.</li><li>Đồng cung Cự Môn: bệnh tật, tai họa nặng.</li><li>Gặp Thiên Lương, Văn Khúc: bế tắc, ngăn trở.</li><li>Gặp Tấu Thư, Đà La: thị phi, kiện cáo.</li><li>Gặp Đà, Riêu: thành bộ Tam Ám.</li></ul></li></ul>", "children": []}], "kind": "part"}, {"title": "Phần VI – Phụ tinh cát (26 sao)", "intro": "<p>Phụ tinh cát không đủ sức tạo cách cục riêng, nhưng làm chính tinh sáng thêm hoặc gỡ bớt cái xấu. Chúng được gom theo từng cặp hoặc bộ mà sách cổ hay luận chung.</p>", "items": [{"title": "Nhóm đào hoa, hỷ sự (33–35)", "stars": [], "body": "", "children": [{"title": "Đào Hoa", "stars": ["Đào Hoa"], "body": "<ul><li>Vui vẻ, mau mắn, đa tình, có duyên với người khác.</li><li>Chủ việc cưới hỏi, có lợi cho thi cử và cầu danh.</li></ul>", "raw": "**Đào Hoa (桃花)** – Mộc."}, {"title": "Hồng Loan", "stars": ["Hồng Loan"], "body": "<ul><li>Cùng nghĩa với Đào Hoa, thiên về hỷ sự và hôn nhân.</li></ul>", "raw": "**Hồng Loan (紅鸞)** – Thủy đới Kim."}, {"title": "Thiên Hỷ", "stars": ["Thiên Hỷ"], "body": "<ul><li>Hòa nhã, đem lại tin mừng.</li><li>Lợi cho việc cầu danh, cưới hỏi và sinh nở.</li></ul>", "raw": "**Thiên Hỷ (天喜)** – Thủy."}, {"title": "Luận chung cả bộ:", "stars": [], "body": "<ul><li>Đào, Hồng, Hỷ làm Tử, Phủ, Nhật, Nguyệt thêm rực rỡ.</li><li>Sách cũ cho rằng Đào hay Hồng thủ Mệnh, Thân thì đường hôn nhân dễ có hai lần.</li><li>Gặp nhiều sát tinh thì kém thọ.</li><li>Bộ sao chế được tính đào hoa: Lộc Tồn, Ân Quang, Thiên Quý, Tứ Đức, Thiên Hình.</li></ul>", "raw": "**Luận chung cả bộ:**"}]}, {"title": "Nhóm quý hiển, chức vị (36–45)", "stars": [], "body": "", "children": [{"title": "Tam Thai · Bát Tọa", "stars": ["Tam Thai", "Bát Tọa"], "body": "<ul><li>Khôn ngoan, bệ vệ, phúc hậu, thích an nhàn.</li><li>Làm nhà đất cao đẹp. Hay đi cặp với nhau để tăng vị thế.</li></ul>", "raw": "**Tam Thai (三台)** – Thủy. **Bát Tọa (八座)** – Mộc."}, {"title": "Long Trì · Phượng Các", "stars": ["Long Trì", "Phượng Các"], "body": "<ul><li>Thông minh, ôn hòa, vui vẻ. Chủ cưới hỏi, sinh nở, nhà đất.</li><li>Gặp Xương, Khúc, Khôi, Việt, Tả, Hữu: thành bộ hiền thần phò Tử, Phủ.</li><li>Gặp Phi Liêm: tin vui đến nhanh.</li></ul>", "raw": "**Long Trì (龍池)** – Thủy. **Phượng Các (鳳閣)** – Mộc đới Thổ."}, {"title": "Thai Phụ · Phong Cáo", "stars": ["Thai Phụ", "Phong Cáo"], "body": "<ul><li>Hiếu danh, ưa hình thức, có phần tự đắc.</li><li>Lợi cho thi cử, công danh. Chủ bằng sắc, khen thưởng.</li></ul>", "raw": "**Thai Phụ (台輔)** – Kim đới Thổ. **Phong Cáo (封訥)** – Thổ đới Thủy."}, {"title": "Quốc Ấn", "stars": ["Quốc Ấn"], "body": "<ul><li>Lợi cho công danh, giữ được chức vị và quyền hành.</li><li>Gặp Tuần, Triệt: công việc bế tắc, dễ bị bãi chức.</li></ul>", "raw": "**Quốc Ấn (國印)** – Thổ."}, {"title": "Đường Phù", "stars": ["Đường Phù"], "body": "<ul><li>Đường bệ, uy nghi. Giúp cầu danh, mua nhà đất dễ dàng.</li><li>Đồng cung Bạch Hổ: dễ vướng chuyện bắt bớ, giam giữ.</li></ul>", "raw": "**Đường Phù (唐符)** – Mộc."}, {"title": "Văn Tinh", "stars": ["Văn Tinh"], "body": "<ul><li>Thông minh, chuộng bằng cấp. Lợi cho học hành, thi cử.</li></ul>", "raw": "**Văn Tinh (文星, Lưu niên văn tinh)** – Hỏa."}, {"title": "Hoa Cái", "stars": ["Hoa Cái"], "body": "<ul><li>Bề ngoài đẹp đẽ, uy nghi. Chủ phú quý, lợi cho cầu danh.</li><li>Gặp Bạch Hổ, Long Trì, Phượng Các: thành bộ <b>Tứ Linh</b>, chủ công danh và uy quyền.</li><li>Gặp Mộc Dục, Thiên Riêu: dễ đa tình.</li></ul>", "raw": "**Hoa Cái (華蓋)** – Kim."}]}, {"title": "Nhóm phúc đức, giải tinh (46–55)", "stars": [], "body": "", "children": [{"title": "Ân Quang · Thiên Quý", "stars": ["Ân Quang", "Thiên Quý"], "body": "<ul><li>Thông minh, ôn hòa, trọng ân nghĩa. Cứu khốn phò nguy, giải bệnh tật.</li><li>Chế được tính đào hoa của Đào, Hồng. Gặp sát tinh vẫn vô hại.</li></ul>", "raw": "**Ân Quang (恩光)** – Mộc. **Thiên Quý (天貴)** – Thổ."}, {"title": "Thiên Đức · Nguyệt Đức", "stars": ["Thiên Đức", "Nguyệt Đức"], "body": "<ul><li>Đức độ, đoan chính. Giải được bệnh nhỏ.</li><li>Gặp Long Đức, Phúc Đức thành bộ <b>Tứ Đức</b>, chế được tính đào hoa của Đào, Hồng.</li></ul>", "raw": "**Thiên Đức (天德)** · **Nguyệt Đức (月德)** – đều Hỏa."}, {"title": "Giải Thần · Thiên Giải · Địa Giải", "stars": ["Giải Thần", "Thiên Giải", "Địa Giải"], "body": "<ul><li>Khoan hòa, nhân hậu. Giải trừ bệnh tật, tai họa, tăng phúc thọ.</li><li>Lưu ý: Giải Thần ở Tài Bạch hay Điền Trạch thì khó giàu lớn, của hay hao hụt.</li></ul>", "raw": "**Giải Thần (解神)** – Mộc. **Thiên Giải (天解)** – Hỏa. **Địa Giải (地解)** – Thổ."}, {"title": "Thiên Quan · Thiên Phúc", "stars": ["Thiên Quan", "Thiên Phúc"], "body": "<p>(Tân Biên gọi là Thiên Quan quý nhân, Thiên Phúc quý nhân.)</p><ul><li>Có đức độ, có lòng tín ngưỡng, nhân hậu.</li><li>Cứu khốn phò nguy, giải bệnh tật, tăng phúc thọ.</li></ul>", "raw": "**Thiên Quan (天官)** – Hỏa. **Thiên Phúc (天福)** – Thổ. (Tân Biên gọi là Thiên Quan quý nhân, Thiên Phúc quý nhân.)"}, {"title": "Thiên Y", "stars": ["Thiên Y"], "body": "<ul><li>Sạch sẽ, cẩn thận, cứu giải bệnh tật (gặp thầy gặp thuốc).</li><li>Gặp Lộc và Thiên Hình: hợp nghề y dược.</li></ul>", "raw": "**Thiên Y (天醫)** – Thủy."}]}, {"title": "Nhóm thọ, lộc ăn uống, sao trung tính (56–58)", "stars": [], "body": "", "children": [{"title": "Thiên Thọ", "stars": ["Thiên Thọ"], "body": "<ul><li>Điềm đạm, hòa nhã, nhân hậu. Tăng phúc thọ.</li></ul>", "raw": "**Thiên Thọ (天壽)** – Thổ."}, {"title": "Thiên Trù", "stars": ["Thiên Trù"], "body": "<ul><li>Thích ăn ngon, tiệc tùng. Tăng tài lộc về ăn uống.</li></ul>", "raw": "**Thiên Trù (天廚)** – Thổ."}, {"title": "Thiên Tài", "stars": ["Thiên Tài"], "body": "<p>Đây là sao trung tính, không hẳn tốt hay xấu:</p><ul><li>Làm giảm ảnh hưởng của sao đồng cung, cả tốt lẫn xấu.</li><li>Nhật, Nguyệt sáng gặp Thiên Tài thì bị che bớt; Nhật, Nguyệt mờ gặp Thiên Tài lại sáng ra.</li><li>Ở Sửu, Mùi cùng Nhật, Nguyệt đồng cung: làm Nhật Nguyệt thêm đẹp.</li></ul>", "raw": "**Thiên Tài (天才)** – Thổ. Đây là sao trung tính, không hẳn tốt hay xấu:"}]}], "kind": "part"}, {"title": "Phần VII – Phụ tinh hung, bại tinh (59–73)", "intro": "<p>Nhóm này gồm 15 sao. Nhiều sao trong nhóm có đắc địa; khi đắc địa, chúng chuyển thành điểm mạnh (Thiên Hình hợp nghề cần kỷ luật; Khốc Hư làm lời nói đanh thép). Cần xem độ sáng trước khi kết luận xấu.</p>", "items": [{"title": "Nhóm hình, riêu (59–60)", "stars": [], "body": "", "children": [{"title": "Thiên Hình", "stars": ["Thiên Hình"], "body": "<p><b>Đắc địa:</b> Dần, Thân, Mão, Dậu</p><ul><li>Dũng mãnh, có oai, nghiêm minh. Liên quan đến dáo kéo, mổ xẻ, châm chích; hợp quân sự, luật pháp, y khoa.</li><li>Chế được tính đào hoa của Đào, Hồng.</li><li>Mệnh hoặc Thân ở Dần có Hình thủ gọi là <b>Hổ hàm kiếm</b> (虎銜劍): giỏi điều khiển, dễ hiển đạt về võ.</li><li>Gặp Tướng Quân, Phục Binh, Quốc Ấn: thành bộ uy dũng, kiêm cả văn võ.</li><li>Gặp Lộc, Thiên Y: hợp nghề y dược.</li><li>Gặp sát tinh: dễ có tai nạn thương tích, kiện tụng. Gặp Tuần, Triệt: như kiếm gãy, mất uy lực.</li><li>Toàn Thư: Hình thủ Mệnh, Thân thì tính hay cô độc.</li></ul>", "raw": "**Thiên Hình (天刑)** – Hỏa. **Đắc địa:** Dần, Thân, Mão, Dậu."}, {"title": "Thiên Riêu", "stars": ["Thiên Riêu"], "body": "<p><b>Đắc địa:</b> Dần, Mão, Dậu, Tuất</p><ul><li><b>Tên gọi:</b> chữ 姚 đọc Hán-Việt là \"Diêu\". Phương án 1 là Thiên Riêu: đây là cách đọc quen trong sách Việt và trên lá số, dễ tra cứu, nhưng lệch âm gốc. Phương án 2 là Thiên Diêu: đúng âm Hán-Việt, nhưng ít sách Việt dùng. Chương này theo phương án 1 để khớp với lá số.</li><li>Đa nghi, có tín ngưỡng, giàu cảm xúc.</li><li>Đắc địa: như sen mọc trong bùn, dù gần tửu sắc cũng không bị hư hại. Hãm địa: dễ lụy vì tửu sắc.</li><li>Gặp Xương, Khúc hoặc Đào, Hồng: tình cảm dễ rối.</li><li>Gặp Long Trì, Phượng Các: tốt, chủ cưới hỏi, sinh nở, công danh hưng vượng.</li><li>Riêu thủ Mệnh: răng hay đau. Riêu cùng Đà La, Hóa Kỵ thành bộ Tam Ám.</li></ul>", "raw": "**Thiên Riêu (天姚)** – Thủy. **Đắc địa:** Dần, Mão, Dậu, Tuất."}]}, {"title": "Nhóm sầu bi (61–64)", "stars": [], "body": "", "children": [{"title": "Thiên Khốc · Thiên Hư", "stars": ["Thiên Khốc", "Thiên Hư"], "body": "<p><b>Đắc địa:</b> Tý, Ngọ, Mão, Dậu, Sửu, Mùi</p><ul><li>Đa sầu, đa cảm, hay lo xa, dễ buồn. Gây ngăn trở lúc đầu nhưng sau thành (tiên trở hậu thành).</li><li>Đắc địa thì lời nói đanh thép, có tiếng tăm.</li><li>Gặp Thiên Mã cùng Điếu Khách: cách Tuấn Mã (xem Thiên Mã).</li></ul>", "raw": "**Thiên Khốc (天哭)** · **Thiên Hư (天虛)** – đều Thủy. **Đắc địa:** Tý, Ngọ, Mão, Dậu, Sửu, Mùi."}, {"title": "Cô Thần · Quả Tú", "stars": ["Cô Thần", "Quả Tú"], "body": "<ul><li>Cô độc, lạnh lùng, khó tính, ít thích giao thiệp.</li><li>Giữ của bền.</li><li>Bất lợi cho cưới hỏi, sự đoàn tụ vợ chồng và đường con cái.</li></ul>", "raw": "**Cô Thần (孤辰)** · **Quả Tú (寡宿)** – đều Thổ."}]}, {"title": "Nhóm phá, kiếp (65–68)", "stars": [], "body": "", "children": [{"title": "Phá Toái", "stars": ["Phá Toái"], "body": "<ul><li>Táo bạo, chóng chán, hay phá ngang. Gây hao tán, trở ngại công việc.</li></ul>", "raw": "**Phá Toái (破碎)** – Hỏa đới Kim."}, {"title": "Kiếp Sát", "stars": ["Kiếp Sát"], "body": "<ul><li>Sát phạt, chủ việc đâm chém, mổ cắt, châm chích.</li><li>Ở Mệnh hoặc Tật Ách thì tác dụng như Địa Kiếp, nên gọi là \"Địa Kiếp thứ hai\".</li></ul>", "raw": "**Kiếp Sát (劫煞)** – Hỏa."}, {"title": "Thiên Không", "stars": ["Thiên Không"], "body": "<ul><li>Nhiều mưu tính nhưng khó làm nên việc, hay hao tán.</li><li>Đồng cung Đào Hoa ở Mệnh: đa mưu túc trí. Đồng cung Hồng Loan ở Mệnh: thích ẩn dật, tu hành.</li></ul>", "raw": "**Thiên Không (天空)** – Hỏa."}, {"title": "Lưu Hà", "stars": ["Lưu Hà"], "body": "<ul><li>Thâm trầm, khó lường, chủ sát phạt và tai họa.</li><li>Đồng cung Kiếp Sát: tai họa nặng.</li><li>Sách cổ lưu ý người có Lưu Hà thủ Mệnh: nam giới cẩn trọng khi đi đường xa, nữ giới cẩn trọng khi sinh nở.</li><li>Đồng cung Thanh Long thì lại đẹp: \"rồng xanh vùng vẫy sông lớn\", lợi thi cử và công danh.</li></ul>", "raw": "**Lưu Hà (流霞)** – Thủy."}]}, {"title": "Nhóm sao cố định và sao hạn (69–73)", "stars": [], "body": "", "children": [{"title": "Thiên La · Địa Võng", "stars": ["Thiên La", "Địa Võng"], "body": "<p>An cố định: Thiên La ở Thìn, Địa Võng ở Tuất</p><ul><li>Kìm hãm, gây rắc rối, ngăn trở công việc. Chủ việc bắt bớ, giam giữ.</li></ul>", "raw": "**Thiên La (天羅)** · **Địa Võng (地網)** – đều Thổ. An cố định: Thiên La ở Thìn, Địa Võng ở Tuất."}, {"title": "Thiên Thương · Thiên Sứ", "stars": ["Thiên Thương", "Thiên Sứ"], "body": "<p>An cố định: Thiên Thương ở cung Nô Bộc, Thiên Sứ ở cung Tật Ách</p><ul><li>Buồn thảm, gây tang thương, bệnh tật, ngăn trở. Chủ yếu xét khi Đại, Tiểu hạn đi qua.</li><li>Toàn Thư: Thương chủ sự hư hao, Sứ là sao mang tin dữ. Gặp Xương, Khúc thì tác họa mạnh.</li></ul>", "raw": "**Thiên Thương (天傷)** – Thổ. **Thiên Sứ (天使)** – Thủy. An cố định: Thiên Thương ở cung Nô Bộc, Thiên Sứ ở cung Tật Ách."}, {"title": "Đẩu Quân", "stars": ["Đẩu Quân"], "body": "<ul><li>Nghiêm nghị, khắt khe. Giữ của bền. Không lợi cho sinh nở.</li><li>Gặp nhiều sát tinh: mưu mẹo, khó lường.</li><li>Ở cung Quan Lộc cùng Tử, Phủ, Lộc và cát tinh: có uy quyền, danh tiếng lớn.</li></ul>", "raw": "**Đẩu Quân (斗君)** – Hỏa."}]}], "kind": "part"}, {"title": "Phần VIII – Vòng Bác Sĩ (博士十二神, 74–85)", "intro": "<p>Vòng Bác Sĩ gồm 12 sao. Sao đầu tiên là Bác Sĩ, đặt tại cung có Lộc Tồn; các sao sau đi thuận hoặc nghịch theo âm dương nam nữ (dương nam, âm nữ đi thuận). Các sao này nhỏ, chủ yếu tô thêm màu cho cung, và có sức nặng khi luận hạn.</p>", "items": [{"title": "74. Bác Sĩ (博士)", "stars": ["Bác Sĩ"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Thủy</dd><dt>Ý nghĩa</dt><dd>Thông minh, khoan hòa; lợi học hành, giải bệnh</dd><dt>Hội hợp đáng chú ý</dt><dd>Luôn đồng cung với Lộc Tồn</dd></dl>"}, {"title": "75. Lực Sĩ (力士)", "stars": ["Lực Sĩ"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Khỏe, mạnh bạo, nhanh nhẹn; chủ uy lực</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp sao tốt thì tốt đến nhanh, gặp sao xấu thì xấu đến nhanh</dd></dl>"}, {"title": "76. Thanh Long (青龍)", "stars": ["Thanh Long"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Thủy</dd><dt>Ý nghĩa</dt><dd>Hòa nhã; lợi cầu danh, cưới hỏi, sinh nở; giải họa nhỏ</dd><dt>Hội hợp đáng chú ý</dt><dd>Ở Tứ Mộ gặp Hóa Kỵ: rồng ẩn trong mây ngũ sắc, chủ phú quý. Gặp Lưu Hà: rồng vùng vẫy sông lớn</dd></dl>"}, {"title": "77. Tiểu Hao (小耗)", "stars": ["Tiểu Hao"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Bại tinh; hao hụt tiền nhỏ, ly tán. Đắc địa Dần, Thân, Mão, Dậu</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp Phá Quân hay Hóa Lộc: càng hao</dd></dl>"}, {"title": "78. Tướng Quân (將軍)", "stars": ["Tướng Quân"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Mộc</dd><dt>Ý nghĩa</dt><dd>Can đảm, hiên ngang, thích cầm đầu; chủ uy quyền, việc binh</dd><dt>Hội hợp đáng chú ý</dt><dd>Đồng cung Thiên Tướng: uy quyền hiển hách. Gặp Tuần, Triệt: tướng cụt đầu, dễ bị giáng chức, tai nạn</dd></dl>"}, {"title": "79. Tấu Thư (奏書)", "stars": ["Tấu Thư"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Kim</dd><dt>Ý nghĩa</dt><dd>Nói năng khéo; lợi việc văn, đàm luận, đàn hát</dd><dt>Hội hợp đáng chú ý</dt><dd>Đồng cung Bạch Hổ: Hổ đội hòm sắt, lợi thi cử. Gặp Hóa Kỵ, Đà La: thị phi</dd></dl>"}, {"title": "80. Phi Liêm (飛廉)", "stars": ["Phi Liêm"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Nhanh nhẹn; không lợi sinh nở. Ở Tử Tức, Huynh Đệ làm giảm số người</dd><dt>Hội hợp đáng chú ý</dt><dd>Đồng cung Bạch Hổ: Hổ mọc cánh, tin vui đến nhanh. Gặp Thiên Việt, Hỏa, Linh, Hình: như tên đạn, chủ thương tích</dd></dl>"}, {"title": "81. Hỷ Thần (喜神)", "stars": ["Hỷ Thần"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Vui vẻ, may mắn; lợi cưới hỏi</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp Long Trì, Phượng Các: rất đẹp, lợi thi cử, cưới hỏi, sinh nở. Sách ghi Phá Quân gặp \"Hỷ\" thì bớt hung; chữ này có thể là Hỷ Thần hoặc Thiên Hỷ</dd></dl>"}, {"title": "82. Bệnh Phù (病符)", "stars": ["Bệnh Phù"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Thổ đới Mộc</dd><dt>Ý nghĩa</dt><dd>Chủ đau yếu, buồn rầu. Ở Mệnh thì thể trạng yếu, da xanh</dd><dt>Hội hợp đáng chú ý</dt><dd>Ở Mệnh hay Tật Ách gặp Đào, Hồng, Riêu: cần giữ gìn sức khỏe sinh lý</dd></dl>"}, {"title": "83. Đại Hao (大耗)", "stars": ["Đại Hao"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Bại tinh; hao tán lớn, ly tán. Đắc địa Dần, Thân, Mão, Dậu</dd><dt>Hội hợp đáng chú ý</dt><dd>Cùng Tiểu Hao gọi là Song Hao. Gặp Tham Lang: việc dễ thành hư hoa</dd></dl>"}, {"title": "84. Phục Binh (伏兵)", "stars": ["Phục Binh"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Gặp sao tốt thì hay giúp đỡ, hợp việc binh. Gặp sao xấu thì chủ chuyện ngầm, bị hãm hại</dd><dt>Hội hợp đáng chú ý</dt><dd>Cùng Tướng Quân, Quốc Ấn, Thiên Hình: bộ uy dũng</dd></dl>"}, {"title": "85. Quan Phủ (官府)", "stars": ["Quan Phủ"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Gây phiền nhiễu, ngăn trở công việc; chủ thị phi, giấy tờ</dd><dt>Hội hợp đáng chú ý</dt><dd>Khác với Quan Phù (官符) của vòng Thái Tuế</dd></dl>"}], "kind": "part", "note": "<p>Nguồn: ý nghĩa và hành theo Tân Biên, mục 3.27, 3.42, 3.65–3.73. Tân Biên viết sao thứ 12 là \"Quan Phù\"; công cụ ghi \"Quan Phủ\" để phân biệt với sao cùng tên ở vòng Thái Tuế.</p>", "ring": true}, {"title": "Phần IX – Vòng Thái Tuế (太歲十二神, 86–97)", "intro": "<p>Vòng Thái Tuế gồm 12 sao. Thái Tuế đặt tại cung trùng với địa chi năm sinh, các sao sau luôn đi thuận. Vì gắn với năm, vòng này còn được dùng để an lưu Thái Tuế, Tang Môn, Bạch Hổ khi luận hạn từng năm.</p>", "items": [{"title": "86. Thái Tuế (太歲)", "stars": ["Thái Tuế"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Lạnh lùng, ít giao thiệp, giỏi xét đoán, hay lý luận</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp sao sáng: nói năng hùng hồn, phú quý. Gặp Xương, Khúc, Khôi, Việt: bộ Văn tinh. Gặp Đà, Kỵ hoặc sát tinh: thị phi, kiện cáo. Tuế và Hoa Cái cùng thủ Mệnh: ăn nói kiêu kỳ</dd></dl>"}, {"title": "87. Thiếu Dương (少陽)", "stars": ["Thiếu Dương"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Thông minh, vui vẻ, nhân hậu; giải họa nhỏ</dd><dt>Hội hợp đáng chú ý</dt><dd>Đồng cung Thái Dương sáng: như mặt trời thứ hai. Gặp Hóa Khoa: tăng phúc thọ</dd></dl>"}, {"title": "88. Tang Môn (喪門)", "stars": ["Tang Môn"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Mộc</dd><dt>Ý nghĩa</dt><dd>Bại tinh; bi thảm, chủ tang thương, bệnh tật, hao tài. Đắc địa Dần, Thân, Mão, Dậu</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp Điếu Khách, Thiên Hình: dễ tai nạn. Gặp Quan Phù, Liêm Trinh: tổn hại công danh</dd></dl>"}, {"title": "89. Thiếu Âm (少陰)", "stars": ["Thiếu Âm"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Thủy</dd><dt>Ý nghĩa</dt><dd>Hiền hòa, nhân hậu; giải họa nhỏ</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp Hóa Khoa: tăng phúc thọ, cứu giải</dd></dl>"}, {"title": "90. Quan Phù (官符)", "stars": ["Quan Phù"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Giỏi xét đoán, hay giúp người; chủ việc pháp luật, thị phi</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp Xương, Khúc, Thái Tuế: lợi việc pháp lý. Gặp Liêm, Tang, Hổ hoặc Tuế, Đà, Kỵ: kiện tụng, giam giữ</dd></dl>"}, {"title": "91. Tử Phù (死符)", "stars": ["Tử Phù"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Buồn thảm, chủ tang thương, gây rắc rối</dd><dt>Hội hợp đáng chú ý</dt><dd>Không có ghi chú riêng.</dd></dl>"}, {"title": "92. Tuế Phá (歲破)", "stars": ["Tuế Phá"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Ngang ngược, phá tán. Ở Mệnh, Thân: răng hay đau</dd><dt>Hội hợp đáng chú ý</dt><dd>Luôn xung chiếu cung Thái Tuế</dd></dl>"}, {"title": "93. Long Đức (龍德)", "stars": ["Long Đức"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Thủy</dd><dt>Ý nghĩa</dt><dd>Đức độ, đoan chính, nhân hậu; giải bệnh tật, tai họa</dd><dt>Hội hợp đáng chú ý</dt><dd>Cùng Phúc Đức, Thiên Đức, Nguyệt Đức thành bộ Tứ Đức</dd></dl>"}, {"title": "94. Bạch Hổ (白虎)", "stars": ["Bạch Hổ"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Kim</dd><dt>Ý nghĩa</dt><dd>Bại tinh; dũng mãnh nhưng bi thảm, chủ tang thương, tai nạn. Đắc địa Dần, Thân, Mão, Dậu</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp Tấu Thư: Hổ đội hòm sắt. Gặp Phi Liêm: Hổ mọc cánh. Gặp Long, Phượng, Hoa Cái: bộ Tứ Linh. Đồng cung Đường Phù: dễ bị bắt bớ</dd></dl>"}, {"title": "95. Phúc Đức (福德)", "stars": ["Phúc Đức"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Thổ</dd><dt>Ý nghĩa</dt><dd>Đức độ, hòa nhã, nhân hậu; giải bệnh tật, tai họa</dd><dt>Hội hợp đáng chú ý</dt><dd>Thuộc bộ Tứ Đức. Khác với cung Phúc Đức cùng tên</dd></dl>"}, {"title": "96. Điếu Khách (弔客)", "stars": ["Điếu Khách"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Hay khoe, nói năng thiếu cẩn trọng, ham chơi; chủ đau ốm, tang thương</dd><dt>Hội hợp đáng chú ý</dt><dd>Gặp Tang Môn, Thiên Hình: tai nạn xe cộ, té ngã. Gặp Thiên Mã, Thiên Khốc: cách Tuấn Mã</dd></dl>"}, {"title": "97. Trực Phù (直符)", "stars": ["Trực Phù"], "body": "<dl class=\"facts\"><dt>Hành</dt><dd>Hỏa</dd><dt>Ý nghĩa</dt><dd>Buồn thảm, gây rắc rối, ngăn trở công việc</dd><dt>Hội hợp đáng chú ý</dt><dd>Không có ghi chú riêng.</dd></dl>"}], "kind": "part", "note": "<p>Nguồn: Tân Biên, mục 3.28 và 3.58–3.64.</p>", "ring": true}, {"title": "Bảng tra nhanh 97 sao", "intro": "<p>Bảng này gom đủ 97 sao để tra nhanh. Cột Hành chỉ ghi hành chính theo Tân Biên; phần \"đới\" (hành phụ) có trong mục chi tiết của từng sao.</p>", "items": [], "kind": "lookup"}, {"title": "Nguồn", "intro": "<ul><li>Vân Đằng Thái Thứ Lang, <i>Tử Vi Đẩu Số Tân Biên</i>, Sài Gòn 1956, mục 3 \"Đặc tính các sao\" (hành, miếu hãm, ý nghĩa).</li><li>Hi Di Trần Đoàn, <i>Tử Vi Đẩu Số Toàn Thư</i>, Vũ Tài Lục dịch và bình chú, phần vấn đáp về từng sao và các cách phú quý.</li><li>Tất cả là sách bạn đã cung cấp. Lời văn trong chương là diễn giải lại, không chép nguyên văn.</li></ul>", "items": [], "kind": "text"}]};
+/* ===== Thư viện hình minh họa sao (SVG nét, vẽ tay bằng mã) ===== */
+var ICON = (function () {
+  var S = 'fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"';
+  var F = 'fill="currentColor" stroke="none"';
+  function g(inner) { return '<g ' + S + '>' + inner + '</g>'; }
+  function circ(x, y, r, extra) { return '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" ' + (extra || '') + '/>'; }
+  function line(a, b, c, d) { return '<path d="M' + a + ' ' + b + 'L' + c + ' ' + d + '"/>'; }
+  function p(d, extra) { return '<path d="' + d + '" ' + (extra || '') + '/>'; }
+  function rays(cx, cy, r1, r2, n, rot) {
+    var s = ''; for (var i = 0; i < n; i++) { var a = (i / n) * Math.PI * 2 + (rot || 0);
+      s += line((cx + r1 * Math.cos(a)).toFixed(1), (cy + r1 * Math.sin(a)).toFixed(1), (cx + r2 * Math.cos(a)).toFixed(1), (cy + r2 * Math.sin(a)).toFixed(1)); }
+    return s;
+  }
+  function star5(cx, cy, r) {
+    var pts = []; for (var i = 0; i < 10; i++) { var rr = i % 2 ? r * 0.45 : r, a = -Math.PI / 2 + i * Math.PI / 5;
+      pts.push((cx + rr * Math.cos(a)).toFixed(1) + ',' + (cy + rr * Math.sin(a)).toFixed(1)); }
+    return '<polygon points="' + pts.join(' ') + '"/>';
+  }
+  function petals(cx, cy, r, n, pr) {
+    var s = ''; for (var i = 0; i < n; i++) { var a = -Math.PI / 2 + i * 2 * Math.PI / n;
+      s += circ((cx + r * Math.cos(a)).toFixed(1), (cy + r * Math.sin(a)).toFixed(1), pr); }
+    return s + circ(cx, cy, pr * 0.45, F);
+  }
+  function gear(cx, cy, r, n) {
+    var d = ''; for (var i = 0; i < n * 2; i++) { var a = i * Math.PI / n, rr = i % 2 ? r : r + 6, a2 = a + Math.PI / n;
+      d += (i ? 'L' : 'M') + (cx + rr * Math.cos(a)).toFixed(1) + ' ' + (cy + rr * Math.sin(a)).toFixed(1) + 'L' + (cx + rr * Math.cos(a2)).toFixed(1) + ' ' + (cy + rr * Math.sin(a2)).toFixed(1); }
+    return p(d + 'Z') + circ(cx, cy, r * 0.4);
+  }
+  function cloud(x, y, k) { k = k || 1;
+    return p('M' + x + ' ' + y + 'q' + (-8 * k) + ' 0 ' + (-8 * k) + ' ' + (-6 * k) + 'q0 ' + (-7 * k) + ' ' + (8 * k) + ' ' + (-6 * k) + 'q' + (2 * k) + ' ' + (-8 * k) + ' ' + (11 * k) + ' ' + (-6 * k) + 'q' + (8 * k) + ' ' + (-3 * k) + ' ' + (11 * k) + ' ' + (5 * k) + 'q' + (7 * k) + ' 0 ' + (7 * k) + ' ' + (6 * k) + 'q0 ' + (7 * k) + ' ' + (-8 * k) + ' ' + (7 * k) + 'Z'); }
+  function seal(cx, cy) { return '<rect x="' + (cx - 18) + '" y="' + (cy + 2) + '" width="36" height="20" rx="2"/>' + p('M' + (cx - 8) + ' ' + (cy + 2) + 'l3-12h10l3 12') + circ(cx, cy - 16, 7) + line(cx - 10, cy + 12, cx + 10, cy + 12) + line(cx - 18, cy + 28, cx + 18, cy + 28); }
+  function scroll(cx, cy, w) { w = w || 40; var x0 = cx - w / 2, x1 = cx + w / 2;
+    return '<rect x="' + x0 + '" y="' + (cy - 12) + '" width="' + w + '" height="24" rx="2"/>' + '<rect x="' + (x0 - 6) + '" y="' + (cy - 16) + '" width="6" height="32" rx="3"/>' + '<rect x="' + x1 + '" y="' + (cy - 16) + '" width="6" height="32" rx="3"/>' + line(x0 + 7, cy - 5, x1 - 7, cy - 5) + line(x0 + 7, cy + 1, x1 - 7, cy + 1) + line(x0 + 7, cy + 7, x1 - 15, cy + 7); }
+  function lotus(cx, cy) { return p('M' + cx + ' ' + (cy - 18) + 'q10 12 0 24q-10-12 0-24Z') + p('M' + (cx - 4) + ' ' + (cy + 6) + 'q-18-2-20-16q14 0 20 12') + p('M' + (cx + 4) + ' ' + (cy + 6) + 'q18-2 20-16q-14 0-20 12') + p('M' + (cx - 22) + ' ' + (cy + 10) + 'q22 10 44 0'); }
+  function moon(cx, cy, r) { return p('M' + (cx + r * 0.3) + ' ' + (cy - r) + 'a' + r + ' ' + r + ' 0 1 0 0 ' + (2 * r) + 'a' + (r * 0.78) + ' ' + (r * 0.78) + ' 0 1 1 0 ' + (-2 * r) + 'Z'); }
+  function sun(cx, cy, r) { return circ(cx, cy, r) + rays(cx, cy, r + 4, r + 11, 12); }
+  function lantern(cx, cy) { return line(cx, cy - 26, cx, cy - 18) + '<rect x="' + (cx - 8) + '" y="' + (cy - 18) + '" width="16" height="4" rx="1"/>' + '<ellipse cx="' + cx + '" cy="' + cy + '" rx="17" ry="15"/>' + p('M' + cx + ' ' + (cy - 15) + 'q-8 15 0 30M' + cx + ' ' + (cy - 15) + 'q8 15 0 30') + '<rect x="' + (cx - 8) + '" y="' + (cy + 14) + '" width="16" height="4" rx="1"/>' + line(cx - 3, cy + 18, cx - 4, cy + 28) + line(cx, cy + 18, cx, cy + 30) + line(cx + 3, cy + 18, cx + 4, cy + 28); }
+  function sword(x1, y1, x2, y2) { var dx = x2 - x1, dy = y2 - y1, L = Math.hypot(dx, dy), ux = dx / L, uy = dy / L, gx = x1 + ux * 16, gy = y1 + uy * 16;
+    return line(x1, y1, gx.toFixed(1), gy.toFixed(1)) + line((gx - uy * 9).toFixed(1), (gy + ux * 9).toFixed(1), (gx + uy * 9).toFixed(1), (gy - ux * 9).toFixed(1)) + p('M' + (gx + uy * 4).toFixed(1) + ' ' + (gy - ux * 4).toFixed(1) + 'L' + (x2 - ux * 6).toFixed(1) + ' ' + (y2 - uy * 6).toFixed(1) + 'L' + x2 + ' ' + y2 + 'L' + (x2 - ux * 6 - uy * 0).toFixed(1) + ' ' + (y2 - uy * 6).toFixed(1) + 'M' + (gx - uy * 4).toFixed(1) + ' ' + (gy + ux * 4).toFixed(1) + 'L' + (x2 - ux * 6).toFixed(1) + ' ' + (y2 - uy * 6).toFixed(1)) + circ(x1.toFixed ? x1 : x1, y1, 2.5, F); }
+  function gate(mourn) { return p('M18 34h64M22 28q28-8 56 0') + line(30, 34, 30, 80) + line(70, 34, 70, 80) + line(26, 46, 74, 46) + '<rect x="36" y="50" width="12" height="30"/><rect x="52" y="50" width="12" height="30"/>' + (mourn ? p('M34 46q16 14 32 0', 'stroke-dasharray="3 3"') + line(44, 52, 44, 62) + line(56, 52, 56, 62) : ''); }
+  function pot(drops) { return p('M30 44h40l-4 30q-16 8-32 0Z') + p('M34 44q0-8 16-8t16 8') + line(26, 44, 74, 44) + (drops ? p('M44 80q2 4 0 6q-2-2 0-6ZM54 84q2 4 0 6q-2-2 0-6Z', F) + p('M36 62h28', 'stroke-dasharray="4 4"') : p('M42 30q-4-6 0-12M50 30q-4-6 0-12M58 30q-4-6 0-12')); }
+  function net() { var s = ''; for (var i = 0; i < 5; i++) { s += line(22 + i * 14, 22, 22 + i * 14, 78); s += line(22, 22 + i * 14, 78, 22 + i * 14); } return s + line(22, 22, 78, 78) + line(78, 22, 22, 78); }
+  function tear(x, y, k) { k = k || 1; return p('M' + x + ' ' + y + 'q' + (9 * k) + ' ' + (12 * k) + ' 0 ' + (16 * k) + 'q' + (-9 * k) + ' ' + (-4 * k) + ' 0 ' + (-16 * k) + 'Z'); }
+  function flag(torn) { return line(30, 82, 30, 18) + (torn ? p('M30 22h40l-8 10 6 6-10 4 4 8H30') : p('M30 22q20-6 40 4v26q-20-10-40-4')); }
+  function book() { return p('M50 34q-14-8-30-4v42q16-4 30 4q14-8 30-4V30q-16-4-30 4Zv42'); }
+  function brush(x, y) { return line(x, y, x + 22, y - 22) + p('M' + (x - 2) + ' ' + (y + 2) + 'l-6 10q8 0 10-6Z', F); }
+
+  var M = {
+    crown: g(p('M26 68h48M28 74h44') + p('M32 68q0-24 18-24t18 24') + line(20, 38, 80, 38) + p('M24 38v10M34 38v10M66 38v10M76 38v10') + circ(24, 51, 2.4, F) + circ(34, 51, 2.4, F) + circ(66, 51, 2.4, F) + circ(76, 51, 2.4, F) + circ(50, 30, 4)),
+    gear: g(gear(50, 50, 18, 8)),
+    sun: g(sun(50, 50, 15) + circ(50, 50, 5, F)),
+    ingot: g(p('M22 60q4-16 16-10q12-12 24 0q12-6 16 10q-28 14-56 0Z') + p('M38 50q12 8 24 0') + '<ellipse cx="50" cy="76" rx="16" ry="4"/>' + p('M34 76v-6M66 76v-6')),
+    gourd: g(circ(50, 36, 9) + circ(50, 61, 16) + p('M50 27v-7q4-2 8 0') + p('M42 45q8 4 16 0') + p('M66 52q8-2 10 6')),
+    scale: g(line(50, 22, 50, 80) + line(38, 80, 62, 80) + line(24, 34, 76, 34) + circ(50, 26, 3) + p('M24 34l-8 20h16Z') + p('M76 34l-8 20h16Z')),
+    granary: g(p('M16 40L50 20L84 40') + p('M22 40v38h56V40') + '<rect x="42" y="54" width="16" height="24"/>' + circ(50, 66, 2, F) + line(28, 50, 36, 50) + line(64, 50, 72, 50)),
+    moonhouse: g(moon(56, 36, 16) + p('M22 62l16-12 16 12') + '<rect x="26" y="62" width="24" height="16"/>' + p('M60 78h20')),
+    cupflower: g(p('M24 46h28q0 18-14 20q-14-2-14-20Z') + line(38, 66, 38, 78) + line(30, 78, 46, 78) + petals(66, 38, 9, 5, 5.5) + p('M66 50q2 14-4 26')),
+    gate: g(gate(false)),
+    seal: g(seal(50, 52) + p('M36 74q14 6 28 0')),
+    parasol: g(p('M18 46q32-34 64 0Z') + p('M30 46q4-10 0-14M50 46V22M70 46q-4-10 0-14') + p('M50 46v30q0 6-6 6')),
+    sword: g(sword(30, 76, 74, 22)),
+    brokenspear: g(line(26, 80, 46, 52) + line(50, 46, 62, 30) + p('M62 30l6-14 4 6 4 2-10 8') + p('M43 48l5 2M47 55l3-6', 'stroke-width="2"') + circ(26, 80, 2.4, F)),
+    bookbrush: g(book() + brush(56, 70)),
+    pillars: g(line(28, 26, 28, 80) + line(72, 26, 72, 80) + p('M22 26h12M66 26h12M22 80h12M66 80h12') + star5(50, 50, 12)),
+    tablet: g(p('M44 18h12l4 64H40Z') + line(44, 30, 56, 30) + star5(72, 30, 8)),
+    coin: g(circ(50, 50, 22) + circ(50, 50, 18) + '<rect x="43" y="43" width="14" height="14"/>' + p('M50 72q-6 8-14 8M50 72q6 8 14 8')),
+    horse: g(p('M30 80l8-24q-4-14 6-26l8-8 2 8q14 2 20 14l-2 8q-6-4-14-2l-4 10 8 20') + p('M46 26q-6 6-6 16M52 24q-6 8-6 18') + circ(60, 34, 1.8, F)),
+    blade: g(p('M26 78l10-10') + p('M33 72l6 6') + p('M38 66q8-30 38-44q-6 30-30 52Z')),
+    coil: g(p('M50 50m-4 0a4 4 0 1 1 8 0a9 9 0 1 1-18 0a14 14 0 1 1 28 0a19 19 0 1 1-38 0a24 24 0 1 1 48 0')),
+    flame: g(p('M50 82q-22-4-20-26q2-14 12-22q-2 12 6 16q-4-18 10-30q0 16 10 24q8 8 4 20q-4 16-22 18Z') + p('M50 80q-8-4-6-14q2-6 6-8q0 8 6 10q2 10-6 12Z')),
+    bell: g(p('M30 68q0-36 20-38q20 2 20 38Z') + line(24, 68, 76, 68) + circ(50, 75, 4) + p('M46 24h8M50 24v6') + p('M38 46q-2 10 0 16', 'stroke-width="2"')),
+    voidc: g(circ(50, 50, 24, 'stroke-dasharray="5 5"') + circ(50, 50, 8) + cloud(30, 84, 0.8)),
+    whirl: g(p('M50 50q0-14 14-14q16 2 14 20') + p('M50 50q12 6 6 20q-10 12-26 2') + p('M50 50q-12-4-10-18q6-14 20-12') + circ(50, 50, 3, F)),
+    coinleaf: g(circ(44, 56, 18) + '<rect x="38" y="50" width="12" height="12"/>' + p('M60 40q4-16 20-18q-2 16-20 18Z') + p('M60 40q-2-10-12-16')),
+    ruyi: g(p('M28 76L62 34') + p('M58 38q-6-12 6-16q14-4 14 10q0 10-12 8q-6-2-4-8') + p('M28 76q-6 2-6-4t6-4')),
+    diploma: g(scroll(50, 48, 40) + p('M44 64l-4 16 6-4 4 6 2-16')),
+    darkcloud: g(cloud(58, 50, 1.25) + p('M40 66q-4 6 2 10q6 4 4 10') + p('M54 66q-4 6 2 10')),
+    blossom: g(petals(50, 46, 13, 5, 8) + p('M50 59q-4 12-12 20M50 66q8 0 12 8')),
+    phoenix: g(p('M30 46q4-14 16-12q8 2 6 10q14-6 26 4q-14 0-20 10q-6 10-20 10q-12 0-10-10') + p('M44 66q-10 10-24 12M48 68q-4 10-14 16M54 66q2 12-4 18') + circ(36, 40, 1.8, F) + p('M28 44l-6 2 6 2')),
+    lantern: g(lantern(50, 48)),
+    threestar: g(star5(28, 64, 9) + star5(50, 46, 9) + star5(72, 28, 9) + p('M20 78h60', 'stroke-dasharray="3 5"')),
+    seat: g(p('M30 30h40v20H30Z') + p('M26 50h48v8H26Z') + line(30, 58, 30, 80) + line(70, 58, 70, 80) + line(34, 70, 66, 70) + p('M26 30q24-12 48 0')),
+    dragonpond: g(p('M18 70q8-6 16 0t16 0t16 0t16 0') + p('M18 80q8-6 16 0t16 0t16 0t16 0') + circ(50, 40, 10) + p('M44 36q6 6 12 0', 'stroke-width="2"') + rays(50, 40, 13, 17, 8)),
+    pavilion: g(p('M12 38q38-20 76 0') + p('M20 38l-6-6M80 38l6-6') + p('M24 56q26-12 52 0') + line(30, 40, 30, 80) + line(70, 40, 70, 80) + line(40, 60, 40, 80) + line(60, 60, 60, 80) + line(22, 80, 78, 80) + circ(50, 22, 3)),
+    scroll: g(scroll(50, 50, 44)),
+    sealribbon: g(seal(50, 44) + p('M38 60q-6 14 2 22M62 60q6 14-2 22')),
+    tally: g(p('M30 26h40v48H30Z') + p('M50 26l-4 12 6 8-6 10 6 8-2 10') + circ(40, 36, 2, F) + circ(60, 64, 2, F)),
+    starbrush: g(star5(36, 38, 14) + brush(50, 76)),
+    canopy: g(p('M18 40q32-26 64 0Z') + p('M18 40l4 8 6-8 6 8 6-8 6 8 6-8 6 8 6-8 6 8 6-8 6 8') + line(50, 48, 50, 84) + circ(50, 18, 3)),
+    halo: g(lotus(50, 62) + rays(50, 30, 8, 14, 9, Math.PI / 18) + circ(50, 30, 4)),
+    lotus: g(lotus(50, 54) + p('M30 80q20-6 40 0')),
+    lotusmoon: g(lotus(50, 62) + moon(50, 26, 10)),
+    key: g(circ(34, 38, 12) + circ(34, 38, 4) + line(43, 46, 74, 76) + p('M62 64l8-8M68 70l8-8')),
+    censer: g(p('M28 52h44q-2 18-22 18q-20 0-22-18Z') + line(34, 70, 30, 82) + line(66, 70, 70, 82) + line(50, 70, 50, 80) + p('M24 52q-4-8 4-8M76 52q4-8-4-8') + p('M44 44q-6-8 0-14q6-6 0-14M56 44q-6-8 0-14')),
+    medgourd: g(circ(44, 38, 8) + circ(44, 60, 14) + p('M44 30v-6') + p('M64 80q0-20 10-34') + p('M74 46q-12 0-10 10M68 56q10 4 12-6')),
+    peach: g(p('M50 78q-24-4-22-26q2-18 22-18q20 0 22 18q2 22-22 26Z') + p('M50 34q-2 20 0 44', 'stroke-dasharray="2 4"') + p('M50 34q-6-12-18-10q4 10 18 10Z') + p('M50 34q8-10 16-6')),
+    bowl: g(p('M22 52h56q-4 24-28 24q-24 0-28-24Z') + line(38, 76, 62, 76) + line(58, 20, 46, 50) + line(66, 22, 52, 50) + p('M32 46q4-6 10-2q6-6 12-2')),
+    halfcircle: g(circ(50, 50, 22) + p('M50 28a22 22 0 0 1 0 44Z', F) + line(18, 50, 82, 50, '') ),
+    swordv: g(sword(50, 84, 50, 16) + p('M30 30q20-8 40 0', 'stroke-dasharray="3 4"')),
+    lotusmud: g(lotus(50, 46) + p('M16 70q10-6 20 0t20 0t20 0t12-2') + p('M20 80q10-6 20 0t20 0t20 0') + line(50, 56, 50, 68)),
+    tears: g(p('M30 40q6-6 12 0M58 40q6-6 12 0') + tear(36, 50) + tear(64, 52, 0.8) + tear(46, 66, 0.7) + p('M38 76q12-6 24 0')),
+    emptyvase: g(p('M40 22h20M42 22q0 10-8 18q-10 14-4 30q6 10 20 10q14 0 20-10q6-16-4-30q-8-8-8-18') + p('M40 52q10 6 20 0', 'stroke-dasharray="3 3"')),
+    lonetree: g(line(50, 80, 50, 40) + p('M50 52l-12-10M50 46l10-10M50 60l12-6') + line(22, 80, 78, 80) + circ(74, 26, 6)),
+    lonemoon: g(moon(62, 30, 12) + p('M14 80l20-26 12 14 12-20 28 32Z')),
+    brokenvase: g(p('M42 22h16M44 22q0 10-8 18q-8 12-4 26') + p('M56 22q0 10 8 18q8 12 4 26') + p('M32 66l8 4-4 6 10 4M68 66l-8 6 4 4-8 4') + p('M30 84l6-4M64 84l8-2', 'stroke-width="2"')),
+    dagger: g(sword(32, 70, 70, 30) + p('M60 74l6 6M70 64l6 6', 'stroke-width="2"')),
+    voidcloud: g(circ(50, 46, 20, 'stroke-dasharray="4 5"') + cloud(36, 80, 0.8) + cloud(70, 78, 0.6)),
+    flowwater: g(p('M14 40q12-10 24 0t24 0t24 0') + p('M14 56q12-10 24 0t24 0t24 0') + p('M14 72q12-10 24 0t24 0t24 0') + cloud(76, 24, 0.6)),
+    net: g(net()),
+    tornflag: g(flag(true)),
+    flag: g(flag(false) + p('M40 32h18M40 40h12', 'stroke-width="2"')),
+    dipper: g(circ(20, 30, 3.5, F) + circ(34, 36, 3.5, F) + circ(46, 46, 3.5, F) + circ(58, 52, 3.5, F) + circ(62, 70, 3.5, F) + circ(80, 74, 3.5, F) + circ(82, 56, 3.5, F) + p('M20 30L34 36L46 46L58 52L62 70L80 74L82 56L58 52')),
+    scholar: g(p('M24 34l26-12 26 12-26 12Z') + p('M34 40v10q16 8 32 0V40') + line(76, 34, 76, 50) + circ(76, 52, 2, F) + p('M50 68q-10-5-22-3v16q12-2 22 3q10-5 22-3V65q-12-2-22 3Zv16')),
+    strong: g(line(26, 50, 74, 50) + '<rect x="18" y="36" width="8" height="28" rx="2"/><rect x="74" y="36" width="8" height="28" rx="2"/><rect x="28" y="40" width="6" height="20" rx="2"/><rect x="66" y="40" width="6" height="20" rx="2"/>'),
+    dragon: g(p('M20 70q10-24 26-10t26-6q8-6 10-16') + p('M82 38l6-4M82 38l2 8M76 34q4-6 10-6') + p('M30 64l-4-6M42 60l-2-8M56 60l2-8', 'stroke-width="2"') + circ(80, 38, 1.6, F) + circ(22, 80, 6)),
+    leakpot: g(pot(true)),
+    general: g(line(30, 84, 30, 16) + p('M30 18l40 10-40 12') + p('M50 62q0-14 14-14q14 0 14 14v6H50Z') + p('M64 48v-8')),
+    memorial: g(scroll(50, 44, 40) + p('M34 70q16 10 32 0')),
+    arrow: g(line(20, 70, 70, 33) + '<polygon points="78,27 62,30 68,40" fill="currentColor"/>' + p('M24 67l-3-9M30 63l-3-9M24 67l10 1M30 63l10 1', 'stroke-width="2"') + p('M30 82q14-4 26 0M44 88q10-3 18 0', 'stroke-dasharray="3 4"')),
+    medpot: g(pot(false)),
+    shield: g(p('M36 30q14-8 28 0v22q0 16-14 24q-14-8-14-24Z') + line(70, 84, 82, 18) + p('M82 18l-4 10 8 0Z') + p('M50 36v32', 'stroke-dasharray="3 4"')),
+    drum: g('<ellipse cx="50" cy="40" rx="22" ry="8"/>' + p('M28 40v26q22 14 44 0V40') + line(20, 26, 40, 36) + line(80, 26, 60, 36) + circ(19, 25, 3, F) + circ(81, 25, 3, F)),
+    jupiter: g(circ(50, 50, 14) + '<ellipse cx="50" cy="50" rx="30" ry="9" transform="rotate(-20 50 50)"/>' + star5(78, 22, 6)),
+    smallsun: g(sun(50, 54, 10) + p('M20 80h60')),
+    smallmoon: g(moon(50, 46, 14) + star5(74, 28, 5) + p('M20 80h60')),
+    mourngate: g(gate(true)),
+    candle: g('<rect x="42" y="40" width="16" height="38" rx="2"/>' + p('M50 40v-6') + p('M50 34q-6-6 0-16q6 10 0 16Z') + p('M36 80h28')),
+    crack: g(circ(50, 50, 24) + p('M44 26l6 12-8 8 10 10-6 18', 'stroke-width="3.4"')),
+    pearl: g(circ(50, 50, 15) + p('M44 44q6-4 12 2q4 6-2 10', 'stroke-width="2"') + p('M50 26q-6-8 0-12q6 4 0 12M74 50q8-6 12 0q-4 6-12 0M50 74q6 8 0 12q-6-4 0-12M26 50q-8 6-12 0q4-6 12 0M67 33q4-9 10-7q0 7-10 7M33 33q-9-4-7-10q7 0 7 10M67 67q9 4 7 10q-7 0-7-10M33 67q-4 9-10 7q0-7 10-7')),
+    tiger: g(circ(50, 54, 22) + p('M32 38l-4-10 10 4M68 38l4-10-10 4') + p('M42 44h16M50 44v12M42 50h16M44 56h12', 'stroke-width="2.4"') + circ(42, 60, 2, F) + circ(58, 60, 2, F) + p('M44 68q6 4 12 0') + p('M28 56h-8M72 56h8M30 62h-8M70 62h8', 'stroke-width="2"')),
+    bat: g(p('M50 44q-6-6-12-2q-10-6-22 2q8 2 8 10q6-4 12 0q6-4 10 2q4-6 10-2q6-4 12 0q0-8 8-10q-12-8-22-2q-6-4-12 2Z') + circ(50, 50, 4, F) + circ(50, 72, 9) + '<rect x="47" y="69" width="6" height="6"/>'),
+    banner: g(line(30, 16, 30, 84) + p('M30 22h26v44l-13-8-13 8') + p('M64 30q-4-6 0-12M70 32q-4-6 0-12') + '<rect x="60" y="46" width="14" height="6"/>' + line(67, 52, 67, 80))
+  };
+
+  // sao → hình
+  var MAP = {
+    'Tử Vi': 'crown', 'Thiên Cơ': 'gear', 'Thái Dương': 'sun', 'Vũ Khúc': 'ingot', 'Thiên Đồng': 'gourd', 'Liêm Trinh': 'scale',
+    'Thiên Phủ': 'granary', 'Thái Âm': 'moonhouse', 'Tham Lang': 'cupflower', 'Cự Môn': 'gate', 'Thiên Tướng': 'seal', 'Thiên Lương': 'parasol',
+    'Thất Sát': 'sword', 'Phá Quân': 'brokenspear',
+    'Văn Xương': 'bookbrush', 'Văn Khúc': 'bookbrush', 'Tả Phù': 'pillars', 'Hữu Bật': 'pillars', 'Thiên Khôi': 'tablet', 'Thiên Việt': 'tablet',
+    'Lộc Tồn': 'coin', 'Thiên Mã': 'horse',
+    'Kình Dương': 'blade', 'Đà La': 'coil', 'Hỏa Tinh': 'flame', 'Linh Tinh': 'bell', 'Địa Không': 'voidc', 'Địa Kiếp': 'whirl',
+    'Hóa Lộc': 'coinleaf', 'Hóa Quyền': 'ruyi', 'Hóa Khoa': 'diploma', 'Hóa Kỵ': 'darkcloud',
+    'Đào Hoa': 'blossom', 'Hồng Loan': 'phoenix', 'Thiên Hỷ': 'lantern', 'Tam Thai': 'threestar', 'Bát Tọa': 'seat',
+    'Long Trì': 'dragonpond', 'Phượng Các': 'pavilion', 'Thai Phụ': 'scroll', 'Phong Cáo': 'scroll', 'Quốc Ấn': 'sealribbon', 'Đường Phù': 'tally',
+    'Văn Tinh': 'starbrush', 'Hoa Cái': 'canopy', 'Ân Quang': 'halo', 'Thiên Quý': 'halo', 'Thiên Đức': 'lotus', 'Nguyệt Đức': 'lotusmoon',
+    'Giải Thần': 'key', 'Thiên Giải': 'key', 'Địa Giải': 'key', 'Thiên Quan': 'censer', 'Thiên Phúc': 'censer', 'Thiên Y': 'medgourd',
+    'Thiên Thọ': 'peach', 'Thiên Trù': 'bowl', 'Thiên Tài': 'halfcircle',
+    'Thiên Hình': 'swordv', 'Thiên Riêu': 'lotusmud', 'Thiên Khốc': 'tears', 'Thiên Hư': 'emptyvase', 'Cô Thần': 'lonetree', 'Quả Tú': 'lonemoon',
+    'Phá Toái': 'brokenvase', 'Kiếp Sát': 'dagger', 'Thiên Không': 'voidcloud', 'Lưu Hà': 'flowwater', 'Thiên La': 'net', 'Địa Võng': 'net',
+    'Thiên Thương': 'tornflag', 'Thiên Sứ': 'flag', 'Đẩu Quân': 'dipper',
+    'Bác Sĩ': 'scholar', 'Lực Sĩ': 'strong', 'Thanh Long': 'dragon', 'Tiểu Hao': 'leakpot', 'Tướng Quân': 'general', 'Tấu Thư': 'memorial',
+    'Phi Liêm': 'arrow', 'Hỷ Thần': 'lantern', 'Bệnh Phù': 'medpot', 'Đại Hao': 'leakpot', 'Phục Binh': 'shield', 'Quan Phủ': 'drum',
+    'Thái Tuế': 'jupiter', 'Thiếu Dương': 'smallsun', 'Tang Môn': 'mourngate', 'Thiếu Âm': 'smallmoon', 'Quan Phù': 'scroll', 'Tử Phù': 'candle',
+    'Tuế Phá': 'crack', 'Long Đức': 'pearl', 'Bạch Hổ': 'tiger', 'Phúc Đức': 'bat', 'Điếu Khách': 'banner', 'Trực Phù': 'tally'
+  };
+  // lời chú thích hình
+  var CAP = {
+    crown: 'Mũ miện – ngôi đế tinh', gear: 'Bánh xe cơ – mưu cơ, xoay chuyển', sun: 'Mặt trời', ingot: 'Nén bạc – tài tinh', gourd: 'Hồ lô – phúc tinh',
+    scale: 'Cán cân – liêm chính, hình luật', granary: 'Kho lẫm – giữ lộc', moonhouse: 'Trăng và nhà – điền trạch', cupflower: 'Chén rượu, hoa – ham muốn, đào hoa',
+    gate: 'Cổng lớn – cự môn, khẩu thiệt', seal: 'Ấn tín', parasol: 'Lọng che – ấm tinh', sword: 'Kiếm – uy vũ', brokenspear: 'Giáo gãy – phá cũ, hao tán',
+    bookbrush: 'Sách và bút – văn tinh', pillars: 'Hai cột trụ – phò tá', tablet: 'Thẻ hốt – quý nhân', coin: 'Đồng tiền – lộc tồn', horse: 'Ngựa – dịch mã',
+    blade: 'Lưỡi đao – hình tinh', coil: 'Dây quấn – trì trệ', flame: 'Ngọn lửa', bell: 'Chuông – linh tinh', voidc: 'Vòng rỗng – địa không', whirl: 'Gió xoáy – địa kiếp',
+    coinleaf: 'Tiền nảy lộc', ruyi: 'Như ý – quyền bính', diploma: 'Bảng khoa danh', darkcloud: 'Mây đen – ám, trở ngại', blossom: 'Hoa đào', phoenix: 'Chim loan',
+    lantern: 'Đèn lồng – hỷ sự', threestar: 'Ba sao – tam thai', seat: 'Ghế ngồi – bát tọa', dragonpond: 'Ao rồng, ngọc', pavilion: 'Gác phượng', scroll: 'Sắc phong – văn bằng',
+    sealribbon: 'Quốc ấn', tally: 'Phù tiết – bằng tín', starbrush: 'Sao văn và bút', canopy: 'Lọng hoa cái', halo: 'Hào quang trên sen – ân phúc',
+    lotus: 'Hoa sen – đức', lotusmoon: 'Sen dưới trăng – nguyệt đức', key: 'Chìa khóa – giải ách', censer: 'Lư hương – thiên quan, thiên phúc', medgourd: 'Hồ lô thuốc – thiên y',
+    peach: 'Quả đào tiên – thọ', bowl: 'Bát đũa – lộc ăn', halfcircle: 'Nửa sáng nửa tối – trung tính', swordv: 'Kiếm dựng – hình luật', lotusmud: 'Sen mọc trong bùn',
+    tears: 'Giọt lệ – khốc', emptyvase: 'Bình rỗng – hư', lonetree: 'Cây đơn độc – cô thần', lonemoon: 'Trăng lẻ – quả tú', brokenvase: 'Bình vỡ – phá toái',
+    dagger: 'Dao găm – kiếp sát', voidcloud: 'Hư không, mây – thiên không', flowwater: 'Nước chảy, ráng mây – lưu hà', net: 'Lưới – la võng',
+    tornflag: 'Cờ rách – thiên thương', flag: 'Cờ sứ – thiên sứ', dipper: 'Chòm Bắc Đẩu – đẩu quân', scholar: 'Mũ học sĩ', strong: 'Tạ đá – lực sĩ',
+    dragon: 'Rồng xanh', leakpot: 'Hũ rò – hao', general: 'Cờ soái – tướng quân', memorial: 'Tấu chương', arrow: 'Mũi tên bay – phi liêm', medpot: 'Ấm thuốc – bệnh phù',
+    shield: 'Khiên và giáo ẩn – phục binh', drum: 'Trống công đường – quan phủ', jupiter: 'Tuế tinh (sao Mộc)', smallsun: 'Mặt trời nhỏ', smallmoon: 'Trăng non',
+    mourngate: 'Cổng tang', candle: 'Ngọn nến', crack: 'Vết nứt – tuế phá', pearl: 'Ngọc rồng – long đức', tiger: 'Bạch hổ', bat: 'Dơi và tiền – phúc', banner: 'Phướn trắng, hương'
+  };
+
+  var HANH_COL = { 'Kim': 'var(--kim)', 'Mộc': 'var(--moc)', 'Thủy': 'var(--thuyc)', 'Hỏa': 'var(--hoa)', 'Thổ': 'var(--tho)' };
+  function hanhOf(h) { var m = /(Kim|Mộc|Thủy|Hỏa|Thổ)/.exec(h || ''); return m ? m[1] : 'Thổ'; }
+
+  function medal(name, info, size) {
+    var key = MAP[name] || 'scroll', col = HANH_COL[hanhOf(info && info.hanh)];
+    size = size || 112;
+    var han = (info && info.han) || '';
+    return '<svg class="medal" viewBox="0 0 100 100" width="' + size + '" height="' + size + '" role="img" aria-label="Hình minh họa sao ' + name + ': ' + (CAP[key] || '') + '" style="color:' + col + '">' +
+      '<circle cx="50" cy="50" r="47" fill="var(--medal-bg)" stroke="currentColor" stroke-width="2.2"/>' +
+      '<circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width=".8" stroke-dasharray="1.5 2.5" opacity=".7"/>' +
+      '<g transform="translate(50 47) scale(.62) translate(-50 -50)">' + M[key] + '</g>' +
+      '<text x="50" y="88" text-anchor="middle" class="han" font-size="11" fill="currentColor">' + han + '</text></svg>';
+  }
+
+  /* bảng 12 cung tí hon: độ sáng theo từng cung */
+  var CHI = ['Tý', 'Sửu', 'Dần', 'Mão', 'Thìn', 'Tỵ', 'Ngọ', 'Mùi', 'Thân', 'Dậu', 'Tuất', 'Hợi'];
+  // vị trí ô trong lưới 4x4 (cột, hàng) cho Tý..Hợi
+  var GRID = [[2, 3], [1, 3], [0, 3], [0, 2], [0, 1], [0, 0], [1, 0], [2, 0], [3, 0], [3, 1], [3, 2], [3, 3]];
+  var BCOL = { 'M': 'var(--b-m)', 'V': 'var(--b-v)', 'Đ': 'var(--b-d)', 'B': 'var(--b-b)', 'H': 'var(--b-h)' };
+  var BNAME = { 'M': 'Miếu', 'V': 'Vượng', 'Đ': 'Đắc', 'B': 'Bình', 'H': 'Hãm' };
+  function board(code, label) {
+    var c = 26, s = '<svg class="board" viewBox="0 0 ' + (4 * c + 2) + ' ' + (4 * c + 2) + '" width="150" height="150" role="img" aria-label="Độ sáng của ' + label + ' tại 12 cung">';
+    for (var i = 0; i < 12; i++) {
+      var x = 1 + GRID[i][0] * c, y = 1 + GRID[i][1] * c, k = code[i];
+      s += '<rect x="' + x + '" y="' + y + '" width="' + c + '" height="' + c + '" fill="' + BCOL[k] + '" stroke="var(--line2)" stroke-width=".6"><title>' + CHI[i] + ': ' + BNAME[k] + '</title></rect>' +
+        '<text x="' + (x + c / 2) + '" y="' + (y + 10) + '" text-anchor="middle" font-size="7" fill="var(--b-ink)">' + CHI[i] + '</text>' +
+        '<text x="' + (x + c / 2) + '" y="' + (y + 21) + '" text-anchor="middle" font-size="8.5" font-weight="700" fill="var(--b-ink)">' + k + '</text>';
+    }
+    s += '<text x="' + (2 * c + 1) + '" y="' + (2 * c - 2) + '" text-anchor="middle" font-size="7.5" fill="var(--muted)">độ sáng</text>' +
+      '<text x="' + (2 * c + 1) + '" y="' + (2 * c + 9) + '" text-anchor="middle" font-size="7.5" fill="var(--muted)">12 cung</text>';
+    return s + '</svg>';
+  }
+
+  var BRIGHT = {
+    'Tử Vi': 'BĐMBVMMĐMBVB', 'Liêm Trinh': 'VĐVHMHVĐVHMH', 'Thiên Đồng': 'VHMĐHĐHHMHHĐ',
+    'Vũ Khúc': 'VMVĐMHVMVĐMH', 'Thái Dương': 'HĐVVVMMĐHHHH', 'Thiên Cơ': 'ĐĐHMMVĐĐVMMH',
+    'Thiên Phủ': 'MBMBVĐMĐMBVĐ', 'Thái Âm': 'VĐHHHHHĐVMMM', 'Tham Lang': 'HMĐHVHHMĐHVH',
+    'Cự Môn': 'VHVMHHVHĐMHĐ', 'Thiên Tướng': 'VĐMHVĐVĐMHVĐ', 'Thiên Lương': 'VĐVVMHMĐVHMH',
+    'Thất Sát': 'MĐMHHVMĐMHHV', 'Phá Quân': 'MVHHĐHMVHHĐH'
+  };
+  // phụ tinh có đắc địa trong chương (Tân Biên); cung khác = hãm
+  function dac(list) { var s = ''; for (var i = 0; i < 12; i++) s += list.indexOf(i) >= 0 ? 'Đ' : 'H'; return s; }
+  var TM = [1, 4, 7, 10], DTMD = [2, 8, 3, 9];
+  [['Kình Dương', TM], ['Đà La', TM], ['Hỏa Tinh', [2, 3, 4, 5, 6]], ['Linh Tinh', [2, 3, 4, 5, 6]], ['Địa Không', [2, 8, 5, 11]], ['Địa Kiếp', [2, 8, 5, 11]],
+   ['Văn Xương', [4, 10, 1, 7, 5, 11]], ['Văn Khúc', [4, 10, 1, 7, 5, 11]], ['Hóa Kỵ', TM], ['Thiên Hình', DTMD], ['Thiên Riêu', [2, 3, 9, 10]],
+   ['Thiên Khốc', [0, 6, 3, 9, 1, 7]], ['Thiên Hư', [0, 6, 3, 9, 1, 7]], ['Tiểu Hao', DTMD], ['Đại Hao', DTMD], ['Tang Môn', DTMD], ['Bạch Hổ', DTMD]
+  ].forEach(function (r) { BRIGHT[r[0]] = dac(r[1]); });
+
+  /* sơ đồ chòm sao trên lá số mẫu (Tử Vi tại Dần) */
+  function chomBoard(which, info) {
+    var tv = 2, tp = ((4 - tv) % 12 + 12) % 12, m = function (x) { return ((x % 12) + 12) % 12; };
+    var A = [['Tử Vi', tv], ['Thiên Cơ', tv - 1], ['Thái Dương', tv - 3], ['Vũ Khúc', tv - 4], ['Thiên Đồng', tv - 5], ['Liêm Trinh', tv - 8]];
+    var B = [['Thiên Phủ', tp], ['Thái Âm', tp + 1], ['Tham Lang', tp + 2], ['Cự Môn', tp + 3], ['Thiên Tướng', tp + 4], ['Thiên Lương', tp + 5], ['Thất Sát', tp + 6], ['Phá Quân', tp + 10]];
+    var cells = {}; A.concat(B).forEach(function (r) { var k = m(r[1]); (cells[k] = cells[k] || []).push(r[0]); });
+    var hi = which === 'A' ? A : B, hiNames = hi.map(function (r) { return r[0]; });
+    var c = 90, W = 4 * c, s = '<svg class="chom" viewBox="-2 -2 ' + (W + 4) + ' ' + (W + 4) + '" role="img" aria-label="Sơ đồ vị trí các sao chòm ' + (which === 'A' ? 'Tử Vi' : 'Thiên Phủ') + ' trên lá số mẫu Tử Vi tại Dần">';
+    for (var i = 0; i < 12; i++) {
+      var x = GRID[i][0] * c, y = GRID[i][1] * c, list = cells[i] || [];
+      s += '<rect x="' + x + '" y="' + y + '" width="' + c + '" height="' + c + '" fill="var(--paper)" stroke="var(--line2)"/>' +
+        '<text x="' + (x + c - 6) + '" y="' + (y + c - 7) + '" text-anchor="end" font-size="11" fill="var(--muted)">' + CHI[i] + '</text>';
+      list.forEach(function (n, j) {
+        var on = hiNames.indexOf(n) >= 0;
+        s += '<text x="' + (x + 7) + '" y="' + (y + 19 + j * 17) + '" font-size="12.5" font-weight="' + (on ? 700 : 400) + '" fill="' + (on ? 'var(--red)' : 'var(--muted)') + '">' + n + '</text>';
+      });
+    }
+    // đường nối thứ tự an sao
+    var pts = hi.map(function (r) { var k = m(r[1]); return [GRID[k][0] * c + c / 2, GRID[k][1] * c + c / 2 + 14]; });
+    pts.forEach(function (q, j) { s += '<circle cx="' + q[0] + '" cy="' + q[1] + '" r="9" fill="var(--seal)"/><text x="' + q[0] + '" y="' + (q[1] + 4) + '" text-anchor="middle" font-size="10" fill="#fff6e8" font-weight="700">' + (j + 1) + '</text>'; });
+    s += '<rect x="' + c + '" y="' + c + '" width="' + 2 * c + '" height="' + 2 * c + '" fill="var(--paper2)" stroke="var(--line2)"/>' +
+      '<text x="' + 2 * c + '" y="' + (1.5 * c + 10) + '" text-anchor="middle" class="han" font-size="30" fill="var(--red)">' + (which === 'A' ? '紫微' : '天府') + '</text>' +
+      '<text x="' + 2 * c + '" y="' + (2 * c + 20) + '" text-anchor="middle" font-size="13" fill="var(--ink2)">Lá số mẫu: Tử Vi tại Dần</text>' +
+      '<text x="' + 2 * c + '" y="' + (2 * c + 40) + '" text-anchor="middle" font-size="12" fill="var(--muted)">' + (which === 'A' ? 'an nghịch: −1, −3, −4, −5, −8' : 'an thuận: +1 … +6, +10') + '</text>';
+    return s + '</svg>';
+  }
+
+  /* vòng 12 sao (Bác Sĩ / Thái Tuế) */
+  function ring(names, title, start, info) {
+    var R = 150, cx = 190, cy = 190, s = '<svg class="ring" viewBox="0 0 380 380" role="img" aria-label="Vòng ' + title + ': thứ tự 12 sao">';
+    s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + R + '" fill="none" stroke="var(--line2)" stroke-dasharray="3 5"/>';
+    names.forEach(function (n, i) {
+      var a = -Math.PI / 2 + i * 2 * Math.PI / 12, x = cx + R * Math.cos(a), y = cy + R * Math.sin(a), inf = info[n] || {};
+      s += '<g transform="translate(' + (x - 26).toFixed(1) + ' ' + (y - 30).toFixed(1) + ')">' + medal(n, inf, 52) + '</g>' +
+        '<text x="' + x.toFixed(1) + '" y="' + (y + 34).toFixed(1) + '" text-anchor="middle" font-size="11.5" fill="var(--ink)" font-weight="600">' + (i + 1) + '. ' + n + '</text>';
+    });
+    // mũi tên chiều
+    s += '<path d="M' + (cx + 70) + ' ' + (cy - 70) + 'A99 99 0 0 1 ' + (cx + 70) + ' ' + (cy + 70) + '" fill="none" stroke="var(--red)" stroke-width="2"/><path d="M' + (cx + 70) + ' ' + (cy + 70) + 'l-2-11 9 6z" fill="var(--red)"/>';
+    s += '<text x="' + cx + '" y="' + (cy - 6) + '" text-anchor="middle" class="han" font-size="22" fill="var(--red)">' + title + '</text>' +
+      '<text x="' + cx + '" y="' + (cy + 16) + '" text-anchor="middle" font-size="11.5" fill="var(--muted)">' + start + '</text>';
+    return s + '</svg>';
+  }
+
+  /* Tứ Hóa: bốn góc */
+  function tuHoa(info) {
+    var n = ['Hóa Lộc', 'Hóa Quyền', 'Hóa Khoa', 'Hóa Kỵ'], pos = [[40, 30], [230, 30], [40, 200], [230, 200]];
+    var s = '<svg class="ring" viewBox="0 0 380 380" role="img" aria-label="Tứ Hóa: Lộc, Quyền, Khoa, Kỵ">';
+    s += '<circle cx="190" cy="190" r="70" fill="var(--paper2)" stroke="var(--line2)"/><text x="190" y="186" text-anchor="middle" class="han" font-size="30" fill="var(--red)">四化</text><text x="190" y="210" text-anchor="middle" font-size="11.5" fill="var(--muted)">theo can năm sinh</text>';
+    n.forEach(function (k, i) { var p0 = pos[i]; s += '<g transform="translate(' + (p0[0] + 13) + ' ' + p0[1] + ')">' + medal(k, info[k], 84) + '</g><text x="' + (p0[0] + 55) + '" y="' + (p0[1] + 104) + '" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ink)">' + k + '</text>'; });
+    return s + '</svg>';
+  }
+
+  /* bộ sưu tập hình cho một nhóm */
+  function mosaic(names, info) {
+    return '<div class="mosaic">' + names.map(function (n) { return '<figure>' + medal(n, info[n], 64) + '<figcaption>' + n + '</figcaption></figure>'; }).join('') + '</div>';
+  }
+
+  return { medal: medal, board: board, BRIGHT: BRIGHT, chomBoard: chomBoard, ring: ring, tuHoa: tuHoa, mosaic: mosaic, MAP: MAP, CAP: CAP, M: M };
+})();
+
+(function () {
+  var INFO = {}; DATA.stars.forEach(function (s) { INFO[s.name] = s; });
+  var HANNUM = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九', '十'];
+  var BAC_SI = ['Bác Sĩ', 'Lực Sĩ', 'Thanh Long', 'Tiểu Hao', 'Tướng Quân', 'Tấu Thư', 'Phi Liêm', 'Hỷ Thần', 'Bệnh Phù', 'Đại Hao', 'Phục Binh', 'Quan Phủ'];
+  var THAI_TUE = ['Thái Tuế', 'Thiếu Dương', 'Tang Môn', 'Thiếu Âm', 'Quan Phù', 'Tử Phù', 'Tuế Phá', 'Long Đức', 'Bạch Hổ', 'Phúc Đức', 'Điếu Khách', 'Trực Phù'];
+  var BLEG = '<div class="legend"><span><i style="background:var(--b-m)"></i>M Miếu</span><span><i style="background:var(--b-v)"></i>V Vượng</span><span><i style="background:var(--b-d)"></i>Đ Đắc</span><span><i style="background:var(--b-b)"></i>B Bình</span><span><i style="background:var(--b-h)"></i>H Hãm</span></div>';
+
+  function slug(t) { if (t === 'Quan Phủ') return 'quan-phu-bac-si'; return t.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+  function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function hanhChip(n) { var h = (INFO[n] || {}).hanh || ''; var k = (/(Kim|Mộc|Thủy|Hỏa|Thổ)/.exec(h) || [])[1] || 'Thổ';
+    var col = { 'Kim': 'var(--kim)', 'Mộc': 'var(--moc)', 'Thủy': 'var(--thuyc)', 'Hỏa': 'var(--hoa)', 'Thổ': 'var(--tho)' }[k];
+    return '<span class="chip" style="color:' + col + '">' + esc(h) + '</span>'; }
+
+  function figs(stars) {
+    if (!stars.length) return '';
+    var h = '<div class="figs">';
+    h += '<div class="pair">' + stars.map(function (n) {
+      var key = ICON.MAP[n];
+      return '<figure>' + ICON.medal(n, INFO[n], stars.length > 1 ? 96 : 130) + '<figcaption><b>' + esc(n) + '</b><br>' + esc(ICON.CAP[key] || '') + '<br>' + hanhChip(n) + '</figcaption></figure>';
+    }).join('') + '</div>';
+    // bảng độ sáng; gộp nếu giống nhau
+    var seen = {};
+    stars.forEach(function (n) {
+      var code = ICON.BRIGHT[n]; if (!code) return;
+      if (seen[code]) { seen[code].push(n); return; }
+      seen[code] = [n];
+    });
+    Object.keys(seen).forEach(function (code) {
+      var names = seen[code];
+      h += '<figure>' + ICON.board(code, names.join(', ')) + '<figcaption>Độ sáng 12 cung: ' + esc(names.join(' · ')) + '</figcaption></figure>';
+    });
+    if (Object.keys(seen).length) h += BLEG;
+    return h + '</div>';
+  }
+
+  function miniMedals(stars, size) {
+    return '<span class="mini" aria-hidden="true">' + stars.map(function (n) { return ICON.medal(n, INFO[n], size || 40); }).join('') + '</span>';
+  }
+
+  function starSearchText(stars, title, body) {
+    var kw = stars.map(function (n) { var i = INFO[n] || {}; return n + ' ' + i.han + ' ' + i.kw + ' ' + i.nhom + ' ' + i.hanh; }).join(' ');
+    return (title + ' ' + kw + ' ' + body.replace(/<[^>]+>/g, ' ')).toLowerCase();
+  }
+
+  function itemHTML(it, cls) {
+    var stars = it.stars || [];
+    var id = stars.length ? 'sao-' + slug(stars[0]) : 'muc-' + slug(it.title);
+    var anchors = stars.slice(1).map(function (n) { return '<span class="anchor" id="sao-' + slug(n) + '"></span>'; }).join('');
+    var sub = /[\u4e00-\u9fff]/.test(it.title) ? '' : stars.map(function (n) { return INFO[n] ? INFO[n].han : ''; }).filter(Boolean).join(' · ');
+    var kids = it.children || [];
+    var inner;
+    if (kids.length) {
+      var all = []; kids.forEach(function (k) { (k.stars || []).forEach(function (n) { if (all.indexOf(n) < 0) all.push(n); }); });
+      inner = '<div class="ibody text">' + (it.body || '') + kids.map(function (k) { return itemHTML(k, 'star'); }).join('') + '</div>';
+      return '<details class="item ' + cls + '" id="' + id + '" data-s="' + esc(starSearchText(all, it.title, '')) + '"><summary>' + miniMedals(all.slice(0, 6), 30) +
+        '<span class="stitle">' + esc(it.title) + '<small>' + all.length + ' sao · bấm để xem từng sao</small></span></summary>' + inner + '</details>';
+    }
+    inner = '<div class="ibody"><div class="card' + (stars.length ? '' : ' nofig') + '">' + figs(stars) + '<div class="text">' + (it.body || '') + '</div></div></div>';
+    if (!stars.length) inner = '<div class="ibody text">' + (it.body || '') + '</div>';
+    return '<details class="item ' + cls + '" id="' + id + '" data-s="' + esc(starSearchText(stars, it.title, it.body || '')) + '"><summary>' + (stars.length ? miniMedals(stars, 40) : '') +
+      '<span class="stitle">' + anchors + esc(it.title) + (sub ? '<small class="han">' + sub + '</small>' : '') + '</span></summary>' + inner + '</details>';
+  }
+
+  function partFigure(sec, idx) {
+    var t = sec.title;
+    if (/^Phần I –/.test(t)) return '<figure class="pfig">' + ICON.chomBoard('A', INFO) + '<figcaption>Sáu sao chòm Tử Vi trên lá số mẫu (Tử Vi tại Dần); số đỏ là thứ tự an sao.</figcaption></figure>';
+    if (/^Phần II –/.test(t)) return '<figure class="pfig">' + ICON.chomBoard('B', INFO) + '<figcaption>Tám sao chòm Thiên Phủ trên cùng lá số mẫu; Thiên Phủ đối xứng với Tử Vi qua trục Dần – Thân.</figcaption></figure>';
+    if (/^Phần V –/.test(t)) return '<figure class="pfig">' + ICON.tuHoa(INFO) + '</figure>';
+    if (/^Phần VIII/.test(t)) return '<figure class="pfig">' + ICON.ring(BAC_SI, '博士', 'khởi tại cung Lộc Tồn', INFO) + '<figcaption>Thứ tự 12 sao; dương nam, âm nữ đi thuận, còn lại đi nghịch.</figcaption></figure>';
+    if (/^Phần IX/.test(t)) return '<figure class="pfig">' + ICON.ring(THAI_TUE, '太歲', 'khởi tại chi năm sinh', INFO) + '<figcaption>Thứ tự 12 sao, luôn đi thuận.</figcaption></figure>';
+    var names = [];
+    function add(list) { (list || []).forEach(function (n) { if (names.indexOf(n) < 0) names.push(n); }); }
+    sec.items.forEach(function (it) { add(it.stars); (it.children || []).forEach(function (k) { add(k.stars); }); });
+    return names.length ? ICON.mosaic(names, INFO) : '';
+  }
+
+  function countStars(sec) {
+    var set = {};
+    sec.items.forEach(function (it) { (it.stars || []).forEach(function (n) { set[n] = 1; }); (it.children || []).forEach(function (k) { (k.stars || []).forEach(function (n) { set[n] = 1; }); }); });
+    return Object.keys(set).length;
+  }
+
+  var main = document.getElementById('main'), toc = document.getElementById('toc');
+  var h = '', t = '', pi = 0;
+  DATA.sections.forEach(function (sec) {
+    var id = 'phan-' + slug(sec.title).slice(0, 40);
+    var m = /^(Phần [IVX]+) – (.*)$/.exec(sec.title);
+    var num, title, han = '', small;
+    if (m) { pi++; num = HANNUM[pi]; title = m[2]; small = m[1] + ' · ' + countStars(sec) + ' sao'; }
+    else if (sec.kind === 'lookup') { num = '表'; title = sec.title; small = 'Tra nhanh, bấm tên sao để mở mục chi tiết'; }
+    else if (sec.title === 'Nguồn') { num = '典'; title = 'Nguồn'; small = 'Sách tham khảo'; }
+    else { num = '序'; title = sec.title; small = 'Cách đọc chương, nguồn và nguyên tắc luận'; }
+    var body = '';
+    if (sec.kind === 'lookup') {
+      body = sec.intro + '<div class="tblwrap lookup"><table><thead><tr><th>#</th><th>Sao</th><th>Chữ Hán</th><th>Hành</th><th>Nhóm</th><th>Từ khóa</th></tr></thead><tbody>' +
+        DATA.stars.map(function (s) { return '<tr data-s="' + esc((s.name + ' ' + s.han + ' ' + s.kw + ' ' + s.nhom).toLowerCase()) + '"><td>' + s.n + '</td><td><a href="#sao-' + slug(s.name) + '" data-go="sao-' + slug(s.name) + '">' + esc(s.name) + '</a></td><td>' + s.han + '</td><td>' + esc(s.hanh) + '</td><td>' + esc(s.nhom) + '</td><td>' + esc(s.kw) + '</td></tr>'; }).join('') +
+        '</tbody></table></div>';
+    } else if (sec.kind === 'text') {
+      body = '<div class="text">' + sec.intro + '</div>';
+    } else {
+      body = partFigure(sec) + '<div class="text">' + sec.intro + '</div>' + sec.items.map(function (it) { return itemHTML(it, ''); }).join('') + (sec.note ? '<div class="text">' + sec.note + '</div>' : '');
+    }
+    h += '<details class="part" id="' + id + '"><summary><span class="pnum han">' + num + '</span><span class="ptitle"><b>' + esc(title) + '</b><small>' + esc(small) + '</small></span></summary><div class="pbody">' + body + '</div></details>';
+    t += '<a href="#' + id + '" data-go="' + id + '">' + esc(m ? m[1] : title) + '</a>';
+  });
+  main.innerHTML = h; toc.innerHTML = t;
+
+  // nhãn mosaic bấm được → mở sao
+  main.querySelectorAll('.mosaic figure').forEach(function (f) {
+    var n = f.querySelector('figcaption').textContent; f.setAttribute('tabindex', '0'); f.setAttribute('role', 'link');
+    function go() { openTo('sao-' + slug(n)); }
+    f.addEventListener('click', go); f.addEventListener('keydown', function (e) { if (e.key === 'Enter') go(); });
+  });
+
+  function openTo(id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    if (el.classList.contains('anchor')) el = el.closest('details');
+    for (var p = el; p && p !== main; p = p.parentElement) if (p.tagName === 'DETAILS') p.open = true;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    try { history.replaceState(null, '', '#' + el.id); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-go]'); if (!a) return;
+    e.preventDefault(); clearSearch(); openTo(a.getAttribute('data-go'));
+  });
+  if (location.hash) setTimeout(function () { openTo(location.hash.slice(1)); }, 50);
+
+  // mở / thu gọn tất cả
+  document.getElementById('openAll').onclick = function () { main.querySelectorAll('details').forEach(function (d) { d.open = true; }); post(); };
+  document.getElementById('closeAll').onclick = function () { main.querySelectorAll('details').forEach(function (d) { d.open = false; }); post(); };
+
+  // tìm kiếm
+  var q = document.getElementById('q'), status = document.getElementById('status');
+  function norm(s) { return s.toLowerCase().trim(); }
+  function clearSearch() { if (q.value) { q.value = ''; runSearch(); } }
+  function runSearch() {
+    var v = norm(q.value), all = main.querySelectorAll('details');
+    if (!v) { main.classList.remove('searching'); all.forEach(function (d) { d.classList.remove('hidden'); }); main.querySelectorAll('tr.hidden').forEach(function (r) { r.classList.remove('hidden'); }); status.textContent = ''; post(); return; }
+    var hits = 0; main.classList.add('searching');
+    all.forEach(function (d) { d.classList.add('hidden'); d.open = false; });
+    main.querySelectorAll('details.item').forEach(function (d) {
+      if (d.querySelector('details')) return; // nhóm: xét qua các sao con
+      if ((d.dataset.s || '').indexOf(v) >= 0) {
+        hits++;
+        for (var p = d; p && p !== main; p = p.parentElement) if (p.tagName === 'DETAILS') { p.classList.remove('hidden'); if (p !== d) p.open = true; }
+      }
+    });
+    // bảng tra nhanh
+    var lk = main.querySelector('.lookup'); if (lk) {
+      var rows = 0; lk.querySelectorAll('tbody tr').forEach(function (r) { var ok = r.dataset.s.indexOf(v) >= 0; r.classList.toggle('hidden', !ok); rows += ok; });
+      if (rows) { var pd = lk.closest('details'); pd.classList.remove('hidden'); }
+    }
+    status.textContent = hits ? 'Tìm thấy ' + hits + ' mục khớp "' + q.value.trim() + '". Bấm vào mục để xem.' : 'Không tìm thấy mục nào khớp "' + q.value.trim() + '".';
+    post();
+  }
+  var tmr; q.addEventListener('input', function () { clearTimeout(tmr); tmr = setTimeout(runSearch, 160); });
+
+  // giao diện sáng/tối
+  document.getElementById('theme').onclick = function () {
+    var r = document.documentElement, cur = r.getAttribute('data-theme');
+    var dark = cur ? cur === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    r.setAttribute('data-theme', dark ? 'light' : 'dark');
+    try { localStorage.setItem('sao-theme', dark ? 'light' : 'dark'); } catch (e) {}
+  };
+  try { var th = localStorage.getItem('sao-theme'); if (th) document.documentElement.setAttribute('data-theme', th); } catch (e) {}
+
+  // in: mở hết, in xong trả lại
+  var saved = null;
+  addEventListener('beforeprint', function () { saved = []; main.querySelectorAll('details').forEach(function (d) { saved.push(d.open); d.open = true; }); });
+  addEventListener('afterprint', function () { if (!saved) return; main.querySelectorAll('details').forEach(function (d, i) { d.open = saved[i]; }); saved = null; });
+
+  // nhúng iframe (Blogspot): báo chiều cao cho trang cha
+  function post() { try { if (parent !== window) parent.postMessage({ type: 'saotuvi-height', h: document.documentElement.scrollHeight }, '*'); } catch (e) {} }
+  main.addEventListener('toggle', function () { setTimeout(post, 30); }, true);
+  addEventListener('load', post); addEventListener('resize', post);
+})();
+
+</script>
+</body>
+</html>
