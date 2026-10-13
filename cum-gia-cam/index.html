@@ -105,6 +105,7 @@ a{color:var(--accent)}
 .lang{display:inline-flex;border:1px solid rgba(255,255,255,.45);border-radius:18px;overflow:hidden}
 .lang button{background:transparent;color:#fff;border-radius:0;padding:4px 11px;font-size:12px;font-weight:700}
 .lang button.on{background:#fff;color:#8a0f22}
+header a.nav.back{background:#fff;color:#8a0f22;font-weight:700}
 header a.nav{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.45);border-radius:18px;padding:4px 11px;font-size:12px;font-weight:600}
 .src-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;font-size:12.5px}
 @media(max-width:520px){.src-grid{grid-template-columns:1fr}}
@@ -132,6 +133,7 @@ textarea{width:100%;min-height:70px;background:var(--bg);color:var(--ink);border
     <button id="btnScan" data-i18n="scan"></button>
     <label class="tbtn on"><input type="checkbox" id="autoScan" checked><span data-i18n="auto"></span></label>
     <button class="ghost tbtn" id="btnTheme" style="color:#fff"></button>
+    <a class="nav back" href="https://avian-influenza-situation.blogspot.com/" target="_top" data-i18n="back"></a>
     <a class="nav" href="the-gioi.html" data-i18n="toWorld"></a>
     <div class="lang" title="Ngôn ngữ / Language"><button data-lang="vi">VI</button><button data-lang="en">EN</button></div>
   </div>
@@ -230,7 +232,7 @@ textarea{width:100%;min-height:70px;background:var(--bg);color:var(--ink);border
    ===================================================================== */
 const I18N={
 vi:{title:"TÌNH HÌNH CÚM GIA CẦM – VIỆT NAM",subtitle:"34 tỉnh/thành (sau sắp xếp 2025) · Cảnh báo khi ổ dịch <b>chưa qua 21 ngày</b> kể từ ngày phát hiện",
- refDate:"Ngày tham chiếu",toWorld:"🌏 Bản đồ Thế giới",scan:"⟳ Quét tin báo",auto:"⏱ Tự quét 30′",light:"☀ Sáng",dark:"🌙 Tối",
+ refDate:"Ngày tham chiếu",back:"← Về Blog",toWorld:"🌏 Bản đồ Thế giới",scan:"⟳ Quét tin báo",auto:"⏱ Tự quét 30′",light:"☀ Sáng",dark:"🌙 Tối",
  mapTitle:"Bản đồ cảnh báo",searchPh:"🔍 Tìm tỉnh/thành…",optLabel:"🏷 Nhãn tỉnh + chủng virus",optPulse:"📍 Điểm nháy",optNb:"⚠ Vùng giáp ranh",optHist:"🕘 Lịch sử 22–90 ngày",
  strain:"Chủng:",reset:"⤢ Toàn quốc",full:"⛶ Toàn màn hình",print:"🖨 In",
  overview:"Tổng quan (cửa sổ 21 ngày)",kProv:"Tỉnh có dịch",kSick:"Số nhiễm",kDead:"Số chết",kCull:"Số tiêu hủy",
@@ -265,7 +267,7 @@ vi:{title:"TÌNH HÌNH CÚM GIA CẦM – VIỆT NAM",subtitle:"34 tỉnh/thành
  <li>Bản tin Cục CN&TY (cuối 7/2026): 80 ổ dịch/73 xã/17 tỉnh, &gt;349.400 con chết + tiêu hủy; khi đó 26 ổ dịch/9 tỉnh chưa qua 21 ngày (<a href="https://bnews.vn/tang-toc-tiem-vaccine-khong-che-cac-o-dich-cum-gia-cam-con-ton-tai/429988.html" target="_blank">BNEWS</a>). Không có ngày phát hiện từng ổ → không đưa lên bản đồ.</li>
  <li>Hưng Yên: 2 ổ H5N1 trong 9 tháng; đã qua 21 ngày tính đến 23/8/2026 (<a href="https://suckhoemoitruong.com.vn/chan-nuoi-hung-yen-9-thang-dau-nam-2026-day-manh-an-toan-sinh-hoc-kiem-soat-chat-dich-benh-va-chat-luong-30090.html" target="_blank">SK&MT</a>).</li></ul>`},
 en:{title:"AVIAN INFLUENZA SITUATION – VIETNAM",subtitle:"34 provinces/cities (2025 reorganization) · Alert while an outbreak is <b>within 21 days</b> of detection",
- refDate:"Reference date",toWorld:"🌏 World map",scan:"⟳ Scan news",auto:"⏱ Auto-scan 30′",light:"☀ Light",dark:"🌙 Dark",
+ refDate:"Reference date",back:"← Back to blog",toWorld:"🌏 World map",scan:"⟳ Scan news",auto:"⏱ Auto-scan 30′",light:"☀ Light",dark:"🌙 Dark",
  mapTitle:"Alert map",searchPh:"🔍 Find province…",optLabel:"🏷 Province + strain labels",optPulse:"📍 Pulse markers",optNb:"⚠ Bordering provinces",optHist:"🕘 History 22–90 days",
  strain:"Strain:",reset:"⤢ Whole country",full:"⛶ Full screen",print:"🖨 Print",
  overview:"Overview (21-day window)",kProv:"Affected provinces",kSick:"Infected",kDead:"Dead",kCull:"Culled",
