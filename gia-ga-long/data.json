@@ -2,7 +2,7 @@
  "meta": {
   "version": 1,
   "updated": "2026-10-13T22:55:33.627Z",
-  "lastScan": "2026-10-13T22:56:07.478Z",
+  "lastScan": "2026-10-13T23:44:09.709Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1344,6 +1344,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-13T23:44:09.709Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 40 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 51 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-13T22:56:07.478Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
