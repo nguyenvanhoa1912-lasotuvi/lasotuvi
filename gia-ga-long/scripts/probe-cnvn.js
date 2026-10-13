@@ -11,7 +11,9 @@ const out = []; const log = s => { out.push(s); console.log(s); };
   log("ITEM HTML\n" + html);
   seen.length = 0;
   const dlP = p.waitForEvent("download", { timeout: 15000 }).catch(() => null);
-  await p.click("text=13/10/2026", { timeout: 10000 }).catch(e => log("click1 " + e.message));
+  const anchors = await p.$$("a"); let target=null; for (const a of anchors){ const t=(await a.textContent()||"").trim(); if(/Thị trường chăn nuôi trong nước/.test(t)){target=a;break} }
+  log("anchor outer: " + (target ? await target.evaluate(e=>e.outerHTML.slice(0,800)) : "none"));
+  if (target) await target.click().catch(e=>log("click "+e.message));
   await p.waitForTimeout(5000);
   log("URL after click " + p.url());
   log("REQS after click\n" + seen.join("\n"));
