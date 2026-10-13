@@ -86,6 +86,36 @@
     return found ? res : null;
   }
 
+
+  /* ---------- Chăn nuôi Việt Nam (channuoivietnam.com): file Excel gốc "Thi truong SPCN ca nuoc" ---------- */
+  var CNVN = {
+    LIST: "https://channuoivietnam.com/sys_file.ctr/get_list_file/",
+    FOLDER: "31cfb8bf-e284-494d-9354-41645b966d35",
+    DL: function (f) { return "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=" + f.id + "&file_name=" + encodeURIComponent(f.file_name); },
+    PAGE: "https://channuoivietnam.com/portal-file/31cfb8bf-e284-494d-9354-41645b966d35"
+  };
+  function cnvnFiles(json) { // lọc file bảng giá tại trại cả nước
+    return ((json && json.list_file) || []).filter(function (f) { return /thi truong spcn ca nuoc/i.test(fold(f.file_name)) && /\.xlsx?$/i.test(f.file_name); })
+      .map(function (f) { var m = /(\d{4})\.(\d{2})\.(\d{2})/.exec(f.file_name); return { id: f.id, file_name: f.file_name, date: m ? iso(m[1], m[2], m[3]) : String(f.ngay_xuat_ban || "").slice(0, 10), url: CNVN.DL(f) }; });
+  }
+  /* rows: mảng các dòng (mảng ô) đọc từ Sheet1. Trả về cùng dạng parseNcnTable */
+  function parseSpcnRows(rows, url, dateHint) {
+    var res = { date: dateHint || null, url: url, mau: {}, trang: {}, mauBQ: {}, trangBQ: {}, warnings: [] }, found = 0;
+    (rows || []).forEach(function (r) {
+      var cells = (r || []).map(function (c) { return String(c == null ? "" : c).trim(); });
+      var t = /ngay\s*(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec(fold(cells[0] || ""));
+      if (t && /gia san pham chan nuoi/.test(fold(cells[0]))) { var d = iso(t[3], t[2], t[1]); if (res.date && d !== res.date) res.warnings.push("Ngày trong file " + d + " khác ngày tên file " + res.date); res.date = d; return; }
+      var lab = fold(cells[0] || "");
+      var reg = /mien bac/.test(lab) ? "Bac" : /mien trung/.test(lab) ? "Trung" : /mien nam/.test(lab) ? "Nam" : null; if (!reg) return;
+      var kind = /ga thit long mau/.test(lab) ? "mau" : /ga chuyen thit|ga (cong nghiep )?long trang/.test(lab) ? "trang" : null; if (!kind) return;
+      var day = toInt(cells[2]), avg = toInt(cells[3]);
+      if (!okPrice(day)) { res.warnings.push("Giá ngày ngoài khoảng hợp lý: " + cells.join(" | ")); return; }
+      res[kind][reg] = day; if (okPrice(avg)) res[kind + "BQ"][reg] = avg; found++;
+    });
+    if (found < 6) res.warnings.push("Chỉ đọc được " + found + "/6 dòng gà");
+    return found ? res : null;
+  }
+
   /* ---------- GreenFeed: bảng giá thị trường (sản phẩm chăn nuôi) ---------- */
   function parseGfDates(html) {
     var out = [], m, re = /type=vat-nuoi-price&(?:amp;)?date=(\d{4}-\d{2}-\d{2})/g, seen = {};
@@ -159,6 +189,7 @@
     return { url: url, title: pageTitle(html), date: pageDate(html), mentions: out };
   }
   function classify(url) {
+    if (/channuoivietnam\.com\/portal-file/i.test(url)) return "cnvn-list";
     if (/nguoichannuoi\.vn\/gia-san-pham-chan-nuoi-/i.test(url)) return "ncn-table";
     if (/nguoichannuoi\.vn\/thi-truong\/gia-ca/i.test(url)) return "ncn-list";
     if (/greenfeed\.com\.vn\/.*(bang-gia-thi-truong|market-price)/i.test(url)) return "gf-table";
@@ -187,6 +218,7 @@
       });
     }
     data.meta = data.meta || {}; data.meta.origin = data.meta.origin || {}; data.meta.origin[rec.date] = origin;
+    if (rec.url) { data.meta.src = data.meta.src || {}; data.meta.src[rec.date] = rec.url; }
     return { added: i < 0, changed: changed };
   }
   function mergeGf(data, rec) {
@@ -200,6 +232,7 @@
   }
 
   return {
+    CNVN: CNVN, cnvnFiles: cnvnFiles, parseSpcnRows: parseSpcnRows,
     NCN_LIST_PAGES: NCN_LIST_PAGES, GF_URL: GF_URL, NEWS_RSS: NEWS_RSS,
     strip: strip, fold: fold, toInt: toInt,
     parseNcnListing: parseNcnListing, parseNcnTable: parseNcnTable, dateFromNcnUrl: dateFromNcnUrl,

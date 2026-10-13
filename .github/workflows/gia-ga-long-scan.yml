@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
+      - name: Cài thư viện đọc Excel
+        run: npm i --no-save xlsx@0.18.5
       - name: Quét nguồn
         run: node gia-ga-long/scripts/scan.js
       - name: Lưu data.json nếu có thay đổi

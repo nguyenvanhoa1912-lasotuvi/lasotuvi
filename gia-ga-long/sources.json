@@ -7,7 +7,14 @@
     "https://news.google.com/rss/search?q=%22g%C3%A0+l%C3%B4ng+tr%E1%BA%AFng%22+OR+%22g%C3%A0+c%C3%B4ng+nghi%E1%BB%87p%22+when:14d&hl=vi&gl=VN&ceid=VN:vi"
   ],
   "extra": [
-    { "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)", "url": "https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/" },
-    { "name": "Người Chăn Nuôi – Giá gà thịt giảm sâu (Thanh Hóa)", "url": "https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/" }
-  ]
+    {
+      "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)",
+      "url": "https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/"
+    },
+    {
+      "name": "Người Chăn Nuôi – Giá gà thịt giảm sâu (Thanh Hóa)",
+      "url": "https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/"
+    }
+  ],
+  "cnvn_from": "2026-01-01"
 }

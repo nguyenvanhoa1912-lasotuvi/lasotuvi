@@ -33,7 +33,36 @@ function log(s) { console.log(s); LOG.push(s); }
   const stats = { ncnNew: [], gfNew: 0, news: 0, mentions: 0, errors: 0 };
   const have = new Set(data.weekly.map(r => r[0]));
 
-  // 1) Tạp chí Chăn nuôi VN: danh mục Giá cả -> bảng giá tại trại chưa có
+  // 0) Chăn nuôi Việt Nam (channuoivietnam.com): file Excel gốc — NGUỒN CHÍNH
+  let XLSX = null; try { XLSX = require("xlsx"); } catch (e) { log("Thiếu thư viện xlsx, bỏ qua file Excel"); }
+  if (XLSX) {
+    try {
+      const r = await fetch(C.CNVN.LIST, { method: "POST", headers: { ...UA, "content-type": "application/json" }, body: JSON.stringify({ page: 1, id: C.CNVN.FOLDER }), signal: AbortSignal.timeout(30000) });
+      const files = C.cnvnFiles(await r.json()).filter(f => f.date >= (cfg.cnvn_from || "2026-01-01"));
+      const origin = data.meta.origin || {};
+      const todo = files.filter(f => origin[f.date] !== "cnvn");
+      log(`Chăn nuôi Việt Nam: ${files.length} file Excel từ ${cfg.cnvn_from || "2026-01-01"}, cần đọc ${todo.length}`);
+      for (const f of todo) {
+        let buf = null;
+        for (let i = 0; i < 2 && !buf; i++) { try { const x = await fetch(f.url, { headers: UA, signal: AbortSignal.timeout(30000) }); const b = Buffer.from(await x.arrayBuffer()); if (x.ok && b.slice(0, 2).toString() === "PK") buf = b; } catch (e) {} if (!buf) await sleep(1500); }
+        if (!buf) { stats.errors++; log(`  ✕ Không tải được ${f.file_name}`); continue; }
+        const wb = XLSX.read(buf, { type: "buffer" });
+        const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1, raw: false, defval: "" });
+        const rec = C.parseSpcnRows(rows, f.url, f.date);
+        if (!rec) { log(`  ✕ Không đọc được bảng trong ${f.file_name}`); continue; }
+        rec.warnings.forEach(w => log(`  ⚠ ${rec.date}: ${w}`));
+        const existed = have.has(rec.date);
+        const m = C.mergeNcn(data, rec, "cnvn");
+        if (m.reason) { log(`  bỏ qua ${rec.date}: ${m.reason}`); continue; }
+        have.add(rec.date);
+        if (!existed) { stats.ncnNew.push(rec.date); log(`  + ${rec.date}: trắng ${rec.trang.Bac}/${rec.trang.Trung}/${rec.trang.Nam} · màu ${rec.mau.Bac}/${rec.mau.Trung}/${rec.mau.Nam}`); }
+        else if (m.changed) log(`  ↻ ${rec.date}: cập nhật theo file gốc`);
+        await sleep(500);
+      }
+    } catch (e) { stats.errors++; log("Lỗi đọc channuoivietnam.com: " + e.message); }
+  }
+
+  // 1) Tạp chí Chăn nuôi VN (đăng lại cùng bảng): dự phòng khi file Excel chưa có
   const posts = [];
   for (const u of C.NCN_LIST_PAGES(cfg.ncn_list_pages || 3)) {
     const h = await get(u); if (!h) { stats.errors++; continue; }
