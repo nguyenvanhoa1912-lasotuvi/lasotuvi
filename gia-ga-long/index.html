@@ -4,530 +4,669 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Theo dõi giá gà lông</title>
-<meta name="description" content="Giá gà hơi tại trại (gà trắng, gà lông màu) theo 3 miền năm 2026, tổng hợp từ bảng giá Tạp chí Chăn nuôi Việt Nam, có nguồn dẫn.">
+<meta name="description" content="Giá gà hơi tại trại (gà trắng, gà lông màu) theo 3 miền năm 2026, quét tự động từ Tạp chí Chăn nuôi Việt Nam và GreenFeed, có nguồn dẫn.">
 <meta property="og:title" content="Theo dõi giá gà lông">
-<meta property="og:description" content="Giá gà hơi tại trại theo 3 miền, biểu đồ T1–T12/2026, song ngữ VI/EN.">
-<meta name="theme-color" content="#0f1512">
-<style>html,body{margin:0;background:#0f1512}body{padding:16px}#gagl26{max-width:1200px;margin:0 auto}</style>
+<meta property="og:description" content="Giá gà hơi tại trại 3 miền, biểu đồ T1–T12/2026, cập nhật tự động, song ngữ VI/EN.">
+<meta name="theme-color" content="#070c19">
+<style>html,body{margin:0;background:#070c19}html.light,html.light body{background:#eef2f9}#gagl26{border-radius:0;min-height:100vh}</style>
+<script>try{if(localStorage.getItem("cgc_theme")==="light")document.documentElement.className="light"}catch(e){}</script>
 </head>
 <body>
 <!-- ===== BẮT ĐẦU: THEO DÕI GIÁ GÀ LÔNG (Blogger embed) ===== -->
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;family=Fraunces:opsz,wght@9..144,600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <style>
-/* Layout: widget nhúng Blogger, nền đậm cố định, mọi selector khóa trong #gagl26 để không đụng theme */
+/* Layout: đồng bộ bộ màu trang Cúm gia cầm — banner gradient đỏ, thẻ bo 14px có vạch màu, nền tối mặc định + chế độ sáng; khóa trong #gagl26 */
 #gagl26{
-  --bg:#0f1512; --surface:#18201c; --surface2:#1e2823; --ink:#e7ede8; --muted:#9aa89f; --line:#2c3831; --grid:#232d28;
-  --accent:#e2a93a; --accent-soft:#3a2f17; --teal:#5cc3a6; --teal-ink:#0f1512;
-  --up:#ef8a78; --down:#6cd29b; --warn:#f0b85a; --warn-bg:#382a12; --alert-bg:#3d211c; --future:#1b2420;
-  --s-bac:#5cc3a6; --s-trung:#e2a93a; --s-nam:#a9a4f0;
-  --f-display:"Fraunces",Georgia,"Times New Roman",serif;
-  --f-body:"Be Vietnam Pro","Segoe UI",Arial,sans-serif;
-  --f-mono:"IBM Plex Mono",Consolas,"Courier New",monospace;
-  color-scheme:dark;
-  background:var(--bg); color:var(--ink);
-  font:15px/1.5 var(--f-body);
-  padding:20px 16px 28px; border-radius:10px;
-  max-width:100%; overflow:hidden; text-align:left;
+  --bg:#070c19;--panel:#0f172b;--panel2:#16213b;--ink:#eaf0ff;--muted:#8d9cbd;--line:#243152;--grid:#1b2643;
+  --red:#ff2e4d;--red-bg:rgba(255,46,77,.16);--amber:#ffb020;--amber-bg:rgba(255,176,32,.16);
+  --ok:#27d196;--ok-bg:rgba(39,209,150,.14);--accent:#4f8cff;--accent2:#7c4dff;--cyan:#29c5f6;--violet:#a36bff;
+  --s-bac:#29c5f6;--s-trung:#ffb020;--s-nam:#a36bff;--future:rgba(36,49,82,.35);
+  --shadow:0 8px 28px rgba(0,0,0,.45);
+  --f-body:"Be Vietnam Pro","Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:ui-monospace,Consolas,"Courier New",monospace;
+  color-scheme:dark;background:var(--bg);color:var(--ink);
+  font:14px/1.5 var(--f-body);border-radius:14px;max-width:100%;overflow:hidden;text-align:left;
+}
+#gagl26[data-theme="light"]{
+  --bg:#eef2f9;--panel:#ffffff;--panel2:#f4f7fc;--ink:#101a33;--muted:#5a6a8a;--line:#d7deeb;--grid:#e6ebf4;
+  --red:#e0193a;--red-bg:#ffe3e8;--amber:#c27a00;--amber-bg:#fff2d6;--ok:#0f9d6b;--ok-bg:#dcf6ec;
+  --accent:#2f6fe4;--accent2:#6a3fe0;--cyan:#0b8fc2;--violet:#7a45e0;
+  --s-bac:#0b8fc2;--s-trung:#c27a00;--s-nam:#7a45e0;--future:#e8edf6;
+  --shadow:0 6px 20px rgba(20,40,80,.12);color-scheme:light;
 }
 #gagl26 *,#gagl26 *::before,#gagl26 *::after{box-sizing:border-box}
 #gagl26 h1,#gagl26 h2,#gagl26 p,#gagl26 ul,#gagl26 table{margin:0}
-#gagl26 h1{font:600 clamp(24px,4vw,36px)/1.1 var(--f-display);color:var(--ink);letter-spacing:-.01em;text-wrap:balance;padding:0;border:0;background:none;text-transform:none}
-#gagl26 h2{font:600 12.5px/1.3 var(--f-body);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);padding:0;border:0;background:none}
-#gagl26 a{color:var(--teal);text-decoration:underline;text-underline-offset:2px}
-#gagl26 img{max-width:100%}
+#gagl26 a{color:var(--accent)}
 #gagl26 [hidden]{display:none!important}
-#gagl26 .wrap{display:grid;gap:18px}
-#gagl26 .num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+#gagl26 .num{font-variant-numeric:tabular-nums}
 #gagl26 .muted{color:var(--muted)}
-#gagl26 .note{font-size:12.5px;color:var(--muted)}
-#gagl26 .head{display:grid;gap:10px}
-#gagl26 .sub{color:var(--muted);max-width:75ch}
-#gagl26 .facts{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px}
-#gagl26 .facts b{font-weight:600;color:var(--ink)}
-#gagl26 .panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px;min-width:0;display:grid;gap:12px;align-content:start}
-#gagl26 .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+#gagl26 .note{font-size:11.5px;color:var(--muted)}
+/* banner */
+#gagl26 .hdr{padding:14px 18px;background:linear-gradient(110deg,#1a0b2e 0%,#3a0d2a 35%,#7a0f25 70%,#b3121f 100%);color:#fff;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between;box-shadow:var(--shadow)}
+#gagl26 .hdr h1{font:800 20px/1.25 var(--f-body);letter-spacing:.5px;margin:0;display:flex;align-items:center;gap:10px;color:#fff;text-transform:uppercase;padding:0;border:0;background:none}
+#gagl26 .hdr .dot{width:12px;height:12px;border-radius:50%;background:#ffb020;box-shadow:0 0 0 0 rgba(255,176,32,.8);animation:g26pulse 1.8s infinite;flex:none}
+@keyframes g26pulse{0%{box-shadow:0 0 0 0 rgba(255,176,32,.8)}70%{box-shadow:0 0 0 14px rgba(255,176,32,0)}100%{box-shadow:0 0 0 0 rgba(255,176,32,0)}}
+@media (prefers-reduced-motion:reduce){#gagl26 .hdr .dot{animation:none}}
+#gagl26 .hdr .sub{color:#ffd6dc;font-size:12px;margin-top:2px}
+#gagl26 .hdr .row{gap:6px}
+#gagl26 a.nav{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.45);border-radius:18px;padding:4px 11px;font-size:12px;font-weight:600;white-space:nowrap}
+#gagl26 a.nav.back{background:#fff;color:#8a0f22;font-weight:700;display:none}
+#gagl26[data-standalone] a.nav.back{display:inline-block}
+#gagl26 .hdr .tbtn{border-color:rgba(255,255,255,.45);color:#fff}
+#gagl26 .lang{display:inline-flex;border:1px solid rgba(255,255,255,.45);border-radius:18px;overflow:hidden}
+#gagl26 .lang button{background:transparent;color:#fff;border:0;border-radius:0;padding:4px 11px;font:700 12px var(--f-body);cursor:pointer;margin:0;box-shadow:none}
+#gagl26 .lang button.on{background:#fff;color:#8a0f22}
+/* khung */
+#gagl26 .wrap{display:grid;gap:14px;padding:14px 18px 18px}
+#gagl26 .intro{display:grid;gap:6px}
+#gagl26 .intro p{color:var(--muted);max-width:90ch;font-size:13px}
+#gagl26 .facts{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:12.5px;color:var(--muted)}
+#gagl26 .facts b{color:var(--ink);font-weight:700}
+#gagl26 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);min-width:0}
+#gagl26 .card h2{font:700 14px/1.3 var(--f-body);margin:0;padding:11px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;background:var(--panel2);color:var(--ink);text-transform:none;letter-spacing:0}
+#gagl26 .card h2 .t{display:flex;align-items:center}
+#gagl26 .card h2 .t::before{content:"";width:4px;height:16px;border-radius:2px;background:linear-gradient(var(--red),var(--accent2));margin-right:8px;flex:none}
+#gagl26 .card .body{padding:12px 14px;display:grid;gap:10px}
+#gagl26 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+#gagl26 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 #gagl26 .between{justify-content:space-between}
-#gagl26 .kgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
-#gagl26 .kpi{background:var(--surface2);border:1px solid var(--line);border-radius:6px;padding:11px 13px;display:grid;gap:3px;min-width:0}
-#gagl26 .kpi .lbl{display:flex;justify-content:space-between;gap:6px;font-size:12.5px;color:var(--muted)}
-#gagl26 .kpi .val{font:600 20px var(--f-mono);font-variant-numeric:tabular-nums;color:var(--ink)}
-#gagl26 .kpi .meta{font-size:12px;color:var(--muted)}
-#gagl26 .kpi.alert{background:var(--alert-bg);border-color:var(--up)}
-#gagl26 .kpi.flag{border-color:var(--warn)}
-#gagl26 .chip{font:500 11px var(--f-mono);padding:1px 6px;border-radius:3px;background:var(--accent-soft);color:var(--ink);white-space:nowrap}
-#gagl26 .chip.warn{background:var(--warn-bg);color:var(--warn)}
-#gagl26 .up{color:var(--up)} #gagl26 .down{color:var(--down)}
-#gagl26 .seg{display:inline-flex;border:1px solid var(--line);border-radius:5px;overflow:hidden}
-#gagl26 .seg button{border:0;margin:0;background:transparent;color:var(--ink);font:500 13px var(--f-body);padding:6px 11px;cursor:pointer;box-shadow:none;text-transform:none;border-radius:0;line-height:1.4}
-#gagl26 .seg button[aria-pressed="true"]{background:var(--teal);color:var(--teal-ink)}
-#gagl26 button:focus-visible,#gagl26 input:focus-visible,#gagl26 a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-#gagl26 input[type=number]{font:14px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:6px 8px;width:130px;margin:0;box-shadow:none}
-#gagl26 label{font-size:12.5px;color:var(--muted);display:grid;gap:3px;margin:0}
-#gagl26 label.inline{display:flex;gap:6px;align-items:center;cursor:pointer}
-#gagl26 .btn{font:600 13px var(--f-body);background:transparent;color:var(--teal);border:1px solid var(--teal);border-radius:4px;padding:7px 13px;cursor:pointer;margin:0;box-shadow:none;text-transform:none}
-#gagl26 .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px}
+/* KPI */
+#gagl26 .kgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:10px}
+#gagl26 .kpi{border-radius:12px;padding:10px 12px 10px 15px;background:var(--panel2);border:1px solid var(--line);position:relative;overflow:hidden;display:grid;gap:2px;min-width:0}
+#gagl26 .kpi::after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--c,var(--accent))}
+#gagl26 .kpi .lbl{display:flex;justify-content:space-between;gap:6px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+#gagl26 .kpi .val{font:800 24px/1.15 var(--f-body);font-variant-numeric:tabular-nums;color:var(--ink)}
+#gagl26 .kpi .meta{font-size:11.5px;color:var(--muted)}
+#gagl26 .kpi.alert{border-color:var(--red);background:var(--red-bg)}
+#gagl26 .kpi.flag{border-color:var(--amber)}
+#gagl26 .up{color:var(--red)} #gagl26 .down{color:var(--ok)}
+#gagl26 .badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;white-space:nowrap}
+#gagl26 .b-red{background:var(--red-bg);color:var(--red)}
+#gagl26 .b-amber{background:var(--amber-bg);color:var(--amber)}
+#gagl26 .b-ok{background:var(--ok-bg);color:var(--ok)}
+#gagl26 .b-grey{border:1px solid var(--line);color:var(--muted)}
+#gagl26 .b-blue{background:rgba(79,140,255,.16);color:var(--accent)}
+/* nút */
+#gagl26 button{font:600 13px var(--f-body);margin:0;box-shadow:none;text-transform:none;line-height:1.4}
+#gagl26 .btn{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:0;border-radius:8px;padding:6px 12px;cursor:pointer}
+#gagl26 .btn:disabled{opacity:.5;cursor:wait}
+#gagl26 .tbtn{background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:18px;padding:4px 11px;font-size:12px;font-weight:500;cursor:pointer;display:inline-flex;align-items:center;gap:5px;user-select:none}
+#gagl26 .tbtn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+#gagl26 .tbtn input{display:none}
+#gagl26 button:focus-visible,#gagl26 a:focus-visible,#gagl26 input:focus-visible,#gagl26 textarea:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+#gagl26 input[type=number],#gagl26 input[type=text]{font:13px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px;width:130px;margin:0;box-shadow:none;height:auto}
+#gagl26 textarea{width:100%;min-height:76px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:7px;font:12px/1.45 var(--f-mono);resize:vertical;margin:0}
+#gagl26 label{font-size:11.5px;color:var(--muted);display:grid;gap:3px;margin:0}
+#gagl26 .thr{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start}
+/* biểu đồ */
+#gagl26 .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--muted)}
 #gagl26 .legend i{display:inline-block;width:16px;height:3px;border-radius:2px;margin-right:6px;vertical-align:middle}
+#gagl26 .legend i.dash{background:none!important;border-top:2px dashed var(--muted);height:0}
 #gagl26 .legend i.ref{width:9px;height:9px;border:2px solid var(--muted);border-radius:0;transform:rotate(45deg);background:transparent;margin-right:8px}
 #gagl26 .chart{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 #gagl26 .chart svg{display:block;min-width:560px;width:100%;height:auto;max-width:none}
-#gagl26 svg text{font-family:var(--f-mono);font-size:11px;fill:var(--muted)}
-#gagl26 .readout{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:6px 16px;font-size:13px;min-height:44px;border-top:1px dashed var(--line);padding-top:10px}
-#gagl26 .readout b{font-family:var(--f-mono);font-weight:600;color:var(--ink)}
-#gagl26 .tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
-#gagl26 table{border-collapse:collapse;width:100%;font-size:13px;background:transparent;border:0}
-#gagl26 th{text-align:left;font-weight:600;font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;border:0;border-bottom:1px solid var(--line);padding:8px;white-space:nowrap;background:transparent}
-#gagl26 td{border:0;border-bottom:1px solid var(--line);padding:7px 8px;vertical-align:top;color:var(--ink);background:transparent}
+#gagl26 svg text{font-family:var(--f-body);font-size:11px;fill:var(--muted)}
+#gagl26 .readout{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px 16px;font-size:12.5px;min-height:40px;border-top:1px dashed var(--line);padding-top:10px}
+#gagl26 .readout b{font-weight:800;color:var(--ink)}
+/* bảng */
+#gagl26 .tbl{overflow:auto;-webkit-overflow-scrolling:touch}
+#gagl26 .tbl.scroll{max-height:420px}
+#gagl26 table{border-collapse:collapse;width:100%;font-size:12.5px;background:transparent;border:0}
+#gagl26 th{text-align:left;font-weight:600;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;border:0;border-bottom:1px solid var(--line);padding:7px 6px;white-space:nowrap;background:var(--panel);position:sticky;top:0;z-index:1}
+#gagl26 td{border:0;border-bottom:1px solid var(--line);padding:7px 6px;vertical-align:top;color:var(--ink);background:transparent}
 #gagl26 td.r,#gagl26 th.r{text-align:right}
-#gagl26 th.grp{text-align:center;border-bottom:2px solid var(--line)}
+#gagl26 th.grp{text-align:center}
 #gagl26 tr.future td{background:var(--future);color:var(--muted)}
 #gagl26 tr.ref td{font-style:italic}
-#gagl26 td .d{display:block;font-size:11.5px}
+#gagl26 td .d{display:block;font-size:11px}
 #gagl26 .matrix{min-width:780px}
-#gagl26 .ledger{min-width:820px}
-#gagl26 td.over{background:var(--alert-bg)}
-#gagl26 td.flagcell{background:var(--warn-bg)}
-#gagl26 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+#gagl26 .ledger{min-width:860px}
+#gagl26 td.over{background:var(--red-bg)}
+#gagl26 td.flagcell{background:var(--amber-bg)}
 #gagl26 ul.clean{padding:0 0 0 18px;display:grid;gap:6px;list-style:disc}
-#gagl26 ul.clean li{margin:0;padding:0;background:none;color:var(--ink);list-style:disc}
+#gagl26 ul.clean li{margin:0;padding:0;background:none;list-style:disc;color:var(--ink)}
 #gagl26 ul.clean li::before{content:none}
-#gagl26 .thr{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start}
-#gagl26 .thr label{align-content:start}
-#gagl26 input[type=number]{height:auto;min-height:0}
-#gagl26 .foot{font-size:12px;color:var(--muted);text-align:right}
-#gagl26 a.back{display:none;align-items:center;gap:4px;background:var(--ink);color:var(--bg);text-decoration:none;font:700 13px var(--f-body);padding:6px 13px;border-radius:18px;white-space:nowrap}
-#gagl26 a.back:hover{background:var(--teal)}
-#gagl26[data-standalone] a.back{display:inline-flex}
+/* quét & nguồn */
+#gagl26 .status{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted)}
+#gagl26 .status b{color:var(--ink)}
+#gagl26 .sdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--muted);margin-right:6px;vertical-align:middle}
+#gagl26 .sdot.ok{background:var(--ok)} #gagl26 .sdot.err{background:var(--red)} #gagl26 .sdot.run{background:var(--amber)}
+#gagl26 .prog{height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+#gagl26 .prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--red));transition:width .3s}
+#gagl26 .log{font:12px/1.45 var(--f-mono);color:var(--muted);max-height:180px;overflow:auto;white-space:pre-wrap;word-break:break-word;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px}
+#gagl26 .srcs{display:grid;gap:6px;font-size:12.5px}
+#gagl26 .srcs .s{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+#gagl26 .xbtn{border:0;background:transparent;color:var(--red);cursor:pointer;font:700 13px var(--f-body);padding:0 4px}
+#gagl26 .news{display:grid;gap:8px;font-size:13px}
+#gagl26 .news .it{display:grid;gap:2px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+#gagl26 .news .it:last-child{border-bottom:0}
+#gagl26 .mention{font-size:12.5px;border-left:3px solid var(--line);padding:2px 0 2px 10px}
+#gagl26 details summary{cursor:pointer;font-weight:600;padding:4px 0;color:var(--ink)}
+#gagl26 .foot{font-size:11.5px;color:var(--muted);text-align:right;padding:0 18px 14px}
+@media(max-width:600px){#gagl26 .wrap{padding:10px;gap:10px}#gagl26 .hdr{padding:10px 12px}#gagl26 .hdr h1{font-size:16px}#gagl26 .kpi .val{font-size:20px}}
 </style>
-<div id="gagl26" lang="vi" data-standalone="1">
-<div class="wrap">
-
-<header class="head">
-  <div class="row between" style="align-items:flex-start">
-    <h1 data-i18n="title">Theo dõi giá gà lông</h1>
-    <div class="row">
-    <a class="back" href="https://avian-influenza-situation.blogspot.com/" target="_top" data-i18n="back">← Về Blog</a>
-    <div class="seg noprint" role="group" aria-label="Ngôn ngữ / Language" id="g26-segLang">
-      <button type="button" data-v="vi" aria-pressed="true">VI</button>
-      <button type="button" data-v="en" aria-pressed="false">EN</button>
-    </div>
-    </div>
+<div id="gagl26" lang="vi" data-theme="dark" data-standalone="1">
+<header class="hdr">
+  <div>
+    <h1><span class="dot" aria-hidden="true"></span><span data-i18n="title"></span></h1>
+    <div class="sub" data-i18n="subtitle"></div>
   </div>
-  <p class="sub" data-i18n="sub"></p>
-  <div class="facts">
-    <span><span data-i18n="unitL"></span> <b data-i18n="unitV"></b></span>
-    <span><span data-i18n="mainL"></span> <b id="g26-fCount">–</b> <span data-i18n="tables"></span>, <b id="g26-fRange">–</b></span>
-    <span><span data-i18n="latestRefL"></span> <b>GreenFeed 01/10/2026</b></span>
-    <span><span data-i18n="madeL"></span> <b>13/10/2026</b></span>
+  <div class="row">
+    <a class="nav back" href="https://avian-influenza-situation.blogspot.com/" target="_top" data-i18n="back"></a>
+    <a class="nav" href="https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/" target="_top" data-i18n="toFlu"></a>
+    <button type="button" class="tbtn" id="g26-theme"></button>
+    <div class="lang" role="group" aria-label="Ngôn ngữ / Language" id="g26-lang"><button type="button" data-v="vi">VI</button><button type="button" data-v="en">EN</button></div>
   </div>
 </header>
 
-<section class="panel" aria-labelledby="g26-h-kpi">
-  <div class="row between">
-    <h2 id="g26-h-kpi" data-i18n="hKpi"></h2>
-    <span class="note" data-i18n="kpiNote"></span>
-  </div>
-  <div class="kgrid" id="g26-kpis"></div>
-</section>
-
-<section class="panel" aria-labelledby="g26-h-chart">
-  <div class="row between">
-    <h2 id="g26-h-chart" data-i18n="hChart"></h2>
-    <div class="row noprint">
-      <div class="seg" role="group" id="g26-segProd">
-        <button type="button" data-v="trang" aria-pressed="true" data-i18n="segTrang"></button>
-        <button type="button" data-v="mau" aria-pressed="false" data-i18n="segMau"></button>
-      </div>
-      <div class="seg" role="group" id="g26-segGran">
-        <button type="button" data-v="m" aria-pressed="true" data-i18n="byMonth"></button>
-        <button type="button" data-v="w" aria-pressed="false" data-i18n="byWeek"></button>
-      </div>
-      <label class="inline"><input type="checkbox" id="g26-showRef" checked> <span data-i18n="refPts"></span></label>
+<div class="wrap">
+  <div class="intro">
+    <p data-i18n="sub"></p>
+    <div class="facts">
+      <span><span data-i18n="unitL"></span> <b data-i18n="unitV"></b></span>
+      <span><span data-i18n="mainL"></span> <b id="g26-fCount">–</b> <span data-i18n="tables"></span> <b id="g26-fRange">–</b></span>
+      <span><span data-i18n="gfL"></span> <b id="g26-fGf">–</b></span>
+      <span><span data-i18n="updL"></span> <b id="g26-fUpd">–</b></span>
     </div>
   </div>
-  <div class="legend" id="g26-legend"></div>
-  <div class="chart" id="g26-chart"></div>
-  <div class="readout" id="g26-readout"></div>
-  <p class="note" id="g26-chartNote"></p>
-</section>
 
-<section class="panel" aria-labelledby="g26-h-matrix">
-  <div class="row between">
-    <h2 id="g26-h-matrix" data-i18n="hMatrix"></h2>
-    <button type="button" class="btn noprint" id="g26-csvBtn" data-i18n="csv"></button>
-  </div>
-  <div class="tbl"><table class="matrix" id="g26-matrix"></table></div>
-  <p class="note" data-i18n="matrixNote"></p>
-</section>
+  <section class="card" aria-labelledby="g26-h-kpi">
+    <h2 id="g26-h-kpi"><span class="t" data-i18n="hKpi"></span><span class="note" data-i18n="kpiNote"></span></h2>
+    <div class="body"><div class="kgrid" id="g26-kpis"></div></div>
+  </section>
 
-<div class="grid2">
-  <section class="panel" aria-labelledby="g26-h-thr">
-    <h2 id="g26-h-thr" data-i18n="hThr"></h2>
-    <div class="thr">
-      <label for="g26-thr_trang"><span data-i18n="thrTrang"></span><input id="g26-thr_trang" type="number" min="0" step="500" inputmode="numeric" placeholder="32000"></label>
-      <label for="g26-thr_mau"><span data-i18n="thrMau"></span><input id="g26-thr_mau" type="number" min="0" step="500" inputmode="numeric" placeholder="50000"></label>
+  <section class="card" aria-labelledby="g26-h-chart">
+    <h2 id="g26-h-chart"><span class="t" data-i18n="hChart"></span>
+      <span class="row">
+        <span class="row" id="g26-segProd"><button type="button" class="tbtn on" data-v="trang" data-i18n="segTrang"></button><button type="button" class="tbtn" data-v="mau" data-i18n="segMau"></button></span>
+        <span class="row" id="g26-segGran"><button type="button" class="tbtn on" data-v="m" data-i18n="byMonth"></button><button type="button" class="tbtn" data-v="w" data-i18n="byWeek"></button></span>
+        <label class="tbtn on" id="g26-refLbl"><input type="checkbox" id="g26-showRef" checked><span data-i18n="refPts"></span></label>
+      </span>
+    </h2>
+    <div class="body">
+      <div class="legend" id="g26-legend"></div>
+      <div class="chart" id="g26-chart"></div>
+      <div class="readout" id="g26-readout"></div>
+      <p class="note" id="g26-chartNote"></p>
     </div>
-    <p class="note" data-i18n="thrNote"></p>
   </section>
-  <section class="panel" aria-labelledby="g26-h-insight">
-    <h2 id="g26-h-insight" data-i18n="hInsight"></h2>
-    <ul class="clean" id="g26-insights"></ul>
-  </section>
-</div>
 
-<section class="panel" aria-labelledby="g26-h-ledger">
-  <div class="row between">
-    <h2 id="g26-h-ledger" data-i18n="hLedger"></h2>
-    <span class="note" data-i18n="ledgerNote"></span>
+  <section class="card" aria-labelledby="g26-h-matrix">
+    <h2 id="g26-h-matrix"><span class="t" data-i18n="hMatrix"></span><button type="button" class="btn" id="g26-csv" data-i18n="csv"></button></h2>
+    <div class="body">
+      <div class="tbl"><table class="matrix" id="g26-matrix"></table></div>
+      <p class="note" data-i18n="matrixNote"></p>
+    </div>
+  </section>
+
+  <div class="grid2">
+    <section class="card" aria-labelledby="g26-h-scan">
+      <h2 id="g26-h-scan"><span class="t" data-i18n="hScan"></span><span id="g26-scanBadge"></span></h2>
+      <div class="body">
+        <div class="status" id="g26-status"></div>
+        <div class="row">
+          <button type="button" class="btn" id="g26-scanNow" data-i18n="scanNow"></button>
+          <button type="button" class="tbtn" id="g26-reload" data-i18n="reload"></button>
+          <a class="tbtn" style="text-decoration:none" href="https://github.com/nguyenvanhoa1912-lasotuvi/lasotuvi/actions/workflows/gia-ga-long-scan.yml" target="_blank" rel="noopener" data-i18n="runGh"></a>
+        </div>
+        <div class="prog"><i id="g26-prog"></i></div>
+        <div class="log" id="g26-log"></div>
+        <p class="note" data-i18n="scanNote"></p>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="g26-h-src">
+      <h2 id="g26-h-src"><span class="t" data-i18n="hSrc"></span></h2>
+      <div class="body">
+        <div class="srcs" id="g26-srcs"></div>
+        <label for="g26-addSrc"><span data-i18n="addL"></span>
+          <textarea id="g26-addSrc" spellcheck="false" placeholder="https://…&#10;Tên nguồn | https://…"></textarea></label>
+        <div class="row">
+          <button type="button" class="btn" id="g26-addBtn" data-i18n="addBtn"></button>
+          <a class="tbtn" style="text-decoration:none" href="https://github.com/nguyenvanhoa1912-lasotuvi/lasotuvi/edit/main/gia-ga-long/sources.json" target="_blank" rel="noopener" data-i18n="saveGh"></a>
+          <span class="note" id="g26-addMsg"></span>
+        </div>
+        <p class="note" data-i18n="addNote"></p>
+      </div>
+    </section>
   </div>
-  <div class="tbl"><table class="ledger" id="g26-ledger"></table></div>
-</section>
 
-<div class="grid2">
-  <section class="panel" aria-labelledby="g26-h-ref">
-    <h2 id="g26-h-ref" data-i18n="hRef"></h2>
-    <div class="tbl"><table id="g26-refTable"></table></div>
+  <div class="grid2">
+    <section class="card" aria-labelledby="g26-h-insight">
+      <h2 id="g26-h-insight"><span class="t" data-i18n="hInsight"></span></h2>
+      <div class="body"><ul class="clean" id="g26-insights"></ul></div>
+    </section>
+    <section class="card" aria-labelledby="g26-h-thr">
+      <h2 id="g26-h-thr"><span class="t" data-i18n="hThr"></span></h2>
+      <div class="body">
+        <div class="thr">
+          <label for="g26-thr_trang"><span data-i18n="thrTrang"></span><input id="g26-thr_trang" type="number" min="0" step="500" inputmode="numeric" placeholder="32000"></label>
+          <label for="g26-thr_mau"><span data-i18n="thrMau"></span><input id="g26-thr_mau" type="number" min="0" step="500" inputmode="numeric" placeholder="50000"></label>
+        </div>
+        <p class="note" data-i18n="thrNote"></p>
+      </div>
+    </section>
+  </div>
+
+  <section class="card" aria-labelledby="g26-h-ledger">
+    <h2 id="g26-h-ledger"><span class="t" data-i18n="hLedger"></span><span class="note" data-i18n="ledgerNote"></span></h2>
+    <div class="body">
+      <div class="tbl scroll"><table class="ledger" id="g26-ledger"></table></div>
+      <details><summary data-i18n="gfTableT"></summary><div class="tbl scroll"><table class="ledger" id="g26-gfTable"></table></div></details>
+    </div>
   </section>
-  <section class="panel" aria-labelledby="g26-h-ta">
-    <h2 id="g26-h-ta" data-i18n="hTa"></h2>
-    <p class="note" style="margin:0" data-i18n="taIntro"></p>
-    <ul class="clean" id="g26-taList"></ul>
+
+  <div class="grid2">
+    <section class="card" aria-labelledby="g26-h-news">
+      <h2 id="g26-h-news"><span class="t" data-i18n="hNews"></span></h2>
+      <div class="body"><div class="news" id="g26-news"></div></div>
+    </section>
+    <section class="card" aria-labelledby="g26-h-men">
+      <h2 id="g26-h-men"><span class="t" data-i18n="hMen"></span></h2>
+      <div class="body"><p class="note" data-i18n="menNote"></p><div class="news" id="g26-mentions"></div></div>
+    </section>
+  </div>
+
+  <div class="grid2">
+    <section class="card" aria-labelledby="g26-h-ref">
+      <h2 id="g26-h-ref"><span class="t" data-i18n="hRef"></span></h2>
+      <div class="body"><div class="tbl"><table id="g26-refTable"></table></div></div>
+    </section>
+    <section class="card" aria-labelledby="g26-h-ta">
+      <h2 id="g26-h-ta"><span class="t" data-i18n="hTa"></span></h2>
+      <div class="body"><p class="note" data-i18n="taIntro"></p><ul class="clean" id="g26-taList"></ul></div>
+    </section>
+  </div>
+
+  <section class="card" aria-labelledby="g26-h-method">
+    <h2 id="g26-h-method"><span class="t" data-i18n="hMethod"></span></h2>
+    <div class="body"><ul class="clean" id="g26-method"></ul></div>
   </section>
 </div>
-
-<section class="panel" aria-labelledby="g26-h-method">
-  <h2 id="g26-h-method" data-i18n="hMethod"></h2>
-  <ul class="clean" id="g26-method"></ul>
-</section>
-
+<p class="foot" data-i18n="foot"></p>
 </div>
-<p class="foot">Nguồn chính: Tạp chí Chăn nuôi Việt Nam (nguoichannuoi.vn) · cập nhật 13/10/2026</p>
-</div>
+<script src="https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/gia-ga-long/scanner-core.js"></script>
 <script>
 //<![CDATA[
 (function(){
 "use strict";
-if(!document.getElementById("gagl26"))return;
-/* ===== DỮ LIỆU CHUỖI CHÍNH / MAIN SERIES: Tạp chí Chăn nuôi VN (nguoichannuoi.vn), farm-gate =====
-   [ngày/date, màu Bắc, màu Trung, màu Nam, trắng Bắc, trắng Trung, trắng Nam] — đ/kg */
-const NCN=[
- ["2026-01-06",56000,50700,48700,30000,29000,29000],
- ["2026-01-13",56000,50700,48700,32000,27000,28000],
- ["2026-01-20",56000,50700,48700,37000,29000,30000],
- ["2026-01-27",55000,50700,48700,41000,31000,33000],
- ["2026-02-03",54000,50700,48700,43000,31000,31000],
- ["2026-02-10",54000,47800,48200,44000,28000,27000],
- ["2026-02-24",58000,49200,48200,40000,30000,28000],
- ["2026-03-03",52300,48700,48800,28000,29000,26000],
- ["2026-03-10",52700,46000,45800,22000,24000,24000],
- ["2026-03-17",55000,47300,45800,20000,24000,27000],
- ["2026-03-24",54000,47000,45500,30000,22000,26000],
- ["2026-04-07",51000,46700,44700,28000,29000,29000],
- ["2026-04-14",49000,46700,44700,22000,28000,27000],
- ["2026-05-05",47800,43200,44800,19000,26000,26000],
- ["2026-05-12",47800,43200,44800,20000,26000,27000],
- ["2026-05-19",47800,43200,45300,28000,25000,26000],
- ["2026-05-26",47800,43200,45300,29000,24000,24000],
- ["2026-06-09",47700,44000,46200,33000,28000,28000],
- ["2026-06-16",47700,45800,46500,35000,27000,27000],
- ["2026-06-23",47700,45800,48300,35000,28000,25000],
- ["2026-06-30",47800,44000,45800,37000,24000,24000],
- ["2026-07-07",47700,52300,53000,35000,26000,26000],
- ["2026-07-14",47700,48300,50000,32000,29000,29000],
- ["2026-07-21",46700,47300,50000,30000,30000,31000],
- ["2026-07-28",46700,47200,48000,35000,32000,33000],
- ["2026-08-04",47200,47200,48700,35000,32000,33000],
- ["2026-08-11",49200,44200,45700,35000,32000,30000],
- ["2026-08-18",48700,48200,49700,36000,26000,27000],
- ["2026-08-25",63800,44200,45700,37000,25000,25000],
- ["2026-09-15",74800,42200,43700,30000,29000,29000],
- ["2026-09-22",74800,42200,43700,32000,29000,29000]
-];
-const FLAGS=[["2026-08-25","mau","Bac"],["2026-09-15","mau","Bac"],["2026-09-22","mau","Bac"]];
+var ROOT=document.getElementById("gagl26"); if(!ROOT) return;
+var BASE="https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/gia-ga-long/";
+var SNAPSHOT={"meta":{"version":1,"updated":"2026-10-13T13:58:05.254Z","lastScan":"2026-10-13T13:58:05.254Z","note":"Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.","origin":{"2026-01-06":"seed","2026-01-13":"seed","2026-01-20":"seed","2026-01-27":"seed","2026-02-03":"seed","2026-02-10":"seed","2026-02-24":"seed","2026-03-03":"seed","2026-03-10":"seed","2026-03-17":"seed","2026-03-24":"seed","2026-04-07":"seed","2026-04-14":"seed","2026-05-05":"seed","2026-05-12":"seed","2026-05-19":"seed","2026-05-26":"seed","2026-06-09":"seed","2026-06-16":"seed","2026-06-23":"seed","2026-06-30":"seed","2026-07-07":"seed","2026-07-14":"seed","2026-07-21":"seed","2026-07-28":"seed","2026-08-04":"seed","2026-08-11":"seed","2026-08-18":"seed","2026-08-25":"seed","2026-09-15":"seed","2026-09-22":"seed","2026-10-06":"auto","2026-09-08":"auto"}},"weekly":[["2026-01-06",56000,50700,48700,30000,29000,29000],["2026-01-13",56000,50700,48700,32000,27000,28000],["2026-01-20",56000,50700,48700,37000,29000,30000],["2026-01-27",55000,50700,48700,41000,31000,33000],["2026-02-03",54000,50700,48700,43000,31000,31000],["2026-02-10",54000,47800,48200,44000,28000,27000],["2026-02-24",58000,49200,48200,40000,30000,28000],["2026-03-03",52300,48700,48800,28000,29000,26000],["2026-03-10",52700,46000,45800,22000,24000,24000],["2026-03-17",55000,47300,45800,20000,24000,27000],["2026-03-24",54000,47000,45500,30000,22000,26000],["2026-04-07",51000,46700,44700,28000,29000,29000],["2026-04-14",49000,46700,44700,22000,28000,27000],["2026-05-05",47800,43200,44800,19000,26000,26000],["2026-05-12",47800,43200,44800,20000,26000,27000],["2026-05-19",47800,43200,45300,28000,25000,26000],["2026-05-26",47800,43200,45300,29000,24000,24000],["2026-06-09",47700,44000,46200,33000,28000,28000],["2026-06-16",47700,45800,46500,35000,27000,27000],["2026-06-23",47700,45800,48300,35000,28000,25000],["2026-06-30",47800,44000,45800,37000,24000,24000],["2026-07-07",47700,52300,53000,35000,26000,26000],["2026-07-14",47700,48300,50000,32000,29000,29000],["2026-07-21",46700,47300,50000,30000,30000,31000],["2026-07-28",46700,47200,48000,35000,32000,33000],["2026-08-04",47200,47200,48700,35000,32000,33000],["2026-08-11",49200,44200,45700,35000,32000,30000],["2026-08-18",48700,48200,49700,36000,26000,27000],["2026-08-25",63800,44200,45700,37000,25000,25000],["2026-09-08",64800,44200,45700,30000,27000,27000],["2026-09-15",74800,42200,43700,30000,29000,29000],["2026-09-22",74800,42200,43700,32000,29000,29000],["2026-10-06",77800,47200,45700,33000,30000,30000]],"flags":[["2026-08-25","mau","Bac","thủ công: lệch mạnh so với miền khác và GreenFeed"],["2026-09-15","mau","Bac","thủ công: lệch mạnh so với miền khác và GreenFeed"],["2026-09-22","mau","Bac","thủ công: lệch mạnh so với miền khác và GreenFeed"]],"gf":[["2026-01-19",57846,47375,44750,35250,33500,30333,43893,29667],["2026-01-22",56885,46357,43900,42050,35357,30833,42537,30571],["2026-01-26",54433,46250,43250,43500,36786,32500,42867,31750],["2026-01-29",47467,46500,44500,43708,37643,33250,41600,33500],["2026-02-03",47214,45633,43500,43000,36643,32000,40867,32357],["2026-02-05",50200,46179,43500,45450,37000,31250,41500,31143],["2026-02-23",47625,45929,42375,43889,35714,30250,42607,30143],["2026-03-02",53100,46133,41125,38389,33129,30333,41643,28000],["2026-03-09",52976,45143,41000,26292,30000,28250,41571,24214],["2026-03-16",54028,45625,41000,23409,25429,26250,40357,22929],["2026-03-26",53711,44200,40250,35115,28071,24750,39321,22357],["2026-04-02",50476,43167,39375,29423,27714,26000,38531,26071],["2026-04-06",51680,44406,38750,29714,28214,27250,38321,27500],["2026-04-09",51150,43179,39625,29292,28071,27750,39714,28429],["2026-04-13",51229,41893,42250,24867,27417,26250,39067,25786],["2026-04-16",48375,41357,42250,25050,28143,29250,39917,27750],["2026-04-20",51000,41500,43000,27281,28857,27500,41458,26417],["2026-04-23",51619,42179,43125,22800,27429,26500,43000,27643],["2026-05-04",51117,44200,46000,20389,27143,28250,44786,29214],["2026-05-11",49828,45167,44500,21417,27429,29250,44214,28286],["2026-05-18",47862,45808,45000,23583,26000,27750,44214,27000],["2026-05-25",48966,46700,46000,28105,27143,28750,43893,28571],["2026-05-28",49741,46833,46333,27583,25357,24500,45214,24000],["2026-06-04",46621,46643,47333,30056,27857,28750,47143,29429],["2026-06-11",44259,45808,45333,33972,30214,29250,45321,27929],["2026-06-15",42448,45692,45833,34889,30714,28250,46107,27857],["2026-06-18",41276,44577,45000,35722,31714,28750,45357,28357],["2026-06-22",41155,44654,45833,36139,32214,28750,47036,27857],["2026-06-25",40759,44577,46333,36139,32214,28750,48250,27857],["2026-07-02",39759,44538,45833,36139,32214,29250,46821,27857],["2026-07-13",37793,43423,44833,36028,33214,29250,45964,28357],["2026-07-23",38190,44308,44000,32444,32214,29750,45607,28857],["2026-07-30",38983,43885,43500,34333,33714,31750,46964,33071],["2026-08-06",40052,44923,43500,35472,34714,32750,45179,34500],["2026-08-13",39414,43846,42167,35750,34714,30250,42107,30500],["2026-08-20",43103,44231,42833,37472,35214,28250,39143,26286],["2026-08-24",42655,44462,41333,37472,34714,27750,39321,25500],["2026-08-27",43155,43462,41667,36972,34214,26750,38607,25500],["2026-08-31",42845,43385,41833,36972,34000,26750,38893,25786],["2026-09-03",42776,43615,43667,36472,32429,26750,39643,26500],["2026-09-07",42776,45346,45000,36472,32429,25000,39714,26857],["2026-09-10",43276,46269,45333,36472,32429,25000,40286,28500],["2026-09-14",42966,45385,45500,36472,32571,25000,41857,27786],["2026-09-17",43552,43769,45667,35472,32357,26000,42036,28500],["2026-09-21",44138,43962,45500,34472,31857,27000,39929,28071],["2026-09-24",44138,43962,44667,33306,31357,28000,41679,29500],["2026-09-28",43293,43077,43833,32889,31357,27000,40250,27643],["2026-10-01",43724,44231,42667,32389,30857,26500,40321,26786],["2026-10-05",43897,44538,41500,32889,31357,27750,41250,27571],["2026-10-08",43345,44269,45000,34694,32071,28750,41357,28500]],"refs":[{"date":"2026-05-04","p":"mau","r":"Nam","min":42000,"max":45000,"src":{"vi":"Dân trí","en":"Dan Tri"},"url":"https://dantri.com.vn/kinh-doanh/chan-nuoi-gap-kho-gia-ga-cong-nghiep-re-hon-beo-20260504120014407.htm","note":{"vi":"Đồng Nai, đầu tháng 5","en":"Dong Nai, early May"}},{"date":"2026-05-04","p":"trang","r":"Nam","min":25000,"max":27000,"src":{"vi":"Dân trí","en":"Dan Tri"},"url":"https://dantri.com.vn/kinh-doanh/chan-nuoi-gap-kho-gia-ga-cong-nghiep-re-hon-beo-20260504120014407.htm","note":{"vi":"Đồng Nai, tiệm cận giá thành","en":"Dong Nai, near production cost"}},{"date":"2026-08-31","p":"trang","r":"Bac","min":37000,"max":37000,"src":{"vi":"Bộ NN&MT (qua Vietstock)","en":"MAE (via Vietstock)"},"url":"https://vn.investing.com/news/commodities-news/re-hon-thit-lon-mot-loai-thit-nhap-khau-do-ve-viet-nam-gia-chi-26500-dongkg-2707266","note":{"vi":"Mức giá tháng 8","en":"August price level"}},{"date":"2026-08-31","p":"trang","r":"Trung","min":25000,"max":25000,"src":{"vi":"Bộ NN&MT (qua Vietstock)","en":"MAE (via Vietstock)"},"url":"https://vn.investing.com/news/commodities-news/re-hon-thit-lon-mot-loai-thit-nhap-khau-do-ve-viet-nam-gia-chi-26500-dongkg-2707266","note":{"vi":"Mức giá tháng 8","en":"August price level"}},{"date":"2026-08-31","p":"trang","r":"Nam","min":25000,"max":25000,"src":{"vi":"Bộ NN&MT (qua Vietstock)","en":"MAE (via Vietstock)"},"url":"https://vn.investing.com/news/commodities-news/re-hon-thit-lon-mot-loai-thit-nhap-khau-do-ve-viet-nam-gia-chi-26500-dongkg-2707266","note":{"vi":"Mức giá tháng 8","en":"August price level"}},{"date":"2026-09-29","p":"trang","r":"Nam","min":28000,"max":30000,"src":{"vi":"Tuổi Trẻ","en":"Tuoi Tre"},"url":"https://tuoitre.vn/gia-ca-dau-ngay-ca-heo-song-len-den-600000-dong-kg-ga-cong-nghiep-ban-duoi-gia-thanh-100260929080047753.htm","note":{"vi":"Giảm 3.000–4.000 so ~10 ngày trước","en":"Down 3,000–4,000 vs ~10 days earlier"}}],"ta":[{"vi":"21/09/2026 · Thanh Hóa: gà ri trên 70.000 đ/kg; gà lai 40.000–48.000 đ/kg; giá thành gà ri khoảng 80.000 đ/kg.","en":"21/09/2026 · Thanh Hoa: Ri chicken above 70,000 VND/kg; hybrid 40,000–48,000 VND/kg; Ri production cost about 80,000 VND/kg.","src":{"vi":"Người Chăn Nuôi (trích Báo Thanh Hóa)","en":"Nguoi Chan Nuoi (citing Thanh Hoa newspaper)"},"url":"https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/"},{"vi":"06/10/2026 · Thái Nguyên: gà đồi Tân Khánh xuống khoảng 52.000 đ/kg lúc đáy (T7–T8), giảm khoảng 20.000; từ đầu T9 giá hồi khoảng 10.000 so với đáy.","en":"06/10/2026 · Thai Nguyen: Tan Khanh hill chicken bottomed at about 52,000 VND/kg (Jul–Aug), down about 20,000; since early Sep prices recovered about 10,000 from the bottom.","src":{"vi":"Người Chăn Nuôi","en":"Nguoi Chan Nuoi"},"url":"https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/"},{"vi":"27/07/2026 · Dự báo gà ta lai, gà mía quý IV: 55.000–70.000 đ/kg (dự báo, không phải giá thực tế).","en":"27/07/2026 · Q4 forecast for native-hybrid and Mia chicken: 55,000–70,000 VND/kg (forecast, not an actual price).","src":{"vi":"Người Chăn Nuôi","en":"Nguoi Chan Nuoi"},"url":"https://nguoichannuoi.vn/nganh-gia-cam-6-thang-dau-nam-2026-san-luong-tang-truong-ap-luc-du-cung-bua-vay/"}],"news":[{"title":"Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo","url":"https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5","date":"2026-10-13","source":"VTVgo"},{"title":"Trứng vịt muối đi Mỹ, ngành chăn nuôi đón dòng vốn đầu tư mới - Báo Dân trí","url":"https://news.google.com/rss/articles/CBMitgFBVV95cUxQQVJxSHVvVFhMRzc2WG9aWDE0RGxPb2NCQ0lJZENQeU5KS1ZlZS15czh0MHV3WkdWU0hyRF8xdHNiN05xWW5LWGVtcXB1Y285TmlWdGFMQkF1UDd3X013SW90WFdhbzF2dG9PMEplNzhqeU1JU0VJWDRaTGMzbnhwbm0xTlNWaEFkODlOMjFwRlA0LXRqX0lNbXUxb25Kb1dMR29FZVJfM2ZMVE1RSXE5VjlCaE91Zw?oc=5","date":"2026-10-13","source":"Báo Dân trí"},{"title":"Người chăn nuôi lỗ ở Đồng Tháp lỗ nặng vì giá gia cầm giảm mạnh - Trung tâm Nội dung số và Truyền thông","url":"https://news.google.com/rss/articles/CBMisAFBVV95cUxQVUppLUZ0Rmk0MEMwcV9ZckNXWUVTdURUSVJDU0FxMVFyM0JZQXJnUnpab0V4eks0akhUOU82MXlzWmFlTk9UcnVEY3NrM0p0Vmx4SVZkZVY2cHc2cG1XODZxRVRsTXltaExJclBQX25QckFQUVJ3dXlYdmdlU3htWmE4VVI0N3ZFY0JfaDducE1YTkItVHVhLTliWldzR29yWHhHcEhGalBycUVJZjBydQ?oc=5","date":"2026-10-12","source":"Trung tâm Nội dung số và Truyền thông"},{"title":"'Đau tim' với nuôi heo, gà: Đừng chỉ đổ lỗi cho thịt nhập, chính chúng ta cũng đang tự hại mình - Báo Tuổi Trẻ","url":"https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUhnWXBSUzBzRFA0dU1jTmx3cENtVGhPRHJZLWhONHlJckdyY0hzTWttTVhOa1JhVjRTMGRmdk1qNTlGQjROdHdIWjhDZVVhY0tRR2Z4SHl4MlF6emJ2LVZnMVVwYkZrVVZzUHpPd0VqVThfQlVsbWFZWllGcEFpQlVpZzg4c3BIWEFoTmZ4RHhPQkdndDJsbW4yY1FRUFA2cHVhRmlJektxcGRqaE5wN19QbHdWeTNabDRaN3QxWm4yS3lYaUpRMlg3Ti0?oc=5","date":"2026-10-12","source":"Báo Tuổi Trẻ"},{"title":"'Đau tim' với nuôi heo, gà: Đừng chỉ đổ lỗi cho thịt nhập, chính chúng ta cũng đang tự hại mình - Vietnam.vn","url":"https://news.google.com/rss/articles/CBMiswFBVV95cUxNVFhVWUM4Sk9RZGUtaHpQNEFkelY5NmE2U0RGMUdzNzBzLUNjcUtvWmRPeUlycDhRa2huNG5jelNFa3lHc2c0ZTBLVFgxWnhLN2VQWVpRQjd3bGFfem9SeDVIQVJlQ0JiZXUzQnZFcTc3MlYxZHRzM3JiRmdpd0FBLUlpM3FGdXdGc3A0VlNKT3h4WVMyYk9HenB2RHg3TW1tUEJjQ1MtXzZqYTd1UFIxVVJEdw?oc=5","date":"2026-10-12","source":"Vietnam.vn"},{"title":"Người chăn nuôi thua lỗ vì giá gia cầm tiếp tục giảm - Báo Tin tức và Dân tộc","url":"https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmlHRkkxZGVoTHJyME5xMUZMR0hKYk5kcXlfOWJBZlczM2tKVVUtZzlfOUZUUGVUWnRCSG5Yc216UG1TT0lPUnBVSnA2d0lDVEJPRHhYdWVZUUN3RE5CejVqLWpBWWJQNW5FUXJodjBNeldnai1hRkNReDIwT1Z5cDdJWDZNeklGRnRoU2E4TGNyaDdz?oc=5","date":"2026-10-10","source":"Báo Tin tức và Dân tộc"},{"title":"Crescătorii de păsări de curte suferă pierderi pe măsură ce prețurile la carnea de pasăre continuă să scadă. - Vietnam.vn","url":"https://news.google.com/rss/articles/CBMihAFBVV95cUxPSFV6SXBMTkZxb2lUR2R5c3FEN0V4YmNya2pIUUNTQ29yTnpVbFNuZ2RkV1VtTnYwMnFBall3eXl5NG9SckJueHBaMWhtMHJfS3RHNUhFa1VUdjdHOHQ3NUljd2pzVkhTRkhoMEdmLWRHNE1jRDF1SWN6NTgxdzVockE2WXI?oc=5","date":"2026-10-10","source":"Vietnam.vn"},{"title":"'Đau tim' với nuôi heo, gà: Người chăn nuôi trong thế khó - Báo Tuổi Trẻ","url":"https://news.google.com/rss/articles/CBMimwFBVV95cUxOWUY1UDhjeDY3NWgwSGFrZ2VVQkdhd0lxVUNnemxwNVFEbF9QNG54STgxOHQ5aTR1RUNaNUMyX0hDU1NDcW5HWTI5dkRkZmRpeGVabkhWWjZiRlJzYkRJSVpBVV9tMlFkUXhfVFZRcWtZU0ZBa0pzbmtKanNINDd4NWhyRktFUUpvZlQ0ZWVLajRqcjhLLTZ4cUFiTQ?oc=5","date":"2026-10-10","source":"Báo Tuổi Trẻ"},{"title":"'Đau tim' với nuôi heo, gà: Người chăn nuôi trong thế khó - Vietnam.vn","url":"https://news.google.com/rss/articles/CBMiggFBVV95cUxPcnFKbTZicWhMa0Y5bmlGXy1oNk54MV84cWRKMW9pOThSQzlSY05PMnk5UUhjNExpWWVMNGE2azNzTTRJcnByTHFpeEJBZE9tUnYybVM4M2hGSGhYSExPZ2JVcHhLRDFKNnZZdlBEY1lzZkZnQUhfZFFRTS1xRkFfRFNn?oc=5","date":"2026-10-10","source":"Vietnam.vn"},{"title":"Anh ghi nhận 2.201 ca bệnh lưỡi xanh, số ca tăng kỷ lục - Tạp chí Chăn nuôi Việt Nam","url":"https://news.google.com/rss/articles/CBMihAFBVV95cUxNRmctN3F1TW1IYThObzJKcUkxVUNMLV9hX1gyNkpaSGpkOTR5MEYzeTcwRnEyUTdXeFJpODdiZFlwQlVTQVhSTHBnOHhPZWFLYTAxcWR6aGh2V3dmWTViS19UTm1TYlp3NjdQbVBLV1ZZNHRQVk9sQVJWUFZfOUJ1bnNrUEU?oc=5","date":"2026-10-08","source":"Tạp chí Chăn nuôi Việt Nam"},{"title":"Giá sản phẩm chăn nuôi (giá tại trại) cả nước ngày 6/10/2026 - Tạp chí Chăn nuôi Việt Nam","url":"https://news.google.com/rss/articles/CBMiigFBVV95cUxOZEhtbktDRTZHOFdVLTNRRGM2dFN4dVpjRUR1TEQwM2x5bXdiVlFmN05KMG1tRHd6NDJkTjFVTS1yVFIycDFvd3M0LUpUSkJfSU93N3VOclRHZXF1c29ja2FQZWdwUnJRU3BQRFExclN5VHdTUFJPWFhqQmNwWWZqRy0wU0tZYlpCQ0E?oc=5","date":"2026-10-08","source":"Tạp chí Chăn nuôi Việt Nam"},{"title":"Hợp tác xã Đồng Hiệp xây dựng cộng đồng chăn nuôi gà đẻ Cage-free bền vững tại Việt Nam - Tạp chí Chăn nuôi Việt Nam","url":"https://news.google.com/rss/articles/CBMisAFBVV95cUxPQXEzQXBhYkVMOUktZFBZN1NJUUhqQUZWMjFfNy1oOWJKc0x1NGtPLXY0c1FmaDJham5obWUyWk1WN0ZvU3p3VXA2UjVReW1HTUo5d1U3ZnlTOWx4LUZLVlh6dm1oM1NTN0dkYTU5NlNYd2VjdlhZQmdDUF9IYzJaZ1FOczUxV21pa0Z0SkROSXVQQTJpNlhHNExJaG8wNlJmYllFRkRnbU1yaHNJeS02eg?oc=5","date":"2026-10-07","source":"Tạp chí Chăn nuôi Việt Nam"},{"title":"Hội KHKT Thú y Việt Nam kiến nghị tháo gỡ vướng mắc trong quản lý sản phẩm thủy sản, thức ăn bổ sung và thuốc thú y - Tạp chí Chăn nuôi Việt Nam","url":"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWlYxRUJVY3A2WGJrbFp6UTdCU05Obm94ZVl2WTZqYjFBd1E1a1JJZHp5eC0wdkxlWFRRaUhFUVc2djVVZ3hLRVcyWE9uRHBLTDJoOXNKM19FMGs4akdKZWczcjVJcVdFSlJ4TUxiNmw5SWQ5aTZRek5aSzBEdFVLdWp1U0phSHM0SHBwS0hBQXdDUkZkVHBMdzBkTjRSNDhxdEFnaTdlYTF4TVRDYjFuTHhEUmk4MXpaRTVmT2FSVDNJNjYyVDdMQWRfZ2M3a1Njc05EOQ?oc=5","date":"2026-10-07","source":"Tạp chí Chăn nuôi Việt Nam"},{"title":"Giá lợn hơi tiếp tục giảm mạnh - CafeF","url":"https://news.google.com/rss/articles/CBMiekFVX3lxTFBFRGNVVlRhRnVJZnB1TmYtNkNDUkJwbEZic0t3WVJ6OHYycDFFLWF6QjJybHFfelZJUldpRW0wYmlIN3BvUi1xYVZneDU2T2FmRFFZSndveDRfc003aDhWWmJ3cGtqaXVRWWJaMzlZWlI5VHRHU01IcEJR?oc=5","date":"2026-10-07","source":"CafeF"},{"title":"Gần 660.000 tấn thịt giá rẻ tràn về, lợn hơi trong nước giảm giá sâu - Vietnam.vn","url":"https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFB4LUdJUnlPZ0pHcERMRzdrTkxUSElsbHd0c2NqM3lPZUpFb3kydElaUWdLdlpILWtVX2FPczJTOFNJbjRXTUd4NDBTZFNIZFp1aFBqZjg2Yk1yNW1hQzZvaDljTXlPZVh0d2dINmVOSUV4MWhxRmZCWnVyeW5GcE5KWE9ZbWdjYjFMSGRtbjBhRklt?oc=5","date":"2026-10-06","source":"Vietnam.vn"},{"title":"Giá gà công nghiệp giảm, người nuôi tiếp tục gặp khó - Tạp chí Chăn nuôi Việt Nam","url":"https://news.google.com/rss/articles/CBMigAFBVV95cUxQVXl0Z1NoYmZCUVZIaVV0b1VtTmExQzNuZzg4WnlBNk1DaS0wMmxYS1pfdGxsSzY0Z0dVTVZrNWotbF9zX0JJT3ZzOFlmSWozZ2Z0QWR2Y1FiMmg2WVMtWWlMVlhsbEd2SU5wZThuVVNyN0MzYjZWZEJmZ1B5WjZmRg?oc=5","date":"2026-09-30","source":"Tạp chí Chăn nuôi Việt Nam"}],"mentions":[{"url":"https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/","title":"Giá gà bấp bênh, cần liên kết để ổn định sản xuất - Tin tức Chăn nuôi - Tạp chí Chăn nuôi Việt Nam","date":"2026-10-06","mentions":[{"text":"Sau hơn 2 tháng giảm trong tháng 7 và 8-2026, giá gà bắt đầu phục hồi từ đầu tháng 9 và hiện cao hơn khoảng 10 nghìn đồng/kg so với mức thấp nhất.","kind":"khac","region":null},{"text":"Khảo sát thực tế tại các cơ sở chăn nuôi trên địa bàn tỉnh, chúng tôi được biết tại thời điểm giá gà xuống thấp nhất, gà đồi Tân Khánh chỉ còn khoảng 52 nghìn đồng/kg, giảm 20 nghìn đồng/kg; gà màu nuôi chuồng kín khoảng 43 nghìn đồng/kg, giảm 15 nghìn đồng/kg; gà lông trắng khoảng 30 nghìn đồng/kg, giảm hơn 10 nghìn đồng/kg.","kind":"trang","region":null},{"text":"Gia đình bà nuôi gà màu chuồng kín, có thời điểm giá xuống 35 – 36 nghìn đồng/kg rồi tăng lên 45 – 46 nghìn đồng/kg, trong khi theo tính toán của gia đình, giá phải đạt khoảng 50 nghìn đồng/kg mới có công.","kind":"mau","region":null}],"name":"Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)"},{"url":"https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/","title":"Giá gà thịt giảm sâu, người chăn nuôi lỗ nặng - Tin tức Chăn nuôi - Tạp chí Chăn nuôi Việt Nam","date":"2026-09-21","mentions":[{"text":"Tương tự, trang trại nuôi gà thịt của gia đình ông Nguyễn Văn Quyền, xã Hoa Lộc cũng đang phải gánh lỗ khoảng 10 nghìn đồng/kg gà thịt xuất chuồng vì giá “chạm đáy” suốt thời gian qua.","kind":"khac","region":null},{"text":"Theo ông Quyền, trang trại của gia đình ông chủ yếu nuôi gà lai, mấy tháng nay giá bán ra chỉ từ 42 – 48 nghìn đồng/kg, thấp nhất trong các loại gà nên đang bị thua lỗ.","kind":"mau","region":null},{"text":"Hiện nay, giá gà lai xuất chuồng đang ở mức từ 40 – 48 nghìn đồng/kg; gà ri trên 70 nghìn đồng/kg; gà lông trắng chỉ hơn 30 nghìn đồng/kg, đây là mức giá thấp nhất trong những năm gần đây.","kind":"trang","region":null},{"text":"So với cùng kỳ năm ngoái, giá gà thịt giảm từ 8-10 nghìn đồng/kg.","kind":"khac","region":null}],"name":"Người Chăn Nuôi – Giá gà thịt giảm sâu (Thanh Hóa)"}],"log":[{"at":"2026-10-13T13:58:05.254Z","summary":"Bảng giá mới: 2026-10-06, 2026-09-08 · GreenFeed mới: 50 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0","newTables":["2026-10-06","2026-09-08"],"gfNew":50,"errors":0,"detail":["Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục","  + 2026-10-06: trắng 33000/30000/30000 · màu 77800/47200/45700","  + 2026-09-08: trắng 30000/27000/27000 · màu 64800/44200/45700","GreenFeed: 51 ngày có bảng giá, cần đọc 51","  Không đọc được GreenFeed 2026-02-02","  ⚠ GreenFeed 2026-02-03: bảng ghi ngày 2026-02-02","Bảng giá mới: 2026-10-06, 2026-09-08 · GreenFeed mới: 50 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"]}]};
+var PROXIES=["https://api.allorigins.win/raw?url=","https://corsproxy.io/?url=","https://api.codetabs.com/v1/proxy?quest="];
+var $=function(id){return document.getElementById("g26-"+id)};
+var store={get:function(k){try{return JSON.parse(localStorage.getItem(k)||"null")}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}},raw:function(k){try{return localStorage.getItem(k)}catch(e){return null}},setRaw:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 
-/* ===== ĐIỂM THAM CHIẾU / REFERENCE POINTS (không cộng vào bình quân / not averaged) ===== */
-const GF="https://www.greenfeed.com.vn/thuc-an-chan-nuoi-gia-suc-gia-cam/en/market-price/";
-const VS="https://vn.investing.com/news/commodities-news/re-hon-thit-lon-mot-loai-thit-nhap-khau-do-ve-viet-nam-gia-chi-26500-dongkg-2707266";
-const DT="https://dantri.com.vn/kinh-doanh/chan-nuoi-gap-kho-gia-ga-cong-nghiep-re-hon-beo-20260504120014407.htm";
-const TT="https://tuoitre.vn/gia-ca-dau-ngay-ca-heo-song-len-den-600000-dong-kg-ga-cong-nghiep-ban-duoi-gia-thanh-100260929080047753.htm";
-const REFS=[
- {date:"2026-05-04",p:"mau",r:"Nam",min:42000,max:45000,src:{vi:"Dân trí",en:"Dan Tri"},url:DT,note:{vi:"Đồng Nai, đầu tháng 5",en:"Dong Nai, early May"}},
- {date:"2026-05-04",p:"trang",r:"Nam",min:25000,max:27000,src:{vi:"Dân trí",en:"Dan Tri"},url:DT,note:{vi:"Đồng Nai, tiệm cận giá thành",en:"Dong Nai, near production cost"}},
- {date:"2026-08-31",p:"trang",r:"Bac",min:37000,max:37000,src:{vi:"Bộ NN&MT (qua Vietstock)",en:"MAE (via Vietstock)"},url:VS,note:{vi:"Mức giá tháng 8",en:"August price level"}},
- {date:"2026-08-31",p:"trang",r:"Trung",min:25000,max:25000,src:{vi:"Bộ NN&MT (qua Vietstock)",en:"MAE (via Vietstock)"},url:VS,note:{vi:"Mức giá tháng 8",en:"August price level"}},
- {date:"2026-08-31",p:"trang",r:"Nam",min:25000,max:25000,src:{vi:"Bộ NN&MT (qua Vietstock)",en:"MAE (via Vietstock)"},url:VS,note:{vi:"Mức giá tháng 8",en:"August price level"}},
- {date:"2026-09-29",p:"trang",r:"Nam",min:28000,max:30000,src:{vi:"Tuổi Trẻ",en:"Tuoi Tre"},url:TT,note:{vi:"Giảm 3.000–4.000 so ~10 ngày trước",en:"Down 3,000–4,000 vs ~10 days earlier"}},
- {date:"2026-10-01",p:"trang",r:"Bac",min:32389,max:32389,src:{vi:"GreenFeed",en:"GreenFeed"},url:GF,note:{vi:"Broiler, BQ vùng",en:"Broiler, regional avg"}},
- {date:"2026-10-01",p:"trang",r:"Trung",min:30857,max:30857,src:{vi:"GreenFeed",en:"GreenFeed"},url:GF,note:{vi:"Broiler, BQ vùng",en:"Broiler, regional avg"}},
- {date:"2026-10-01",p:"trang",r:"Nam",min:26500,max:26500,src:{vi:"GreenFeed",en:"GreenFeed"},url:GF,note:{vi:"Broiler, Đông Nam Bộ (Tây Nam Bộ 26.786)",en:"Broiler, Southeast (Southwest 26,786)"}},
- {date:"2026-10-01",p:"mau",r:"Bac",min:43724,max:43724,src:{vi:"GreenFeed",en:"GreenFeed"},url:GF,note:{vi:"Gà lai (native hybrid), BQ vùng",en:"Native hybrid, regional avg"}},
- {date:"2026-10-01",p:"mau",r:"Trung",min:44231,max:44231,src:{vi:"GreenFeed",en:"GreenFeed"},url:GF,note:{vi:"Gà lai (native hybrid), BQ vùng",en:"Native hybrid, regional avg"}},
- {date:"2026-10-01",p:"mau",r:"Nam",min:42667,max:42667,src:{vi:"GreenFeed",en:"GreenFeed"},url:GF,note:{vi:"Gà lai, Đông Nam Bộ (Tây Nam Bộ 40.321)",en:"Native hybrid, Southeast (Southwest 40,321)"}}
-];
-const TA=[
- {vi:"21/09/2026 · Thanh Hóa: gà ri trên 70.000 đ/kg; gà lai 40.000–48.000 đ/kg; giá thành gà ri khoảng 80.000 đ/kg.",en:"21/09/2026 · Thanh Hoa: Ri chicken above 70,000 VND/kg; hybrid 40,000–48,000 VND/kg; Ri production cost about 80,000 VND/kg.",src:{vi:"Người Chăn Nuôi (trích Báo Thanh Hóa)",en:"Nguoi Chan Nuoi (citing Thanh Hoa newspaper)"},url:"https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/"},
- {vi:"06/10/2026 · Thái Nguyên: gà đồi Tân Khánh xuống khoảng 52.000 đ/kg lúc đáy (T7–T8), giảm khoảng 20.000; từ đầu T9 giá hồi khoảng 10.000 so với đáy.",en:"06/10/2026 · Thai Nguyen: Tan Khanh hill chicken bottomed at about 52,000 VND/kg (Jul–Aug), down about 20,000; since early Sep prices recovered about 10,000 from the bottom.",src:{vi:"Người Chăn Nuôi",en:"Nguoi Chan Nuoi"},url:"https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/"},
- {vi:"27/07/2026 · Dự báo gà ta lai, gà mía quý IV: 55.000–70.000 đ/kg (dự báo, không phải giá thực tế).",en:"27/07/2026 · Q4 forecast for native-hybrid and Mia chicken: 55,000–70,000 VND/kg (forecast, not an actual price).",src:{vi:"Người Chăn Nuôi",en:"Nguoi Chan Nuoi"},url:"https://nguoichannuoi.vn/nganh-gia-cam-6-thang-dau-nam-2026-san-luong-tang-truong-ap-luc-du-cung-bua-vay/"}
-];
-
-/* ===== NGÔN NGỮ / LANGUAGE ===== */
-const I18N={
-vi:{
- docTitle:"Theo dõi giá gà lông", title:"Theo dõi giá gà lông", back:"← Về Blog",
- sub:"Chuỗi giá gà hơi xuất chuồng tại trại theo 3 miền, lấy từ bảng giá hằng tuần của Tạp chí Chăn nuôi Việt Nam (nguoichannuoi.vn). Giá tháng là bình quân các kỳ báo giá trong tháng. Số liệu từ nguồn khác chỉ dùng làm điểm tham chiếu, không cộng vào bình quân.",
- unitL:"Đơn vị:", unitV:"đ/kg, gà hơi tại trại", mainL:"Chuỗi chính:", tables:"bảng giá", latestRefL:"Tham chiếu mới nhất:", madeL:"Lập ngày:",
- hKpi:"Giá kỳ gần nhất và so với bình quân tháng 1", kpiNote:"Ô đỏ: vượt highline · viền cam: số liệu cần xác minh",
- hChart:"Biểu đồ summary T1–T12/2026", segTrang:"Gà trắng (chuyên thịt)", segMau:"Gà lông màu", byMonth:"Theo tháng", byWeek:"Theo tuần", refPts:"Điểm tham chiếu",
- hMatrix:"Ma trận giá bình quân tháng (đ/kg)", csv:"Tải CSV",
- matrixNote:"Mũi tên: chênh lệch so với tháng liền trước có số liệu. Dòng T10: chưa có bảng giá của Tạp chí Chăn nuôi, chỉ hiển thị giá tham chiếu GreenFeed ngày 01/10 (chữ nghiêng, miền Nam lấy vùng Đông Nam Bộ). T11–T12 chưa có số liệu.",
- hThr:"Ngưỡng highline thu mua", thrTrang:"Gà trắng (đ/kg)", thrMau:"Gà lông màu (đ/kg)",
- thrNote:"Ngưỡng được lưu trên trình duyệt của máy này. Khi giá vượt ngưỡng, ô KPI và ô trong ma trận chuyển đỏ, biểu đồ hiện đường highline.",
- hInsight:"Điểm cần lưu ý cho thu mua", hLedger:"Sổ bảng giá tuần (chuỗi chính)", ledgerNote:"Mỗi dòng mở được bài gốc",
- hRef:"Điểm tham chiếu từ nguồn khác", hTa:"Gà ta / gà lai thả vườn",
- taIntro:"Chưa có nguồn công bố giá gà ta theo tuần và theo 3 miền, nên file không dựng chuỗi tháng cho gà ta. Các mốc giá có căn cứ đến nay:",
+/* ===== NGÔN NGỮ ===== */
+var I18N={
+vi:{title:"Theo dõi giá gà lông",subtitle:"Giá gà hơi tại trại · 3 miền · cập nhật tự động từ báo chí chuyên ngành",back:"← Về Blog",toFlu:"🦠 Cúm gia cầm",light:"☀ Sáng",dark:"🌙 Tối",
+ sub:"Chuỗi chính lấy từ bảng giá tại trại hằng tuần của Tạp chí Chăn nuôi Việt Nam (nguoichannuoi.vn). Giá tháng là bình quân các kỳ báo giá trong tháng. Giá GreenFeed (bình quân vùng) và số liệu báo chí khác chỉ dùng để so sánh, không cộng vào bình quân.",
+ unitL:"Đơn vị:",unitV:"đ/kg, gà hơi tại trại",mainL:"Chuỗi chính:",tables:"bảng giá,",gfL:"GreenFeed mới nhất:",updL:"Dữ liệu cập nhật:",
+ hKpi:"Giá kỳ gần nhất (Tạp chí Chăn nuôi)",kpiNote:"Ô đỏ: vượt highline · viền vàng: cần xác minh",
+ hChart:"Biểu đồ summary T1–T12/2026",segTrang:"Gà trắng",segMau:"Gà lông màu",byMonth:"Theo tháng",byWeek:"Theo tuần",refPts:"So sánh GreenFeed & báo",
+ hMatrix:"Ma trận giá bình quân tháng (đ/kg)",csv:"⬇ Tải CSV",
+ matrixNote:"Mũi tên: chênh lệch so với tháng liền trước có số liệu. Dòng chữ nghiêng: tháng chưa có bảng giá Tạp chí Chăn nuôi, hiển thị bình quân GreenFeed để tham khảo (miền Nam = Đông Nam Bộ).",
+ hScan:"Quét & cập nhật nguồn",scanNow:"⟳ Quét ngay",reload:"⟲ Tải lại dữ liệu",runGh:"▶ Chạy quét trên GitHub",
+ scanNote:"Quét tự động chạy trên GitHub mỗi ngày lúc 06:17 và thêm 17:17 thứ Ba, thứ Tư; kết quả ghi vào data.json cho mọi người xem. Nút \"Quét ngay\" quét từ trình duyệt của anh qua proxy công cộng; số mới chỉ lưu trên máy này cho đến lần quét tự động kế tiếp.",
+ lastAuto:"Quét tự động gần nhất:",latestTable:"Bảng giá mới nhất:",latestGf:"GreenFeed mới nhất:",localRows:"Quét trên máy:",never:"chưa có",
+ hSrc:"Nguồn dữ liệu",addL:"Thêm nguồn bổ sung (mỗi dòng một link, có thể ghi \"Tên | link\")",addBtn:"＋ Thêm & quét",saveGh:"✎ Lưu cố định (sources.json)",
+ addNote:"Hệ thống tự nhận dạng: link bảng giá tại trại nguoichannuoi.vn → chuỗi chính; bảng GreenFeed → so sánh; link RSS → tin tức; trang bất kỳ → trích câu có giá gà (đ/kg) để tham khảo. Nguồn thêm ở đây chỉ lưu trên máy này; muốn hệ thống quét hằng ngày cho mọi người, bấm \"Lưu cố định\" và thêm vào mục extra của sources.json.",
+ srcMain:"chuỗi chính",srcCmp:"so sánh",srcNews:"tin tức",srcFixed:"cố định",srcLocal:"trên máy này",srcKinds:{"ncn-table":"bảng giá","ncn-list":"danh mục bảng giá","gf-table":"GreenFeed",rss:"RSS",page:"trích câu"},
+ added:function(n){return "Đã thêm "+n+" nguồn"},noUrl:"Chưa có link hợp lệ",
+ hInsight:"Điểm cần lưu ý cho thu mua",hThr:"Ngưỡng highline thu mua",thrTrang:"Gà trắng (đ/kg)",thrMau:"Gà lông màu (đ/kg)",
+ thrNote:"Ngưỡng lưu trên trình duyệt của máy này. Giá vượt ngưỡng: ô KPI và ô ma trận chuyển đỏ, biểu đồ hiện đường highline.",
+ hLedger:"Sổ bảng giá tuần (chuỗi chính)",ledgerNote:"Mỗi dòng mở được bài gốc",gfTableT:"Bảng GreenFeed theo ngày (bình quân vùng)",
+ hNews:"Tin mới về giá gà",hMen:"Trích từ nguồn bổ sung",menNote:"Câu có nhắc giá gà (đ/kg) trong các trang nguồn bổ sung. Chỉ để tham khảo, không cộng vào bình quân.",noNews:"Chưa có tin.",noMen:"Chưa có câu trích nào.",
+ hRef:"Điểm tham chiếu báo chí",hTa:"Gà ta / gà lai thả vườn",
+ taIntro:"Chưa có nguồn công bố giá gà ta theo tuần cho 3 miền, nên trang không dựng chuỗi tháng cho gà ta. Các mốc có căn cứ:",
  hMethod:"Phương pháp và giới hạn số liệu",
- method:[
-  "Giá tháng = bình quân cộng các giá ngày trong bảng giá tại trại của Tạp chí Chăn nuôi VN công bố trong tháng (thường thứ Ba hằng tuần). Cột \"n\" là số kỳ báo giá.",
-  "\"Gà trắng\" ứng với dòng \"gà chuyên thịt\"; \"Gà lông màu\" ứng với dòng \"gà thịt lông màu\" của bảng nguồn.",
-  "Tháng 2 thiếu kỳ 17/02 (nghỉ Tết). Tháng 4 chỉ có 2 kỳ (07/04, 14/04). Tháng 6 không lấy kỳ 02/06 vì trang đăng chặn đọc tự động. Tháng 9 chỉ có 2 kỳ (15/09, 22/09); kỳ 29/09 và 06/10 chưa đọc được.",
-  "Gà lông màu miền Bắc tăng vọt lên 63.800 (25/08) và 74.800 (15–22/09), lệch mạnh so với miền Trung, miền Nam và so với giá gà lai miền Bắc của GreenFeed ngày 01/10 (43.724). File giữ nguyên số đã công bố và đánh dấu cần xác minh.",
-  "File không ước tính hay nội suy cho tháng thiếu số liệu. Đường biểu đồ bị ngắt tại những tháng đó."],
- prod:{trang:"Gà trắng",mau:"Gà lông màu"}, prodLong:{trang:"Gà trắng (chuyên thịt)",mau:"Gà lông màu"},
- reg:{Bac:"Bắc",Trung:"Trung",Nam:"Nam"}, regLong:r=>"Miền "+I18N.vi.reg[r],
- mon:m=>"T"+m, monLong:m=>`Tháng ${m}/2026`,
- period:"Kỳ", vsT1:"so BQ T1", range:"Biên độ năm:", verify:"cần xác minh", verifyShort:"xác minh", over:"vượt",
- future:"Chưa có bảng giá chuỗi chính", refLegend:"Tham chiếu nguồn khác", highline:"Highline",
- hover:"Rê chuột (hoặc chạm) vào một tháng để xem số liệu.", noMain:"chưa có chuỗi chính",
- noteM:"Mỗi điểm là bình quân các kỳ báo giá trong tháng. Viền cam: tháng có số liệu cần xác minh. Hình thoi: nguồn khác, không cộng vào bình quân.",
- noteW:"Mỗi điểm là giá ngày của một kỳ bảng giá tuần. Viền cam: số liệu cần xác minh.",
- chartAria:(p,g)=>`Biểu đồ giá ${p} theo ${g==="m"?"tháng":"tuần"} năm 2026, 3 miền`,
- thMonth:"Tháng", nPeriods:"n kỳ", first:"kỳ đầu", noData:"Chưa có số liệu", avg:m=>`BQ T1–T${m}`,
- thPeriod:"Kỳ", thSource:"Nguồn", srcNcn:"Tạp chí Chăn nuôi VN", thDate:"Ngày", thType:"Loại", thRegion:"Miền", thPrice:"Giá",
- ins1:(p,parts,m)=>`<b>${p}</b>: BQ T${m} so với T1 (đ/kg): ${parts}.`,
- ins2:(r,lo,lov,hi,hiv)=>`Gà trắng miền ${r}: đáy T${lo} (${lov}), đỉnh T${hi} (${hiv}).`,
- ins3:"Gà trắng miền Nam ngày 29/09 theo Tuổi Trẻ là 28.000–30.000; GreenFeed ngày 01/10 ghi Đông Nam Bộ 26.500, giảm 500 so với kỳ trước.",
- ins4:"Gà lông màu miền Bắc 74.800 (09/2026) lệch xa các nguồn khác. Nên đối chiếu với báo giá nhà cung cấp trước khi dùng làm giá sàn/giá trần.",
- csvHead:"Thang,Loai,Mien,Gia_BQ_dkg,So_ky,Min,Max,Can_xac_minh", csvHead2:"Ky,Trang_Bac,Trang_Trung,Trang_Nam,Mau_Bac,Mau_Trung,Mau_Nam,Nguon", csvYes:"co", csvFile:"gia_ga_long_2026.csv",
- locale:"vi-VN"
-},
-en:{
- docTitle:"Live Chicken Price Tracker", title:"Live Chicken Price Tracker", back:"← Back to blog",
- sub:"Farm-gate live broiler prices across Vietnam's three regions, taken from the weekly price tables of Vietnam Livestock Magazine (nguoichannuoi.vn). Monthly prices are the average of the weekly quotes within each month. Figures from other sources are shown as reference points only and are not included in the averages.",
- unitL:"Unit:", unitV:"VND/kg, live bird at farm gate", mainL:"Main series:", tables:"price tables", latestRefL:"Latest reference:", madeL:"Prepared:",
- hKpi:"Latest quote vs January average", kpiNote:"Red: above highline · amber border: figure needs verification",
- hChart:"Summary chart Jan–Dec 2026", segTrang:"White broiler", segMau:"Colored chicken", byMonth:"Monthly", byWeek:"Weekly", refPts:"Reference points",
- hMatrix:"Monthly average price matrix (VND/kg)", csv:"Download CSV",
- matrixNote:"Arrows: change vs the previous month with data. October row: no magazine table yet; shows GreenFeed reference prices of 01/10 only (italic; South = Southeast region). Nov–Dec: no data yet.",
- hThr:"Procurement highline", thrTrang:"White broiler (VND/kg)", thrMau:"Colored chicken (VND/kg)",
- thrNote:"Thresholds are saved in this browser only. When a price is above the threshold, the KPI tile and matrix cell turn red and the chart shows the highline.",
- hInsight:"Procurement watch points", hLedger:"Weekly price ledger (main series)", ledgerNote:"Each row links to the original table",
- hRef:"Reference points from other sources", hTa:"Native / free-range hybrid chicken",
- taIntro:"No source publishes weekly native-chicken prices for the three regions, so this file does not build a monthly series for native chicken. Verified price points so far:",
+ method:["Giá tháng = bình quân cộng các giá ngày trong bảng giá tại trại Tạp chí Chăn nuôi VN công bố trong tháng (thường thứ Ba). Cột \"n\" là số kỳ.","\"Gà trắng\" ứng với dòng \"gà chuyên thịt\"; \"Gà lông màu\" ứng với \"gà thịt lông màu\" của bảng nguồn.","GreenFeed: cột \"Gà màu\" và \"Gà trắng\" (bình quân vùng) của bảng giá thị trường; miền Nam lấy Đông Nam Bộ, Tây Nam Bộ ghi kèm.","Tự đánh dấu cần xác minh khi giá lệch hơn 25% so với kỳ liền trước, hoặc lệch hơn 35% so với GreenFeed trong vòng 6 ngày.","Không ước tính hay nội suy tháng thiếu số liệu; đường biểu đồ ngắt tại đó."],
+ prod:{trang:"Gà trắng",mau:"Gà lông màu"},prodLong:{trang:"Gà trắng (chuyên thịt)",mau:"Gà lông màu"},
+ reg:{Bac:"Bắc",Trung:"Trung",Nam:"Nam"},regLong:function(r){return "Miền "+I18N.vi.reg[r]},
+ mon:function(m){return "T"+m},monLong:function(m){return "Tháng "+m+"/2026"},
+ period:"Kỳ",vsPrev:"so kỳ trước",gfNow:"GreenFeed",verify:"cần xác minh",verifyShort:"xác minh",over:"vượt",
+ future:"Chưa có bảng giá chuỗi chính",gfLegend:"GreenFeed (nét đứt)",refLegend:"Báo chí khác",highline:"Highline",
+ hover:"Rê chuột (hoặc chạm) vào một tháng để xem số liệu.",noMain:"chưa có chuỗi chính",
+ noteM:"Đường liền: bình quân tháng Tạp chí Chăn nuôi. Nét đứt: bình quân tháng GreenFeed. Viền vàng: có số liệu cần xác minh.",
+ noteW:"Điểm liền: giá ngày từng kỳ Tạp chí Chăn nuôi. Nét đứt: GreenFeed theo ngày.",
+ chartAria:function(p,g){return "Biểu đồ giá "+p+" theo "+(g==="m"?"tháng":"tuần")+" năm 2026, 3 miền"},
+ thMonth:"Tháng",nPeriods:"n kỳ",first:"kỳ đầu",noData:"Chưa có số liệu",avg:function(m){return "BQ T1–T"+m},gfAvg:function(k){return "GreenFeed BQ "+k+" ngày"},
+ thPeriod:"Kỳ",thSource:"Nguồn",thOrigin:"Gốc",srcNcn:"Tạp chí Chăn nuôi VN",thDate:"Ngày",thType:"Loại",thRegion:"Miền",thPrice:"Giá",
+ origin:{seed:"đã xác minh",auto:"quét tự động",local:"quét trên máy"},
+ ins:{
+  chg:function(p,parts,m){return "<b>"+p+"</b>: BQ T"+m+" so với T1 (đ/kg): "+parts+"."},
+  last:function(p,d,parts){return "<b>"+p+"</b> kỳ "+d+" so với kỳ trước: "+parts+"."},
+  gap:function(r,v,g,pct){return "Gà trắng miền "+r+": Tạp chí Chăn nuôi "+v+" so với GreenFeed "+g+" ("+pct+")."},
+  flags:function(n){return n+" ô số liệu đang bị đánh dấu cần xác minh, chủ yếu ở gà lông màu miền Bắc. Nên đối chiếu với báo giá nhà cung cấp trước khi dùng làm giá sàn/giá trần."}},
+ foot:"Nguồn chính: Tạp chí Chăn nuôi Việt Nam (nguoichannuoi.vn) · so sánh: GreenFeed · quét tự động bằng GitHub Actions",
+ log:{start:"Bắt đầu quét từ trình duyệt…",ncn:"Đọc danh mục Giá cả – Tạp chí Chăn nuôi",ncnNew:function(d){return "+ Bảng giá mới "+d},none:"Không có bảng giá mới",gf:"Đọc bảng GreenFeed",gfNew:function(n){return "+ GreenFeed: "+n+" ngày mới"},extra:function(n){return "Đọc "+n+" nguồn bổ sung"},fail:function(u){return "✕ Không tải được: "+u},done:function(n){return "Xong. Số kỳ/ngày mới: "+n},proxy:"(qua proxy)",reloaded:"Đã tải lại data.json",reloadFail:"Không tải được data.json, đang dùng bản lưu sẵn trong trang",serverLog:"Nhật ký lần quét tự động gần nhất:"},
+ csvHead:"Thang,Loai,Mien,Gia_BQ_dkg,So_ky,Min,Max,Can_xac_minh",csvHead2:"Ky,Trang_Bac,Trang_Trung,Trang_Nam,Mau_Bac,Mau_Trung,Mau_Nam,Goc,Nguon",csvHead3:"Ngay_GreenFeed,Mau_Bac,Mau_Trung,Mau_DNB,Trang_Bac,Trang_Trung,Trang_DNB,Mau_TNB,Trang_TNB",csvYes:"co",csvFile:"gia_ga_long_2026.csv",locale:"vi-VN"},
+en:{title:"Live Chicken Price Tracker",subtitle:"Farm-gate live bird prices · 3 regions · auto-updated from trade press",back:"← Back to blog",toFlu:"🦠 Avian influenza",light:"☀ Light",dark:"🌙 Dark",
+ sub:"The main series comes from Vietnam Livestock Magazine's weekly farm-gate price tables (nguoichannuoi.vn). Monthly prices average the weekly quotes in each month. GreenFeed regional averages and other press figures are for comparison only and are not averaged in.",
+ unitL:"Unit:",unitV:"VND/kg, live bird at farm gate",mainL:"Main series:",tables:"price tables,",gfL:"Latest GreenFeed:",updL:"Data updated:",
+ hKpi:"Latest quote (Vietnam Livestock Magazine)",kpiNote:"Red: above highline · amber border: needs verification",
+ hChart:"Summary chart Jan–Dec 2026",segTrang:"White broiler",segMau:"Colored chicken",byMonth:"Monthly",byWeek:"Weekly",refPts:"Compare GreenFeed & press",
+ hMatrix:"Monthly average price matrix (VND/kg)",csv:"⬇ Download CSV",
+ matrixNote:"Arrows: change vs the previous month with data. Italic rows: months without a magazine table yet, showing the GreenFeed average for reference (South = Southeast).",
+ hScan:"Scan & update sources",scanNow:"⟳ Scan now",reload:"⟲ Reload data",runGh:"▶ Run scan on GitHub",
+ scanNote:"The automatic scan runs on GitHub every day at 06:17 (plus 17:17 on Tuesdays and Wednesdays) and writes data.json for everyone. \"Scan now\" scans from your browser through public proxies; new figures stay on this device until the next automatic scan.",
+ lastAuto:"Last automatic scan:",latestTable:"Latest price table:",latestGf:"Latest GreenFeed:",localRows:"Scanned on this device:",never:"none",
+ hSrc:"Data sources",addL:"Add sources (one link per line, optionally \"Name | link\")",addBtn:"＋ Add & scan",saveGh:"✎ Save permanently (sources.json)",
+ addNote:"Links are classified automatically: nguoichannuoi.vn farm-gate tables → main series; GreenFeed tables → comparison; RSS links → news; any other page → sentences quoting chicken prices (VND/kg) for reference. Sources added here are stored on this device only; to have them scanned daily for everyone, click \"Save permanently\" and add them to the extra list in sources.json.",
+ srcMain:"main series",srcCmp:"comparison",srcNews:"news",srcFixed:"permanent",srcLocal:"this device",srcKinds:{"ncn-table":"price table","ncn-list":"price list","gf-table":"GreenFeed",rss:"RSS",page:"quotes"},
+ added:function(n){return "Added "+n+" source(s)"},noUrl:"No valid link",
+ hInsight:"Procurement watch points",hThr:"Procurement highline",thrTrang:"White broiler (VND/kg)",thrMau:"Colored chicken (VND/kg)",
+ thrNote:"Thresholds are saved in this browser. Above the threshold, KPI tiles and matrix cells turn red and the chart shows the highline.",
+ hLedger:"Weekly price ledger (main series)",ledgerNote:"Each row links to the original table",gfTableT:"GreenFeed table by date (regional averages)",
+ hNews:"Latest chicken price news",hMen:"Quotes from added sources",menNote:"Sentences mentioning chicken prices (VND/kg) on the added source pages. Reference only, not averaged.",noNews:"No news yet.",noMen:"No quotes yet.",
+ hRef:"Press reference points",hTa:"Native / free-range hybrid chicken",
+ taIntro:"No source publishes weekly native-chicken prices for the three regions, so there is no monthly series for native chicken. Verified price points:",
  hMethod:"Method and data limitations",
- method:[
-  "Monthly price = simple average of the spot prices in the farm-gate tables published by Vietnam Livestock Magazine within the month (usually every Tuesday). Column \"n\" is the number of quotes.",
-  "\"White broiler\" maps to the source's \"gà chuyên thịt\" row; \"Colored chicken\" maps to \"gà thịt lông màu\".",
-  "February misses 17/02 (Tet holiday). April has only 2 quotes (07/04, 14/04). June excludes 02/06 because the publishing site blocks automated reading. September has only 2 quotes (15/09, 22/09); the 29/09 and 06/10 tables could not be read yet.",
-  "Northern colored chicken jumped to 63,800 (25/08) and 74,800 (15–22/09), far from the Central and South prices and from GreenFeed's northern hybrid price on 01/10 (43,724). The file keeps the published figures and flags them for verification.",
-  "The file does not estimate or interpolate missing months. Chart lines break at those months."],
- prod:{trang:"White broiler",mau:"Colored chicken"}, prodLong:{trang:"White broiler",mau:"Colored chicken"},
- reg:{Bac:"North",Trung:"Central",Nam:"South"}, regLong:r=>I18N.en.reg[r],
- mon:m=>["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][m-1], monLong:m=>["January","February","March","April","May","June","July","August","September","October","November","December"][m-1]+" 2026",
- period:"Quote", vsT1:"vs Jan avg", range:"Year range:", verify:"needs verification", verifyShort:"verify", over:"above",
- future:"No main-series table yet", refLegend:"Reference from other sources", highline:"Highline",
- hover:"Hover over (or tap) a month to see the figures.", noMain:"no main-series data",
- noteM:"Each point is the average of the month's weekly quotes. Amber border: month includes a figure that needs verification. Diamonds: other sources, not averaged.",
- noteW:"Each point is the spot price of one weekly table. Amber border: figure needs verification.",
- chartAria:(p,g)=>`${p} price chart, ${g==="m"?"monthly":"weekly"}, 2026, three regions`,
- thMonth:"Month", nPeriods:"n quotes", first:"first", noData:"No data yet", avg:m=>`Avg Jan–${I18N.en.mon(m)}`,
- thPeriod:"Quote date", thSource:"Source", srcNcn:"Vietnam Livestock Magazine", thDate:"Date", thType:"Type", thRegion:"Region", thPrice:"Price",
- ins1:(p,parts,m)=>`<b>${p}</b>: ${I18N.en.mon(m)} average vs January (VND/kg): ${parts}.`,
- ins2:(r,lo,lov,hi,hiv)=>`White broiler, ${r}: low in ${I18N.en.mon(lo)} (${lov}), high in ${I18N.en.mon(hi)} (${hiv}).`,
- ins3:"Southern white broiler on 29/09 was 28,000–30,000 per Tuoi Tre; GreenFeed on 01/10 shows the Southeast at 26,500, down 500 from the previous reading.",
- ins4:"Northern colored chicken at 74,800 (Sep 2026) is far off other sources. Check against supplier quotes before using it as a floor or ceiling price.",
- csvHead:"Month,Type,Region,Avg_price_VND_kg,Quotes,Min,Max,Needs_verification", csvHead2:"Date,White_North,White_Central,White_South,Colored_North,Colored_Central,Colored_South,Source", csvYes:"yes", csvFile:"live_chicken_prices_2026.csv",
- locale:"en-US"
-}};
+ method:["Monthly price = simple average of the spot prices in Vietnam Livestock Magazine's farm-gate tables published in the month (usually Tuesdays). Column \"n\" is the number of quotes.","\"White broiler\" maps to the source's \"gà chuyên thịt\" row; \"Colored chicken\" maps to \"gà thịt lông màu\".","GreenFeed: the \"colored\" and \"white\" chicken columns (regional averages) of its market price table; South = Southeast, Southwest kept alongside.","Figures are flagged for verification when they move more than 25% from the previous quote, or differ more than 35% from GreenFeed within 6 days.","Missing months are never estimated or interpolated; chart lines break there."],
+ prod:{trang:"White broiler",mau:"Colored chicken"},prodLong:{trang:"White broiler",mau:"Colored chicken"},
+ reg:{Bac:"North",Trung:"Central",Nam:"South"},regLong:function(r){return I18N.en.reg[r]},
+ mon:function(m){return ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][m-1]},monLong:function(m){return ["January","February","March","April","May","June","July","August","September","October","November","December"][m-1]+" 2026"},
+ period:"Quote",vsPrev:"vs previous",gfNow:"GreenFeed",verify:"needs verification",verifyShort:"verify",over:"above",
+ future:"No main-series table yet",gfLegend:"GreenFeed (dashed)",refLegend:"Other press",highline:"Highline",
+ hover:"Hover over (or tap) a month to see the figures.",noMain:"no main-series data",
+ noteM:"Solid: magazine monthly average. Dashed: GreenFeed monthly average. Amber border: includes a figure that needs verification.",
+ noteW:"Solid points: magazine spot price per quote. Dashed: GreenFeed by date.",
+ chartAria:function(p,g){return p+" price chart, "+(g==="m"?"monthly":"weekly")+", 2026, three regions"},
+ thMonth:"Month",nPeriods:"n quotes",first:"first",noData:"No data yet",avg:function(m){return "Avg Jan–"+I18N.en.mon(m)},gfAvg:function(k){return "GreenFeed avg of "+k+" days"},
+ thPeriod:"Quote date",thSource:"Source",thOrigin:"Origin",srcNcn:"Vietnam Livestock Magazine",thDate:"Date",thType:"Type",thRegion:"Region",thPrice:"Price",
+ origin:{seed:"verified",auto:"auto scan",local:"this device"},
+ ins:{
+  chg:function(p,parts,m){return "<b>"+p+"</b>: "+I18N.en.mon(m)+" average vs January (VND/kg): "+parts+"."},
+  last:function(p,d,parts){return "<b>"+p+"</b> quote "+d+" vs previous: "+parts+"."},
+  gap:function(r,v,g,pct){return "White broiler, "+r+": magazine "+v+" vs GreenFeed "+g+" ("+pct+")."},
+  flags:function(n){return n+" figures are flagged for verification, mostly northern colored chicken. Check against supplier quotes before using them as floor or ceiling prices."}},
+ foot:"Main source: Vietnam Livestock Magazine (nguoichannuoi.vn) · comparison: GreenFeed · automatic scan by GitHub Actions",
+ log:{start:"Starting browser scan…",ncn:"Reading Vietnam Livestock Magazine price list",ncnNew:function(d){return "+ New price table "+d},none:"No new price table",gf:"Reading GreenFeed table",gfNew:function(n){return "+ GreenFeed: "+n+" new day(s)"},extra:function(n){return "Reading "+n+" added source(s)"},fail:function(u){return "✕ Could not load: "+u},done:function(n){return "Done. New quotes/days: "+n},proxy:"(via proxy)",reloaded:"Reloaded data.json",reloadFail:"Could not load data.json, using the copy bundled in the page",serverLog:"Log of the last automatic scan:"},
+ csvHead:"Month,Type,Region,Avg_price_VND_kg,Quotes,Min,Max,Needs_verification",csvHead2:"Date,White_North,White_Central,White_South,Colored_North,Colored_Central,Colored_South,Origin,Source",csvHead3:"GreenFeed_date,Colored_North,Colored_Central,Colored_SE,White_North,White_Central,White_SE,Colored_SW,White_SW",csvYes:"yes",csvFile:"live_chicken_prices_2026.csv",locale:"en-US"}};
 
-/* ===== CẤU HÌNH / CONFIG ===== */
-const REG=["Bac","Trung","Nam"], RCSS={Bac:"--s-bac",Trung:"--s-trung",Nam:"--s-nam"};
-const IDX={mau:{Bac:1,Trung:2,Nam:3},trang:{Bac:4,Trung:5,Nam:6}};
-const MONTHS=Array.from({length:12},(_,i)=>i+1);
-const ncnUrl=d=>{const [y,m,dd]=d.split("-");return `https://nguoichannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-${dd}-${m}-${y}/`};
-const ROOT=document.getElementById("gagl26");const $=id=>document.getElementById("g26-"+id);
-const store={get(k){try{return JSON.parse(localStorage.getItem(k)||"null")}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-let lang=store.get("gagl26_lang")==="en"?"en":"vi";
-const L=()=>I18N[lang];
-const fmt=n=>n==null||isNaN(n)?"–":Math.round(n).toLocaleString(L().locale);
-const fmtD=d=>{const [y,m,dd]=d.split("-");return `${dd}/${m}`};
-const css=v=>getComputedStyle(ROOT).getPropertyValue(v).trim();
-const isFlag=(d,p,r)=>FLAGS.some(f=>f[0]===d&&f[1]===p&&f[2]===r);
-let thr=store.get("gagl26_thr")||{}; let prod="trang", gran="m";
+/* ===== TRẠNG THÁI ===== */
+var lang=store.raw("cgc_lang")==="en"?"en":"vi";
+var theme=store.raw("cgc_theme")==="light"?"light":"dark";
+var thr=store.get("gagl26_thr")||{}, prod="trang", gran="m";
+var D=null, LOCAL=store.get("gagl26_local")||{weekly:[],gf:[],news:[],mentions:[],at:null};
+var LOCALSRC=store.get("gagl26_src")||[], FIXEDSRC=[], LOGLINES=[];
+var L=function(){return I18N[lang]};
+var REG=["Bac","Trung","Nam"], RCSS={Bac:"--s-bac",Trung:"--s-trung",Nam:"--s-nam"};
+var IDX={mau:{Bac:1,Trung:2,Nam:3},trang:{Bac:4,Trung:5,Nam:6}};
+var MONTHS=[1,2,3,4,5,6,7,8,9,10,11,12];
+var fmt=function(n){return n==null||isNaN(n)?"–":Math.round(n).toLocaleString(L().locale)};
+var fmtD=function(d){var p=d.split("-");return p[2]+"/"+p[1]};
+var fmtDT=function(s){if(!s)return L().never;var d=new Date(s);if(isNaN(d))return s;return d.toLocaleString(L().locale,{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"})};
+var css=function(v){return getComputedStyle(ROOT).getPropertyValue(v).trim()};
+var esc=function(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
+var ncnUrl=function(d){var p=d.split("-");return "https://nguoichannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-"+p[2]+"-"+p[1]+"-"+p[0]+"/"};
+var dayDiff=function(a,b){return Math.abs(Date.parse(a)-Date.parse(b))/864e5};
 
-/* ===== TÍNH TOÁN / CALC ===== */
-function weekly(p,r){return NCN.map(row=>({d:row[0],v:row[IDX[p][r]],flag:isFlag(row[0],p,r)}))}
-function monthly(p,r){
-  return MONTHS.map(m=>{
-    const pts=weekly(p,r).filter(x=>+x.d.slice(5,7)===m);
-    if(!pts.length)return {m,v:null,n:0,flag:false,min:null,max:null};
-    const vs=pts.map(x=>x.v);
-    return {m,v:vs.reduce((a,b)=>a+b,0)/vs.length,n:vs.length,flag:pts.some(x=>x.flag),min:Math.min(...vs),max:Math.max(...vs)};
-  });
+function weeklyAll(){
+  var w=D.weekly.map(function(r){return {r:r,o:(D.meta.origin||{})[r[0]]||"seed"}});
+  (LOCAL.weekly||[]).forEach(function(r){if(!w.some(function(x){return x.r[0]===r[0]}))w.push({r:r,o:"local"})});
+  return w.sort(function(a,b){return a.r[0]<b.r[0]?-1:1});
 }
-const refsFor=(p,r)=>REFS.filter(x=>x.p===p&&x.r===r);
-const lastM=()=>+NCN[NCN.length-1][0].slice(5,7);
+function gfAll(){
+  var g=(D.gf||[]).slice();
+  (LOCAL.gf||[]).forEach(function(r){if(!g.some(function(x){return x[0]===r[0]}))g.push(r)});
+  return g.sort(function(a,b){return a[0]<b[0]?-1:1});
+}
+var W=[],G=[];
+function rebuild(){W=weeklyAll();G=gfAll()}
+function gfNear(d,p,r){var best=null,bd=99;G.forEach(function(g){var dd=dayDiff(g[0],d);if(dd<=6&&dd<bd){bd=dd;best=g}});return best?best[IDX[p][r]]:null}
+function flagInfo(d,p,r){
+  var t=(D.flags||[]).find(function(f){return f[0]===d&&f[1]===p&&f[2]===r});if(t)return t[3]||L().verify;
+  var i=W.findIndex(function(x){return x.r[0]===d});if(i<0)return null;var v=W[i].r[IDX[p][r]];
+  if(i>0){var a=W[i-1].r[IDX[p][r]];if(a&&Math.abs(v-a)/a>0.25)return (lang==="vi"?"lệch ":"moved ")+Math.round((v-a)/a*100)+"% "+(lang==="vi"?"so với kỳ ":"vs ")+fmtD(W[i-1].r[0]);}
+  var g=gfNear(d,p,r);if(g&&Math.abs(v-g)/g>0.35)return (lang==="vi"?"lệch GreenFeed ":"vs GreenFeed ")+(v>g?"+":"")+Math.round((v-g)/g*100)+"%";
+  return null;
+}
+function weekly(p,r){return W.map(function(x){return {d:x.r[0],v:x.r[IDX[p][r]],o:x.o,flag:flagInfo(x.r[0],p,r)}})}
+function monthly(p,r){return MONTHS.map(function(m){var pts=weekly(p,r).filter(function(x){return +x.d.slice(5,7)===m});if(!pts.length)return {m:m,v:null,n:0};var vs=pts.map(function(x){return x.v});return {m:m,v:vs.reduce(function(a,b){return a+b},0)/vs.length,n:vs.length,flag:pts.some(function(x){return x.flag}),min:Math.min.apply(null,vs),max:Math.max.apply(null,vs)}})}
+function gfMonthly(p,r){return MONTHS.map(function(m){var pts=G.filter(function(g){return +g[0].slice(5,7)===m&&g[IDX[p][r]]});if(!pts.length)return {m:m,v:null,n:0};var vs=pts.map(function(g){return g[IDX[p][r]]});return {m:m,v:vs.reduce(function(a,b){return a+b},0)/vs.length,n:vs.length}})}
+var lastM=function(){return +W[W.length-1].r[0].slice(5,7)};
 
-/* ===== TEXT TĨNH / STATIC TEXT ===== */
+/* ===== TEXT TĨNH ===== */
 function applyStatic(){
-  ROOT.setAttribute("lang",lang);
-  ROOT.querySelectorAll("[data-i18n]").forEach(el=>{const v=L()[el.dataset.i18n];if(typeof v==="string")el.textContent=v});
-  $("method").innerHTML=L().method.map(x=>`<li>${x}</li>`).join("");
-  $("readout").innerHTML=`<span class="muted">${L().hover}</span>`;
-  [...$("segLang").children].forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===lang));
+  var t=L();ROOT.setAttribute("lang",lang);ROOT.dataset.theme=theme;
+  ROOT.querySelectorAll("[data-i18n]").forEach(function(el){var v=t[el.dataset.i18n];if(typeof v==="string")el.textContent=v});
+  $("method").innerHTML=t.method.map(function(x){return "<li>"+x+"</li>"}).join("");
+  $("readout").innerHTML='<span class="muted">'+t.hover+"</span>";
+  $("theme").textContent=theme==="dark"?t.light:t.dark;
+  [].forEach.call($("lang").children,function(b){b.classList.toggle("on",b.dataset.v===lang)});
 }
 
 /* ===== KPI ===== */
 function drawKpis(){
-  const t=L(), last=NCN[NCN.length-1]; const out=[];
-  for(const p of ["trang","mau"])for(const r of REG){
-    const v=last[IDX[p][r]]; const t1=monthly(p,r)[0].v; const ytd=t1?((v-t1)/t1*100):null;
-    const vals=NCN.map(x=>x[IDX[p][r]]); const lo=Math.min(...vals), hi=Math.max(...vals);
-    const over=thr[p]&&v>thr[p]; const fl=isFlag(last[0],p,r);
-    out.push(`<div class="kpi${over?" alert":""}${fl?" flag":""}">
-      <div class="lbl"><span>${t.prod[p]}</span><span class="chip">${t.reg[r]}</span></div>
-      <div class="val">${fmt(v)}</div>
-      <div class="meta">${t.period} ${fmtD(last[0])} · ${t.vsT1} <span class="${ytd>0?"up":ytd<0?"down":""}">${ytd>0?"▲":ytd<0?"▼":"■"} ${ytd==null?"–":Math.abs(ytd).toFixed(1)+"%"}</span></div>
-      <div class="meta">${t.range} ${fmt(lo)}–${fmt(hi)}${fl?` · <span class="chip warn">${t.verify}</span>`:""}${over?` · ${t.over} ${fmt(thr[p])}`:""}</div>
-    </div>`);
-  }
+  var t=L(),last=W[W.length-1],prev=W[W.length-2],out=[];
+  ["trang","mau"].forEach(function(p){REG.forEach(function(r){
+    var v=last.r[IDX[p][r]],pv=prev?prev.r[IDX[p][r]]:null,d=pv!=null?v-pv:null;
+    var g=gfNear(last.r[0],p,r),over=thr[p]&&v>thr[p],fl=flagInfo(last.r[0],p,r);
+    out.push('<div class="kpi'+(over?" alert":"")+(fl?" flag":"")+'" style="--c:var('+RCSS[r]+')"><div class="lbl"><span>'+t.prod[p]+'</span><span>'+t.reg[r]+'</span></div><div class="val">'+fmt(v)+'</div>'+
+      '<div class="meta">'+t.period+" "+fmtD(last.r[0])+" · "+t.vsPrev+' <span class="'+(d>0?"up":d<0?"down":"")+'">'+(d==null?"–":(d>0?"▲ ":d<0?"▼ ":"■ ")+fmt(Math.abs(d)))+"</span></div>"+
+      '<div class="meta">'+t.gfNow+": "+(g?fmt(g):"–")+(fl?' · <span class="badge b-amber" title="'+esc(fl)+'">'+t.verifyShort+"</span>":"")+(over?' · <span class="badge b-red">'+t.over+" "+fmt(thr[p])+"</span>":"")+"</div></div>");
+  })});
   $("kpis").innerHTML=out.join("");
-  $("fCount").textContent=NCN.length; $("fRange").textContent=`${fmtD(NCN[0][0])} – ${fmtD(NCN[NCN.length-1][0])}/2026`;
+  $("fCount").textContent=W.length;$("fRange").textContent=fmtD(W[0].r[0])+" – "+fmtD(last.r[0])+"/2026";
+  $("fGf").textContent=G.length?fmtD(G[G.length-1][0])+"/2026":"–";$("fUpd").textContent=fmtDT(D.meta.updated);
 }
 
-/* ===== BIỂU ĐỒ / CHART ===== */
+/* ===== BIỂU ĐỒ ===== */
 function drawChart(){
-  const t=L(), showRef=$("showRef").checked;
-  const W=760,H=340,Lp=54,R=18,T=18,B=34, plotW=W-Lp-R, plotH=H-T-B;
-  const ys=Date.parse("2026-01-01"), ye=Date.parse("2027-01-01");
-  const xMonth=m=>Lp+(m-0.5)/12*plotW, xDate=d=>Lp+(Date.parse(d)-ys)/(ye-ys)*plotW;
-  const series=REG.map(r=>({r,mo:monthly(prod,r),wk:weekly(prod,r),refs:refsFor(prod,r)}));
-  const vals=[]; series.forEach(s=>{(gran==="m"?s.mo.map(x=>x.v):s.wk.map(x=>x.v)).forEach(v=>v!=null&&vals.push(v)); if(showRef)s.refs.forEach(x=>vals.push(x.min,x.max))});
+  var t=L(),showRef=$("showRef").checked;
+  var Wd=760,H=340,Lp=54,R=18,T=18,B=34,plotW=Wd-Lp-R,plotH=H-T-B;
+  var ys=Date.parse("2026-01-01"),ye=Date.parse("2027-01-01");
+  var xM=function(m){return Lp+(m-0.5)/12*plotW},xD=function(d){return Lp+(Date.parse(d)-ys)/(ye-ys)*plotW};
+  var S=REG.map(function(r){return {r:r,mo:monthly(prod,r),wk:weekly(prod,r),gm:gfMonthly(prod,r),gw:G.filter(function(g){return g[IDX[prod][r]]}).map(function(g){return {d:g[0],v:g[IDX[prod][r]]}}),refs:(D.refs||[]).filter(function(x){return x.p===prod&&x.r===r})}});
+  var vals=[];S.forEach(function(s){(gran==="m"?s.mo:s.wk).forEach(function(x){if(x.v!=null)vals.push(x.v)});if(showRef){(gran==="m"?s.gm:s.gw).forEach(function(x){if(x.v!=null)vals.push(x.v)});s.refs.forEach(function(x){vals.push(x.min,x.max)})}});
   if(thr[prod])vals.push(thr[prod]);
-  const step=5000, v0=Math.floor((Math.min(...vals)-1000)/step)*step, v1=Math.ceil((Math.max(...vals)+1000)/step)*step;
-  const y=v=>T+(1-(v-v0)/(v1-v0))*plotH;
-  let g="";
-  const lastD=NCN[NCN.length-1][0];
-  const fx=gran==="m"?Lp+lastM()/12*plotW:xDate(lastD);
-  g+=`<rect x="${fx}" y="${T}" width="${W-R-fx}" height="${plotH}" fill="${css("--future")}"/>`;
-  g+=`<text x="${(fx+W-R)/2}" y="${T+16}" text-anchor="middle">${t.future}</text>`;
-  for(let v=v0;v<=v1;v+=step)g+=`<line x1="${Lp}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="${css("--grid")}" stroke-width="1"/><text x="${Lp-8}" y="${y(v)+4}" text-anchor="end">${v/1000}k</text>`;
-  MONTHS.forEach(m=>{g+=`<text x="${xMonth(m)}" y="${H-12}" text-anchor="middle">${t.mon(m)}</text>`;if(m>1)g+=`<line x1="${Lp+(m-1)/12*plotW}" x2="${Lp+(m-1)/12*plotW}" y1="${T}" y2="${T+plotH}" stroke="${css("--grid")}" stroke-width="1"/>`});
-  g+=`<line x1="${Lp}" x2="${W-R}" y1="${T+plotH}" y2="${T+plotH}" stroke="${css("--line")}" stroke-width="1"/>`;
-  if(thr[prod]){const yy=y(thr[prod]);g+=`<line x1="${Lp}" x2="${W-R}" y1="${yy}" y2="${yy}" stroke="${css("--up")}" stroke-dasharray="6 4" stroke-width="1.5"/><text x="${Lp+6}" y="${yy-6}" style="fill:${css("--up")}">highline ${fmt(thr[prod])}</text>`}
-  const endLabels=[];
-  for(const s of series){
-    const c=css(RCSS[s.r]);
-    const pts=gran==="m"?s.mo.map(x=>x.v==null?null:{x:xMonth(x.m),y:y(x.v),v:x.v,flag:x.flag,lab:t.mon(x.m)}):s.wk.map(x=>({x:xDate(x.d),y:y(x.v),v:x.v,flag:x.flag,lab:fmtD(x.d)}));
-    let seg=[],segs=[]; pts.forEach(p=>{if(p)seg.push(p);else{if(seg.length)segs.push(seg);seg=[]}}); if(seg.length)segs.push(seg);
-    segs.forEach(sg=>{g+=`<polyline fill="none" stroke="${c}" stroke-width="${gran==="m"?2.4:1.8}" stroke-linejoin="round" stroke-linecap="round" points="${sg.map(p=>`${p.x},${p.y}`).join(" ")}"/>`});
-    const valid=pts.filter(Boolean);
-    valid.forEach((p,i)=>{const last=i===valid.length-1;
-      g+=`<circle cx="${p.x}" cy="${p.y}" r="${last?4.5:(gran==="m"?3.2:2.4)}" fill="${last?c:css("--surface")}" stroke="${p.flag?css("--warn"):c}" stroke-width="${p.flag?2.5:2}"><title>${t.regLong(s.r)} · ${p.lab}: ${fmt(p.v)}${p.flag?" ("+t.verify+")":""}</title></circle>`});
-    if(gran==="m"&&valid.length){const lp=valid[valid.length-1];endLabels.push({x:lp.x+8,y:lp.y+4,c,t:fmt(lp.v)})}
-    if(showRef)s.refs.forEach(rf=>{const xx=gran==="m"?xMonth(+rf.date.slice(5,7)):xDate(rf.date);const yy=y((rf.min+rf.max)/2);
-      if(rf.min!==rf.max)g+=`<line x1="${xx}" x2="${xx}" y1="${y(rf.min)}" y2="${y(rf.max)}" stroke="${c}" stroke-width="1.5" opacity=".7"/>`;
-      g+=`<rect x="${xx-4.5}" y="${yy-4.5}" width="9" height="9" transform="rotate(45 ${xx} ${yy})" fill="${css("--surface")}" stroke="${c}" stroke-width="1.8"><title>${rf.src[lang]} · ${fmtD(rf.date)} · ${t.reg[s.r]}: ${rf.min===rf.max?fmt(rf.min):fmt(rf.min)+"–"+fmt(rf.max)} (${rf.note[lang]})</title></rect>`});
-  }
-  endLabels.sort((a,b)=>a.y-b.y);
-  for(let i=1;i<endLabels.length;i++)if(endLabels[i].y-endLabels[i-1].y<14)endLabels[i].y=endLabels[i-1].y+14;
-  endLabels.forEach(l=>{g+=`<text x="${l.x}" y="${l.y}" style="fill:${l.c};font-weight:600">${l.t}</text>`});
-  MONTHS.forEach(m=>{g+=`<rect class="hit" data-m="${m}" x="${Lp+(m-1)/12*plotW}" y="${T}" width="${plotW/12}" height="${plotH}" fill="transparent"/>`});
-  $("chart").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${t.chartAria(t.prod[prod],gran)}">${g}</svg>`;
-  $("legend").innerHTML=REG.map(r=>`<span><i style="background:var(${RCSS[r]})"></i>${t.regLong(r)}</span>`).join("")+(showRef?`<span><i class="ref"></i>${t.refLegend}</span>`:"")+(thr[prod]?`<span><i style="background:var(--up)"></i>${t.highline}</span>`:"");
-  $("chart").querySelectorAll(".hit").forEach(h=>{const f=()=>readout(+h.dataset.m);h.addEventListener("mouseenter",f);h.addEventListener("click",f)});
+  var step=5000,v0=Math.floor((Math.min.apply(null,vals)-1000)/step)*step,v1=Math.ceil((Math.max.apply(null,vals)+1000)/step)*step;
+  var y=function(v){return T+(1-(v-v0)/(v1-v0))*plotH},g="";
+  var lastD=W[W.length-1].r[0],fx=gran==="m"?Lp+lastM()/12*plotW:xD(lastD);
+  g+='<rect x="'+fx+'" y="'+T+'" width="'+Math.max(0,Wd-R-fx)+'" height="'+plotH+'" fill="'+css("--future")+'"/>';
+  if(Wd-R-fx>120)g+='<text x="'+(fx+Wd-R)/2+'" y="'+(T+16)+'" text-anchor="middle">'+t.future+"</text>";
+  for(var v=v0;v<=v1;v+=step)g+='<line x1="'+Lp+'" x2="'+(Wd-R)+'" y1="'+y(v)+'" y2="'+y(v)+'" stroke="'+css("--grid")+'"/><text x="'+(Lp-8)+'" y="'+(y(v)+4)+'" text-anchor="end">'+v/1000+"k</text>";
+  MONTHS.forEach(function(m){g+='<text x="'+xM(m)+'" y="'+(H-12)+'" text-anchor="middle">'+t.mon(m)+"</text>";if(m>1)g+='<line x1="'+(Lp+(m-1)/12*plotW)+'" x2="'+(Lp+(m-1)/12*plotW)+'" y1="'+T+'" y2="'+(T+plotH)+'" stroke="'+css("--grid")+'"/>'});
+  if(thr[prod]){var yy=y(thr[prod]);g+='<line x1="'+Lp+'" x2="'+(Wd-R)+'" y1="'+yy+'" y2="'+yy+'" stroke="'+css("--red")+'" stroke-dasharray="6 4" stroke-width="1.5"/><text x="'+(Lp+6)+'" y="'+(yy-6)+'" style="fill:'+css("--red")+'">highline '+fmt(thr[prod])+"</text>"}
+  var line=function(pts,c,w,dash){var segs=[],sg=[];pts.forEach(function(p){if(p)sg.push(p);else{if(sg.length)segs.push(sg);sg=[]}});if(sg.length)segs.push(sg);
+    return segs.map(function(s){return '<polyline fill="none" stroke="'+c+'" stroke-width="'+w+'"'+(dash?' stroke-dasharray="5 4" opacity=".75"':"")+' stroke-linejoin="round" stroke-linecap="round" points="'+s.map(function(p){return p.x+","+p.y}).join(" ")+'"/>'}).join("")};
+  var ends=[];
+  S.forEach(function(s){
+    var c=css(RCSS[s.r]);
+    if(showRef){var gp=gran==="m"?s.gm.map(function(x){return x.v==null?null:{x:xM(x.m),y:y(x.v)}}):s.gw.map(function(x){return {x:xD(x.d),y:y(x.v)}});g+=line(gp,c,1.6,true);
+      s.refs.forEach(function(rf){var xx=gran==="m"?xM(+rf.date.slice(5,7)):xD(rf.date),yy=y((rf.min+rf.max)/2);if(rf.min!==rf.max)g+='<line x1="'+xx+'" x2="'+xx+'" y1="'+y(rf.min)+'" y2="'+y(rf.max)+'" stroke="'+c+'" stroke-width="1.5" opacity=".7"/>';
+        g+='<rect x="'+(xx-4.5)+'" y="'+(yy-4.5)+'" width="9" height="9" transform="rotate(45 '+xx+" "+yy+')" fill="'+css("--panel")+'" stroke="'+c+'" stroke-width="1.8"><title>'+esc(rf.src[lang])+" · "+fmtD(rf.date)+" · "+t.reg[s.r]+": "+(rf.min===rf.max?fmt(rf.min):fmt(rf.min)+"–"+fmt(rf.max))+" ("+esc(rf.note[lang])+")</title></rect>"})}
+    var pts=gran==="m"?s.mo.map(function(x){return x.v==null?null:{x:xM(x.m),y:y(x.v),v:x.v,flag:x.flag,lab:t.mon(x.m)}}):s.wk.map(function(x){return {x:xD(x.d),y:y(x.v),v:x.v,flag:x.flag,lab:fmtD(x.d)}});
+    g+=line(pts,c,gran==="m"?2.6:2,false);
+    var vp=pts.filter(Boolean);
+    vp.forEach(function(p,i){var last=i===vp.length-1;g+='<circle cx="'+p.x+'" cy="'+p.y+'" r="'+(last?4.5:(gran==="m"?3.2:2.4))+'" fill="'+(last?c:css("--panel"))+'" stroke="'+(p.flag?css("--amber"):c)+'" stroke-width="'+(p.flag?2.6:2)+'"><title>'+t.regLong(s.r)+" · "+p.lab+": "+fmt(p.v)+(p.flag?" ("+t.verify+")":"")+"</title></circle>"});
+    if(vp.length){var lp=vp[vp.length-1];ends.push({x:lp.x+8,y:lp.y+4,c:c,t:fmt(lp.v)})}
+  });
+  ends.sort(function(a,b){return a.y-b.y});for(var i=1;i<ends.length;i++)if(ends[i].y-ends[i-1].y<14)ends[i].y=ends[i-1].y+14;
+  ends.forEach(function(l){g+='<text x="'+l.x+'" y="'+l.y+'" style="fill:'+l.c+';font-weight:700">'+l.t+"</text>"});
+  MONTHS.forEach(function(m){g+='<rect class="hit" data-m="'+m+'" x="'+(Lp+(m-1)/12*plotW)+'" y="'+T+'" width="'+plotW/12+'" height="'+plotH+'" fill="transparent"/>'});
+  $("chart").innerHTML='<svg viewBox="0 0 '+Wd+" "+H+'" role="img" aria-label="'+esc(t.chartAria(t.prod[prod],gran))+'">'+g+"</svg>";
+  $("legend").innerHTML=REG.map(function(r){return '<span><i style="background:var('+RCSS[r]+')"></i>'+t.regLong(r)+"</span>"}).join("")+(showRef?'<span><i class="dash"></i>'+t.gfLegend+'</span><span><i class="ref"></i>'+t.refLegend+"</span>":"")+(thr[prod]?'<span><i style="background:var(--red)"></i>'+t.highline+"</span>":"");
+  $("chart").querySelectorAll(".hit").forEach(function(h){var f=function(){readout(+h.dataset.m)};h.addEventListener("mouseenter",f);h.addEventListener("click",f)});
   $("chartNote").textContent=gran==="m"?t.noteM:t.noteW;
+  $("refLbl").classList.toggle("on",showRef);
 }
 function readout(m){
-  const t=L();
-  const rows=REG.map(r=>{const x=monthly(prod,r)[m-1];const refs=refsFor(prod,r).filter(f=>+f.date.slice(5,7)===m);
-    return `<div><span class="chip">${t.reg[r]}</span> ${x.v==null?`<span class="muted">${t.noMain}</span>`:`<b>${fmt(x.v)}</b> <span class="muted">(n=${x.n}, ${fmt(x.min)}–${fmt(x.max)})</span>`}${x.flag?` <span class="chip warn">${t.verifyShort}</span>`:""}${refs.map(f=>`<div class="muted" style="font-size:12px">◇ ${f.src[lang]}: ${f.min===f.max?fmt(f.min):fmt(f.min)+"–"+fmt(f.max)}</div>`).join("")}</div>`});
-  $("readout").innerHTML=`<div><b>${t.monLong(m)}</b><div class="muted" style="font-size:12px">${t.prod[prod]}</div></div>`+rows.join("");
+  var t=L();
+  var rows=REG.map(function(r){var x=monthly(prod,r)[m-1],gm=gfMonthly(prod,r)[m-1];
+    return "<div><span class=\"badge b-grey\">"+t.reg[r]+"</span> "+(x.v==null?'<span class="muted">'+t.noMain+"</span>":"<b>"+fmt(x.v)+'</b> <span class="muted">(n='+x.n+", "+fmt(x.min)+"–"+fmt(x.max)+")</span>")+(x.flag?' <span class="badge b-amber">'+t.verifyShort+"</span>":"")+(gm.v!=null?'<div class="muted" style="font-size:11.5px">GreenFeed: '+fmt(gm.v)+" ("+gm.n+")</div>":"")+"</div>"});
+  $("readout").innerHTML="<div><b>"+t.monLong(m)+'</b><div class="muted" style="font-size:11.5px">'+t.prod[prod]+"</div></div>"+rows.join("");
 }
 
-/* ===== MA TRẬN THÁNG / MONTHLY MATRIX ===== */
+/* ===== MA TRẬN ===== */
 function drawMatrix(){
-  const t=L(), cols=[]; for(const p of ["trang","mau"])for(const r of REG)cols.push({p,r,mo:monthly(p,r)});
-  let h=`<thead><tr><th rowspan="2">${t.thMonth}</th><th class="grp" colspan="3">${t.prodLong.trang}</th><th class="grp" colspan="3">${t.prodLong.mau}</th><th rowspan="2" class="r">${t.nPeriods}</th></tr><tr>${cols.map(c=>`<th class="r">${t.reg[c.r]}</th>`).join("")}</tr></thead><tbody>`;
-  MONTHS.forEach(m=>{
-    const n=cols[0].mo[m-1].n;
-    if(n){
-      h+=`<tr><td class="num">${t.mon(m)}</td>`+cols.map(c=>{const x=c.mo[m-1];
-        let prev=null; for(let k=m-2;k>=0;k--)if(c.mo[k].v!=null){prev=c.mo[k].v;break}
-        const d=prev!=null?x.v-prev:null; const over=thr[c.p]&&x.v>thr[c.p];
-        return `<td class="r num${over?" over":""}${x.flag?" flagcell":""}">${fmt(x.v)}${d!=null?`<span class="d ${d>0?"up":d<0?"down":"muted"}">${d>0?"▲":d<0?"▼":"■"} ${fmt(Math.abs(d))}</span>`:`<span class="d muted">${t.first}</span>`}</td>`}).join("")+`<td class="r num">${n}</td></tr>`;
-    }else if(m===10){
-      h+=`<tr class="future ref"><td class="num">${t.mon(10)}</td>`+cols.map(c=>{const f=REFS.find(x=>x.date==="2026-10-01"&&x.p===c.p&&x.r===c.r);return `<td class="r num">${f?fmt(f.min):"–"}<span class="d">GreenFeed 01/10</span></td>`}).join("")+`<td class="r num">0</td></tr>`;
-    }else{
-      h+=`<tr class="future"><td class="num">${t.mon(m)}</td><td colspan="6" class="muted">${t.noData}</td><td class="r num">0</td></tr>`;
-    }
+  var t=L(),cols=[];["trang","mau"].forEach(function(p){REG.forEach(function(r){cols.push({p:p,r:r,mo:monthly(p,r),gm:gfMonthly(p,r)})})});
+  var h="<thead><tr><th rowspan=\"2\">"+t.thMonth+'</th><th class="grp" colspan="3">'+t.prodLong.trang+'</th><th class="grp" colspan="3">'+t.prodLong.mau+'</th><th rowspan="2" class="r">'+t.nPeriods+"</th></tr><tr>"+cols.map(function(c){return '<th class="r">'+t.reg[c.r]+"</th>"}).join("")+"</tr></thead><tbody>";
+  MONTHS.forEach(function(m){
+    var n=cols[0].mo[m-1].n,gn=cols[0].gm[m-1].n;
+    if(n){h+='<tr><td class="num">'+t.mon(m)+"</td>"+cols.map(function(c){var x=c.mo[m-1],prev=null;for(var k=m-2;k>=0;k--)if(c.mo[k].v!=null){prev=c.mo[k].v;break}
+        var d=prev!=null?x.v-prev:null,over=thr[c.p]&&x.v>thr[c.p];
+        return '<td class="r num'+(over?" over":"")+(x.flag?" flagcell":"")+'">'+fmt(x.v)+(d!=null?'<span class="d '+(d>0?"up":d<0?"down":"muted")+'">'+(d>0?"▲":d<0?"▼":"■")+" "+fmt(Math.abs(d))+"</span>":'<span class="d muted">'+t.first+"</span>")+"</td>"}).join("")+'<td class="r num">'+n+"</td></tr>"}
+    else if(gn){h+='<tr class="future ref"><td class="num">'+t.mon(m)+"</td>"+cols.map(function(c){var x=c.gm[m-1];return '<td class="r num">'+fmt(x.v)+'<span class="d">'+t.gfAvg(x.n)+"</span></td>"}).join("")+'<td class="r num">0</td></tr>'}
+    else h+='<tr class="future"><td class="num">'+t.mon(m)+'</td><td colspan="6" class="muted">'+t.noData+'</td><td class="r num">0</td></tr>';
   });
-  h+=`<tr><td><b>${t.avg(lastM())}</b></td>`+cols.map(c=>{const vs=c.mo.filter(x=>x.v!=null).map(x=>x.v);return `<td class="r num"><b>${fmt(vs.reduce((a,b)=>a+b,0)/vs.length)}</b></td>`}).join("")+`<td class="r num">${NCN.length}</td></tr>`;
+  h+="<tr><td><b>"+t.avg(lastM())+"</b></td>"+cols.map(function(c){var vs=c.mo.filter(function(x){return x.v!=null}).map(function(x){return x.v});return '<td class="r num"><b>'+fmt(vs.reduce(function(a,b){return a+b},0)/vs.length)+"</b></td>"}).join("")+'<td class="r num">'+W.length+"</td></tr>";
   $("matrix").innerHTML=h+"</tbody>";
 }
 
-/* ===== SỔ TUẦN / LEDGER ===== */
+/* ===== SỔ TUẦN & GREENFEED ===== */
 function drawLedger(){
-  const t=L();
-  let h=`<thead><tr><th>${t.thPeriod}</th><th class="grp" colspan="3">${t.prodLong.trang}</th><th class="grp" colspan="3">${t.prodLong.mau}</th><th>${t.thSource}</th></tr><tr><th></th>${REG.map(r=>`<th class="r">${t.reg[r]}</th>`).join("")}${REG.map(r=>`<th class="r">${t.reg[r]}</th>`).join("")}<th></th></tr></thead><tbody>`;
-  [...NCN].reverse().forEach(row=>{
-    const cell=(p,r)=>{const v=row[IDX[p][r]];const fl=isFlag(row[0],p,r);const over=thr[p]&&v>thr[p];return `<td class="r num${fl?" flagcell":""}${over?" over":""}">${fmt(v)}${fl?` <span title="${t.verify}">⚠</span>`:""}</td>`};
-    h+=`<tr><td class="num">${fmtD(row[0])}/2026</td>${REG.map(r=>cell("trang",r)).join("")}${REG.map(r=>cell("mau",r)).join("")}<td><a href="${ncnUrl(row[0])}" target="_blank" rel="noopener">${t.srcNcn}</a></td></tr>`;
-  });
+  var t=L();
+  var h="<thead><tr><th>"+t.thPeriod+'</th><th class="grp" colspan="3">'+t.prodLong.trang+'</th><th class="grp" colspan="3">'+t.prodLong.mau+"</th><th>"+t.thOrigin+"</th><th>"+t.thSource+"</th></tr><tr><th></th>"+REG.map(function(r){return '<th class="r">'+t.reg[r]+"</th>"}).join("")+REG.map(function(r){return '<th class="r">'+t.reg[r]+"</th>"}).join("")+"<th></th><th></th></tr></thead><tbody>";
+  W.slice().reverse().forEach(function(x){var row=x.r;
+    var cell=function(p,r){var v=row[IDX[p][r]],fl=flagInfo(row[0],p,r),over=thr[p]&&v>thr[p];return '<td class="r num'+(fl?" flagcell":"")+(over?" over":"")+'"'+(fl?' title="'+esc(fl)+'"':"")+">"+fmt(v)+(fl?" ⚠":"")+"</td>"};
+    var ob=x.o==="local"?"b-amber":x.o==="auto"?"b-blue":"b-ok";
+    h+='<tr><td class="num">'+fmtD(row[0])+"/2026</td>"+REG.map(function(r){return cell("trang",r)}).join("")+REG.map(function(r){return cell("mau",r)}).join("")+'<td><span class="badge '+ob+'">'+t.origin[x.o]+'</span></td><td><a href="'+ncnUrl(row[0])+'" target="_blank" rel="noopener">'+t.srcNcn+"</a></td></tr>"});
   $("ledger").innerHTML=h+"</tbody>";
+  var gh="<thead><tr><th>"+t.thDate+'</th><th class="grp" colspan="3">'+t.prodLong.trang+'</th><th class="grp" colspan="3">'+t.prodLong.mau+'</th></tr><tr><th></th>'+REG.map(function(r){return '<th class="r">'+t.reg[r]+"</th>"}).join("")+REG.map(function(r){return '<th class="r">'+t.reg[r]+"</th>"}).join("")+"</tr></thead><tbody>";
+  G.slice().reverse().forEach(function(r){gh+='<tr><td class="num"><a href="https://www.greenfeed.com.vn/thuc-an-chan-nuoi-gia-suc-gia-cam/bang-gia-thi-truong/?type=vat-nuoi-price&amp;date='+r[0]+'" target="_blank" rel="noopener">'+fmtD(r[0])+"/"+r[0].slice(0,4)+"</a></td>"+[4,5,6,1,2,3].map(function(i){return '<td class="r num">'+fmt(r[i])+"</td>"}).join("")+"</tr>"});
+  $("gfTable").innerHTML=gh+"</tbody>";
 }
 function drawRefs(){
-  const t=L();
-  $("refTable").innerHTML=`<thead><tr><th>${t.thDate}</th><th>${t.thType}</th><th>${t.thRegion}</th><th class="r">${t.thPrice}</th><th>${t.thSource}</th></tr></thead><tbody>`+
-    [...REFS].sort((a,b)=>a.date<b.date?1:-1).map(f=>`<tr><td class="num">${fmtD(f.date)}</td><td>${t.prod[f.p]}</td><td>${t.reg[f.r]}</td><td class="r num">${f.min===f.max?fmt(f.min):fmt(f.min)+"–"+fmt(f.max)}</td><td><a href="${f.url}" target="_blank" rel="noopener">${f.src[lang]}</a><span class="d muted">${f.note[lang]}</span></td></tr>`).join("")+"</tbody>";
-  $("taList").innerHTML=TA.map(x=>`<li>${x[lang]} <a href="${x.url}" target="_blank" rel="noopener">${x.src[lang]}</a></li>`).join("");
+  var t=L();
+  $("refTable").innerHTML="<thead><tr><th>"+t.thDate+"</th><th>"+t.thType+"</th><th>"+t.thRegion+'</th><th class="r">'+t.thPrice+"</th><th>"+t.thSource+"</th></tr></thead><tbody>"+
+    (D.refs||[]).slice().sort(function(a,b){return a.date<b.date?1:-1}).map(function(f){return '<tr><td class="num">'+fmtD(f.date)+"</td><td>"+t.prod[f.p]+"</td><td>"+t.reg[f.r]+'</td><td class="r num">'+(f.min===f.max?fmt(f.min):fmt(f.min)+"–"+fmt(f.max))+'</td><td><a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.src[lang])+'</a><span class="d muted">'+esc(f.note[lang])+"</span></td></tr>"}).join("")+"</tbody>";
+  $("taList").innerHTML=(D.ta||[]).map(function(x){return "<li>"+esc(x[lang])+' <a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.src[lang])+"</a></li>"}).join("");
+}
+function drawNews(){
+  var t=L(),items=(LOCAL.news||[]).concat(D.news||[]),seen={};
+  items=items.filter(function(n){if(!n.title||seen[n.title])return false;seen[n.title]=1;return true}).sort(function(a,b){return (b.date||"")<(a.date||"")?-1:1}).slice(0,20);
+  $("news").innerHTML=items.length?items.map(function(n){return '<div class="it"><a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.title)+'</a><span class="note">'+esc(n.source||"")+(n.date?" · "+fmtD(n.date)+"/"+n.date.slice(0,4):"")+"</span></div>"}).join(""):'<span class="note">'+t.noNews+"</span>";
+  var men=(LOCAL.mentions||[]).concat(D.mentions||[]);
+  var kind={trang:t.prod.trang,mau:t.prod.mau,ta:lang==="vi"?"Gà ta":"Native",khac:lang==="vi"?"Khác":"Other"};
+  $("mentions").innerHTML=men.some(function(m){return m.mentions&&m.mentions.length})?men.filter(function(m){return m.mentions&&m.mentions.length}).map(function(m){return '<div class="it"><a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+esc(m.name||m.title||m.url)+'</a><span class="note">'+(m.date?fmtD(m.date)+"/"+m.date.slice(0,4):"")+(m.local?' · <span class="badge b-amber">'+t.srcLocal+"</span>":"")+"</span>"+m.mentions.map(function(x){return '<div class="mention"><span class="badge b-grey">'+kind[x.kind]+(x.region?" · "+t.reg[x.region]:"")+"</span> "+esc(x.text)+"</div>"}).join("")+"</div>"}).join(""):'<span class="note">'+t.noMen+"</span>";
 }
 
-/* ===== NHẬN ĐỊNH / INSIGHTS ===== */
+/* ===== NHẬN ĐỊNH ===== */
 function drawInsights(){
-  const t=L(), li=[], lm=lastM();
-  for(const p of ["trang","mau"]){
-    const parts=REG.map(r=>{const m=monthly(p,r);const a=m[0].v,b=m[lm-1].v;return `${t.reg[r]} ${b>a?"+":""}${fmt(b-a)}`}).join(" · ");
-    li.push(t.ins1(t.prod[p],parts,lm));
-  }
-  for(const r of REG){const m=monthly("trang",r).filter(x=>x.v!=null);const lo=m.reduce((a,b)=>b.v<a.v?b:a),hi=m.reduce((a,b)=>b.v>a.v?b:a);
-    li.push(t.ins2(t.reg[r],lo.m,fmt(lo.v),hi.m,fmt(hi.v)))}
-  li.push(t.ins3);
-  li.push(`<span class="chip warn">${t.verifyShort}</span> ${t.ins4}`);
-  $("insights").innerHTML=li.map(x=>`<li>${x}</li>`).join("");
+  var t=L(),li=[],lm=lastM(),last=W[W.length-1],prev=W[W.length-2];
+  ["trang","mau"].forEach(function(p){
+    var parts=REG.map(function(r){var a=last.r[IDX[p][r]],b=prev.r[IDX[p][r]],d=a-b;return t.reg[r]+" "+(d>0?"+":"")+fmt(d)}).join(" · ");
+    li.push(t.ins.last(t.prod[p],fmtD(last.r[0]),parts));
+  });
+  ["trang","mau"].forEach(function(p){var parts=REG.map(function(r){var m=monthly(p,r);var a=m[0].v,b=m[lm-1].v;return t.reg[r]+" "+(b>a?"+":"")+fmt(b-a)}).join(" · ");li.push(t.ins.chg(t.prod[p],parts,lm))});
+  REG.forEach(function(r){var v=last.r[IDX.trang[r]],g=gfNear(last.r[0],"trang",r);if(g){var pct=(v>g?"+":"")+Math.round((v-g)/g*100)+"%";li.push(t.ins.gap(t.reg[r],fmt(v),fmt(g),pct))}});
+  var nf=0;W.forEach(function(x){["trang","mau"].forEach(function(p){REG.forEach(function(r){if(flagInfo(x.r[0],p,r))nf++})})});
+  if(nf)li.push('<span class="badge b-amber">'+t.verifyShort+"</span> "+t.ins.flags(nf));
+  $("insights").innerHTML=li.map(function(x){return "<li>"+x+"</li>"}).join("");
 }
+
+/* ===== QUÉT & NGUỒN ===== */
+function drawScanStatus(){
+  var t=L(),ls=D.meta.lastScan,ok=D.log&&D.log[0]&&!D.log[0].errors;
+  $("status").innerHTML='<span><span class="sdot '+(ls?(ok?"ok":"err"):"")+'"></span>'+t.lastAuto+" <b>"+fmtDT(ls)+"</b></span><span>"+t.latestTable+" <b>"+fmtD(W[W.length-1].r[0])+"/2026</b></span><span>"+t.latestGf+" <b>"+(G.length?fmtD(G[G.length-1][0]):"–")+"</b></span>"+((LOCAL.weekly||[]).length||(LOCAL.gf||[]).length?"<span>"+t.localRows+" <b>"+((LOCAL.weekly||[]).length+(LOCAL.gf||[]).length)+"</b></span>":"");
+  if(!LOGLINES.length&&D.log&&D.log[0]){LOGLINES=[t.log.serverLog+" "+fmtDT(D.log[0].at),D.log[0].summary].concat((D.log[0].detail||[]).filter(function(x){return x!==D.log[0].summary}).slice(0,30))}
+  $("log").innerHTML=LOGLINES.map(function(s){return "<div>"+esc(s)+"</div>"}).join("");
+  $("scanBadge").innerHTML=D.log&&D.log[0]&&D.log[0].newTables&&D.log[0].newTables.length?'<span class="badge b-ok">+'+D.log[0].newTables.length+"</span>":"";
+}
+function drawSources(){
+  var t=L();
+  var fixed=[{n:"Tạp chí Chăn nuôi VN – bảng giá tại trại",u:"https://nguoichannuoi.vn/thi-truong/gia-ca/",k:t.srcMain,c:"b-ok"},{n:"GreenFeed – bảng giá thị trường",u:"https://www.greenfeed.com.vn/thuc-an-chan-nuoi-gia-suc-gia-cam/bang-gia-thi-truong/",k:t.srcCmp,c:"b-blue"},{n:"Google News – \"giá gà\"",u:"https://news.google.com/search?q=%22gi%C3%A1%20g%C3%A0%22&hl=vi&gl=VN&ceid=VN%3Avi",k:t.srcNews,c:"b-grey"}];
+  var core=window.GAGL_CORE,kind=function(u){return core?t.srcKinds[core.classify(u)]:""};
+  var h=fixed.map(function(s){return '<div class="s"><span class="badge '+s.c+'">'+s.k+'</span><a href="'+s.u+'" target="_blank" rel="noopener">'+esc(s.n)+"</a></div>"}).join("");
+  h+=FIXEDSRC.map(function(s){return '<div class="s"><span class="badge b-grey">'+t.srcFixed+'</span><span class="badge b-grey">'+kind(s.url)+'</span><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name||s.url)+"</a></div>"}).join("");
+  h+=LOCALSRC.map(function(s,i){return '<div class="s"><span class="badge b-amber">'+t.srcLocal+'</span><span class="badge b-grey">'+kind(s.url)+'</span><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name||s.url)+'</a><button type="button" class="xbtn" data-i="'+i+'" aria-label="Xoá">✕</button></div>'}).join("");
+  $("srcs").innerHTML=h;
+  $("srcs").querySelectorAll(".xbtn").forEach(function(b){b.onclick=function(){LOCALSRC.splice(+b.dataset.i,1);store.set("gagl26_src",LOCALSRC);LOCAL.mentions=(LOCAL.mentions||[]).filter(function(m){return LOCALSRC.some(function(s){return s.url===m.url})});store.set("gagl26_local",LOCAL);drawSources();drawNews()}});
+}
+function logLine(s){LOGLINES.unshift(new Date().toLocaleTimeString(L().locale)+"  "+s);LOGLINES=LOGLINES.slice(0,80);$("log").innerHTML=LOGLINES.map(function(x){return "<div>"+esc(x)+"</div>"}).join("")}
+function setProg(p){$("prog").style.width=Math.round(p*100)+"%"}
+function fetchText(url){
+  var tries=[url].concat(PROXIES.map(function(p){return p+encodeURIComponent(url)}));
+  var i=0;
+  function next(){
+    if(i>=tries.length)return Promise.reject(new Error("all failed"));
+    var u=tries[i++],ctl=window.AbortController?new AbortController():null,tm=setTimeout(function(){if(ctl)ctl.abort()},20000);
+    return fetch(u,ctl?{signal:ctl.signal}:{}).then(function(r){clearTimeout(tm);if(!r.ok)throw new Error(r.status);return r.text()}).then(function(tx){if(!tx||tx.length<200)throw new Error("empty");return tx}).catch(function(){return next()});
+  }
+  return next();
+}
+function saveLocal(){LOCAL.at=new Date().toISOString();store.set("gagl26_local",LOCAL)}
+function scanNow(extraOnly){
+  var core=window.GAGL_CORE,t=L();if(!core){logLine("scanner-core.js ✕");return Promise.resolve()}
+  var btn=$("scanNow");btn.disabled=true;$("addBtn").disabled=true;logLine(t.log.start);setProg(.05);
+  var have={};W.forEach(function(x){have[x.r[0]]=1});var gfHave={};G.forEach(function(g){gfHave[g[0]]=1});var found=0;
+  var p=Promise.resolve();
+  if(!extraOnly){
+    p=p.then(function(){logLine(t.log.ncn);return fetchText(core.NCN_LIST_PAGES(1)[0]).then(function(h){return core.parseNcnListing(h)}).catch(function(){logLine(t.log.fail("nguoichannuoi.vn"));return []})})
+    .then(function(posts){setProg(.3);var todo=posts.filter(function(x){return !have[x.date]&&x.date>="2026-01-01"});if(!todo.length)logLine(t.log.none);
+      return todo.reduce(function(q,x){return q.then(function(){return fetchText(x.url).then(function(h){var rec=core.parseNcnTable(h,x.url);if(rec&&[rec.mau.Bac,rec.mau.Trung,rec.mau.Nam,rec.trang.Bac,rec.trang.Trung,rec.trang.Nam].every(core.okPrice)){LOCAL.weekly=(LOCAL.weekly||[]).filter(function(r){return r[0]!==rec.date});LOCAL.weekly.push([rec.date,rec.mau.Bac,rec.mau.Trung,rec.mau.Nam,rec.trang.Bac,rec.trang.Trung,rec.trang.Nam]);found++;logLine(t.log.ncnNew(fmtD(rec.date)))}}).catch(function(){logLine(t.log.fail(x.url))})})},Promise.resolve())})
+    .then(function(){setProg(.55);logLine(t.log.gf);return fetchText(core.GF_URL()).then(function(h){
+      var dates=core.parseGfDates(h).filter(function(d){return !gfHave[d]&&d>="2026-01-01"}).slice(-6);
+      var first=core.parseGfTable(h,core.GF_URL());var n=0;
+      if(first&&first.date&&!gfHave[first.date]){addGf(first);n++;dates=dates.filter(function(d){return d!==first.date})}
+      return dates.reduce(function(q,d){return q.then(function(){return fetchText(core.GF_URL(d)).then(function(h2){var r=core.parseGfTable(h2,core.GF_URL(d));if(r){r.date=d;addGf(r);n++}}).catch(function(){})})},Promise.resolve()).then(function(){if(n){found+=n;logLine(t.log.gfNew(n))}});
+    }).catch(function(){logLine(t.log.fail("greenfeed.com.vn"))})});
+  }
+  p=p.then(function(){
+    var list=LOCALSRC.slice();if(!list.length)return;logLine(t.log.extra(list.length));
+    return list.reduce(function(q,s,i){return q.then(function(){setProg(.6+.35*i/list.length);var k=core.classify(s.url);
+      return fetchText(s.url).then(function(h){
+        if(k==="ncn-table"){var rec=core.parseNcnTable(h,s.url);if(rec&&!have[rec.date]&&[rec.mau.Bac,rec.mau.Trung,rec.mau.Nam,rec.trang.Bac,rec.trang.Trung,rec.trang.Nam].every(core.okPrice)){LOCAL.weekly=(LOCAL.weekly||[]).filter(function(r){return r[0]!==rec.date});LOCAL.weekly.push([rec.date,rec.mau.Bac,rec.mau.Trung,rec.mau.Nam,rec.trang.Bac,rec.trang.Trung,rec.trang.Nam]);found++;logLine(t.log.ncnNew(fmtD(rec.date)))}}
+        else if(k==="ncn-list"){/* danh mục: chỉ ghi nhận, quét bảng ở lượt chính */}
+        else if(k==="gf-table"){var r=core.parseGfTable(h,s.url);if(r&&!gfHave[r.date]){addGf(r);found++}}
+        else if(k==="rss"){var it=core.parseRss(h).filter(function(n){return /gà/i.test(n.title)}).map(function(n){n.source=n.source||s.name;return n});LOCAL.news=it.concat((LOCAL.news||[]).filter(function(n){return !it.some(function(m){return m.title===n.title})})).slice(0,40);logLine((s.name||s.url)+": "+it.length+" tin")}
+        else{var m=core.extractMentions(h,s.url,8);m.name=s.name||m.title;m.local=true;LOCAL.mentions=[m].concat((LOCAL.mentions||[]).filter(function(x){return x.url!==s.url}));logLine((s.name||m.title||s.url)+": "+m.mentions.length+(lang==="vi"?" câu có giá":" price quote(s)"))}
+      }).catch(function(){logLine(t.log.fail(s.url))})})},Promise.resolve());
+  });
+  return p.then(function(){saveLocal();setProg(1);logLine(t.log.done(found));btn.disabled=false;$("addBtn").disabled=false;rebuild();drawAll();setTimeout(function(){setProg(0)},1500)});
+}
+function addGf(r){LOCAL.gf=(LOCAL.gf||[]).filter(function(x){return x[0]!==r.date});LOCAL.gf.push([r.date,r.mau.Bac,r.mau.Trung,r.mau.Nam,r.trang.Bac,r.trang.Trung,r.trang.Nam,r.mau.TNB||null,r.trang.TNB||null])}
 
 /* ===== CSV ===== */
-$("csvBtn").addEventListener("click",()=>{
-  const t=L(), lines=[t.csvHead];
-  for(const p of ["trang","mau"])for(const r of REG)monthly(p,r).forEach(x=>{if(x.v!=null)lines.push([`${x.m}/2026`,t.prod[p],t.reg[r],Math.round(x.v),x.n,x.min,x.max,x.flag?t.csvYes:""].join(","))});
-  lines.push("",t.csvHead2);
-  NCN.forEach(r=>lines.push([r[0],r[4],r[5],r[6],r[1],r[2],r[3],ncnUrl(r[0])].join(",")));
-  const blob=new Blob(["﻿"+lines.join("\n")],{type:"text/csv;charset=utf-8"});
-  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=t.csvFile;a.style.display="none";ROOT.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500);
-});
+function csv(){
+  var t=L(),lines=[t.csvHead];
+  ["trang","mau"].forEach(function(p){REG.forEach(function(r){monthly(p,r).forEach(function(x){if(x.v!=null)lines.push([x.m+"/2026",t.prod[p],t.reg[r],Math.round(x.v),x.n,x.min,x.max,x.flag?t.csvYes:""].join(","))})})});
+  lines.push("",t.csvHead2);W.forEach(function(x){var r=x.r;lines.push([r[0],r[4],r[5],r[6],r[1],r[2],r[3],t.origin[x.o],ncnUrl(r[0])].join(","))});
+  lines.push("",t.csvHead3);G.forEach(function(r){lines.push(r.map(function(v){return v==null?"":v}).join(","))});
+  var blob=new Blob(["﻿"+lines.join("\n")],{type:"text/csv;charset=utf-8"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=t.csvFile;a.style.display="none";ROOT.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500);
+}
 
-/* ===== ĐIỀU KHIỂN / CONTROLS ===== */
-function bindSeg(id,cb){$(id).addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;[...$(id).children].forEach(x=>x.setAttribute("aria-pressed",x===b));cb(b.dataset.v)})}
-bindSeg("segProd",v=>{prod=v;drawChart();$("readout").innerHTML=`<span class="muted">${L().hover}</span>`});
-bindSeg("segGran",v=>{gran=v;drawChart()});
-bindSeg("segLang",v=>{lang=v;store.set("gagl26_lang",v);applyStatic();drawAll()});
+/* ===== VẼ & ĐIỀU KHIỂN ===== */
+function drawAll(){drawKpis();drawChart();drawMatrix();drawLedger();drawRefs();drawNews();drawInsights();drawScanStatus();drawSources()}
+function bindSeg(id,cb){$(id).addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;[].forEach.call($(id).children,function(x){x.classList.toggle("on",x===b)});cb(b.dataset.v)})}
+bindSeg("segProd",function(v){prod=v;drawChart();$("readout").innerHTML='<span class="muted">'+L().hover+"</span>"});
+bindSeg("segGran",function(v){gran=v;drawChart()});
+$("lang").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;lang=b.dataset.v;store.setRaw("cgc_lang",lang);LOGLINES=[];applyStatic();drawAll()});
+$("theme").onclick=function(){theme=theme==="dark"?"light":"dark";store.setRaw("cgc_theme",theme);applyStatic();drawAll()};
 $("showRef").addEventListener("change",drawChart);
-["trang","mau"].forEach(p=>{const el=$("thr_"+p);if(thr[p])el.value=thr[p];el.addEventListener("change",()=>{const v=Number(el.value);if(v>0)thr[p]=v;else delete thr[p];store.set("gagl26_thr",thr);drawAll()})});
-function drawAll(){drawKpis();drawChart();drawMatrix();drawLedger();drawRefs();drawInsights()}
-applyStatic(); drawAll();
+$("csv").onclick=csv;
+$("scanNow").onclick=function(){scanNow(false)};
+$("reload").onclick=function(){loadData(true)};
+$("addBtn").onclick=function(){
+  var t=L(),lines=$("addSrc").value.split(/\n+/).map(function(s){return s.trim()}).filter(Boolean),n=0;
+  lines.forEach(function(l){var parts=l.split("|"),url=(parts.length>1?parts[1]:parts[0]).trim(),name=parts.length>1?parts[0].trim():"";
+    if(!/^https?:\/\/\S+$/i.test(url))return;if(LOCALSRC.some(function(s){return s.url===url})||FIXEDSRC.some(function(s){return s.url===url}))return;LOCALSRC.push({name:name,url:url});n++});
+  $("addMsg").textContent=n?t.added(n):t.noUrl;if(!n)return;store.set("gagl26_src",LOCALSRC);$("addSrc").value="";drawSources();scanNow(true);
+};
+["trang","mau"].forEach(function(p){var el=$("thr_"+p);if(thr[p])el.value=thr[p];el.addEventListener("change",function(){var v=Number(el.value);if(v>0)thr[p]=v;else delete thr[p];store.set("gagl26_thr",thr);drawAll()})});
+
+function loadData(manual){
+  var bust="?t="+Date.now();
+  return Promise.all([
+    fetch(BASE+"data.json"+bust,{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}),
+    fetch(BASE+"sources.json"+bust,{cache:"no-store"}).then(function(r){return r.ok?r.json():{extra:[]}}).catch(function(){return {extra:[]}})
+  ]).then(function(res){
+    D=res[0];FIXEDSRC=(res[1].extra||[]);
+    // bỏ các dòng quét trên máy đã có trong dữ liệu chung
+    LOCAL.weekly=(LOCAL.weekly||[]).filter(function(r){return !D.weekly.some(function(x){return x[0]===r[0]})});
+    LOCAL.gf=(LOCAL.gf||[]).filter(function(r){return !(D.gf||[]).some(function(x){return x[0]===r[0]})});saveLocal();
+    if(manual){LOGLINES=[];}rebuild();drawAll();if(manual)logLine(L().log.reloaded);
+  }).catch(function(){if(!D){D=SNAPSHOT;rebuild();drawAll()}if(manual)logLine(L().log.reloadFail)});
+}
+D=SNAPSHOT;rebuild();applyStatic();drawAll();loadData(false);
+
 })();
 //]]>
 </script>
 <!-- ===== KẾT THÚC: THEO DÕI GIÁ GÀ LÔNG ===== -->
 
+<script>(function(){var r=document.getElementById("gagl26");new MutationObserver(function(){document.documentElement.className=r.dataset.theme==="light"?"light":""}).observe(r,{attributes:true,attributeFilter:["data-theme"]})})();</script>
 </body>
 </html>
