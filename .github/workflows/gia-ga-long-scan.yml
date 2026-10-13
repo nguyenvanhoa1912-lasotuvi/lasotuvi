@@ -1,0 +1,34 @@
+name: Quét giá gà lông
+on:
+  schedule:
+    - cron: "17 23 * * *"   # 06:17 sáng giờ Việt Nam, mỗi ngày
+    - cron: "17 10 * * 2,3" # 17:17 thứ Ba, thứ Tư (ngày Tạp chí Chăn nuôi thường đăng bảng giá)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["gia-ga-long/sources.json"]
+permissions:
+  contents: write
+concurrency:
+  group: gia-ga-long-scan
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Quét nguồn
+        run: node gia-ga-long/scripts/scan.js
+      - name: Lưu data.json nếu có thay đổi
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gia-ga-long/data.json
+          if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
+          git commit -m "Cập nhật giá gà lông $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin HEAD:main

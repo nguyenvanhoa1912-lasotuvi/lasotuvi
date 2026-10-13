@@ -1,0 +1,13 @@
+{
+  "_huong_dan": "Thêm nguồn bổ sung vào mảng extra: mỗi nguồn gồm name (tên hiển thị) và url. Hệ thống tự nhận dạng: link bảng giá tại trại nguoichannuoi.vn -> đưa vào chuỗi chính; bảng GreenFeed -> chuỗi so sánh; RSS -> tin tức; trang bất kỳ -> trích câu có giá gà (đ/kg) làm tham khảo, không đưa vào bình quân. Sửa file này trên GitHub rồi bấm Commit; lần quét tiếp theo sẽ dùng.",
+  "ncn_list_pages": 3,
+  "gf_backfill_dates": 60,
+  "news_rss": [
+    "https://news.google.com/rss/search?q=%22gi%C3%A1+g%C3%A0%22+when:7d&hl=vi&gl=VN&ceid=VN:vi",
+    "https://news.google.com/rss/search?q=%22g%C3%A0+l%C3%B4ng+tr%E1%BA%AFng%22+OR+%22g%C3%A0+c%C3%B4ng+nghi%E1%BB%87p%22+when:14d&hl=vi&gl=VN&ceid=VN:vi"
+  ],
+  "extra": [
+    { "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)", "url": "https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/" },
+    { "name": "Người Chăn Nuôi – Giá gà thịt giảm sâu (Thanh Hóa)", "url": "https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/" }
+  ]
+}
