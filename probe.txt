@@ -1,0 +1,197 @@
+GET https://channuoivietnam.com/ 200 text/html 18766
+SCRIPTS [
+  '/path/to/tinymce.min.js',
+  'https://sp.zalo.me/plugins/sdk.js',
+  'runtime.eb03ef03ccfc9bc4f465.js',
+  'polyfills.0e32ddb15136e28ac8ec.js',
+  'scripts.efeda2e2471127e0adc5.js',
+  'main.e48b6e072486c4c6e7e9.js'
+]
+GET https://channuoivietnam.com/path/to/tinymce.min.js 200 text/html 18766
+URLS in /path/to/tinymce.min.js [
+  'https://fonts.gstatic.com',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n1ioa2HdgregdFOFh.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n1ioa0XdgregdFOFh.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n1ioa2ndgregdFOFh.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n1ioa23dgregdFOFh.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n1ioa1XdgregdFA.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n1iIq131nj-otFQ.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n1isq131nj-otFQ.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n1iAq131nj-otFQ.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n1iEq131nj-otFQ.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n1i8q131nj-o.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3twJwl1FgsAXHNlYzg.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3twJwlRFgsAXHNlYzg.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3twJwl9FgsAXHNlYzg.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3twJwl5FgsAXHNlYzg.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgsAXHNk.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3vAOwl1FgsAXHNlYzg.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3vAOwlRFgsAXHNlYzg.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3vAOwl9FgsAXHNlYzg.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3vAOwl5FgsAXHNlYzg.woff2',
+  'https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3vAOwlBFgsAXHNk.woff2',
+  'https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
+  'https://bka.edu.vn/',
+  'https://mdbootstrap.com/img/new/textures/small/52.jpg',
+  'https://channuoivietnam.worldsoft.com.vn/homepage-index',
+  'http://www.example.com/image.jpg',
+  'https://sp.zalo.me/plugins/sdk.js'
+]
+APIHINTS 
+GET https://sp.zalo.me/plugins/sdk.js 200 text/javascript;charset=utf-8 108396
+URLS in https://sp.zalo.me/plugins/sdk.js [
+  'https://stc.sp.zdn.vn/chatbutton/main-1.2.2.js',
+  'https://stc.sp.zdn.vn/chatbutton/main.142b31d74cee2e25afe3651f0591f9f4.css',
+  'https://page.widget.zalo.me/',
+  'https://sp.zalo.me',
+  'https://button-share.zalo.me/share_inline',
+  'https://sp.zalo.me/l/stats',
+  'https://sp.zalo.me/l/share',
+  'https://sp.zalo.me/tracking/log',
+  'http://feross.org',
+  'https://sp.zalo.me/plugins/follow',
+  'https://button-follow.zalo.me',
+  'https://sp.zalo.me/plugins/comment',
+  'https://button-call.zalo.me',
+  'https://sp.zalo.me/consent-widget'
+]
+APIHINTS 
+GET https://channuoivietnam.com/runtime.eb03ef03ccfc9bc4f465.js 200 text/javascript 3962
+APIHINTS 
+GET https://channuoivietnam.com/polyfills.0e32ddb15136e28ac8ec.js 200 text/javascript 83596
+APIHINTS 
+GET https://channuoivietnam.com/scripts.efeda2e2471127e0adc5.js 200 text/javascript 755357
+URLS in scripts.efeda2e2471127e0adc5.js [
+  'http://datatables.net/tn/',
+  'http://www.macromedia.com/go/getflashplayer',
+  'http://schemas.openxmlformats.org/package/2006/relationships',
+  'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument',
+  'http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet',
+  'http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles',
+  'http://schemas.openxmlformats.org/package/2006/content-types',
+  'http://schemas.openxmlformats.org/spreadsheetml/2006/main',
+  'http://schemas.openxmlformats.org/officeDocument/2006/relationships',
+  'http://schemas.openxmlformats.org/markup-compatibility/2006',
+  'http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac',
+  'https://www.tinymce.com/docs/get-started/system-requirements/'
+]
+APIHINTS "+n.namespace)}}}}),o.Api.register("
+")})}),o.Api.register("
+",function(){return this.containers().eq(0)}),o.Api.register("
+").unique().each(function(e){e.destroy()}),this}),o.Api.registerPlural("
+",function(){i.buttons.info(!1)}),this)}),o.Api.register("
+",function(e){if(this.context.length)return v(new o.Api(this.context[0]),e)}),o.Api.register("
+",o.Api.register("
+")):[],function(t){var n=t.src;return xt.fileApi&&!t.hasAttribute("
+GET https://channuoivietnam.com/main.e48b6e072486c4c6e7e9.js 200 text/javascript 4026993
+URLS in main.e48b6e072486c4c6e7e9.js [
+  'https://g.co/ng/security',
+  'https://webpack.js.org/configuration/resolve/',
+  'https://marked.js.org/',
+  'http://momentjs.com/guides/',
+  'https://jwt.io',
+  'https://view.officeapps.live.com/op/view.aspx',
+  'https://stackoverflow.com/q/56496296/110915',
+  'https://worldsoft.com.vn/',
+  'https://channuoivietnam.com'
+]
+APIHINTS "cdkPortalOutlet"
+"dom-portal"
+"cdkPortal"
+"]],inputs:{portal:["
+"portal"
+"Locale data API: locale data undefined"
+"\u0275\u0275classMapInterpolate1"
+"\u0275\u0275classMapInterpolate2"
+"\u0275\u0275classMapInterpolate3"
+"\u0275\u0275classMapInterpolate4"
+"\u0275\u0275classMapInterpolate5"
+"\u0275\u0275classMapInterpolate6"
+"\u0275\u0275classMapInterpolate7"
+"\u0275\u0275classMapInterpolate8"
+"\u0275\u0275classMapInterpolateV"
+"\u0275\u0275styleMapInterpolate1"
+"\u0275\u0275styleMapInterpolate2"
+"\u0275\u0275styleMapInterpolate3"
+"\u0275\u0275styleMapInterpolate4"
+"\u0275\u0275styleMapInterpolate5"
+"\u0275\u0275styleMapInterpolate6"
+"\u0275\u0275styleMapInterpolate7"
+"\u0275\u0275styleMapInterpolate8"
+"\u0275\u0275styleMapInterpolateV"
+",t._actionsPortal),s.xp6(1),s.Q6J("
+"apiKey"
+",{get:function(){return this.getCurrentData().calendarApi},enumerable:!1,configurable:!0}),Object.defineProperty(e.prototype,"
+";case this._OS.OSXElCapitan.test(e):return this.Agent.isMac=!0,"
+"urtarrila_otsaila_martxoa_apirila_maiatza_ekaina_uztaila_abuztua_iraila_urria_azaroa_abendua"
+"urt._ots._mar._api._mai._eka._uzt._abu._ira._urr._aza._abe."
+"Jumapili_Jumatatu_Jumanne_Jumatano_Alhamisi_Ijumaa_Jumamosi"
+",this.contentPortal=new i.C5(e,this.viewContainerRef,t)}else this.contentType="
+"Ch\u1ecdn th\u1eddi gian"
+"snapIndexChange"
+")||u,10);Object.assign(t,{snapIndex:c,realIndex:d,previousIndex:o,activeIndex:u}),t.emit("
+"!==t.params.paginationType&&(u=d+u)):u=void 0!==t.snapIndex?t.snapIndex:t.activeIndex||0,"
+",()=>{(t.params.loop||void 0===t.snapIndex)&&u()}),i("
+"api/auth/sign-up"
+"api/auth/unlock-session"
+"api/common/user"
+";n.d(t,{N:()=>i});const i={production:!0,firebase:{apiKey:"
+"FUSE_MOCK_API_DEFAULT_DELAY"
+'s Using Apigee Edge"
+"manage-your-pivotal-cloud-foundry-apps-using-apigee-Edge"
+"api/apps/academy/categories"
+"api/apps/academy/courses"
+"api/apps/academy/courses/course"
+"api/pages/activities"
+"api/dashboards/analytics"
+"};let nt=(()=>{class e{constructor(e){this._fuseMockApiService=e,this._user=tt,this._secret="
+",this.registerHandlers()}registerHandlers(){this._fuseMockApiService.onPost("
+",1e3).reply(()=>[200,!0]),this._fuseMockApiService.onPost("
+"}]:[404,!1]),this._fuseMockApiService.onPost("
+"}]),this._fuseMockApiService.onPost("
+",1500).reply(()=>[200,!0]),this._fuseMockApiService.onPost("
+"api/apps/calendar/calendars"
+"api/apps/calendar/events"
+")&&a.push(e)}),[200,a]}),this._fuseMockApiService.onPost("
+"api/apps/calendar/event"
+"api/apps/calendar/recurring-event"
+"]))}return[200,!0]}),this._fuseMockApiService.onDelete("
+"api/apps/calendar/settings"
+"api/apps/calendar/weekdays"
+"663 Drew Street, Juntura, Georgia, PO9857"
+"===t.contactId}))}))}registerHandlers(){this._fuseMockApiService.onGet("
+").reply(()=>[200,Fe(this._chats)]),this._fuseMockApiService.onGet("
+"api/apps/chat/chat"
+"api/apps/chat/contacts"
+"])),[200,e]}),this._fuseMockApiService.onGet("
+"api/apps/chat/profile"
+"Georgia"
+"api/apps/contacts/all"
+"api/apps/contacts/search"
+"api/apps/contacts/contact"
+"api/apps/contacts/countries"
+"api/apps/contacts/tags"
+"api/apps/contacts/tag"
+"api/apps/contacts/avatar"
+",stock:30,reserved:5,cost:450.18,basePrice:1036,taxPercent:30,price:1346.8,weight:.61,thumbnail:"
+",stock:37,reserved:2,cost:723.55,basePrice:1686,taxPercent:30,price:2191.8,weight:.79,thumbnail:"
+GET https://www.greenfeed.com.vn/thuc-an-chan-nuoi-gia-suc-gia-cam/en/market-price/?type=vat-nuoi-price&date=2026-10-08 200 text/html; charset=UTF-8 565588
+vat-nuoi-price HEADS 1:Market | 1:GREENFEED PIGS | 1:LIVE PIG | 1:HIGH MEATY DUCK(VND/KG) | 1:NATIVE HYBRID CHICKEN (VNĐ/KG) | 1:BROILER CHICKEN (VNĐ/KG) | 1:CHICKEN EGG (VNĐ/EGG) | 1:DUCK EGG (VNĐ/EGG) | 1:08-10-2026 | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME
+vat-nuoi-price REGION ROWS
+NORTHERN REGION ; 53,917 ; 52,583 ; -361 ; 39,526 ; -1,158 ; 43,345 ; -552 ; 34,694 ; 1,806 ; 1,917 ; 138 ; 2,500 ; -331
+CENTRAL REGION ; 53,429 ; 52,429 ; -714 ; 38,143 ; 1,071 ; 44,269 ; -269 ; 32,071 ; 714 ; 1,816 ; -221 ; 2,513 ; -86
+SOUTHEAST REGION ; 54,250 ; 54,250 ; -750 ; 34,500 ; -1,250 ; 45,000 ; 3,500 ; 28,750 ; 1,000 ; 1,643 ; -130 ; 1,958 ; -93
+SOUTHWEST REGION ; 54,714 ; 54,214 ; -1,000 ; 35,429 ; -1,786 ; 41,357 ; 107 ; 28,500 ; 929 ; 1,865 ; -36 ; 1,954 ; -29
+GET https://www.greenfeed.com.vn/thuc-an-chan-nuoi-gia-suc-gia-cam/en/market-price/?type=con-giong-price&date=2026-10-08 200 text/html; charset=UTF-8 535857
+con-giong-price HEADS 1:Market | 1:GREENFEED PIGS | 1:DOC GRIMAUD DUCK (VNĐ/EACH) | 1:DOC CHERRY (VNĐ/EACH) | 1:DOC 90 DAYS CHICKEN (VNĐ/EACH) | 1:DOC FREE RANGER CHICKEN (VNĐ/EACH) | 1:DOC TRE CHICKEN (VNĐ/EACH) | 1:08-10-2026 | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME | 1:08-10-2026 | 1:PREVIOUS TIME
+con-giong-price REGION ROWS
+NORTHERN REGION ; 53,917 ; 19,289 ; -26 ; 21,026 ; 237 ; 9,667 ; 722 ; 10,361 ; 139 ;  ; 
+CENTRAL REGION ; 53,429 ; 21,929 ; 1,143 ; 23,500 ; 500 ; 11,150 ; 450 ; 11,875 ; 375 ; 8,571 ; -500
+SOUTHEAST REGION ; 54,250 ; 18,000 ; -250 ; 19,250 ; -250 ; 10,250 ; 375 ; 12,167 ; 1,833 ; 7,500 ; 1,000
+SOUTHWEST REGION ; 54,714 ; 17,357 ; -1,286 ; 20,714 ; -1,214 ; 10,000 ; -250 ; 11,667 ; 667 ; 5,714 ; 0
+GET https://www.greenfeed.com.vn/thuc-an-chan-nuoi-gia-suc-gia-cam/bang-gia-thi-truong/?type=vat-nuoi-price&date=2026-10-08 200 text/html; charset=UTF-8 569004
+VI HEADS Thị trường | HEO GREENFEED | HEO HƠI | VỊT SIÊU THỊT | GÀ MÀU (VNĐ/KG) | GÀ TRẮNG (VNĐ/KG) | TRỨNG GÀ (VNĐ/QUẢ) | TRỨNG VỊT (VNĐ/QUẢ) | 08-10-2026 | 08-10-2026 | KỲ TRƯỚC | 08-10-2026 | KỲ TRƯỚC | 08-10-2026 | KỲ TRƯỚC | 08-10-2026 | KỲ TRƯỚC | 08-10-2026 | KỲ TRƯỚC | 08-10-2026 | KỲ TRƯỚC
+VI REGION MIỀN BẮC 53,917 52,583 -361 39,526 -1,158 43,345 -552 34,694 1,806 1,917 138 2,500 -331
+MIỀN TRUNG 53,429 52,429 -714 38,143 1,071 44,269 -269 32,071 714 1,816 -221 2,513 -86
+ĐÔNG NAM BỘ 54,250 54,250 -750 34,500 -1,250 45,000 3,500 28,750 1,000 1,643 -130 1,958 -93
+TÂY NAM BỘ 54,714 54,214 -1,000 35,429 -1,786 41,357 107 28,500 929 1,865 -36 1,954 -29
