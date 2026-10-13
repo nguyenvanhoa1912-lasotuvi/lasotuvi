@@ -94,16 +94,22 @@
 #gagl26 .thr label{align-content:start}
 #gagl26 input[type=number]{height:auto;min-height:0}
 #gagl26 .foot{font-size:12px;color:var(--muted);text-align:right}
+#gagl26 a.back{display:none;align-items:center;gap:4px;background:var(--ink);color:var(--bg);text-decoration:none;font:700 13px var(--f-body);padding:6px 13px;border-radius:18px;white-space:nowrap}
+#gagl26 a.back:hover{background:var(--teal)}
+#gagl26[data-standalone] a.back{display:inline-flex}
 </style>
-<div id="gagl26" lang="vi">
+<div id="gagl26" lang="vi" data-standalone="1">
 <div class="wrap">
 
 <header class="head">
   <div class="row between" style="align-items:flex-start">
     <h1 data-i18n="title">Theo dõi giá gà lông</h1>
+    <div class="row">
+    <a class="back" href="https://avian-influenza-situation.blogspot.com/" target="_top" data-i18n="back">← Về Blog</a>
     <div class="seg noprint" role="group" aria-label="Ngôn ngữ / Language" id="g26-segLang">
       <button type="button" data-v="vi" aria-pressed="true">VI</button>
       <button type="button" data-v="en" aria-pressed="false">EN</button>
+    </div>
     </div>
   </div>
   <p class="sub" data-i18n="sub"></p>
@@ -266,7 +272,7 @@ const TA=[
 /* ===== NGÔN NGỮ / LANGUAGE ===== */
 const I18N={
 vi:{
- docTitle:"Theo dõi giá gà lông", title:"Theo dõi giá gà lông",
+ docTitle:"Theo dõi giá gà lông", title:"Theo dõi giá gà lông", back:"← Về Blog",
  sub:"Chuỗi giá gà hơi xuất chuồng tại trại theo 3 miền, lấy từ bảng giá hằng tuần của Tạp chí Chăn nuôi Việt Nam (nguoichannuoi.vn). Giá tháng là bình quân các kỳ báo giá trong tháng. Số liệu từ nguồn khác chỉ dùng làm điểm tham chiếu, không cộng vào bình quân.",
  unitL:"Đơn vị:", unitV:"đ/kg, gà hơi tại trại", mainL:"Chuỗi chính:", tables:"bảng giá", latestRefL:"Tham chiếu mới nhất:", madeL:"Lập ngày:",
  hKpi:"Giá kỳ gần nhất và so với bình quân tháng 1", kpiNote:"Ô đỏ: vượt highline · viền cam: số liệu cần xác minh",
@@ -304,7 +310,7 @@ vi:{
  locale:"vi-VN"
 },
 en:{
- docTitle:"Live Chicken Price Tracker", title:"Live Chicken Price Tracker",
+ docTitle:"Live Chicken Price Tracker", title:"Live Chicken Price Tracker", back:"← Back to blog",
  sub:"Farm-gate live broiler prices across Vietnam's three regions, taken from the weekly price tables of Vietnam Livestock Magazine (nguoichannuoi.vn). Monthly prices are the average of the weekly quotes within each month. Figures from other sources are shown as reference points only and are not included in the averages.",
  unitL:"Unit:", unitV:"VND/kg, live bird at farm gate", mainL:"Main series:", tables:"price tables", latestRefL:"Latest reference:", madeL:"Prepared:",
  hKpi:"Latest quote vs January average", kpiNote:"Red: above highline · amber border: figure needs verification",
