@@ -1,35 +1,24 @@
-// Tạm: tải thử file Excel giá SPCN từ channuoivietnam.com và in nội dung
 const XLSX = require("xlsx"); const fs = require("fs");
-const BASE = "https://channuoivietnam.com";
-const H = { "content-type": "application/json", "user-agent": "Mozilla/5.0 (gia-ga-long-scanner)" };
 const out = []; const log = s => { out.push(s); console.log(s); };
+const UA = { "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36" };
+async function tryGet(u, opt = {}) { try { const r = await fetch(u, { headers: { ...UA, ...(opt.headers || {}) }, method: opt.method || "GET", body: opt.body, redirect: "follow" }); const b = Buffer.from(await r.arrayBuffer()); log(`TRY ${opt.method || "GET"} ${u} -> ${r.status} ${r.headers.get("content-type")} ${b.length} head=${b.slice(0, 4).toString("hex")}`); return { r, b }; } catch (e) { log(`TRY ${u} ERR ${e.message}`); return {}; } }
 (async () => {
-  const all = [];
-  for (const page of [1, 2, 3, 4, 5, 6]) {
-    const r = await fetch(BASE + "/sys_file.ctr/get_list_file/", { method: "POST", headers: H, body: JSON.stringify({ page, id: "31cfb8bf-e284-494d-9354-41645b966d35" }) });
-    const j = await r.json(); const l = j.list_file || [];
-    log(`PAGE ${page}: ${l.length} files; keys=${Object.keys(j).join(",")}`);
-    l.forEach(f => { all.push(f); log(`  ${f.ngay_xuat_ban.slice(0, 10)} | ${f.file_name} | ${f.file_path}`); });
+  const js = (await (await fetch("https://channuoivietnam.com/main.e48b6e072486c4c6e7e9.js", { headers: UA })).text());
+  let i = -1, n = 0; while ((i = js.indexOf("FileManager", i + 1)) >= 0 && n < 12) { log("JS@" + i + ": " + js.slice(Math.max(0, i - 300), i + 200).replace(/\s+/g, " ")); n++; }
+  ["apiUrl", "baseUrl", "base_url", "urlApi", "host:", "environment", "downloadFile", "file_path"].forEach(k => { let j = js.indexOf(k); if (j >= 0) log("KEY " + k + ": " + js.slice(Math.max(0, j - 200), j + 250).replace(/\s+/g, " ")); });
+  const fp = "/FileManager/Download/?filename=%5cThi+truong+SPCN+ca+nuoc.+Phuong.+2026.10.13.xlsx";
+  for (const host of ["https://channuoivietnam.com", "https://channuoivietnam.worldsoft.com.vn", "https://www.channuoivietnam.com", "http://channuoivietnam.com"]) {
+    const { b } = await tryGet(host + fp, { headers: { referer: "https://channuoivietnam.com/portal-file/31cfb8bf-e284-494d-9354-41645b966d35", accept: "application/octet-stream,*/*" } });
+    if (b && b.slice(0, 2).toString() === "PK") {
+      const wb = XLSX.read(b, { type: "buffer" });
+      wb.SheetNames.forEach(sn => { const rows = XLSX.utils.sheet_to_json(wb.Sheets[sn], { header: 1, raw: false, defval: "" }); log(`--- sheet "${sn}" ${rows.length}`); rows.slice(0, 60).forEach((row, k) => { if (row.some(c => String(c).trim())) log(k + ": " + row.map(c => String(c).trim()).join(" | ")); }); });
+      break;
+    }
   }
-  const pick = all.filter(f => /2026\.10\.13|2026\.10\.06|2026\.01\./.test(f.file_name)).slice(0, 4);
-  for (const f of pick) {
-    const r = await fetch(BASE + f.file_path, { headers: { "user-agent": H["user-agent"] } });
-    const buf = Buffer.from(await r.arrayBuffer());
-    log(`\n=== ${f.file_name} status ${r.status} ${r.headers.get("content-type")} bytes ${buf.length}`);
-    try {
-      const wb = XLSX.read(buf, { type: "buffer" });
-      wb.SheetNames.forEach(sn => {
-        const rows = XLSX.utils.sheet_to_json(wb.Sheets[sn], { header: 1, raw: false, defval: "" });
-        log(`--- sheet "${sn}" ${rows.length} rows`);
-        rows.slice(0, 70).forEach((row, i) => { if (row.some(c => String(c).trim())) log(i + ": " + row.map(c => String(c).trim()).join(" | ")); });
-      });
-    } catch (e) { log("XLSX ERR " + e.message + " head=" + buf.slice(0, 16).toString("hex")); }
-  }
-  // Google Sheets đồ thị diễn biến giá (bảng xuất bản công khai)
-  const gs = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKfC5wp3w62Dgfv81kiUxaySxbTo1dHfmLH9zbIUh6MrSFfuGkDBk1MEdjV2KWKHEBPvjOkz-qiCSZ";
-  for (const u of [gs + "/pub?output=csv", gs + "/pubhtml"]) {
-    const r = await fetch(u, { redirect: "follow" }); const t = await r.text();
-    log(`\n=== GSHEET ${u} ${r.status} ${r.headers.get("content-type")} ${t.length}\n` + t.slice(0, 2500));
-  }
+  await tryGet("https://channuoivietnam.com" + fp.replace("/Download/", "/download/"));
+  await tryGet("https://channuoivietnam.com/FileManager/Download", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ filename: "\\Thi truong SPCN ca nuoc. Phuong. 2026.10.13.xlsx" }) });
+  const ph = await (await fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQKfC5wp3w62Dgfv81kiUxaySxbTo1dHfmLH9zbIUh6MrSFfuGkDBk1MEdjV2KWKHEBPvjOkz-qiCSZ/pubhtml")).text();
+  log("GS TABS " + [...ph.matchAll(/gid=(\d+)[^>]*>([^<]{1,80})</g)].map(m => m[1] + ":" + m[2]).join(" || "));
+  log("GS sheet-menu " + [...ph.matchAll(/id="sheet-button-(\d+)"[\s\S]{0,200}?>([^<]+)</g)].map(m => m[1] + ":" + m[2]).join(" || "));
   fs.writeFileSync("/tmp/probe.txt", out.join("\n"));
-})().catch(e => { console.error(e); fs.writeFileSync("/tmp/probe.txt", out.join("\n") + "\nERR " + e.stack); });
+})().catch(e => { fs.writeFileSync("/tmp/probe.txt", out.join("\n") + "\nERR " + e.stack); });
