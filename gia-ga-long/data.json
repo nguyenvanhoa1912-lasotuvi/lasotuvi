@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-13T00:00:00+07:00",
-  "lastScan": null,
+  "updated": "2026-10-13T13:58:05.254Z",
+  "lastScan": "2026-10-13T13:58:05.254Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "seed",
@@ -35,7 +35,9 @@
    "2026-08-18": "seed",
    "2026-08-25": "seed",
    "2026-09-15": "seed",
-   "2026-09-22": "seed"
+   "2026-09-22": "seed",
+   "2026-10-06": "auto",
+   "2026-09-08": "auto"
   }
  },
  "weekly": [
@@ -301,6 +303,15 @@
    25000
   ],
   [
+   "2026-09-08",
+   64800,
+   44200,
+   45700,
+   30000,
+   27000,
+   27000
+  ],
+  [
    "2026-09-15",
    74800,
    42200,
@@ -317,6 +328,15 @@
    32000,
    29000,
    29000
+  ],
+  [
+   "2026-10-06",
+   77800,
+   47200,
+   45700,
+   33000,
+   30000,
+   30000
   ]
  ],
  "flags": [
@@ -339,7 +359,558 @@
    "thủ công: lệch mạnh so với miền khác và GreenFeed"
   ]
  ],
- "gf": [],
+ "gf": [
+  [
+   "2026-01-19",
+   57846,
+   47375,
+   44750,
+   35250,
+   33500,
+   30333,
+   43893,
+   29667
+  ],
+  [
+   "2026-01-22",
+   56885,
+   46357,
+   43900,
+   42050,
+   35357,
+   30833,
+   42537,
+   30571
+  ],
+  [
+   "2026-01-26",
+   54433,
+   46250,
+   43250,
+   43500,
+   36786,
+   32500,
+   42867,
+   31750
+  ],
+  [
+   "2026-01-29",
+   47467,
+   46500,
+   44500,
+   43708,
+   37643,
+   33250,
+   41600,
+   33500
+  ],
+  [
+   "2026-02-03",
+   47214,
+   45633,
+   43500,
+   43000,
+   36643,
+   32000,
+   40867,
+   32357
+  ],
+  [
+   "2026-02-05",
+   50200,
+   46179,
+   43500,
+   45450,
+   37000,
+   31250,
+   41500,
+   31143
+  ],
+  [
+   "2026-02-23",
+   47625,
+   45929,
+   42375,
+   43889,
+   35714,
+   30250,
+   42607,
+   30143
+  ],
+  [
+   "2026-03-02",
+   53100,
+   46133,
+   41125,
+   38389,
+   33129,
+   30333,
+   41643,
+   28000
+  ],
+  [
+   "2026-03-09",
+   52976,
+   45143,
+   41000,
+   26292,
+   30000,
+   28250,
+   41571,
+   24214
+  ],
+  [
+   "2026-03-16",
+   54028,
+   45625,
+   41000,
+   23409,
+   25429,
+   26250,
+   40357,
+   22929
+  ],
+  [
+   "2026-03-26",
+   53711,
+   44200,
+   40250,
+   35115,
+   28071,
+   24750,
+   39321,
+   22357
+  ],
+  [
+   "2026-04-02",
+   50476,
+   43167,
+   39375,
+   29423,
+   27714,
+   26000,
+   38531,
+   26071
+  ],
+  [
+   "2026-04-06",
+   51680,
+   44406,
+   38750,
+   29714,
+   28214,
+   27250,
+   38321,
+   27500
+  ],
+  [
+   "2026-04-09",
+   51150,
+   43179,
+   39625,
+   29292,
+   28071,
+   27750,
+   39714,
+   28429
+  ],
+  [
+   "2026-04-13",
+   51229,
+   41893,
+   42250,
+   24867,
+   27417,
+   26250,
+   39067,
+   25786
+  ],
+  [
+   "2026-04-16",
+   48375,
+   41357,
+   42250,
+   25050,
+   28143,
+   29250,
+   39917,
+   27750
+  ],
+  [
+   "2026-04-20",
+   51000,
+   41500,
+   43000,
+   27281,
+   28857,
+   27500,
+   41458,
+   26417
+  ],
+  [
+   "2026-04-23",
+   51619,
+   42179,
+   43125,
+   22800,
+   27429,
+   26500,
+   43000,
+   27643
+  ],
+  [
+   "2026-05-04",
+   51117,
+   44200,
+   46000,
+   20389,
+   27143,
+   28250,
+   44786,
+   29214
+  ],
+  [
+   "2026-05-11",
+   49828,
+   45167,
+   44500,
+   21417,
+   27429,
+   29250,
+   44214,
+   28286
+  ],
+  [
+   "2026-05-18",
+   47862,
+   45808,
+   45000,
+   23583,
+   26000,
+   27750,
+   44214,
+   27000
+  ],
+  [
+   "2026-05-25",
+   48966,
+   46700,
+   46000,
+   28105,
+   27143,
+   28750,
+   43893,
+   28571
+  ],
+  [
+   "2026-05-28",
+   49741,
+   46833,
+   46333,
+   27583,
+   25357,
+   24500,
+   45214,
+   24000
+  ],
+  [
+   "2026-06-04",
+   46621,
+   46643,
+   47333,
+   30056,
+   27857,
+   28750,
+   47143,
+   29429
+  ],
+  [
+   "2026-06-11",
+   44259,
+   45808,
+   45333,
+   33972,
+   30214,
+   29250,
+   45321,
+   27929
+  ],
+  [
+   "2026-06-15",
+   42448,
+   45692,
+   45833,
+   34889,
+   30714,
+   28250,
+   46107,
+   27857
+  ],
+  [
+   "2026-06-18",
+   41276,
+   44577,
+   45000,
+   35722,
+   31714,
+   28750,
+   45357,
+   28357
+  ],
+  [
+   "2026-06-22",
+   41155,
+   44654,
+   45833,
+   36139,
+   32214,
+   28750,
+   47036,
+   27857
+  ],
+  [
+   "2026-06-25",
+   40759,
+   44577,
+   46333,
+   36139,
+   32214,
+   28750,
+   48250,
+   27857
+  ],
+  [
+   "2026-07-02",
+   39759,
+   44538,
+   45833,
+   36139,
+   32214,
+   29250,
+   46821,
+   27857
+  ],
+  [
+   "2026-07-13",
+   37793,
+   43423,
+   44833,
+   36028,
+   33214,
+   29250,
+   45964,
+   28357
+  ],
+  [
+   "2026-07-23",
+   38190,
+   44308,
+   44000,
+   32444,
+   32214,
+   29750,
+   45607,
+   28857
+  ],
+  [
+   "2026-07-30",
+   38983,
+   43885,
+   43500,
+   34333,
+   33714,
+   31750,
+   46964,
+   33071
+  ],
+  [
+   "2026-08-06",
+   40052,
+   44923,
+   43500,
+   35472,
+   34714,
+   32750,
+   45179,
+   34500
+  ],
+  [
+   "2026-08-13",
+   39414,
+   43846,
+   42167,
+   35750,
+   34714,
+   30250,
+   42107,
+   30500
+  ],
+  [
+   "2026-08-20",
+   43103,
+   44231,
+   42833,
+   37472,
+   35214,
+   28250,
+   39143,
+   26286
+  ],
+  [
+   "2026-08-24",
+   42655,
+   44462,
+   41333,
+   37472,
+   34714,
+   27750,
+   39321,
+   25500
+  ],
+  [
+   "2026-08-27",
+   43155,
+   43462,
+   41667,
+   36972,
+   34214,
+   26750,
+   38607,
+   25500
+  ],
+  [
+   "2026-08-31",
+   42845,
+   43385,
+   41833,
+   36972,
+   34000,
+   26750,
+   38893,
+   25786
+  ],
+  [
+   "2026-09-03",
+   42776,
+   43615,
+   43667,
+   36472,
+   32429,
+   26750,
+   39643,
+   26500
+  ],
+  [
+   "2026-09-07",
+   42776,
+   45346,
+   45000,
+   36472,
+   32429,
+   25000,
+   39714,
+   26857
+  ],
+  [
+   "2026-09-10",
+   43276,
+   46269,
+   45333,
+   36472,
+   32429,
+   25000,
+   40286,
+   28500
+  ],
+  [
+   "2026-09-14",
+   42966,
+   45385,
+   45500,
+   36472,
+   32571,
+   25000,
+   41857,
+   27786
+  ],
+  [
+   "2026-09-17",
+   43552,
+   43769,
+   45667,
+   35472,
+   32357,
+   26000,
+   42036,
+   28500
+  ],
+  [
+   "2026-09-21",
+   44138,
+   43962,
+   45500,
+   34472,
+   31857,
+   27000,
+   39929,
+   28071
+  ],
+  [
+   "2026-09-24",
+   44138,
+   43962,
+   44667,
+   33306,
+   31357,
+   28000,
+   41679,
+   29500
+  ],
+  [
+   "2026-09-28",
+   43293,
+   43077,
+   43833,
+   32889,
+   31357,
+   27000,
+   40250,
+   27643
+  ],
+  [
+   "2026-10-01",
+   43724,
+   44231,
+   42667,
+   32389,
+   30857,
+   26500,
+   40321,
+   26786
+  ],
+  [
+   "2026-10-05",
+   43897,
+   44538,
+   41500,
+   32889,
+   31357,
+   27750,
+   41250,
+   27571
+  ],
+  [
+   "2026-10-08",
+   43345,
+   44269,
+   45000,
+   34694,
+   32071,
+   28750,
+   41357,
+   28500
+  ]
+ ],
  "refs": [
   {
    "date": "2026-05-04",
@@ -467,7 +1038,176 @@
    "url": "https://nguoichannuoi.vn/nganh-gia-cam-6-thang-dau-nam-2026-san-luong-tang-truong-ap-luc-du-cung-bua-vay/"
   }
  ],
- "news": [],
- "mentions": [],
- "log": []
+ "news": [
+  {
+   "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
+   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
+   "date": "2026-10-13",
+   "source": "VTVgo"
+  },
+  {
+   "title": "Trứng vịt muối đi Mỹ, ngành chăn nuôi đón dòng vốn đầu tư mới - Báo Dân trí",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQVJxSHVvVFhMRzc2WG9aWDE0RGxPb2NCQ0lJZENQeU5KS1ZlZS15czh0MHV3WkdWU0hyRF8xdHNiN05xWW5LWGVtcXB1Y285TmlWdGFMQkF1UDd3X013SW90WFdhbzF2dG9PMEplNzhqeU1JU0VJWDRaTGMzbnhwbm0xTlNWaEFkODlOMjFwRlA0LXRqX0lNbXUxb25Kb1dMR29FZVJfM2ZMVE1RSXE5VjlCaE91Zw?oc=5",
+   "date": "2026-10-13",
+   "source": "Báo Dân trí"
+  },
+  {
+   "title": "Người chăn nuôi lỗ ở Đồng Tháp lỗ nặng vì giá gia cầm giảm mạnh - Trung tâm Nội dung số và Truyền thông",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVUppLUZ0Rmk0MEMwcV9ZckNXWUVTdURUSVJDU0FxMVFyM0JZQXJnUnpab0V4eks0akhUOU82MXlzWmFlTk9UcnVEY3NrM0p0Vmx4SVZkZVY2cHc2cG1XODZxRVRsTXltaExJclBQX25QckFQUVJ3dXlYdmdlU3htWmE4VVI0N3ZFY0JfaDducE1YTkItVHVhLTliWldzR29yWHhHcEhGalBycUVJZjBydQ?oc=5",
+   "date": "2026-10-12",
+   "source": "Trung tâm Nội dung số và Truyền thông"
+  },
+  {
+   "title": "'Đau tim' với nuôi heo, gà: Đừng chỉ đổ lỗi cho thịt nhập, chính chúng ta cũng đang tự hại mình - Báo Tuổi Trẻ",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUhnWXBSUzBzRFA0dU1jTmx3cENtVGhPRHJZLWhONHlJckdyY0hzTWttTVhOa1JhVjRTMGRmdk1qNTlGQjROdHdIWjhDZVVhY0tRR2Z4SHl4MlF6emJ2LVZnMVVwYkZrVVZzUHpPd0VqVThfQlVsbWFZWllGcEFpQlVpZzg4c3BIWEFoTmZ4RHhPQkdndDJsbW4yY1FRUFA2cHVhRmlJektxcGRqaE5wN19QbHdWeTNabDRaN3QxWm4yS3lYaUpRMlg3Ti0?oc=5",
+   "date": "2026-10-12",
+   "source": "Báo Tuổi Trẻ"
+  },
+  {
+   "title": "'Đau tim' với nuôi heo, gà: Đừng chỉ đổ lỗi cho thịt nhập, chính chúng ta cũng đang tự hại mình - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVFhVWUM4Sk9RZGUtaHpQNEFkelY5NmE2U0RGMUdzNzBzLUNjcUtvWmRPeUlycDhRa2huNG5jelNFa3lHc2c0ZTBLVFgxWnhLN2VQWVpRQjd3bGFfem9SeDVIQVJlQ0JiZXUzQnZFcTc3MlYxZHRzM3JiRmdpd0FBLUlpM3FGdXdGc3A0VlNKT3h4WVMyYk9HenB2RHg3TW1tUEJjQ1MtXzZqYTd1UFIxVVJEdw?oc=5",
+   "date": "2026-10-12",
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "Người chăn nuôi thua lỗ vì giá gia cầm tiếp tục giảm - Báo Tin tức và Dân tộc",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmlHRkkxZGVoTHJyME5xMUZMR0hKYk5kcXlfOWJBZlczM2tKVVUtZzlfOUZUUGVUWnRCSG5Yc216UG1TT0lPUnBVSnA2d0lDVEJPRHhYdWVZUUN3RE5CejVqLWpBWWJQNW5FUXJodjBNeldnai1hRkNReDIwT1Z5cDdJWDZNeklGRnRoU2E4TGNyaDdz?oc=5",
+   "date": "2026-10-10",
+   "source": "Báo Tin tức và Dân tộc"
+  },
+  {
+   "title": "Crescătorii de păsări de curte suferă pierderi pe măsură ce prețurile la carnea de pasăre continuă să scadă. - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSFV6SXBMTkZxb2lUR2R5c3FEN0V4YmNya2pIUUNTQ29yTnpVbFNuZ2RkV1VtTnYwMnFBall3eXl5NG9SckJueHBaMWhtMHJfS3RHNUhFa1VUdjdHOHQ3NUljd2pzVkhTRkhoMEdmLWRHNE1jRDF1SWN6NTgxdzVockE2WXI?oc=5",
+   "date": "2026-10-10",
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "'Đau tim' với nuôi heo, gà: Người chăn nuôi trong thế khó - Báo Tuổi Trẻ",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWUY1UDhjeDY3NWgwSGFrZ2VVQkdhd0lxVUNnemxwNVFEbF9QNG54STgxOHQ5aTR1RUNaNUMyX0hDU1NDcW5HWTI5dkRkZmRpeGVabkhWWjZiRlJzYkRJSVpBVV9tMlFkUXhfVFZRcWtZU0ZBa0pzbmtKanNINDd4NWhyRktFUUpvZlQ0ZWVLajRqcjhLLTZ4cUFiTQ?oc=5",
+   "date": "2026-10-10",
+   "source": "Báo Tuổi Trẻ"
+  },
+  {
+   "title": "'Đau tim' với nuôi heo, gà: Người chăn nuôi trong thế khó - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcnFKbTZicWhMa0Y5bmlGXy1oNk54MV84cWRKMW9pOThSQzlSY05PMnk5UUhjNExpWWVMNGE2azNzTTRJcnByTHFpeEJBZE9tUnYybVM4M2hGSGhYSExPZ2JVcHhLRDFKNnZZdlBEY1lzZkZnQUhfZFFRTS1xRkFfRFNn?oc=5",
+   "date": "2026-10-10",
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "Anh ghi nhận 2.201 ca bệnh lưỡi xanh, số ca tăng kỷ lục - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRmctN3F1TW1IYThObzJKcUkxVUNMLV9hX1gyNkpaSGpkOTR5MEYzeTcwRnEyUTdXeFJpODdiZFlwQlVTQVhSTHBnOHhPZWFLYTAxcWR6aGh2V3dmWTViS19UTm1TYlp3NjdQbVBLV1ZZNHRQVk9sQVJWUFZfOUJ1bnNrUEU?oc=5",
+   "date": "2026-10-08",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Giá sản phẩm chăn nuôi (giá tại trại) cả nước ngày 6/10/2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZEhtbktDRTZHOFdVLTNRRGM2dFN4dVpjRUR1TEQwM2x5bXdiVlFmN05KMG1tRHd6NDJkTjFVTS1yVFIycDFvd3M0LUpUSkJfSU93N3VOclRHZXF1c29ja2FQZWdwUnJRU3BQRFExclN5VHdTUFJPWFhqQmNwWWZqRy0wU0tZYlpCQ0E?oc=5",
+   "date": "2026-10-08",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Hợp tác xã Đồng Hiệp xây dựng cộng đồng chăn nuôi gà đẻ Cage-free bền vững tại Việt Nam - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQXEzQXBhYkVMOUktZFBZN1NJUUhqQUZWMjFfNy1oOWJKc0x1NGtPLXY0c1FmaDJham5obWUyWk1WN0ZvU3p3VXA2UjVReW1HTUo5d1U3ZnlTOWx4LUZLVlh6dm1oM1NTN0dkYTU5NlNYd2VjdlhZQmdDUF9IYzJaZ1FOczUxV21pa0Z0SkROSXVQQTJpNlhHNExJaG8wNlJmYllFRkRnbU1yaHNJeS02eg?oc=5",
+   "date": "2026-10-07",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Hội KHKT Thú y Việt Nam kiến nghị tháo gỡ vướng mắc trong quản lý sản phẩm thủy sản, thức ăn bổ sung và thuốc thú y - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWlYxRUJVY3A2WGJrbFp6UTdCU05Obm94ZVl2WTZqYjFBd1E1a1JJZHp5eC0wdkxlWFRRaUhFUVc2djVVZ3hLRVcyWE9uRHBLTDJoOXNKM19FMGs4akdKZWczcjVJcVdFSlJ4TUxiNmw5SWQ5aTZRek5aSzBEdFVLdWp1U0phSHM0SHBwS0hBQXdDUkZkVHBMdzBkTjRSNDhxdEFnaTdlYTF4TVRDYjFuTHhEUmk4MXpaRTVmT2FSVDNJNjYyVDdMQWRfZ2M3a1Njc05EOQ?oc=5",
+   "date": "2026-10-07",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Giá lợn hơi tiếp tục giảm mạnh - CafeF",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFRGNVVlRhRnVJZnB1TmYtNkNDUkJwbEZic0t3WVJ6OHYycDFFLWF6QjJybHFfelZJUldpRW0wYmlIN3BvUi1xYVZneDU2T2FmRFFZSndveDRfc003aDhWWmJ3cGtqaXVRWWJaMzlZWlI5VHRHU01IcEJR?oc=5",
+   "date": "2026-10-07",
+   "source": "CafeF"
+  },
+  {
+   "title": "Gần 660.000 tấn thịt giá rẻ tràn về, lợn hơi trong nước giảm giá sâu - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFB4LUdJUnlPZ0pHcERMRzdrTkxUSElsbHd0c2NqM3lPZUpFb3kydElaUWdLdlpILWtVX2FPczJTOFNJbjRXTUd4NDBTZFNIZFp1aFBqZjg2Yk1yNW1hQzZvaDljTXlPZVh0d2dINmVOSUV4MWhxRmZCWnVyeW5GcE5KWE9ZbWdjYjFMSGRtbjBhRklt?oc=5",
+   "date": "2026-10-06",
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "Giá gà công nghiệp giảm, người nuôi tiếp tục gặp khó - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVXl0Z1NoYmZCUVZIaVV0b1VtTmExQzNuZzg4WnlBNk1DaS0wMmxYS1pfdGxsSzY0Z0dVTVZrNWotbF9zX0JJT3ZzOFlmSWozZ2Z0QWR2Y1FiMmg2WVMtWWlMVlhsbEd2SU5wZThuVVNyN0MzYjZWZEJmZ1B5WjZmRg?oc=5",
+   "date": "2026-09-30",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  }
+ ],
+ "mentions": [
+  {
+   "url": "https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/",
+   "title": "Giá gà bấp bênh, cần liên kết để ổn định sản xuất - Tin tức Chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
+   "date": "2026-10-06",
+   "mentions": [
+    {
+     "text": "Sau hơn 2 tháng giảm trong tháng 7 và 8-2026, giá gà bắt đầu phục hồi từ đầu tháng 9 và hiện cao hơn khoảng 10 nghìn đồng/kg so với mức thấp nhất.",
+     "kind": "khac",
+     "region": null
+    },
+    {
+     "text": "Khảo sát thực tế tại các cơ sở chăn nuôi trên địa bàn tỉnh, chúng tôi được biết tại thời điểm giá gà xuống thấp nhất, gà đồi Tân Khánh chỉ còn khoảng 52 nghìn đồng/kg, giảm 20 nghìn đồng/kg; gà màu nuôi chuồng kín khoảng 43 nghìn đồng/kg, giảm 15 nghìn đồng/kg; gà lông trắng khoảng 30 nghìn đồng/kg, giảm hơn 10 nghìn đồng/kg.",
+     "kind": "trang",
+     "region": null
+    },
+    {
+     "text": "Gia đình bà nuôi gà màu chuồng kín, có thời điểm giá xuống 35 – 36 nghìn đồng/kg rồi tăng lên 45 – 46 nghìn đồng/kg, trong khi theo tính toán của gia đình, giá phải đạt khoảng 50 nghìn đồng/kg mới có công.",
+     "kind": "mau",
+     "region": null
+    }
+   ],
+   "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)"
+  },
+  {
+   "url": "https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/",
+   "title": "Giá gà thịt giảm sâu, người chăn nuôi lỗ nặng - Tin tức Chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
+   "date": "2026-09-21",
+   "mentions": [
+    {
+     "text": "Tương tự, trang trại nuôi gà thịt của gia đình ông Nguyễn Văn Quyền, xã Hoa Lộc cũng đang phải gánh lỗ khoảng 10 nghìn đồng/kg gà thịt xuất chuồng vì giá “chạm đáy” suốt thời gian qua.",
+     "kind": "khac",
+     "region": null
+    },
+    {
+     "text": "Theo ông Quyền, trang trại của gia đình ông chủ yếu nuôi gà lai, mấy tháng nay giá bán ra chỉ từ 42 – 48 nghìn đồng/kg, thấp nhất trong các loại gà nên đang bị thua lỗ.",
+     "kind": "mau",
+     "region": null
+    },
+    {
+     "text": "Hiện nay, giá gà lai xuất chuồng đang ở mức từ 40 – 48 nghìn đồng/kg; gà ri trên 70 nghìn đồng/kg; gà lông trắng chỉ hơn 30 nghìn đồng/kg, đây là mức giá thấp nhất trong những năm gần đây.",
+     "kind": "trang",
+     "region": null
+    },
+    {
+     "text": "So với cùng kỳ năm ngoái, giá gà thịt giảm từ 8-10 nghìn đồng/kg.",
+     "kind": "khac",
+     "region": null
+    }
+   ],
+   "name": "Người Chăn Nuôi – Giá gà thịt giảm sâu (Thanh Hóa)"
+  }
+ ],
+ "log": [
+  {
+   "at": "2026-10-13T13:58:05.254Z",
+   "summary": "Bảng giá mới: 2026-10-06, 2026-09-08 · GreenFeed mới: 50 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [
+    "2026-10-06",
+    "2026-09-08"
+   ],
+   "gfNew": 50,
+   "errors": 0,
+   "detail": [
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "  + 2026-10-06: trắng 33000/30000/30000 · màu 77800/47200/45700",
+    "  + 2026-09-08: trắng 30000/27000/27000 · màu 64800/44200/45700",
+    "GreenFeed: 51 ngày có bảng giá, cần đọc 51",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "  ⚠ GreenFeed 2026-02-03: bảng ghi ngày 2026-02-02",
+    "Bảng giá mới: 2026-10-06, 2026-09-08 · GreenFeed mới: 50 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  }
+ ]
 }
