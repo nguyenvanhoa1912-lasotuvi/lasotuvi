@@ -1,0 +1,81 @@
+SPCN files: 184; 2026: 40; first 2023-01-10T00:00:00+07:00 last 2026-10-13T00:00:00+07:00
+2026 dates: 2026-01-06 2026-01-13 2026-01-20 2026-01-27 2026-02-03 2026-02-10 2026-02-24 2026-03-03 2026-03-10 2026-03-17 2026-03-24 2026-03-31 2026-04-07 2026-04-14 2026-04-21 2026-04-28 2026-05-05 2026-05-12 2026-05-19 2026-05-26 2026-06-02 2026-06-09 2026-06-16 2026-06-23 2026-06-30 2026-07-07 2026-07-14 2026-07-21 2026-07-28 2026-08-04 2026-08-11 2026-08-18 2026-08-25 2026-09-01 2026-09-08 2026-09-15 2026-09-22 2026-09-29 2026-10-06 2026-10-13
+name patterns: Thi truong SPCN ca nuoc. Phuong. YYYY.MM.DD.xlsx
+
+=== Thi truong SPCN ca nuoc. Phuong. 2026.10.13.xlsx 200 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 17419 PK
+--- sheet "Sheet1" 23 rows
+0: GIÁ SẢN PHẨM CHĂN NUÔI (TẠI TRẠI) CẢ NƯỚC NGÀY 13/10/2026 |  |  |  |  |  |  | 
+1: Sản phẩm | ĐVT | Giá bình quân | Giá bình quân | So giá BQ |  | So giá BQ | 
+2:  |  | 13/10/2026 | trong tháng | tháng trước |  | năm trước | 
+3:  |  | (đồng) | (đồng) | (đồng) | (%) | (đồng) | (%)
+4: Heo thịt hơi (miền Bắc) | đ/kg | 52,300 | 56,840 | -1680 | -2.9 | 1,780 | 3.2
+5: Heo thịt hơi (miền Trung) | đ/kg | 51,500 | 55,600 | -1720 | -3.0 | 1,300 | 2.4
+6: Heo thịt hơi (miền Nam) | đ/kg | 52,400 | 56,120 | -1300 | -2.3 | -260 | -0.5
+7: Gà thịt lông màu (miền Bắc) | đ/kg | 54,000 | 71,240 | 12,980 | 22.3 | 7,820 | 12.3
+8: Gà thịt lông màu (miền Trung) | đ/kg | 47,200 | 44,200 | -800 | -1.8 | -18320 | -29.3
+9: Gà thịt lông màu (miền Nam) | đ/kg | 48,000 | 44,960 | -1540 | -3.3 | -16560 | -26.9
+10: Gà chuyên thịt (miền Bắc) | đ/kg | 37,000 | 32,800 | -1000 | -3.0 | -6800 | -17.2
+11: Gà chuyên thịt (miền Trung) | đ/kg | 32,000 | 29,800 | 2,800 | 10.4 | -5800 | -16.3
+12: Gà chuyên thịt (miền Nam) | đ/kg | 32,000 | 29,800 | 3,000 | 11.2 | -4800 | -13.9
+13: Vịt thịt (miền Bắc) | đ/kg | 38,000 | 43,440 | -260 | -0.6 | 320 | 0.7
+14: Vịt thịt (miền Trung) | đ/kg | 35,100 | 38,060 | -4180 | -9.9 | -3120 | -7.6
+15: Vịt thịt (miền Nam) | đ/kg | 34,400 | 37,180 | -9780 | -20.8 | -40 | -0.1
+16: Trứng gà (miền Bắc) | đ/quả | 1,900 | 1,990 | -110 | -5.2 | -270 | -11.9
+17: Trứng gà (miền Trung) | đ/quả | 1,660 | 1,836 | -44 | -2.3 | -518 | -22.0
+18: Trứng gà (miền Nam) | đ/quả | 1,580 | 1,700 | -30 | -1.7 | -364 | -17.6
+19: Trứng vịt (miền Bắc) | đ/quả | 2,400 | 2,120 | 120 | 6.0 | -580 | -21.5
+20: Trứng vịt (miền Trung) | đ/quả | 2,580 | 2,170 | 140 | 6.9 | -494 | -18.5
+21: Trứng vịt (miền Nam) | đ/quả | 2,400 | 2,142 | 152 | 7.6 | -422 | -16.5
+22: Nguồn: Channuoivietnam.com |  |  |  |  |  |  | 
+
+=== Thi truong SPCN ca nuoc. Phuong. 2026.09.22.xlsx 200 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 17366 PK
+--- sheet "Sheet1" 23 rows
+0: GIÁ SẢN PHẨM CHĂN NUÔI (TẠI TRẠI) CẢ NƯỚC NGÀY 22/09/2026 |  |  |  |  |  |  | 
+1: Sản phẩm | ĐVT | Giá bình quân | Giá bình quân | So giá BQ |  | So giá BQ | 
+2:  |  | 22/09/2026 | trong tháng | tháng trước |  | năm trước | 
+3:  |  | (đồng) | (đồng) | (đồng) | (%) | (đồng) | (%)
+4: Heo thịt hơi (miền Bắc) | đ/kg | 59,300 | 59,160 | -2300 | -3.7 | 2,960 | 5.3
+5: Heo thịt hơi (miền Trung) | đ/kg | 57,600 | 57,520 | -2560 | -4.3 | 2,020 | 3.6
+6: Heo thịt hơi (miền Nam) | đ/kg | 58,000 | 57,760 | -1920 | -3.2 | -960 | -1.6
+7: Gà thịt lông màu (miền Bắc) | đ/kg | 74,800 | 68,600 | 20900 | 43.8 | 5440 | 8.6
+8: Gà thịt lông màu (miền Trung) | đ/kg | 42,200 | 43,400 | -3420 | -7.3 | -18440 | -29.8
+9: Gà thịt lông màu (miền Nam) | đ/kg | 43,700 | 44,900 | -3520 | -7.3 | -19320 | -30.1
+10: Gà chuyên thịt (miền Bắc) | đ/kg | 32,000 | 32,000 | -2200 | -6.4 | -4400 | -12.1
+11: Gà chuyên thịt (miền Trung) | đ/kg | 29,000 | 27,000 | -3400 | -11.2 | -8000 | -22.9
+12: Gà chuyên thịt (miền Nam) | đ/kg | 29,000 | 27,000 | -3800 | -12.3 | -7400 | -21.5
+13: Vịt thịt (miền Bắc) | đ/kg | 45,300 | 46,300 | 9,200 | 24.8 | -4200 | -8.3
+14: Vịt thịt (miền Trung) | đ/kg | 39,100 | 42,300 | 3,320 | 8.5 | -4640 | -9.9
+15: Vịt thịt (miền Nam) | đ/kg | 37,600 | 43,680 | -3360 | -7.1 | 1,860 | 4.4
+16: Trứng gà (miền Bắc) | đ/quả | 2,100 | 2,100 | -10 | -0.5 | -290 | -12.1
+17: Trứng gà (miền Trung) | đ/quả | 1,880 | 1,880 | 10 | 0.5 | -574 | -23.4
+18: Trứng gà (miền Nam) | đ/quả | 1,730 | 1,730 | 0 | 0.0 | -448 | -20.6
+19: Trứng vịt (miền Bắc) | đ/quả | 2,050 | 2,020 | 0 | 0.0 | -812 | -28.7
+20: Trứng vịt (miền Trung) | đ/quả | 2,080 | 2,050 | -30 | -1.4 | -670 | -24.6
+21: Trứng vịt (miền Nam) | đ/quả | 2,090 | 2,030 | -10 | -0.5 | -518 | -20.3
+22: Nguồn: Channuoivietnam.com |  |  |  |  |  |  | 
+
+=== Thi truong SPCN ca nuoc. Phuong. 2026.01.06.xlsx 200 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 17140 PK
+--- sheet "Sheet1" 23 rows
+0: GIÁ SẢN PHẨM CHĂN NUÔI (TẠI TRẠI) CẢ NƯỚC NGÀY 06/01/2026 |  |  |  |  |  |  | 
+1: Sản phẩm | ĐVT | Giá bình quân | Giá bình quân | So giá BQ |  | So giá BQ | 
+2:  |  | 06/01/2026 | trong tháng | tháng trước |  | năm trước | 
+3:  |  | (đồng) | (đồng) | (đồng) | (%) | (đồng) | (%)
+4: Heo thịt hơi (miền Bắc) | đ/kg | 68,700 | 66,180 | 14,080 | 27.0 | -580 | -0.9
+5: Heo thịt hơi (miền Trung) | đ/kg | 66,500 | 64,400 | 14,220 | 28.3 | -960 | -1.5
+6: Heo thịt hơi (miền Nam) | đ/kg | 63,400 | 61,900 | 10,420 | 20.2 | -3540 | -5.4
+7: Gà thịt lông màu (miền Bắc) | đ/kg | 56,000 | 57,000 | -800 | -1.4 | 9,380 | 19.7
+8: Gà thịt lông màu (miền Trung) | đ/kg | 50,700 | 51,480 | -4200 | -7.5 | 2,600 | 5.3
+9: Gà thịt lông màu (miền Nam) | đ/kg | 48,700 | 51,100 | -5940 | -10.4 | -1780 | -3.4
+10: Gà chuyên thịt (miền Bắc) | đ/kg | 30,000 | 31,600 | -2200 | -6.5 | 0 | 0.0
+11: Gà chuyên thịt (miền Trung) | đ/kg | 29,000 | 31,600 | 0 | 0.0 | -2400 | -7.1
+12: Gà chuyên thịt (miền Nam) | đ/kg | 29,000 | 31,200 | -2200 | -6.6 | -3000 | -8.8
+13: Vịt thịt (miền Bắc) | đ/kg | 35,300 | 33,300 | 660 | 2.0 | 40 | 0.1
+14: Vịt thịt (miền Trung) | đ/kg | 35,000 | 33,340 | -1500 | -4.3 | -1920 | -5.4
+15: Vịt thịt (miền Nam) | đ/kg | 35,500 | 34,060 | -3160 | -8.5 | -4880 | -12.5
+16: Trứng gà (miền Bắc) | đ/quả | 2,300 | 2,460 | -172 | -6.5 | 706 | 40.3
+17: Trứng gà (miền Trung) | đ/quả | 2,410 | 2,588 | 76 | 3.0 | 564 | 27.9
+18: Trứng gà (miền Nam) | đ/quả | 2,120 | 2,420 | 40 | 1.7 | 750 | 44.9
+19: Trứng vịt (miền Bắc) | đ/quả | 2,500 | 2,680 | -60 | -2.2 | 764 | 39.9
+20: Trứng vịt (miền Trung) | đ/quả | 2,530 | 2,632 | -96 | -3.5 | 332 | 14.4
+21: Trứng vịt (miền Nam) | đ/quả | 2,120 | 2,260 | -296 | -11.6 | -34 | -1.5
+22: Nguồn: Channuoivietnam.com |  |  |  |  |  |  | 
