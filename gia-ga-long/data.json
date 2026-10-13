@@ -1,43 +1,92 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-13T13:58:05.254Z",
-  "lastScan": "2026-10-13T14:07:06.474Z",
+  "updated": "2026-10-13T22:55:33.627Z",
+  "lastScan": "2026-10-13T22:55:33.627Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
-   "2026-01-06": "seed",
-   "2026-01-13": "seed",
-   "2026-01-20": "seed",
-   "2026-01-27": "seed",
-   "2026-02-03": "seed",
-   "2026-02-10": "seed",
-   "2026-02-24": "seed",
-   "2026-03-03": "seed",
-   "2026-03-10": "seed",
-   "2026-03-17": "seed",
-   "2026-03-24": "seed",
-   "2026-04-07": "seed",
-   "2026-04-14": "seed",
-   "2026-05-05": "seed",
-   "2026-05-12": "seed",
-   "2026-05-19": "seed",
-   "2026-05-26": "seed",
-   "2026-06-09": "seed",
-   "2026-06-16": "seed",
-   "2026-06-23": "seed",
-   "2026-06-30": "seed",
-   "2026-07-07": "seed",
-   "2026-07-14": "seed",
-   "2026-07-21": "seed",
-   "2026-07-28": "seed",
-   "2026-08-04": "seed",
-   "2026-08-11": "seed",
-   "2026-08-18": "seed",
-   "2026-08-25": "seed",
-   "2026-09-15": "seed",
-   "2026-09-22": "seed",
-   "2026-10-06": "auto",
-   "2026-09-08": "auto"
+   "2026-01-06": "cnvn",
+   "2026-01-13": "cnvn",
+   "2026-01-20": "cnvn",
+   "2026-01-27": "cnvn",
+   "2026-02-03": "cnvn",
+   "2026-02-10": "cnvn",
+   "2026-02-24": "cnvn",
+   "2026-03-03": "cnvn",
+   "2026-03-10": "cnvn",
+   "2026-03-17": "cnvn",
+   "2026-03-24": "cnvn",
+   "2026-04-07": "cnvn",
+   "2026-04-14": "cnvn",
+   "2026-05-05": "cnvn",
+   "2026-05-12": "cnvn",
+   "2026-05-19": "cnvn",
+   "2026-05-26": "cnvn",
+   "2026-06-09": "cnvn",
+   "2026-06-16": "cnvn",
+   "2026-06-23": "cnvn",
+   "2026-06-30": "cnvn",
+   "2026-07-07": "cnvn",
+   "2026-07-14": "cnvn",
+   "2026-07-21": "cnvn",
+   "2026-07-28": "cnvn",
+   "2026-08-04": "cnvn",
+   "2026-08-11": "cnvn",
+   "2026-08-18": "cnvn",
+   "2026-08-25": "cnvn",
+   "2026-09-15": "cnvn",
+   "2026-09-22": "cnvn",
+   "2026-10-06": "cnvn",
+   "2026-09-08": "cnvn",
+   "2026-10-13": "cnvn",
+   "2026-09-29": "cnvn",
+   "2026-09-01": "cnvn",
+   "2026-06-02": "cnvn",
+   "2026-04-28": "cnvn",
+   "2026-04-21": "cnvn",
+   "2026-03-31": "cnvn"
+  },
+  "src": {
+   "2026-10-13": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=6142479c-d0aa-4900-a367-586e76d7eb1f&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.13.xlsx",
+   "2026-10-06": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=181eb2cf-d56c-4e69-8045-ebdd73af65bb&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.06.xlsx",
+   "2026-09-29": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=31c0facd-c40e-44a3-96cf-1a2dfe9ab374&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.09.29.xlsx",
+   "2026-09-22": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=7bcfecc8-0117-4f0b-b211-817c51317b2a&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.09.22.xlsx",
+   "2026-09-15": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=2ae038f7-7fdf-43b7-9569-5084b44e12fb&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.09.15.xlsx",
+   "2026-09-08": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=a58ee7cd-c204-4749-a1a8-c0a58a4a424b&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.09.08.xlsx",
+   "2026-09-01": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=2ca22df7-a8b8-4f7c-8338-7fb5e16b3561&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.09.01.xlsx",
+   "2026-08-25": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=f5d6a59f-30f6-4feb-a1c2-ea80b024ac6a&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.08.25.xlsx",
+   "2026-08-18": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=72c30516-11ba-462b-870c-0328d78c9737&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.08.18.xlsx",
+   "2026-08-11": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=5ff3daa9-db54-478e-bfbd-aaa114d07351&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.08.11.xlsx",
+   "2026-08-04": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=989c970e-571a-4669-aee0-26ac64980b9d&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.08.04.xlsx",
+   "2026-07-28": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=74feeb82-d2ce-464a-8897-0642794f77cf&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.07.28.xlsx",
+   "2026-07-21": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=1d6aa889-491f-44cc-bcfc-a65168f34169&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.07.21.xlsx",
+   "2026-07-14": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=f0303525-2a16-411f-8656-24c3337c6e27&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.07.14.xlsx",
+   "2026-07-07": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=7652dd15-0d71-4456-9a17-0a2ad1b415a6&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.07.07.xlsx",
+   "2026-06-30": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=cd559eed-1bdf-47b3-8419-1550b3a85dc2&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.06.30.xlsx",
+   "2026-06-23": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=7efea34d-9884-4bb8-b180-da31dd542207&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.06.23.xlsx",
+   "2026-06-16": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=44f64e48-5197-42e3-9bfd-e783f16f06be&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.06.16.xlsx",
+   "2026-06-09": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=8563d722-4211-4805-84b0-bde752cddfc7&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.06.09.xlsx",
+   "2026-06-02": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=a5de509f-fa84-4147-8a37-0e2856526a9b&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.06.02.xlsx",
+   "2026-05-26": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=6f00cffd-cf7e-421e-a734-bf1bab79c2d3&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.05.26.xlsx",
+   "2026-05-19": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=268cf0e7-5023-4ca4-abcb-58741337f242&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.05.19.xlsx",
+   "2026-05-12": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=4c1f7bc3-e54d-40c0-b9b8-31157f2bdc5a&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.05.12.xlsx",
+   "2026-05-05": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=6cb541aa-a004-4ac3-b88c-e0cda702bbbc&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.05.05.xlsx",
+   "2026-04-28": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=33fe707f-c433-4288-b799-e1b2567f88a8&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.04.28.xlsx",
+   "2026-04-21": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=0ca81adc-a0fe-4252-bc76-f5834ef5d053&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.04.21.xlsx",
+   "2026-04-14": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=3f591740-dc3d-46c2-a9b5-2e17472257dc&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.04.14.xlsx",
+   "2026-04-07": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=cdbc93f3-f168-4e8c-b3ee-f0baf9ada841&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.04.07.xlsx",
+   "2026-03-31": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=a42967f5-c2b6-48d9-bc1d-736c3a86abc5&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.03.31.xlsx",
+   "2026-03-24": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=50c95752-ca49-4aa2-9401-040493fcbed1&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.03.24.xlsx",
+   "2026-03-17": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=c1226771-e673-4c4d-9c20-60c071850ba0&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.03.17.xlsx",
+   "2026-03-10": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=6b65c1a7-a20e-4190-ab05-5d869cdc4b6c&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.03.10.xlsx",
+   "2026-03-03": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=e26e5564-fbbb-47e8-b7fc-cbe7a6928790&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.03.03.xlsx",
+   "2026-02-24": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=f8a7044c-784d-4bfe-a11b-82ef972886c3&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.02.24.xlsx",
+   "2026-02-10": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=73c5f7f1-e689-48fb-bb48-ec4318cad385&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.02.10.xlsx",
+   "2026-02-03": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=800d158e-2ba1-4919-b917-ff9bcc3aa821&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.02.03.xlsx",
+   "2026-01-27": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=ab7f1a77-07d1-4375-b68f-8c7f66cda82f&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.01.27.xlsx",
+   "2026-01-20": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=3b0d7fd2-bf0f-433e-99fe-a161052300ac&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.01.20.xlsx",
+   "2026-01-13": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=8c4a8b7f-f10a-4728-b12e-4e770a5e4c32&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.01.13.xlsx",
+   "2026-01-06": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=076874c5-9b1e-4253-8f8e-2e46d99b61aa&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.01.06.xlsx"
   }
  },
  "weekly": [
@@ -141,6 +190,15 @@
    26000
   ],
   [
+   "2026-03-31",
+   50000,
+   47500,
+   45000,
+   28000,
+   22000,
+   27000
+  ],
+  [
    "2026-04-07",
    51000,
    46700,
@@ -157,6 +215,24 @@
    22000,
    28000,
    27000
+  ],
+  [
+   "2026-04-21",
+   48000,
+   43000,
+   44700,
+   21000,
+   28000,
+   27000
+  ],
+  [
+   "2026-04-28",
+   47800,
+   43000,
+   44700,
+   19000,
+   27000,
+   29000
   ],
   [
    "2026-05-05",
@@ -193,6 +269,15 @@
    29000,
    24000,
    24000
+  ],
+  [
+   "2026-06-02",
+   47800,
+   44000,
+   45800,
+   31000,
+   26000,
+   26000
   ],
   [
    "2026-06-09",
@@ -303,6 +388,15 @@
    25000
   ],
   [
+   "2026-09-01",
+   64800,
+   44200,
+   45700,
+   31000,
+   25000,
+   25000
+  ],
+  [
    "2026-09-08",
    64800,
    44200,
@@ -330,6 +424,15 @@
    29000
   ],
   [
+   "2026-09-29",
+   74800,
+   42200,
+   43700,
+   32000,
+   29000,
+   29000
+  ],
+  [
    "2026-10-06",
    77800,
    47200,
@@ -337,6 +440,15 @@
    33000,
    30000,
    30000
+  ],
+  [
+   "2026-10-13",
+   54000,
+   47200,
+   48000,
+   37000,
+   32000,
+   32000
   ]
  ],
  "flags": [
@@ -357,6 +469,36 @@
    "mau",
    "Bac",
    "thủ công: lệch mạnh so với miền khác và GreenFeed"
+  ],
+  [
+   "2026-10-13",
+   "mau",
+   "Bac",
+   "auto: lệch -31% so với kỳ 2026-10-06"
+  ],
+  [
+   "2026-05-19",
+   "trang",
+   "Bac",
+   "auto: lệch 40% so với kỳ 2026-05-12"
+  ],
+  [
+   "2026-04-07",
+   "trang",
+   "Trung",
+   "auto: lệch 32% so với kỳ 2026-03-24"
+  ],
+  [
+   "2026-03-24",
+   "trang",
+   "Bac",
+   "auto: lệch 50% so với kỳ 2026-03-17"
+  ],
+  [
+   "2026-03-03",
+   "trang",
+   "Bac",
+   "auto: lệch -30% so với kỳ 2026-02-24"
   ]
  ],
  "gf": [
@@ -1070,6 +1212,12 @@
    "source": "Vietnam.vn"
   },
   {
+   "title": "Lai bò thịt trên nền bò sữa: Từ giá trị của mỗi lần phối giống đến khát vọng xây dựng bò thịt chất lượng cao mang thương hiệu Việt - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZ19fWHBoT0NyVFBiTFNzaXpkM2dFOGNWSnZ3bFFjTXdjR0F0TnJ1dTIwZFk2aTdSVkJITG5PU3lQdFgzYmdkeXdZOEZmcGJsU1BNbDZORHVDQk5ZMUN1bURJVFBjOVJVVGlOYi1pQkotWFpVemMtZ1RqTVBoTmJnOFlNMWF2YjZzUDVrb1FiTHNMRUFWNUptYVNvamxHN3dZdDZVeGVzMjJ4cjBncG1QX2YzVkJ5dVpBZy1IeGxlSFBLRXhVZHgwOGRuS19CV0RkM21RakNuNEY5WlFkRzYwMV9fLTBLWlVG?oc=5",
+   "date": "2026-10-10",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Người chăn nuôi thua lỗ vì giá gia cầm tiếp tục giảm - Báo Tin tức và Dân tộc",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmlHRkkxZGVoTHJyME5xMUZMR0hKYk5kcXlfOWJBZlczM2tKVVUtZzlfOUZUUGVUWnRCSG5Yc216UG1TT0lPUnBVSnA2d0lDVEJPRHhYdWVZUUN3RE5CejVqLWpBWWJQNW5FUXJodjBNeldnai1hRkNReDIwT1Z5cDdJWDZNeklGRnRoU2E4TGNyaDdz?oc=5",
    "date": "2026-10-10",
@@ -1114,6 +1262,12 @@
   {
    "title": "Hội KHKT Thú y Việt Nam kiến nghị tháo gỡ vướng mắc trong quản lý sản phẩm thủy sản, thức ăn bổ sung và thuốc thú y - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWlYxRUJVY3A2WGJrbFp6UTdCU05Obm94ZVl2WTZqYjFBd1E1a1JJZHp5eC0wdkxlWFRRaUhFUVc2djVVZ3hLRVcyWE9uRHBLTDJoOXNKM19FMGs4akdKZWczcjVJcVdFSlJ4TUxiNmw5SWQ5aTZRek5aSzBEdFVLdWp1U0phSHM0SHBwS0hBQXdDUkZkVHBMdzBkTjRSNDhxdEFnaTdlYTF4TVRDYjFuTHhEUmk4MXpaRTVmT2FSVDNJNjYyVDdMQWRfZ2M3a1Njc05EOQ?oc=5",
+   "date": "2026-10-07",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Thái Lan yêu cầu giảm tới 50% xuất khẩu trứng do lũ lụt - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONk1Dbm51MmVUcXAwb1pzYWEtdTJidVlHVGJ6QUVjd3NvY2hlZzdaSkNhLVAzUDZjQ3ZNZDhRQ1AxV25jNkkwWkRLYlZIZktxeGJnd3VCb1FJS0hzYkt5ZHhoTXRaMTdRV0R5Z3ljSG9Mc0d5MnYwSlVCY1hnbUVBWlpwZWY?oc=5",
    "date": "2026-10-07",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1190,6 +1344,35 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-13T22:55:33.627Z",
+   "summary": "Bảng giá mới: 2026-10-13, 2026-09-29, 2026-09-01, 2026-06-02, 2026-04-28, 2026-04-21, 2026-03-31 · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [
+    "2026-10-13",
+    "2026-09-29",
+    "2026-09-01",
+    "2026-06-02",
+    "2026-04-28",
+    "2026-04-21",
+    "2026-03-31"
+   ],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 40 file Excel từ 2026-01-01, cần đọc 40",
+    "  + 2026-10-13: trắng 37000/32000/32000 · màu 54000/47200/48000",
+    "  + 2026-09-29: trắng 32000/29000/29000 · màu 74800/42200/43700",
+    "  + 2026-09-01: trắng 31000/25000/25000 · màu 64800/44200/45700",
+    "  + 2026-06-02: trắng 31000/26000/26000 · màu 47800/44000/45800",
+    "  + 2026-04-28: trắng 19000/27000/29000 · màu 47800/43000/44700",
+    "  + 2026-04-21: trắng 21000/28000/27000 · màu 48000/43000/44700",
+    "  + 2026-03-31: trắng 28000/22000/27000 · màu 50000/47500/45000",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 51 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: 2026-10-13, 2026-09-29, 2026-09-01, 2026-06-02, 2026-04-28, 2026-04-21, 2026-03-31 · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-13T14:07:06.474Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
