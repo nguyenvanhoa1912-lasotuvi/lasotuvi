@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-13T22:55:33.627Z",
-  "lastScan": "2026-10-13T23:44:09.709Z",
+  "updated": "2026-10-14T10:48:04.616Z",
+  "lastScan": "2026-10-14T10:48:04.616Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1182,6 +1182,18 @@
  ],
  "news": [
   {
+   "title": "Giá sản phẩm chăn nuôi (giá tại trại) cả nước ngày 13/10/2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeUROTzQ5V1VVWnp2RTcxOS04QnBpY2UxY3ZYNlB5VWxqNzdCNE40TkFpZm9aNjZXVVlTVGtoS3lKdV91OUVaVFZiVGthdk5oTmpkVDViOW1kQURqczljRU5vWlhpT19pSGRNdjE4OWZnVVRHM1NQa1ZHdzRqUjF2MFQtaUVma0MwMDlr?oc=5",
+   "date": "2026-10-14",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Trại gà khiến ruồi phát sinh dày đặc ở Quảng Trị cam kết khắc phục trước ngày 17.10 - Laodong.vn",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSnNaclA1TFY2UEJKVE5HVXNlaWktNXhiYjB5Uk9nTExsWk90Z0VSNkNSVng3bkxWWl9JVWRJak5VVVNvM3MtUVFtMExkUnNmaVBKaGhIZnRlT3B1d1BmZFdLd2pkNE9PRl85Z0RQMW5SVDUzYUo0MkF6RjVWLXQ4d1ZNRVM4djBuR0c1MVZ4NTlVMWE0dExvdEtUd1JOZ1M4aEs4ZlcxVkZDTXl6Q3EzOExqTEh2RlBPMFZfbzZveE5XZ3pxek5F?oc=5",
+   "date": "2026-10-14",
+   "source": "Laodong.vn"
+  },
+  {
    "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
    "date": "2026-10-13",
@@ -1200,22 +1212,16 @@
    "source": "Trung tâm Nội dung số và Truyền thông"
   },
   {
-   "title": "'Đau tim' với nuôi heo, gà: Đừng chỉ đổ lỗi cho thịt nhập, chính chúng ta cũng đang tự hại mình - Báo Tuổi Trẻ",
+   "title": "'Đau tim' với nuôi heo, gà: Đừng chỉ đổ lỗi cho thịt nhập, chính chúng ta cũng đang tự hại mình - Tuổi Trẻ",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUhnWXBSUzBzRFA0dU1jTmx3cENtVGhPRHJZLWhONHlJckdyY0hzTWttTVhOa1JhVjRTMGRmdk1qNTlGQjROdHdIWjhDZVVhY0tRR2Z4SHl4MlF6emJ2LVZnMVVwYkZrVVZzUHpPd0VqVThfQlVsbWFZWllGcEFpQlVpZzg4c3BIWEFoTmZ4RHhPQkdndDJsbW4yY1FRUFA2cHVhRmlJektxcGRqaE5wN19QbHdWeTNabDRaN3QxWm4yS3lYaUpRMlg3Ti0?oc=5",
    "date": "2026-10-12",
-   "source": "Báo Tuổi Trẻ"
+   "source": "Tuổi Trẻ"
   },
   {
    "title": "'Đau tim' với nuôi heo, gà: Đừng chỉ đổ lỗi cho thịt nhập, chính chúng ta cũng đang tự hại mình - Vietnam.vn",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVFhVWUM4Sk9RZGUtaHpQNEFkelY5NmE2U0RGMUdzNzBzLUNjcUtvWmRPeUlycDhRa2huNG5jelNFa3lHc2c0ZTBLVFgxWnhLN2VQWVpRQjd3bGFfem9SeDVIQVJlQ0JiZXUzQnZFcTc3MlYxZHRzM3JiRmdpd0FBLUlpM3FGdXdGc3A0VlNKT3h4WVMyYk9HenB2RHg3TW1tUEJjQ1MtXzZqYTd1UFIxVVJEdw?oc=5",
    "date": "2026-10-12",
    "source": "Vietnam.vn"
-  },
-  {
-   "title": "Lai bò thịt trên nền bò sữa: Từ giá trị của mỗi lần phối giống đến khát vọng xây dựng bò thịt chất lượng cao mang thương hiệu Việt - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZ19fWHBoT0NyVFBiTFNzaXpkM2dFOGNWSnZ3bFFjTXdjR0F0TnJ1dTIwZFk2aTdSVkJITG5PU3lQdFgzYmdkeXdZOEZmcGJsU1BNbDZORHVDQk5ZMUN1bURJVFBjOVJVVGlOYi1pQkotWFpVemMtZ1RqTVBoTmJnOFlNMWF2YjZzUDVrb1FiTHNMRUFWNUptYVNvamxHN3dZdDZVeGVzMjJ4cjBncG1QX2YzVkJ5dVpBZy1IeGxlSFBLRXhVZHgwOGRuS19CV0RkM21RakNuNEY5WlFkRzYwMV9fLTBLWlVG?oc=5",
-   "date": "2026-10-10",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
    "title": "Người chăn nuôi thua lỗ vì giá gia cầm tiếp tục giảm - Báo Tin tức và Dân tộc",
@@ -1228,6 +1234,12 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSFV6SXBMTkZxb2lUR2R5c3FEN0V4YmNya2pIUUNTQ29yTnpVbFNuZ2RkV1VtTnYwMnFBall3eXl5NG9SckJueHBaMWhtMHJfS3RHNUhFa1VUdjdHOHQ3NUljd2pzVkhTRkhoMEdmLWRHNE1jRDF1SWN6NTgxdzVockE2WXI?oc=5",
    "date": "2026-10-10",
    "source": "Vietnam.vn"
+  },
+  {
+   "title": "Lai bò thịt trên nền bò sữa: Từ giá trị của mỗi lần phối giống đến khát vọng xây dựng bò thịt chất lượng cao mang thương hiệu Việt - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZ19fWHBoT0NyVFBiTFNzaXpkM2dFOGNWSnZ3bFFjTXdjR0F0TnJ1dTIwZFk2aTdSVkJITG5PU3lQdFgzYmdkeXdZOEZmcGJsU1BNbDZORHVDQk5ZMUN1bURJVFBjOVJVVGlOYi1pQkotWFpVemMtZ1RqTVBoTmJnOFlNMWF2YjZzUDVrb1FiTHNMRUFWNUptYVNvamxHN3dZdDZVeGVzMjJ4cjBncG1QX2YzVkJ5dVpBZy1IeGxlSFBLRXhVZHgwOGRuS19CV0RkM21RakNuNEY5WlFkRzYwMV9fLTBLWlVG?oc=5",
+   "date": "2026-10-10",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
    "title": "'Đau tim' với nuôi heo, gà: Người chăn nuôi trong thế khó - Báo Tuổi Trẻ",
@@ -1254,40 +1266,16 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Hợp tác xã Đồng Hiệp xây dựng cộng đồng chăn nuôi gà đẻ Cage-free bền vững tại Việt Nam - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQXEzQXBhYkVMOUktZFBZN1NJUUhqQUZWMjFfNy1oOWJKc0x1NGtPLXY0c1FmaDJham5obWUyWk1WN0ZvU3p3VXA2UjVReW1HTUo5d1U3ZnlTOWx4LUZLVlh6dm1oM1NTN0dkYTU5NlNYd2VjdlhZQmdDUF9IYzJaZ1FOczUxV21pa0Z0SkROSXVQQTJpNlhHNExJaG8wNlJmYllFRkRnbU1yaHNJeS02eg?oc=5",
-   "date": "2026-10-07",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Hội KHKT Thú y Việt Nam kiến nghị tháo gỡ vướng mắc trong quản lý sản phẩm thủy sản, thức ăn bổ sung và thuốc thú y - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWlYxRUJVY3A2WGJrbFp6UTdCU05Obm94ZVl2WTZqYjFBd1E1a1JJZHp5eC0wdkxlWFRRaUhFUVc2djVVZ3hLRVcyWE9uRHBLTDJoOXNKM19FMGs4akdKZWczcjVJcVdFSlJ4TUxiNmw5SWQ5aTZRek5aSzBEdFVLdWp1U0phSHM0SHBwS0hBQXdDUkZkVHBMdzBkTjRSNDhxdEFnaTdlYTF4TVRDYjFuTHhEUmk4MXpaRTVmT2FSVDNJNjYyVDdMQWRfZ2M3a1Njc05EOQ?oc=5",
-   "date": "2026-10-07",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Thái Lan yêu cầu giảm tới 50% xuất khẩu trứng do lũ lụt - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONk1Dbm51MmVUcXAwb1pzYWEtdTJidVlHVGJ6QUVjd3NvY2hlZzdaSkNhLVAzUDZjQ3ZNZDhRQ1AxV25jNkkwWkRLYlZIZktxeGJnd3VCb1FJS0hzYkt5ZHhoTXRaMTdRV0R5Z3ljSG9Mc0d5MnYwSlVCY1hnbUVBWlpwZWY?oc=5",
-   "date": "2026-10-07",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
    "title": "Giá lợn hơi tiếp tục giảm mạnh - CafeF",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFRGNVVlRhRnVJZnB1TmYtNkNDUkJwbEZic0t3WVJ6OHYycDFFLWF6QjJybHFfelZJUldpRW0wYmlIN3BvUi1xYVZneDU2T2FmRFFZSndveDRfc003aDhWWmJ3cGtqaXVRWWJaMzlZWlI5VHRHU01IcEJR?oc=5",
    "date": "2026-10-07",
    "source": "CafeF"
   },
   {
-   "title": "Gần 660.000 tấn thịt giá rẻ tràn về, lợn hơi trong nước giảm giá sâu - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFB4LUdJUnlPZ0pHcERMRzdrTkxUSElsbHd0c2NqM3lPZUpFb3kydElaUWdLdlpILWtVX2FPczJTOFNJbjRXTUd4NDBTZFNIZFp1aFBqZjg2Yk1yNW1hQzZvaDljTXlPZVh0d2dINmVOSUV4MWhxRmZCWnVyeW5GcE5KWE9ZbWdjYjFMSGRtbjBhRklt?oc=5",
-   "date": "2026-10-06",
-   "source": "Vietnam.vn"
-  },
-  {
-   "title": "Giá gà công nghiệp giảm, người nuôi tiếp tục gặp khó - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVXl0Z1NoYmZCUVZIaVV0b1VtTmExQzNuZzg4WnlBNk1DaS0wMmxYS1pfdGxsSzY0Z0dVTVZrNWotbF9zX0JJT3ZzOFlmSWozZ2Z0QWR2Y1FiMmg2WVMtWWlMVlhsbEd2SU5wZThuVVNyN0MzYjZWZEJmZ1B5WjZmRg?oc=5",
-   "date": "2026-09-30",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
+   "title": "Gần 659.000 tấn thịt giá rẻ tràn về, lợn hơi trong nước giảm giá sâu - Báo VietNamNet",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR016dDhGSFQxVko2Q0dWb1U2UGszeER5UGpYa2ZrQ0s3RW9yRTZEWk45anhMY2JrWlRPV3B5b0hZbDBpUzZOSXNsTVotWGljcFNYbXRZYUhZaFpWQUE2ZHJiN1htQUtTd3FUd0JseWVOeGFCZUotd2xNdlNrdTZhWDI4SEMxRVFxa2h1RmVmMkFLeGdNdlZfUEZtdFJvVjRQZ2IxWDRuOWM5dnc?oc=5",
+   "date": "2026-10-05",
+   "source": "Báo VietNamNet"
   }
  ],
  "mentions": [
@@ -1344,6 +1332,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-14T10:48:04.616Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 40 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
+    "GreenFeed: 51 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-13T23:44:09.709Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
