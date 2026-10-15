@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-14T10:48:04.616Z",
-  "lastScan": "2026-10-14T23:42:39.621Z",
+  "updated": "2026-10-15T23:43:20.236Z",
+  "lastScan": "2026-10-15T23:43:20.236Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1182,8 +1182,20 @@
  ],
  "news": [
   {
+   "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
+   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
+   "date": "2026-10-15",
+   "source": "VTVgo"
+  },
+  {
    "title": "Giá sản phẩm chăn nuôi (giá tại trại) cả nước ngày 13/10/2026 - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeUROTzQ5V1VVWnp2RTcxOS04QnBpY2UxY3ZYNlB5VWxqNzdCNE40TkFpZm9aNjZXVVlTVGtoS3lKdV91OUVaVFZiVGthdk5oTmpkVDViOW1kQURqczljRU5vWlhpT19pSGRNdjE4OWZnVVRHM1NQa1ZHdzRqUjF2MFQtaUVma0MwMDlr?oc=5",
+   "date": "2026-10-14",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Dinh dưỡng trong chăn nuôi lợn bền vững - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11d3VXUjBSTkF3dHdRc2o1VkZpTlBJbXNabHNFNFZCR3paWTVJTFRhZ0d2cmFETXJzMXg2dWd0VlpXeUp3eHdLel9CaENocUJGMWtwbUw3SXI5TWZOcENKZWFrZU5TNUI0eWJkNFdrWGg?oc=5",
    "date": "2026-10-14",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1194,10 +1206,10 @@
    "source": "Laodong.vn"
   },
   {
-   "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
-   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
+   "title": "Những dấu hiệu bất thường trong hành vi của chó, mèo - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNF9yTGRBcTlTbUxYUG1QZUZndHhETnlDalU2OGVydndMalBtN2g3NXd5U2NVY2lyODJGMG8zVXk1dWNOQ2lrMUl1R0VTb3AtMjBEOUNuNi1yc1c2Y3hjLVR6TzgzcjVVQmxOVWN6bWNoZkNOcUE1Ml81SHFCRmlkQg?oc=5",
    "date": "2026-10-13",
-   "source": "VTVgo"
+   "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
    "title": "Trứng vịt muối đi Mỹ, ngành chăn nuôi đón dòng vốn đầu tư mới - Báo Dân trí",
@@ -1254,15 +1266,9 @@
    "source": "Vietnam.vn"
   },
   {
-   "title": "Anh ghi nhận 2.201 ca bệnh lưỡi xanh, số ca tăng kỷ lục - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRmctN3F1TW1IYThObzJKcUkxVUNMLV9hX1gyNkpaSGpkOTR5MEYzeTcwRnEyUTdXeFJpODdiZFlwQlVTQVhSTHBnOHhPZWFLYTAxcWR6aGh2V3dmWTViS19UTm1TYlp3NjdQbVBLV1ZZNHRQVk9sQVJWUFZfOUJ1bnNrUEU?oc=5",
-   "date": "2026-10-08",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Giá sản phẩm chăn nuôi (giá tại trại) cả nước ngày 6/10/2026 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZEhtbktDRTZHOFdVLTNRRGM2dFN4dVpjRUR1TEQwM2x5bXdiVlFmN05KMG1tRHd6NDJkTjFVTS1yVFIycDFvd3M0LUpUSkJfSU93N3VOclRHZXF1c29ja2FQZWdwUnJRU3BQRFExclN5VHdTUFJPWFhqQmNwWWZqRy0wU0tZYlpCQ0E?oc=5",
-   "date": "2026-10-08",
+   "title": "Trường Đại học Nông Lâm TP. Hồ Chí Minh và ANOVA Agri ký kết hợp tác giai đoạn 2026–2030 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTE5OdWF2Zk9hbzFOS0NTVTFfSHVhV2V4THJKUXpVWEVFZm00SnpKQXZKUG1oSklQVGJMZzFCRFJlWUZvUVBTZEc4WDV0cjdCSmtXOG5ia3JsZFlvTm1mRjd0UVlsd0tpZ1BjOWVWUWpwZ2ktclJTY3NER0lmS3hUcnUtcmdvTTRRcEs1V1BaaHkycVpLQlpxT09vZndZVVlreVB3UTJyc0RYUWhNRXg5RQ?oc=5",
+   "date": "2026-10-09",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
@@ -1274,7 +1280,7 @@
   {
    "title": "Gần 659.000 tấn thịt giá rẻ tràn về, lợn hơi trong nước giảm giá sâu - Báo VietNamNet",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR016dDhGSFQxVko2Q0dWb1U2UGszeER5UGpYa2ZrQ0s3RW9yRTZEWk45anhMY2JrWlRPV3B5b0hZbDBpUzZOSXNsTVotWGljcFNYbXRZYUhZaFpWQUE2ZHJiN1htQUtTd3FUd0JseWVOeGFCZUotd2xNdlNrdTZhWDI4SEMxRVFxa2h1RmVmMkFLeGdNdlZfUEZtdFJvVjRQZ2IxWDRuOWM5dnc?oc=5",
-   "date": "2026-10-05",
+   "date": "2026-10-06",
    "source": "Báo VietNamNet"
   }
  ],
@@ -1332,6 +1338,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-15T23:43:20.236Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 40 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
+    "GreenFeed: 51 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-14T23:42:39.621Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
