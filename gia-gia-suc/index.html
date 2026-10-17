@@ -459,7 +459,7 @@ var lastM=function(){return +W[W.length-1].r[0].slice(5,7)};
 function applyStatic(){
   var t=L();ROOT.setAttribute("lang",lang);ROOT.dataset.theme=theme;
   ROOT.querySelectorAll("[data-i18n]").forEach(function(el){var v=t[el.dataset.i18n];if(typeof v==="string")el.textContent=v});
-  $("method").innerHTML=t.method.map(function(x){return "<li>"+x+"</li>"}).join("");
+  $("method").innerHTML=t.method.map(function(x,i){return "<li"+(i===0?' class="adm"':"")+">"+x+"</li>"}).join("");
   $("readout").innerHTML='<span class="muted">'+t.hover+"</span>";
   $("theme").textContent=theme==="dark"?t.light:t.dark;
   [].forEach.call($("lang").children,function(b){b.classList.toggle("on",b.dataset.v===lang)});
