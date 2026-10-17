@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Theo dõi giá gia súc</title>
+<meta name="description" content="Giá heo hơi tại trại theo 3 miền và theo tỉnh năm 2026, quét tự động từ Chăn nuôi Việt Nam, Tạp chí Chăn nuôi và GreenFeed; kèm điểm tham chiếu giá bò hơi, có nguồn dẫn.">
+<meta property="og:title" content="Theo dõi giá gia súc Việt Nam">
+<meta property="og:description" content="Giá heo hơi tại trại 3 miền, biểu đồ T1–T12/2026, cập nhật tự động, song ngữ VI/EN.">
+<meta name="theme-color" content="#070c19">
+<style>html,body{margin:0;background:#070c19}html.light,html.light body{background:#eef2f9}#gsgs26{border-radius:0;min-height:100vh}</style>
+<script>try{if(localStorage.getItem("cgc_theme")==="light")document.documentElement.className="light"}catch(e){}</script>
+</head>
+<body>
+<!-- ===== BẮT ĐẦU: THEO DÕI GIÁ GIA SÚC (Blogger embed) ===== -->
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+/* Layout: đồng bộ bộ màu trang Cúm gia cầm — banner gradient đỏ, thẻ bo 14px có vạch màu, nền tối mặc định + chế độ sáng; khóa trong #gsgs26 */
+#gsgs26{
+  --bg:#070c19;--panel:#0f172b;--panel2:#16213b;--ink:#eaf0ff;--muted:#8d9cbd;--line:#243152;--grid:#1b2643;
+  --red:#ff2e4d;--red-bg:rgba(255,46,77,.16);--amber:#ffb020;--amber-bg:rgba(255,176,32,.16);
+  --ok:#27d196;--ok-bg:rgba(39,209,150,.14);--accent:#4f8cff;--accent2:#7c4dff;--cyan:#29c5f6;--violet:#a36bff;
+  --s-bac:#29c5f6;--s-trung:#ffb020;--s-nam:#a36bff;--future:rgba(36,49,82,.35);
+  --shadow:0 8px 28px rgba(0,0,0,.45);
+  --f-body:"Be Vietnam Pro","Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:ui-monospace,Consolas,"Courier New",monospace;
+  color-scheme:dark;background:var(--bg);color:var(--ink);
+  font:14px/1.5 var(--f-body);border-radius:14px;max-width:100%;overflow:hidden;text-align:left;
+}
+#gsgs26[data-theme="light"]{
+  --bg:#eef2f9;--panel:#ffffff;--panel2:#f4f7fc;--ink:#101a33;--muted:#5a6a8a;--line:#d7deeb;--grid:#e6ebf4;
+  --red:#e0193a;--red-bg:#ffe3e8;--amber:#c27a00;--amber-bg:#fff2d6;--ok:#0f9d6b;--ok-bg:#dcf6ec;
+  --accent:#2f6fe4;--accent2:#6a3fe0;--cyan:#0b8fc2;--violet:#7a45e0;
+  --s-bac:#0b8fc2;--s-trung:#c27a00;--s-nam:#7a45e0;--future:#e8edf6;
+  --shadow:0 6px 20px rgba(20,40,80,.12);color-scheme:light;
+}
+#gsgs26 *,#gsgs26 *::before,#gsgs26 *::after{box-sizing:border-box}
+#gsgs26 h1,#gsgs26 h2,#gsgs26 p,#gsgs26 ul,#gsgs26 table{margin:0}
+#gsgs26 a{color:var(--accent)}
+#gsgs26 [hidden]{display:none!important}
+#gsgs26 .num{font-variant-numeric:tabular-nums}
+#gsgs26 .muted{color:var(--muted)}
+#gsgs26 .note{font-size:11.5px;color:var(--muted)}
+/* banner */
+#gsgs26 .hdr{padding:14px 18px;background:linear-gradient(110deg,#03201a 0%,#0b3d2e 35%,#6b3d0a 72%,#b3121f 100%);color:#fff;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between;box-shadow:var(--shadow)}
+#gsgs26 .hdr h1{font:800 20px/1.25 var(--f-body);letter-spacing:.5px;margin:0;display:flex;align-items:center;gap:10px;color:#fff;text-transform:uppercase;padding:0;border:0;background:none}
+#gsgs26 .hdr .dot{width:12px;height:12px;border-radius:50%;background:#ffb020;box-shadow:0 0 0 0 rgba(255,176,32,.8);animation:g26pulse 1.8s infinite;flex:none}
+@keyframes g26pulse{0%{box-shadow:0 0 0 0 rgba(255,176,32,.8)}70%{box-shadow:0 0 0 14px rgba(255,176,32,0)}100%{box-shadow:0 0 0 0 rgba(255,176,32,0)}}
+@media (prefers-reduced-motion:reduce){#gsgs26 .hdr .dot{animation:none}}
+#gsgs26 .hdr .sub{color:#d8f3e6;font-size:12px;margin-top:2px}
+#gsgs26 .hdr .row{gap:6px}
+#gsgs26 a.nav{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.45);border-radius:18px;padding:4px 11px;font-size:12px;font-weight:600;white-space:nowrap}
+#gsgs26 a.nav.back{background:#fff;color:#8a0f22;font-weight:700;display:none}
+#gsgs26[data-standalone] a.nav.back{display:inline-block}
+#gsgs26 .hdr .tbtn{border-color:rgba(255,255,255,.45);color:#fff}
+#gsgs26 .lang{display:inline-flex;border:1px solid rgba(255,255,255,.45);border-radius:18px;overflow:hidden}
+#gsgs26 .lang button{background:transparent;color:#fff;border:0;border-radius:0;padding:4px 11px;font:700 12px var(--f-body);cursor:pointer;margin:0;box-shadow:none}
+#gsgs26 .lang button.on{background:#fff;color:#8a0f22}
+/* khung */
+#gsgs26 .wrap{display:grid;gap:14px;padding:14px 18px 18px}
+#gsgs26 .intro{display:grid;gap:6px}
+#gsgs26 .intro p{color:var(--muted);max-width:90ch;font-size:13px}
+#gsgs26 .facts{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:12.5px;color:var(--muted)}
+#gsgs26 .facts b{color:var(--ink);font-weight:700}
+#gsgs26 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);min-width:0}
+#gsgs26 .card h2{font:700 14px/1.3 var(--f-body);margin:0;padding:11px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;background:var(--panel2);color:var(--ink);text-transform:none;letter-spacing:0}
+#gsgs26 .card h2 .t{display:flex;align-items:center}
+#gsgs26 .card h2 .t::before{content:"";width:4px;height:16px;border-radius:2px;background:linear-gradient(var(--red),var(--accent2));margin-right:8px;flex:none}
+#gsgs26 .card .body{padding:12px 14px;display:grid;gap:10px}
+#gsgs26 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+#gsgs26 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#gsgs26 .between{justify-content:space-between}
+/* KPI */
+#gsgs26 .kgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:10px}
+#gsgs26 .kpi{border-radius:12px;padding:10px 12px 10px 15px;background:var(--panel2);border:1px solid var(--line);position:relative;overflow:hidden;display:grid;gap:2px;min-width:0}
+#gsgs26 .kpi::after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--c,var(--accent))}
+#gsgs26 .kpi .lbl{display:flex;justify-content:space-between;gap:6px;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+#gsgs26 .kpi .val{font:800 24px/1.15 var(--f-body);font-variant-numeric:tabular-nums;color:var(--ink)}
+#gsgs26 .kpi .meta{font-size:11.5px;color:var(--muted)}
+#gsgs26 .kpi.alert{border-color:var(--red);background:var(--red-bg)}
+#gsgs26 .kpi.flag{border-color:var(--amber)}
+#gsgs26 .up{color:var(--red)} #gsgs26 .down{color:var(--ok)}
+#gsgs26 .badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;white-space:nowrap}
+#gsgs26 .b-red{background:var(--red-bg);color:var(--red)}
+#gsgs26 .b-amber{background:var(--amber-bg);color:var(--amber)}
+#gsgs26 .b-ok{background:var(--ok-bg);color:var(--ok)}
+#gsgs26 .b-grey{border:1px solid var(--line);color:var(--muted)}
+#gsgs26 .b-blue{background:rgba(79,140,255,.16);color:var(--accent)}
+/* nút */
+#gsgs26 button{font:600 13px var(--f-body);margin:0;box-shadow:none;text-transform:none;line-height:1.4}
+#gsgs26 .btn{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:0;border-radius:8px;padding:6px 12px;cursor:pointer}
+#gsgs26 .btn:disabled{opacity:.5;cursor:wait}
+#gsgs26 .tbtn{background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:18px;padding:4px 11px;font-size:12px;font-weight:500;cursor:pointer;display:inline-flex;align-items:center;gap:5px;user-select:none}
+#gsgs26 .tbtn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+#gsgs26 .tbtn input{display:none}
+#gsgs26 button:focus-visible,#gsgs26 a:focus-visible,#gsgs26 input:focus-visible,#gsgs26 textarea:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+#gsgs26 input[type=number],#gsgs26 input[type=text]{font:13px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px;width:130px;margin:0;box-shadow:none;height:auto}
+#gsgs26 textarea{width:100%;min-height:76px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:7px;font:12px/1.45 var(--f-mono);resize:vertical;margin:0}
+#gsgs26 label{font-size:11.5px;color:var(--muted);display:grid;gap:3px;margin:0}
+#gsgs26 .thr{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start}
+/* biểu đồ */
+#gsgs26 .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--muted)}
+#gsgs26 .legend i{display:inline-block;width:16px;height:3px;border-radius:2px;margin-right:6px;vertical-align:middle}
+#gsgs26 .legend i.dash{background:none!important;border-top:2px dashed var(--muted);height:0}
+#gsgs26 .legend i.ref{width:9px;height:9px;border:2px solid var(--muted);border-radius:0;transform:rotate(45deg);background:transparent;margin-right:8px}
+#gsgs26 .chart{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;position:relative}
+#gsgs26 .chart svg{display:block;min-width:560px;width:100%;height:auto;max-width:none}
+#gsgs26 svg text{font-family:var(--f-body);font-size:11px;fill:var(--muted)}
+#gsgs26 .readout{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px 16px;font-size:12.5px;min-height:40px;border-top:1px dashed var(--line);padding-top:10px}
+#gsgs26 .readout b{font-weight:800;color:var(--ink)}
+/* bảng */
+#gsgs26 .tbl{overflow:auto;-webkit-overflow-scrolling:touch}
+#gsgs26 .tbl.scroll{max-height:420px}
+#gsgs26 table{border-collapse:collapse;width:100%;font-size:12.5px;background:transparent;border:0}
+#gsgs26 th{text-align:left;font-weight:600;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;border:0;border-bottom:1px solid var(--line);padding:7px 6px;white-space:nowrap;background:var(--panel);position:sticky;top:0;z-index:1}
+#gsgs26 td{border:0;border-bottom:1px solid var(--line);padding:7px 6px;vertical-align:top;color:var(--ink);background:transparent}
+#gsgs26 td.r,#gsgs26 th.r{text-align:right}
+#gsgs26 th.grp{text-align:center}
+#gsgs26 tr.future td{background:var(--future);color:var(--muted)}
+#gsgs26 tr.ref td{font-style:italic}
+#gsgs26 td .d{display:block;font-size:11px}
+#gsgs26 .matrix{min-width:420px}
+#gsgs26 .ledger{min-width:520px}
+#gsgs26 .prov{min-width:520px}
+#gsgs26 td.over{background:var(--red-bg)}
+#gsgs26 td.flagcell{background:var(--amber-bg)}
+#gsgs26 ul.clean{padding:0 0 0 18px;display:grid;gap:6px;list-style:disc}
+#gsgs26 ul.clean li{margin:0;padding:0;background:none;list-style:disc;color:var(--ink)}
+#gsgs26 ul.clean li::before{content:none}
+/* quét & nguồn */
+#gsgs26 .status{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted)}
+#gsgs26 .status b{color:var(--ink)}
+#gsgs26 .sdot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--muted);margin-right:6px;vertical-align:middle}
+#gsgs26 .sdot.ok{background:var(--ok)} #gsgs26 .sdot.err{background:var(--red)} #gsgs26 .sdot.run{background:var(--amber)}
+#gsgs26 .prog{height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+#gsgs26 .prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--red));transition:width .3s}
+#gsgs26 .log{font:12px/1.45 var(--f-mono);color:var(--muted);max-height:180px;overflow:auto;white-space:pre-wrap;word-break:break-word;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px}
+#gsgs26 .srcs{display:grid;gap:6px;font-size:12.5px}
+#gsgs26 .srcs .s{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+#gsgs26 .xbtn{border:0;background:transparent;color:var(--red);cursor:pointer;font:700 13px var(--f-body);padding:0 4px}
+#gsgs26 .news{display:grid;gap:8px;font-size:13px}
+#gsgs26 .news .it{display:grid;gap:2px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+#gsgs26 .news .it:last-child{border-bottom:0}
+#gsgs26 .mention{font-size:12.5px;border-left:3px solid var(--line);padding:2px 0 2px 10px}
+#gsgs26 details summary{cursor:pointer;font-weight:600;padding:4px 0;color:var(--ink)}
+#gsgs26 .foot{font-size:11.5px;color:var(--muted);text-align:right;padding:0 18px 14px}
+@media(max-width:600px){#gsgs26 .wrap{padding:10px;gap:10px}#gsgs26 .hdr{padding:10px 12px}#gsgs26 .hdr h1{font-size:16px}#gsgs26 .kpi .val{font-size:20px}}
+#gsgs26 .tip{position:absolute;z-index:5;min-width:190px;max-width:260px;pointer-events:none;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px;line-height:1.45;box-shadow:var(--shadow)}
+#gsgs26 .tip .th{font-weight:800;font-size:12.5px;margin-bottom:4px;white-space:nowrap}
+#gsgs26 .tip .tr,#gsgs26 .readout .tr{display:flex;align-items:center;gap:6px;white-space:nowrap}
+#gsgs26 .tip .tr i,#gsgs26 .readout .tr i{width:9px;height:9px;border-radius:50%;flex:none;display:inline-block}
+#gsgs26 .tip .tr span:first-of-type{min-width:42px;color:var(--muted)}
+#gsgs26 .tip .tr b{font-weight:800;font-variant-numeric:tabular-nums}
+#gsgs26 .tip .ts,#gsgs26 .readout .ts{font-size:11px;color:var(--muted);margin:0 0 3px 15px}
+</style>
+<div id="gsgs26" lang="vi" data-theme="dark" data-standalone="1">
+<header class="hdr">
+  <div>
+    <h1><span class="dot" aria-hidden="true"></span><span data-i18n="title"></span></h1>
+    <div class="sub" data-i18n="subtitle"></div>
+  </div>
+  <div class="row">
+    <a class="nav back" href="https://avian-influenza-situation.blogspot.com/" target="_top" data-i18n="back"></a>
+    <a class="nav" href="https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/gia-suc/" target="_top" data-i18n="toFlu"></a>
+    <a class="nav" href="https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/gia-ga-long/" target="_top" data-i18n="toChicken"></a>
+    <button type="button" class="tbtn" id="gs6-theme"></button>
+    <div class="lang" role="group" aria-label="Ngôn ngữ / Language" id="gs6-lang"><button type="button" data-v="vi">VI</button><button type="button" data-v="en">EN</button></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="intro">
+    <p data-i18n="sub"></p>
+    <div class="facts">
+      <span><span data-i18n="unitL"></span> <b data-i18n="unitV"></b></span>
+      <span><span data-i18n="mainL"></span> <b id="gs6-fCount">–</b> <span data-i18n="tables"></span> <b id="gs6-fRange">–</b></span>
+      <span><span data-i18n="gfL"></span> <b id="gs6-fGf">–</b></span>
+      <span><span data-i18n="updL"></span> <b id="gs6-fUpd">–</b></span>
+    </div>
+  </div>
+
+  <section class="card" aria-labelledby="gs6-h-kpi">
+    <h2 id="gs6-h-kpi"><span class="t" data-i18n="hKpi"></span><span class="note" data-i18n="kpiNote"></span></h2>
+    <div class="body"><div class="kgrid" id="gs6-kpis"></div></div>
+  </section>
+
+  <section class="card" aria-labelledby="gs6-h-chart">
+    <h2 id="gs6-h-chart"><span class="t" data-i18n="hChart"></span>
+      <span class="row">
+        <span class="row" id="gs6-segProd" hidden><button type="button" class="tbtn on" data-v="heo" data-i18n="segHeo"></button></span>
+        <span class="row" id="gs6-segGran"><button type="button" class="tbtn on" data-v="m" data-i18n="byMonth"></button><button type="button" class="tbtn" data-v="w" data-i18n="byWeek"></button></span>
+        <label class="tbtn on" id="gs6-refLbl"><input type="checkbox" id="gs6-showRef" checked><span data-i18n="refPts"></span></label>
+      </span>
+    </h2>
+    <div class="body">
+      <div class="legend" id="gs6-legend"></div>
+      <div class="chart" id="gs6-chart"></div>
+      <div class="readout" id="gs6-readout"></div>
+      <p class="note" id="gs6-chartNote"></p>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="gs6-h-matrix">
+    <h2 id="gs6-h-matrix"><span class="t" data-i18n="hMatrix"></span><button type="button" class="btn" id="gs6-csv" data-i18n="csv"></button></h2>
+    <div class="body">
+      <div class="tbl"><table class="matrix" id="gs6-matrix"></table></div>
+      <p class="note" data-i18n="matrixNote"></p>
+    </div>
+  </section>
+
+  <div class="grid2">
+    <section class="card" aria-labelledby="gs6-h-scan">
+      <h2 id="gs6-h-scan"><span class="t" data-i18n="hScan"></span><span id="gs6-scanBadge"></span></h2>
+      <div class="body">
+        <div class="status" id="gs6-status"></div>
+        <div class="row">
+          <button type="button" class="btn" id="gs6-scanNow" data-i18n="scanNow"></button>
+          <button type="button" class="tbtn" id="gs6-reload" data-i18n="reload"></button>
+          <a class="tbtn" style="text-decoration:none" href="https://github.com/nguyenvanhoa1912-lasotuvi/lasotuvi/actions/workflows/gia-gia-suc-scan.yml" target="_blank" rel="noopener" data-i18n="runGh"></a>
+        </div>
+        <div class="prog"><i id="gs6-prog"></i></div>
+        <div class="log" id="gs6-log"></div>
+        <p class="note" data-i18n="scanNote"></p>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="gs6-h-src">
+      <h2 id="gs6-h-src"><span class="t" data-i18n="hSrc"></span></h2>
+      <div class="body">
+        <div class="srcs" id="gs6-srcs"></div>
+        <label for="gs6-addSrc"><span data-i18n="addL"></span>
+          <textarea id="gs6-addSrc" spellcheck="false" placeholder="https://…&#10;Tên nguồn | https://…"></textarea></label>
+        <div class="row">
+          <button type="button" class="btn" id="gs6-addBtn" data-i18n="addBtn"></button>
+          <a class="tbtn" style="text-decoration:none" href="https://github.com/nguyenvanhoa1912-lasotuvi/lasotuvi/edit/main/gia-gia-suc/sources.json" target="_blank" rel="noopener" data-i18n="saveGh"></a>
+          <span class="note" id="gs6-addMsg"></span>
+        </div>
+        <p class="note" data-i18n="addNote"></p>
+      </div>
+    </section>
+  </div>
+
+  <div class="grid2">
+    <section class="card" aria-labelledby="gs6-h-insight">
+      <h2 id="gs6-h-insight"><span class="t" data-i18n="hInsight"></span></h2>
+      <div class="body"><ul class="clean" id="gs6-insights"></ul></div>
+    </section>
+    <section class="card" aria-labelledby="gs6-h-thr">
+      <h2 id="gs6-h-thr"><span class="t" data-i18n="hThr"></span></h2>
+      <div class="body">
+        <div class="thr">
+          <label for="gs6-thr_heo"><span data-i18n="thrHeo"></span><input id="gs6-thr_heo" type="number" min="0" step="500" inputmode="numeric" placeholder="55000"></label>
+        </div>
+        <p class="note" data-i18n="thrNote"></p>
+      </div>
+    </section>
+  </div>
+
+  <section class="card" aria-labelledby="gs6-h-ledger">
+    <h2 id="gs6-h-ledger"><span class="t" data-i18n="hLedger"></span><span class="note" data-i18n="ledgerNote"></span></h2>
+    <div class="body">
+      <div class="tbl scroll"><table class="ledger" id="gs6-ledger"></table></div>
+      <details><summary data-i18n="gfTableT"></summary><div class="tbl scroll"><table class="ledger" id="gs6-gfTable"></table></div></details>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="gs6-h-prov">
+    <h2 id="gs6-h-prov"><span class="t" data-i18n="hProv"></span><span class="note" id="gs6-provDate"></span></h2>
+    <div class="body">
+      <div class="tbl scroll"><table class="prov" id="gs6-prov"></table></div>
+      <p class="note" data-i18n="provNote"></p>
+    </div>
+  </section>
+
+  <div class="grid2">
+    <section class="card" aria-labelledby="gs6-h-news">
+      <h2 id="gs6-h-news"><span class="t" data-i18n="hNews"></span></h2>
+      <div class="body"><div class="news" id="gs6-news"></div></div>
+    </section>
+    <section class="card" aria-labelledby="gs6-h-men">
+      <h2 id="gs6-h-men"><span class="t" data-i18n="hMen"></span></h2>
+      <div class="body"><p class="note" data-i18n="menNote"></p><div class="news" id="gs6-mentions"></div></div>
+    </section>
+  </div>
+
+  <div class="grid2">
+    <section class="card" aria-labelledby="gs6-h-ref">
+      <h2 id="gs6-h-ref"><span class="t" data-i18n="hRef"></span></h2>
+      <div class="body"><div class="tbl"><table id="gs6-refTable"></table></div></div>
+    </section>
+    <section class="card" aria-labelledby="gs6-h-ta">
+      <h2 id="gs6-h-ta"><span class="t" data-i18n="hTa"></span></h2>
+      <div class="body"><p class="note" data-i18n="taIntro"></p><ul class="clean" id="gs6-taList"></ul></div>
+    </section>
+  </div>
+
+  <section class="card" aria-labelledby="gs6-h-method">
+    <h2 id="gs6-h-method"><span class="t" data-i18n="hMethod"></span></h2>
+    <div class="body"><ul class="clean" id="gs6-method"></ul></div>
+  </section>
+</div>
+<p class="foot" data-i18n="foot"></p>
+</div>
+<script src="https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/gia-gia-suc/scanner-core.js"></script>
+<script>
+//<![CDATA[
+(function(){
+"use strict";
+var ROOT=document.getElementById("gsgs26"); if(!ROOT) return;
+var BASE="https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/gia-gia-suc/";
+var SNAPSHOT={"meta":{"version":1,"updated":"2026-10-17T00:00:00Z","lastScan":null,"note":"Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.","origin":{"2026-10-13":"seed"},"src":{"2026-10-13":"https://nguoichannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-13-10-2026/"}},"weekly":[["2026-10-13",52300,51500,52400]],"flags":[],"gf":[["2026-10-12",53417,51357,53000,52929,54417,52643,54500,53571]],"gfProv":null,"refs":[{"date":"2026-10-17","p":"heo","r":"Bac","min":51000,"max":53000,"src":{"vi":"Báo Lào Cai","en":"Bao Lao Cai"},"url":"https://baolaocai.vn/gia-lon-hoi-hom-nay-1710-mien-bac-cao-nhat-53000-dongkg-post912142.html","note":{"vi":"15 tỉnh miền Bắc","en":"15 northern provinces"}},{"date":"2026-10-17","p":"heo","r":"Trung","min":50000,"max":53000,"src":{"vi":"Báo Lào Cai","en":"Bao Lao Cai"},"url":"https://baolaocai.vn/gia-lon-hoi-hom-nay-1710-mien-bac-cao-nhat-53000-dongkg-post912142.html","note":{"vi":"Miền Trung – Tây Nguyên","en":"Central & Highlands"}},{"date":"2026-10-17","p":"heo","r":"Nam","min":51000,"max":53000,"src":{"vi":"Báo Lào Cai","en":"Bao Lao Cai"},"url":"https://baolaocai.vn/gia-lon-hoi-hom-nay-1710-mien-bac-cao-nhat-53000-dongkg-post912142.html","note":{"vi":"8 tỉnh/thành miền Nam","en":"8 southern provinces"}}],"ta":[{"vi":"24/07/2026 · Thanh Hóa: bò hơi 80.000–95.000 đ/kg tùy giống, trọng lượng; bò BBB và bò lai chất lượng tốt 95.000–100.000 đ/kg trở lên.","en":"24/07/2026 · Thanh Hoa: live cattle 80,000–95,000 VND/kg depending on breed and weight; BBB and good crossbred cattle 95,000–100,000+ VND/kg.","src":{"vi":"Báo Thanh Hóa","en":"Thanh Hoa newspaper"},"url":"https://baothanhhoa.vn/gia-bo-phuc-hoi-mo-ra-ky-vong-nbsp-cho-nguoi-chan-nuoi-295664.htm"},{"vi":"10/03/2026 · Vĩnh Long: bò hơi 73.000–90.000 đ/kg (giai đoạn 12/2025–2/2026), tăng nhẹ so với 2025.","en":"10/03/2026 · Vinh Long: live cattle 73,000–90,000 VND/kg (Dec 2025–Feb 2026), slightly up on 2025.","src":{"vi":"Báo Vĩnh Long","en":"Vinh Long newspaper"},"url":"https://baovinhlong.com.vn/kinh-te/thi-truong/202603/gia-bo-hoi-tang-nhe-bdd4361/"}],"news":[],"mentions":[],"log":[]};
+var PROXIES=["https://api.allorigins.win/raw?url=","https://corsproxy.io/?url=","https://api.codetabs.com/v1/proxy?quest="];
+var $=function(id){return document.getElementById("gs6-"+id)};
+var store={get:function(k){try{return JSON.parse(localStorage.getItem(k)||"null")}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}},raw:function(k){try{return localStorage.getItem(k)}catch(e){return null}},setRaw:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+
+/* ===== NGÔN NGỮ ===== */
+var I18N={
+vi:{title:"Theo dõi giá gia súc",subtitle:"Giá heo hơi tại trại · 3 miền & theo tỉnh · cập nhật tự động từ báo chí chuyên ngành",back:"← Về Blog",toFlu:"🐄 Dịch bệnh gia súc",toChicken:"🐔 Giá gia cầm",light:"☀ Sáng",dark:"🌙 Tối",
+ sub:"Chuỗi chính là giá heo thịt hơi tại trại lấy từ file Excel gốc \"Giá sản phẩm chăn nuôi (tại trại) cả nước\" hằng tuần của Chăn nuôi Việt Nam (channuoivietnam.com); Tạp chí Chăn nuôi (nguoichannuoi.vn) dùng làm dự phòng. Giá tháng là bình quân các kỳ báo giá trong tháng. Giá GreenFeed (bình quân vùng, theo tỉnh) và số liệu báo chí khác chỉ dùng để so sánh, không cộng vào bình quân. Bò/trâu hơi chưa có nguồn công bố định kỳ nên chỉ ghi mốc tham chiếu.",
+ unitL:"Đơn vị:",unitV:"đ/kg, heo hơi tại trại",mainL:"Chuỗi chính:",tables:"bảng giá,",gfL:"GreenFeed mới nhất:",updL:"Dữ liệu cập nhật:",
+ hKpi:"Giá heo hơi kỳ gần nhất (bảng giá tại trại cả nước)",kpiNote:"Ô đỏ: vượt highline · viền vàng: cần xác minh",
+ hChart:"Biểu đồ summary T1–T12/2026 – heo hơi",segHeo:"Heo hơi",byMonth:"Theo tháng",byWeek:"Theo tuần",refPts:"So sánh GreenFeed & báo",
+ hMatrix:"Ma trận giá heo hơi bình quân tháng (đ/kg)",csv:"⬇ Tải CSV",
+ matrixNote:"Mũi tên: chênh lệch so với tháng liền trước có số liệu. Dòng chữ nghiêng: tháng chưa có bảng giá chuỗi chính, hiển thị bình quân GreenFeed (cột Heo hơi) để tham khảo (miền Nam = Đông Nam Bộ).",
+ hScan:"Quét & cập nhật nguồn",scanNow:"⟳ Quét ngay",reload:"⟲ Tải lại dữ liệu",runGh:"▶ Chạy quét trên GitHub",
+ scanNote:"Quét tự động chạy trên GitHub mỗi ngày lúc 06:37 và thêm 17:37 thứ Ba, thứ Tư; kết quả ghi vào data.json cho mọi người xem. Nút \"Quét ngay\" quét từ trình duyệt qua proxy công cộng; số mới chỉ lưu trên máy này cho đến lần quét tự động kế tiếp.",
+ lastAuto:"Quét tự động gần nhất:",latestTable:"Bảng giá mới nhất:",latestGf:"GreenFeed mới nhất:",localRows:"Quét trên máy:",never:"chưa có",
+ hSrc:"Nguồn dữ liệu",addL:"Thêm nguồn bổ sung (mỗi dòng một link, có thể ghi \"Tên | link\")",addBtn:"＋ Thêm & quét",saveGh:"✎ Lưu cố định (sources.json)",
+ addNote:"Hệ thống tự nhận dạng: link bảng giá tại trại nguoichannuoi.vn → chuỗi chính; bảng GreenFeed → so sánh; link RSS → tin tức; trang bất kỳ → trích câu có giá heo/lợn/bò (đ/kg) để tham khảo. Nguồn thêm ở đây chỉ lưu trên máy này; muốn hệ thống quét hằng ngày cho mọi người, bấm \"Lưu cố định\" và thêm vào mục extra của sources.json.",
+ srcMain:"chuỗi chính",srcCmp:"so sánh",srcNews:"tin tức",srcFixed:"cố định",srcLocal:"trên máy này",srcKinds:{"cnvn-list":"Excel CNVN","ncn-table":"bảng giá","ncn-list":"danh mục bảng giá","gf-table":"GreenFeed",rss:"RSS",page:"trích câu"},
+ added:function(n){return "Đã thêm "+n+" nguồn"},noUrl:"Chưa có link hợp lệ",
+ hInsight:"Điểm cần lưu ý cho thu mua",hThr:"Ngưỡng highline thu mua",thrHeo:"Heo hơi (đ/kg)",
+ thrNote:"Ngưỡng lưu trên trình duyệt của máy này. Giá vượt ngưỡng: ô KPI, ô ma trận và ô bảng tỉnh chuyển đỏ, biểu đồ hiện đường highline.",
+ hLedger:"Sổ bảng giá tuần (chuỗi chính)",ledgerNote:"Mỗi dòng mở được nguồn gốc",gfTableT:"Bảng GreenFeed theo ngày (bình quân vùng)",
+ gfHeo:"Heo hơi",gfGf:"Heo GreenFeed",gfReg:["Bắc","Trung","ĐNB","TNB"],gfRegName:{Bac:"Miền Bắc",Trung:"Miền Trung",Nam:"Đông Nam Bộ",TNB:"Tây Nam Bộ"},
+ hProv:"Giá heo hơi theo tỉnh (GreenFeed)",thProv:"Tỉnh/thành",thChg:"± so kỳ trước",noProv:"Chưa có bảng tỉnh – sẽ có sau lần quét tự động.",
+ provNote:"Lấy từ bảng giá thị trường GreenFeed ngày mới nhất: cột \"Heo hơi\" là giá thị trường tại tỉnh, cột \"Heo GreenFeed\" là giá heo của công ty. Chỉ để so sánh, không cộng vào bình quân chuỗi chính.",
+ hNews:"Tin mới về giá heo, bò hơi",hMen:"Trích từ nguồn bổ sung",menNote:"Câu có nhắc giá heo/lợn, bò/trâu, dê (đ/kg) trong các trang nguồn bổ sung. Chỉ để tham khảo, không cộng vào bình quân.",noNews:"Chưa có tin.",noMen:"Chưa có câu trích nào.",
+ hRef:"Điểm tham chiếu báo chí (heo hơi)",hTa:"Bò / trâu hơi",
+ taIntro:"Chưa có nguồn công bố giá bò, trâu hơi theo tuần cho 3 miền, nên trang không dựng chuỗi tháng cho bò. Các mốc có căn cứ:",
+ hMethod:"Phương pháp và giới hạn số liệu",
+ method:["Nguồn chính: file Excel \"Thi truong SPCN ca nuoc\" do channuoivietnam.com công bố mỗi thứ Ba; hệ thống tải và đọc trực tiếp từng file. Tạp chí Chăn nuôi VN đăng lại cùng bảng nên chỉ dùng khi file Excel chưa có.","Giá tháng = bình quân cộng các giá ngày trong các bảng công bố trong tháng. Cột \"n\" là số kỳ.","\"Heo hơi\" ứng với dòng \"Heo thịt hơi\" (miền Bắc/Trung/Nam) của bảng nguồn.","GreenFeed: cột \"Heo hơi\" (giá thị trường) và \"Heo GreenFeed\" theo vùng và theo tỉnh; miền Nam lấy Đông Nam Bộ, Tây Nam Bộ ghi kèm.","Tự đánh dấu cần xác minh khi giá lệch hơn 20% so với kỳ liền trước, hoặc lệch hơn 25% so với GreenFeed trong vòng 6 ngày.","Không ước tính hay nội suy tháng thiếu số liệu; đường biểu đồ ngắt tại đó. Bò/trâu hơi chỉ ghi mốc báo chí có nguồn."],
+ prod:{heo:"Heo hơi"},prodLong:{heo:"Heo thịt hơi tại trại"},
+ reg:{Bac:"Bắc",Trung:"Trung",Nam:"Nam"},regLong:function(r){return "Miền "+I18N.vi.reg[r]},
+ mon:function(m){return "T"+m},monLong:function(m){return "Tháng "+m+"/2026"},
+ period:"Kỳ",vsPrev:"so kỳ trước",gfNow:"GreenFeed",verify:"cần xác minh",verifyShort:"xác minh",over:"vượt",
+ future:"Chưa có bảng giá chuỗi chính",gfLegend:"GreenFeed (nét đứt)",refLegend:"Báo chí khác",highline:"Highline",
+ hover:"Rê chuột (hoặc chạm) vào một tháng để xem số liệu.",noMain:"chưa có chuỗi chính",
+ noteM:"Đường liền: bình quân tháng chuỗi chính. Nét đứt: bình quân tháng GreenFeed. Viền vàng: có số liệu cần xác minh.",
+ noteW:"Điểm liền: giá ngày từng kỳ chuỗi chính. Nét đứt: GreenFeed theo ngày.",
+ chartAria:function(p,g){return "Biểu đồ giá "+p+" theo "+(g==="m"?"tháng":"tuần")+" năm 2026, 3 miền"},
+ thMonth:"Tháng",nPeriods:"n kỳ",first:"kỳ đầu",noData:"Chưa có số liệu",avg:function(m){return "BQ T1–T"+m},gfAvg:function(k){return "GreenFeed BQ "+k+" ngày"},
+ thPeriod:"Kỳ",thSource:"Nguồn",thOrigin:"Gốc",srcNcn:"Tạp chí Chăn nuôi VN",srcCnvn:"Chăn nuôi Việt Nam (Excel)",srcBackup:"dự phòng",thDate:"Ngày",thType:"Loại",thRegion:"Miền",thPrice:"Giá",
+ origin:{cnvn:"file Excel gốc",seed:"đã xác minh",auto:"quét báo",local:"quét trên máy"},
+ ins:{
+  chg:function(p,parts,m){return "<b>"+p+"</b>: BQ T"+m+" so với T1 (đ/kg): "+parts+"."},
+  last:function(p,d,parts){return "<b>"+p+"</b> kỳ "+d+" so với kỳ trước: "+parts+"."},
+  gap:function(r,v,g,pct){return "Heo hơi miền "+r+": chuỗi chính "+v+" so với GreenFeed "+g+" ("+pct+")."},
+  flags:function(n){return n+" ô số liệu đang bị đánh dấu cần xác minh. Nên đối chiếu với báo giá nhà cung cấp/lò mổ trước khi dùng làm giá sàn/giá trần."}},
+ foot:"Nguồn chính: Chăn nuôi Việt Nam (channuoivietnam.com) · dự phòng: Tạp chí Chăn nuôi (nguoichannuoi.vn) · so sánh: GreenFeed · quét tự động bằng GitHub Actions",
+ log:{start:"Bắt đầu quét từ trình duyệt…",ncn:"Đọc danh mục Giá cả – Tạp chí Chăn nuôi",ncnNew:function(d){return "+ Bảng giá mới "+d},none:"Không có bảng giá mới",gf:"Đọc bảng GreenFeed",gfNew:function(n){return "+ GreenFeed: "+n+" ngày mới"},extra:function(n){return "Đọc "+n+" nguồn bổ sung"},fail:function(u){return "✕ Không tải được: "+u},done:function(n){return "Xong. Số kỳ/ngày mới: "+n},proxy:"(qua proxy)",reloaded:"Đã tải lại data.json",reloadFail:"Không tải được data.json, đang dùng bản lưu sẵn trong trang",serverLog:"Nhật ký lần quét tự động gần nhất:"},
+ csvHead:"Thang,Loai,Mien,Gia_BQ_dkg,So_ky,Min,Max,Can_xac_minh",csvHead2:"Ky,Heo_Bac,Heo_Trung,Heo_Nam,Goc,Nguon",csvHead3:"Ngay_GreenFeed,HeoHoi_Bac,HeoHoi_Trung,HeoHoi_DNB,HeoHoi_TNB,HeoGF_Bac,HeoGF_Trung,HeoGF_DNB,HeoGF_TNB",csvYes:"co",csvFile:"gia_heo_hoi_2026.csv",locale:"vi-VN"},
+en:{title:"Livestock Price Tracker",subtitle:"Farm-gate live hog prices · 3 regions & by province · auto-updated from trade press",back:"← Back to blog",toFlu:"🐄 Livestock diseases",toChicken:"🐔 Poultry prices",light:"☀ Light",dark:"🌙 Dark",
+ sub:"The main series is the farm-gate live hog price from the original weekly Excel tables \"Farm-gate livestock prices nationwide\" published by Chan nuoi Viet Nam (channuoivietnam.com), with Vietnam Livestock Magazine (nguoichannuoi.vn) as backup. Monthly prices average the quotes in each month. GreenFeed regional and provincial figures and other press figures are for comparison only and are not averaged in. Live cattle/buffalo have no regular published series, so only reference points are listed.",
+ unitL:"Unit:",unitV:"VND/kg, live hog at farm gate",mainL:"Main series:",tables:"price tables,",gfL:"Latest GreenFeed:",updL:"Data updated:",
+ hKpi:"Latest live hog quote (nationwide farm-gate table)",kpiNote:"Red: above highline · amber border: needs verification",
+ hChart:"Summary chart Jan–Dec 2026 – live hog",segHeo:"Live hog",byMonth:"Monthly",byWeek:"Weekly",refPts:"Compare GreenFeed & press",
+ hMatrix:"Monthly average live hog price (VND/kg)",csv:"⬇ Download CSV",
+ matrixNote:"Arrows: change vs the previous month with data. Italic rows: months without a main-series table yet, showing the GreenFeed live hog average for reference (South = Southeast).",
+ hScan:"Scan & update sources",scanNow:"⟳ Scan now",reload:"⟲ Reload data",runGh:"▶ Run scan on GitHub",
+ scanNote:"The automatic scan runs on GitHub every day at 06:37 (plus 17:37 on Tuesdays and Wednesdays) and writes data.json for everyone. \"Scan now\" scans from your browser through public proxies; new figures stay on this device until the next automatic scan.",
+ lastAuto:"Last automatic scan:",latestTable:"Latest price table:",latestGf:"Latest GreenFeed:",localRows:"Scanned on this device:",never:"none",
+ hSrc:"Data sources",addL:"Add sources (one link per line, optionally \"Name | link\")",addBtn:"＋ Add & scan",saveGh:"✎ Save permanently (sources.json)",
+ addNote:"Links are classified automatically: nguoichannuoi.vn farm-gate tables → main series; GreenFeed tables → comparison; RSS links → news; any other page → sentences quoting hog/cattle prices (VND/kg) for reference. Sources added here are stored on this device only; to have them scanned daily for everyone, click \"Save permanently\" and add them to the extra list in sources.json.",
+ srcMain:"main series",srcCmp:"comparison",srcNews:"news",srcFixed:"permanent",srcLocal:"this device",srcKinds:{"cnvn-list":"CNVN Excel","ncn-table":"price table","ncn-list":"price list","gf-table":"GreenFeed",rss:"RSS",page:"quotes"},
+ added:function(n){return "Added "+n+" source(s)"},noUrl:"No valid link",
+ hInsight:"Procurement watch points",hThr:"Procurement highline",thrHeo:"Live hog (VND/kg)",
+ thrNote:"Thresholds are saved in this browser. Above the threshold, KPI tiles, matrix cells and province cells turn red and the chart shows the highline.",
+ hLedger:"Weekly price ledger (main series)",ledgerNote:"Each row links to the original source",gfTableT:"GreenFeed table by date (regional averages)",
+ gfHeo:"Live hog",gfGf:"GreenFeed hog",gfReg:["North","Central","SE","SW"],gfRegName:{Bac:"North",Trung:"Central",Nam:"Southeast",TNB:"Southwest"},
+ hProv:"Live hog price by province (GreenFeed)",thProv:"Province",thChg:"± vs previous",noProv:"No province table yet – it appears after the next automatic scan.",
+ provNote:"From the latest GreenFeed market price table: \"Live hog\" is the market price in the province, \"GreenFeed hog\" is the company's own hog price. Comparison only, not averaged into the main series.",
+ hNews:"Latest hog & cattle price news",hMen:"Quotes from added sources",menNote:"Sentences mentioning hog, cattle/buffalo or goat prices (VND/kg) on the added source pages. Reference only, not averaged.",noNews:"No news yet.",noMen:"No quotes yet.",
+ hRef:"Press reference points (live hog)",hTa:"Live cattle / buffalo",
+ taIntro:"No source publishes weekly live cattle or buffalo prices for the three regions, so there is no monthly series for cattle. Verified price points:",
+ hMethod:"Method and data limitations",
+ method:["Main source: the \"Thi truong SPCN ca nuoc\" Excel files published by channuoivietnam.com every Tuesday; each file is downloaded and read directly. Vietnam Livestock Magazine reposts the same table and is used only when the Excel file is not yet available.","Monthly price = simple average of the spot prices in the tables published in the month. Column \"n\" is the number of quotes.","\"Live hog\" maps to the source's \"Heo thịt hơi\" rows (North/Central/South).","GreenFeed: the \"Heo hơi\" (market) and \"Heo GreenFeed\" columns by region and province; South = Southeast, Southwest kept alongside.","Figures are flagged for verification when they move more than 20% from the previous quote, or differ more than 25% from GreenFeed within 6 days.","Missing months are never estimated or interpolated; chart lines break there. Live cattle/buffalo are listed only as sourced press reference points."],
+ prod:{heo:"Live hog"},prodLong:{heo:"Live hog at farm gate"},
+ reg:{Bac:"North",Trung:"Central",Nam:"South"},regLong:function(r){return I18N.en.reg[r]},
+ mon:function(m){return ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][m-1]},monLong:function(m){return ["January","February","March","April","May","June","July","August","September","October","November","December"][m-1]+" 2026"},
+ period:"Quote",vsPrev:"vs previous",gfNow:"GreenFeed",verify:"needs verification",verifyShort:"verify",over:"above",
+ future:"No main-series table yet",gfLegend:"GreenFeed (dashed)",refLegend:"Other press",highline:"Highline",
+ hover:"Hover over (or tap) a month to see the figures.",noMain:"no main-series data",
+ noteM:"Solid: main-series monthly average. Dashed: GreenFeed monthly average. Amber border: includes a figure that needs verification.",
+ noteW:"Solid points: main-series spot price per quote. Dashed: GreenFeed by date.",
+ chartAria:function(p,g){return p+" price chart, "+(g==="m"?"monthly":"weekly")+", 2026, three regions"},
+ thMonth:"Month",nPeriods:"n quotes",first:"first",noData:"No data yet",avg:function(m){return "Avg Jan–"+I18N.en.mon(m)},gfAvg:function(k){return "GreenFeed avg of "+k+" days"},
+ thPeriod:"Quote date",thSource:"Source",thOrigin:"Origin",srcNcn:"Vietnam Livestock Magazine",srcCnvn:"Chan nuoi Viet Nam (Excel)",srcBackup:"backup",thDate:"Date",thType:"Type",thRegion:"Region",thPrice:"Price",
+ origin:{cnvn:"original Excel",seed:"verified",auto:"press scan",local:"this device"},
+ ins:{
+  chg:function(p,parts,m){return "<b>"+p+"</b>: "+I18N.en.mon(m)+" average vs January (VND/kg): "+parts+"."},
+  last:function(p,d,parts){return "<b>"+p+"</b> quote "+d+" vs previous: "+parts+"."},
+  gap:function(r,v,g,pct){return "Live hog, "+r+": main series "+v+" vs GreenFeed "+g+" ("+pct+")."},
+  flags:function(n){return n+" figures are flagged for verification. Check against supplier/abattoir quotes before using them as floor or ceiling prices."}},
+ foot:"Main source: Chan nuoi Viet Nam (channuoivietnam.com) · backup: Vietnam Livestock Magazine (nguoichannuoi.vn) · comparison: GreenFeed · automatic scan by GitHub Actions",
+ log:{start:"Starting browser scan…",ncn:"Reading Vietnam Livestock Magazine price list",ncnNew:function(d){return "+ New price table "+d},none:"No new price table",gf:"Reading GreenFeed table",gfNew:function(n){return "+ GreenFeed: "+n+" new day(s)"},extra:function(n){return "Reading "+n+" added source(s)"},fail:function(u){return "✕ Could not load: "+u},done:function(n){return "Done. New quotes/days: "+n},proxy:"(via proxy)",reloaded:"Reloaded data.json",reloadFail:"Could not load data.json, using the copy bundled in the page",serverLog:"Log of the last automatic scan:"},
+ csvHead:"Month,Type,Region,Avg_price_VND_kg,Quotes,Min,Max,Needs_verification",csvHead2:"Date,Hog_North,Hog_Central,Hog_South,Origin,Source",csvHead3:"GreenFeed_date,Hog_North,Hog_Central,Hog_SE,Hog_SW,GFHog_North,GFHog_Central,GFHog_SE,GFHog_SW",csvYes:"yes",csvFile:"live_hog_prices_2026.csv",locale:"en-US"}};
+
+/* ===== TRẠNG THÁI ===== */
+var lang=store.raw("cgc_lang")==="en"?"en":"vi";
+var theme=store.raw("cgc_theme")==="light"?"light":"dark";
+var thr=store.get("gsgs26_thr")||{}, prod="heo", gran="m";
+var D=null, LOCAL=store.get("gsgs26_local")||{weekly:[],gf:[],news:[],mentions:[],at:null};
+var LOCALSRC=store.get("gsgs26_src")||[], FIXEDSRC=[], LOGLINES=[];
+var L=function(){return I18N[lang]};
+var REG=["Bac","Trung","Nam"], RCSS={Bac:"--s-bac",Trung:"--s-trung",Nam:"--s-nam"};
+var IDX={heo:{Bac:1,Trung:2,Nam:3}},PRODS=["heo"];
+var MONTHS=[1,2,3,4,5,6,7,8,9,10,11,12];
+var fmt=function(n){return n==null||isNaN(n)?"–":Math.round(n).toLocaleString(L().locale)};
+var fmtD=function(d){var p=d.split("-");return p[2]+"/"+p[1]};
+var fmtDT=function(s){if(!s)return L().never;var d=new Date(s);if(isNaN(d))return s;return d.toLocaleString(L().locale,{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"})};
+var css=function(v){return getComputedStyle(ROOT).getPropertyValue(v).trim()};
+var esc=function(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
+var ncnUrl=function(d){var p=d.split("-");return "https://nguoichannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-"+p[2]+"-"+p[1]+"-"+p[0]+"/"};
+var dayDiff=function(a,b){return Math.abs(Date.parse(a)-Date.parse(b))/864e5};
+
+function weeklyAll(){
+  var w=D.weekly.map(function(r){return {r:r,o:(D.meta.origin||{})[r[0]]||"seed"}});
+  (LOCAL.weekly||[]).forEach(function(r){if(!w.some(function(x){return x.r[0]===r[0]}))w.push({r:r,o:"local"})});
+  return w.sort(function(a,b){return a.r[0]<b.r[0]?-1:1});
+}
+function gfAll(){
+  var g=(D.gf||[]).slice();
+  (LOCAL.gf||[]).forEach(function(r){if(!g.some(function(x){return x[0]===r[0]}))g.push(r)});
+  return g.sort(function(a,b){return a[0]<b[0]?-1:1});
+}
+var W=[],G=[];
+function rebuild(){W=weeklyAll();G=gfAll()}
+function gfNear(d,p,r){var best=null,bd=99;G.forEach(function(g){var dd=dayDiff(g[0],d);if(dd<=6&&dd<bd){bd=dd;best=g}});return best?best[IDX[p][r]]:null}
+function flagInfo(d,p,r){
+  var t=(D.flags||[]).find(function(f){return f[0]===d&&f[1]===p&&f[2]===r});if(t)return t[3]||L().verify;
+  var i=W.findIndex(function(x){return x.r[0]===d});if(i<0)return null;var v=W[i].r[IDX[p][r]];
+  if(i>0){var a=W[i-1].r[IDX[p][r]];if(a&&Math.abs(v-a)/a>0.20)return (lang==="vi"?"lệch ":"moved ")+Math.round((v-a)/a*100)+"% "+(lang==="vi"?"so với kỳ ":"vs ")+fmtD(W[i-1].r[0]);}
+  var g=gfNear(d,p,r);if(g&&Math.abs(v-g)/g>0.25)return (lang==="vi"?"lệch GreenFeed ":"vs GreenFeed ")+(v>g?"+":"")+Math.round((v-g)/g*100)+"%";
+  return null;
+}
+function weekly(p,r){return W.map(function(x){return {d:x.r[0],v:x.r[IDX[p][r]],o:x.o,flag:flagInfo(x.r[0],p,r)}})}
+function monthly(p,r){return MONTHS.map(function(m){var pts=weekly(p,r).filter(function(x){return +x.d.slice(5,7)===m});if(!pts.length)return {m:m,v:null,n:0};var vs=pts.map(function(x){return x.v});return {m:m,v:vs.reduce(function(a,b){return a+b},0)/vs.length,n:vs.length,flag:pts.some(function(x){return x.flag}),min:Math.min.apply(null,vs),max:Math.max.apply(null,vs)}})}
+function gfMonthly(p,r){return MONTHS.map(function(m){var pts=G.filter(function(g){return +g[0].slice(5,7)===m&&g[IDX[p][r]]});if(!pts.length)return {m:m,v:null,n:0};var vs=pts.map(function(g){return g[IDX[p][r]]});return {m:m,v:vs.reduce(function(a,b){return a+b},0)/vs.length,n:vs.length}})}
+var lastM=function(){return +W[W.length-1].r[0].slice(5,7)};
+
+/* ===== TEXT TĨNH ===== */
+function applyStatic(){
+  var t=L();ROOT.setAttribute("lang",lang);ROOT.dataset.theme=theme;
+  ROOT.querySelectorAll("[data-i18n]").forEach(function(el){var v=t[el.dataset.i18n];if(typeof v==="string")el.textContent=v});
+  $("method").innerHTML=t.method.map(function(x){return "<li>"+x+"</li>"}).join("");
+  $("readout").innerHTML='<span class="muted">'+t.hover+"</span>";
+  $("theme").textContent=theme==="dark"?t.light:t.dark;
+  [].forEach.call($("lang").children,function(b){b.classList.toggle("on",b.dataset.v===lang)});
+}
+
+/* ===== KPI ===== */
+function drawKpis(){
+  var t=L(),last=W[W.length-1],prev=W[W.length-2],out=[];
+  PRODS.forEach(function(p){REG.forEach(function(r){
+    var v=last.r[IDX[p][r]],pv=prev?prev.r[IDX[p][r]]:null,d=pv!=null?v-pv:null;
+    var g=gfNear(last.r[0],p,r),over=thr[p]&&v>thr[p],fl=flagInfo(last.r[0],p,r);
+    out.push('<div class="kpi'+(over?" alert":"")+(fl?" flag":"")+'" style="--c:var('+RCSS[r]+')"><div class="lbl"><span>'+t.prod[p]+'</span><span>'+t.reg[r]+'</span></div><div class="val">'+fmt(v)+'</div>'+
+      '<div class="meta">'+t.period+" "+fmtD(last.r[0])+" · "+t.vsPrev+' <span class="'+(d>0?"up":d<0?"down":"")+'">'+(d==null?"–":(d>0?"▲ ":d<0?"▼ ":"■ ")+fmt(Math.abs(d)))+"</span></div>"+
+      '<div class="meta">'+t.gfNow+": "+(g?fmt(g):"–")+(fl?' · <span class="badge b-amber" title="'+esc(fl)+'">'+t.verifyShort+"</span>":"")+(over?' · <span class="badge b-red">'+t.over+" "+fmt(thr[p])+"</span>":"")+"</div></div>");
+  })});
+  $("kpis").innerHTML=out.join("");
+  $("fCount").textContent=W.length;$("fRange").textContent=fmtD(W[0].r[0])+" – "+fmtD(last.r[0])+"/2026";
+  $("fGf").textContent=G.length?fmtD(G[G.length-1][0])+"/2026":"–";$("fUpd").textContent=fmtDT(D.meta.updated);
+}
+
+/* ===== BIỂU ĐỒ ===== */
+function drawChart(){
+  var t=L(),showRef=$("showRef").checked;
+  var Wd=760,H=340,Lp=54,R=18,T=18,B=34,plotW=Wd-Lp-R,plotH=H-T-B;
+  var ys=Date.parse("2026-01-01"),ye=Date.parse("2027-01-01");
+  var xM=function(m){return Lp+(m-0.5)/12*plotW},xD=function(d){return Lp+(Date.parse(d)-ys)/(ye-ys)*plotW};
+  var S=REG.map(function(r){return {r:r,mo:monthly(prod,r),wk:weekly(prod,r),gm:gfMonthly(prod,r),gw:G.filter(function(g){return g[IDX[prod][r]]}).map(function(g){return {d:g[0],v:g[IDX[prod][r]]}}),refs:(D.refs||[]).filter(function(x){return x.p===prod&&x.r===r})}});
+  var vals=[];S.forEach(function(s){(gran==="m"?s.mo:s.wk).forEach(function(x){if(x.v!=null)vals.push(x.v)});if(showRef){(gran==="m"?s.gm:s.gw).forEach(function(x){if(x.v!=null)vals.push(x.v)});s.refs.forEach(function(x){vals.push(x.min,x.max)})}});
+  if(thr[prod])vals.push(thr[prod]);
+  var step=5000,v0=Math.floor((Math.min.apply(null,vals)-1000)/step)*step,v1=Math.ceil((Math.max.apply(null,vals)+1000)/step)*step;
+  var y=function(v){return T+(1-(v-v0)/(v1-v0))*plotH},g="";
+  var lastD=W[W.length-1].r[0],fx=gran==="m"?Lp+lastM()/12*plotW:xD(lastD);
+  g+='<rect x="'+fx+'" y="'+T+'" width="'+Math.max(0,Wd-R-fx)+'" height="'+plotH+'" fill="'+css("--future")+'"/>';
+  if(Wd-R-fx>120)g+='<text x="'+(fx+Wd-R)/2+'" y="'+(T+16)+'" text-anchor="middle">'+t.future+"</text>";
+  for(var v=v0;v<=v1;v+=step)g+='<line x1="'+Lp+'" x2="'+(Wd-R)+'" y1="'+y(v)+'" y2="'+y(v)+'" stroke="'+css("--grid")+'"/><text x="'+(Lp-8)+'" y="'+(y(v)+4)+'" text-anchor="end">'+v/1000+"k</text>";
+  MONTHS.forEach(function(m){g+='<text x="'+xM(m)+'" y="'+(H-12)+'" text-anchor="middle">'+t.mon(m)+"</text>";if(m>1)g+='<line x1="'+(Lp+(m-1)/12*plotW)+'" x2="'+(Lp+(m-1)/12*plotW)+'" y1="'+T+'" y2="'+(T+plotH)+'" stroke="'+css("--grid")+'"/>'});
+  if(thr[prod]){var yy=y(thr[prod]);g+='<line x1="'+Lp+'" x2="'+(Wd-R)+'" y1="'+yy+'" y2="'+yy+'" stroke="'+css("--red")+'" stroke-dasharray="6 4" stroke-width="1.5"/><text x="'+(Lp+6)+'" y="'+(yy-6)+'" style="fill:'+css("--red")+'">highline '+fmt(thr[prod])+"</text>"}
+  var line=function(pts,c,w,dash){var segs=[],sg=[];pts.forEach(function(p){if(p)sg.push(p);else{if(sg.length)segs.push(sg);sg=[]}});if(sg.length)segs.push(sg);
+    return segs.map(function(s){return '<polyline fill="none" stroke="'+c+'" stroke-width="'+w+'"'+(dash?' stroke-dasharray="5 4" opacity=".75"':"")+' stroke-linejoin="round" stroke-linecap="round" points="'+s.map(function(p){return p.x+","+p.y}).join(" ")+'"/>'}).join("")};
+  var ends=[];
+  S.forEach(function(s){
+    var c=css(RCSS[s.r]);
+    if(showRef){var gp=gran==="m"?s.gm.map(function(x){return x.v==null?null:{x:xM(x.m),y:y(x.v)}}):s.gw.map(function(x){return {x:xD(x.d),y:y(x.v)}});g+=line(gp,c,1.6,true);
+      s.refs.forEach(function(rf){var xx=gran==="m"?xM(+rf.date.slice(5,7)):xD(rf.date),yy=y((rf.min+rf.max)/2);if(rf.min!==rf.max)g+='<line x1="'+xx+'" x2="'+xx+'" y1="'+y(rf.min)+'" y2="'+y(rf.max)+'" stroke="'+c+'" stroke-width="1.5" opacity=".7"/>';
+        g+='<rect x="'+(xx-4.5)+'" y="'+(yy-4.5)+'" width="9" height="9" transform="rotate(45 '+xx+" "+yy+')" fill="'+css("--panel")+'" stroke="'+c+'" stroke-width="1.8"><title>'+esc(rf.src[lang])+" · "+fmtD(rf.date)+" · "+t.reg[s.r]+": "+(rf.min===rf.max?fmt(rf.min):fmt(rf.min)+"–"+fmt(rf.max))+" ("+esc(rf.note[lang])+")</title></rect>"})}
+    var pts=gran==="m"?s.mo.map(function(x){return x.v==null?null:{x:xM(x.m),y:y(x.v),v:x.v,flag:x.flag,lab:t.mon(x.m)}}):s.wk.map(function(x){return {x:xD(x.d),y:y(x.v),v:x.v,flag:x.flag,lab:fmtD(x.d)}});
+    g+=line(pts,c,gran==="m"?2.6:2,false);
+    var vp=pts.filter(Boolean);
+    vp.forEach(function(p,i){var last=i===vp.length-1;g+='<circle cx="'+p.x+'" cy="'+p.y+'" r="'+(last?4.5:(gran==="m"?3.2:2.4))+'" fill="'+(last?c:css("--panel"))+'" stroke="'+(p.flag?css("--amber"):c)+'" stroke-width="'+(p.flag?2.6:2)+'"><title>'+t.regLong(s.r)+" · "+p.lab+": "+fmt(p.v)+(p.flag?" ("+t.verify+")":"")+"</title></circle>"});
+    if(vp.length){var lp=vp[vp.length-1];ends.push({x:lp.x+8,y:lp.y+4,c:c,t:fmt(lp.v)})}
+  });
+  ends.sort(function(a,b){return a.y-b.y});for(var i=1;i<ends.length;i++)if(ends[i].y-ends[i-1].y<14)ends[i].y=ends[i-1].y+14;
+  ends.forEach(function(l){g+='<text x="'+l.x+'" y="'+l.y+'" style="fill:'+l.c+';font-weight:700">'+l.t+"</text>"});
+  // lớp tương tác: đường dóng dọc + vòng đánh dấu điểm + vùng bắt con trỏ
+  g+='<line id="gs6-xh" x1="0" x2="0" y1="'+T+'" y2="'+(T+plotH)+'" stroke="'+css("--muted")+'" stroke-width="1" stroke-dasharray="3 3" visibility="hidden" pointer-events="none"/>';
+  S.forEach(function(s){var c=css(RCSS[s.r]);g+='<circle class="gs6-hl" data-r="'+s.r+'" r="7" fill="none" stroke="'+c+'" stroke-width="2.5" visibility="hidden" pointer-events="none"/><circle class="gs6-hlg" data-r="'+s.r+'" r="4" fill="'+css("--panel")+'" stroke="'+c+'" stroke-width="1.5" stroke-dasharray="2 2" visibility="hidden" pointer-events="none"/>'});
+  g+='<rect id="gs6-ov" x="'+Lp+'" y="'+T+'" width="'+plotW+'" height="'+plotH+'" fill="transparent" style="cursor:crosshair;touch-action:pan-y"/>';
+  $("chart").innerHTML='<svg viewBox="0 0 '+Wd+" "+H+'" role="img" aria-label="'+esc(t.chartAria(t.prod[prod],gran))+'">'+g+'</svg><div class="tip" id="gs6-tip" role="status" aria-live="polite" hidden></div>';
+  HOV={Lp:Lp,plotW:plotW,xM:xM,xD:xD,y:y,S:S,showRef:showRef,dates:W.map(function(x){return x.r[0]})};
+  bindHover();
+  $("legend").innerHTML=REG.map(function(r){return '<span><i style="background:var('+RCSS[r]+')"></i>'+t.regLong(r)+"</span>"}).join("")+(showRef?'<span><i class="dash"></i>'+t.gfLegend+'</span><span><i class="ref"></i>'+t.refLegend+"</span>":"")+(thr[prod]?'<span><i style="background:var(--red)"></i>'+t.highline+"</span>":"");
+  $("chartNote").textContent=gran==="m"?t.noteM:t.noteW;
+  $("refLbl").classList.toggle("on",showRef);
+}
+/* ===== CON TRỎ TRÊN BIỂU ĐỒ: hiện số liệu tại vị trí ===== */
+var HOV=null;
+function hoverAt(svgX){
+  var t=L(),h=HOV,key,xx,head,rows=[];
+  var dl=function(v,pv){if(v==null||pv==null)return "";var d=v-pv;return ' <span class="'+(d>0?"up":d<0?"down":"muted")+'">'+(d>0?"▲":d<0?"▼":"■")+" "+fmt(Math.abs(d))+"</span>"};
+  if(gran==="m"){
+    var m=Math.min(12,Math.max(1,Math.floor((svgX-h.Lp)/h.plotW*12)+1));key=m;xx=h.xM(m);head=t.monLong(m);
+    h.S.forEach(function(s){var x=s.mo[m-1],pv=null;for(var k=m-2;k>=0;k--)if(s.mo[k].v!=null){pv=s.mo[k].v;break}
+      var gm=s.gm[m-1];rows.push({s:s,v:x.v,y:x.v!=null?h.y(x.v):null,gy:h.showRef&&gm.v!=null?h.y(gm.v):null,
+        html:'<div class="tr"><i style="background:'+css(RCSS[s.r])+'"></i><span>'+t.reg[s.r]+"</span><b>"+fmt(x.v)+"</b>"+dl(x.v,pv)+(x.flag?' <span class="badge b-amber">'+t.verifyShort+"</span>":"")+(thr[prod]&&x.v>thr[prod]?' <span class="badge b-red">'+t.over+"</span>":"")+"</div>"+
+          '<div class="ts">'+(x.n?"n="+x.n+" · "+fmt(x.min)+"–"+fmt(x.max):t.noMain)+(gm.v!=null?" · GreenFeed "+fmt(gm.v):"")+"</div>"})});
+  }else{
+    var bi=0,bd=1e9;h.dates.forEach(function(d,i){var dd=Math.abs(h.xD(d)-svgX);if(dd<bd){bd=dd;bi=i}});
+    var d=h.dates[bi];key=d;xx=h.xD(d);head=(lang==="vi"?"Kỳ ":"Quote ")+fmtD(d)+"/"+d.slice(0,4);
+    h.S.forEach(function(s){var x=s.wk[bi],pv=bi>0?s.wk[bi-1].v:null,gv=gfNear(d,prod,s.r);
+      rows.push({s:s,v:x.v,y:h.y(x.v),gy:h.showRef&&gv!=null?h.y(gv):null,gx:null,
+        html:'<div class="tr"><i style="background:'+css(RCSS[s.r])+'"></i><span>'+t.reg[s.r]+"</span><b>"+fmt(x.v)+"</b>"+dl(x.v,pv)+(x.flag?' <span class="badge b-amber" title="'+esc(x.flag)+'">'+t.verifyShort+"</span>":"")+(thr[prod]&&x.v>thr[prod]?' <span class="badge b-red">'+t.over+"</span>":"")+"</div>"+
+          '<div class="ts">'+(gv!=null?"GreenFeed "+fmt(gv):"GreenFeed –")+(x.o==="local"?" · "+t.origin.local:"")+"</div>"})});
+  }
+  if(h.key===key)return;h.key=key;
+  var svg=$("chart").querySelector("svg"),xh=$("xh");xh.setAttribute("x1",xx);xh.setAttribute("x2",xx);xh.setAttribute("visibility","visible");
+  rows.forEach(function(r){var hl=svg.querySelector('.gs6-hl[data-r="'+r.s.r+'"]'),hg=svg.querySelector('.gs6-hlg[data-r="'+r.s.r+'"]');
+    if(r.y!=null){hl.setAttribute("cx",xx);hl.setAttribute("cy",r.y);hl.setAttribute("visibility","visible")}else hl.setAttribute("visibility","hidden");
+    if(r.gy!=null){hg.setAttribute("cx",xx);hg.setAttribute("cy",r.gy);hg.setAttribute("visibility","visible")}else hg.setAttribute("visibility","hidden")});
+  var tip=$("tip");tip.innerHTML='<div class="th">'+head+'<span class="muted"> · '+t.prod[prod]+"</span></div>"+rows.map(function(r){return r.html}).join("");tip.hidden=false;
+  h.tipX=xx;placeTip();
+  if(gran==="m")readout(key);else $("readout").innerHTML='<div><b>'+head+'</b><div class="muted" style="font-size:11.5px">'+t.prod[prod]+"</div></div>"+rows.map(function(r){return "<div>"+r.html+"</div>"}).join("");
+}
+function placeTip(){
+  var h=HOV,tip=$("tip"),box=$("chart"),svg=box.querySelector("svg");if(!svg||tip.hidden)return;
+  var sc=svg.getBoundingClientRect().width/760,px=h.tipX*sc,w=tip.offsetWidth,cw=box.clientWidth+box.scrollLeft;
+  var left=px+16;if(left+w>cw-4)left=px-16-w;if(left<box.scrollLeft+4)left=box.scrollLeft+4;
+  tip.style.left=left+"px";tip.style.top=Math.max(4,Math.min(box.clientHeight-tip.offsetHeight-4,(h.tipY||40)-tip.offsetHeight/2))+"px";
+}
+function hideHover(){if(!HOV)return;HOV.key=null;var tip=$("tip");if(tip)tip.hidden=true;var svg=$("chart").querySelector("svg");if(!svg)return;
+  svg.querySelectorAll(".gs6-hl,.gs6-hlg").forEach(function(c){c.setAttribute("visibility","hidden")});var xh=$("xh");if(xh)xh.setAttribute("visibility","hidden")}
+function bindHover(){
+  var svg=$("chart").querySelector("svg"),ov=$("ov");if(!svg||!ov)return;
+  var move=function(e){var pt=svg.createSVGPoint();pt.x=e.clientX;pt.y=e.clientY;var m=svg.getScreenCTM();if(!m)return;var p=pt.matrixTransform(m.inverse());
+    var r=$("chart").getBoundingClientRect();HOV.tipY=e.clientY-r.top;hoverAt(p.x);placeTip()};
+  ov.addEventListener("pointermove",move);ov.addEventListener("pointerdown",move);
+  ov.addEventListener("pointerleave",function(e){if(e.pointerType==="mouse")hideHover()});
+}
+document.addEventListener("pointerdown",function(e){if(HOV&&!e.target.closest("#gs6-chart"))hideHover()});
+function readout(m){
+  var t=L();
+  var rows=REG.map(function(r){var x=monthly(prod,r)[m-1],gm=gfMonthly(prod,r)[m-1];
+    return "<div><span class=\"badge b-grey\">"+t.reg[r]+"</span> "+(x.v==null?'<span class="muted">'+t.noMain+"</span>":"<b>"+fmt(x.v)+'</b> <span class="muted">(n='+x.n+", "+fmt(x.min)+"–"+fmt(x.max)+")</span>")+(x.flag?' <span class="badge b-amber">'+t.verifyShort+"</span>":"")+(gm.v!=null?'<div class="muted" style="font-size:11.5px">GreenFeed: '+fmt(gm.v)+" ("+gm.n+")</div>":"")+"</div>"});
+  $("readout").innerHTML="<div><b>"+t.monLong(m)+'</b><div class="muted" style="font-size:11.5px">'+t.prod[prod]+"</div></div>"+rows.join("");
+}
+
+/* ===== MA TRẬN ===== */
+function drawMatrix(){
+  var t=L(),cols=[];PRODS.forEach(function(p){REG.forEach(function(r){cols.push({p:p,r:r,mo:monthly(p,r),gm:gfMonthly(p,r)})})});
+  var h="<thead><tr><th rowspan=\"2\">"+t.thMonth+'</th><th class="grp" colspan="3">'+t.prodLong.heo+'</th><th rowspan="2" class="r">'+t.nPeriods+"</th></tr><tr>"+cols.map(function(c){return '<th class="r">'+t.reg[c.r]+"</th>"}).join("")+"</tr></thead><tbody>";
+  MONTHS.forEach(function(m){
+    var n=cols[0].mo[m-1].n,gn=cols[0].gm[m-1].n;
+    if(n){h+='<tr><td class="num">'+t.mon(m)+"</td>"+cols.map(function(c){var x=c.mo[m-1],prev=null;for(var k=m-2;k>=0;k--)if(c.mo[k].v!=null){prev=c.mo[k].v;break}
+        var d=prev!=null?x.v-prev:null,over=thr[c.p]&&x.v>thr[c.p];
+        return '<td class="r num'+(over?" over":"")+(x.flag?" flagcell":"")+'">'+fmt(x.v)+(d!=null?'<span class="d '+(d>0?"up":d<0?"down":"muted")+'">'+(d>0?"▲":d<0?"▼":"■")+" "+fmt(Math.abs(d))+"</span>":'<span class="d muted">'+t.first+"</span>")+"</td>"}).join("")+'<td class="r num">'+n+"</td></tr>"}
+    else if(gn){h+='<tr class="future ref"><td class="num">'+t.mon(m)+"</td>"+cols.map(function(c){var x=c.gm[m-1];return '<td class="r num">'+fmt(x.v)+'<span class="d">'+t.gfAvg(x.n)+"</span></td>"}).join("")+'<td class="r num">0</td></tr>'}
+    else h+='<tr class="future"><td class="num">'+t.mon(m)+'</td><td colspan="3" class="muted">'+t.noData+'</td><td class="r num">0</td></tr>';
+  });
+  h+="<tr><td><b>"+t.avg(lastM())+"</b></td>"+cols.map(function(c){var vs=c.mo.filter(function(x){return x.v!=null}).map(function(x){return x.v});return '<td class="r num"><b>'+(vs.length?fmt(vs.reduce(function(a,b){return a+b},0)/vs.length):"–")+"</b></td>"}).join("")+'<td class="r num">'+W.length+"</td></tr>";
+  $("matrix").innerHTML=h+"</tbody>";
+}
+
+/* ===== SỔ TUẦN & GREENFEED ===== */
+function drawLedger(){
+  var t=L();
+  var h="<thead><tr><th>"+t.thPeriod+'</th><th class="grp" colspan="3">'+t.prodLong.heo+"</th><th>"+t.thOrigin+"</th><th>"+t.thSource+"</th></tr><tr><th></th>"+REG.map(function(r){return '<th class="r">'+t.reg[r]+"</th>"}).join("")+"<th></th><th></th></tr></thead><tbody>";
+  W.slice().reverse().forEach(function(x){var row=x.r;
+    var cell=function(p,r){var v=row[IDX[p][r]],fl=flagInfo(row[0],p,r),over=thr[p]&&v>thr[p];return '<td class="r num'+(fl?" flagcell":"")+(over?" over":"")+'"'+(fl?' title="'+esc(fl)+'"':"")+">"+fmt(v)+(fl?" ⚠":"")+"</td>"};
+    var ob=x.o==="local"?"b-amber":x.o==="auto"?"b-blue":"b-ok";var src=(D.meta.src||{})[row[0]],isC=x.o==="cnvn"||/channuoivietnam/.test(src||"");
+    h+='<tr><td class="num">'+fmtD(row[0])+"/2026</td>"+REG.map(function(r){return cell("heo",r)}).join("")+'<td><span class="badge '+ob+'">'+t.origin[x.o]+'</span></td><td><a href="'+esc(isC?src:(src||ncnUrl(row[0])))+'" target="_blank" rel="noopener">'+(isC?t.srcCnvn:t.srcNcn)+"</a></td></tr>"});
+  $("ledger").innerHTML=h+"</tbody>";
+  var g4=t.gfReg.map(function(x){return '<th class="r">'+x+"</th>"}).join("");var gh="<thead><tr><th>"+t.thDate+'</th><th class="grp" colspan="4">'+t.gfHeo+'</th><th class="grp" colspan="4">'+t.gfGf+'</th></tr><tr><th></th>'+g4+g4+"</tr></thead><tbody>";
+  G.slice().reverse().forEach(function(r){gh+='<tr><td class="num"><a href="https://www.greenfeed.com.vn/thuc-an-chan-nuoi-gia-suc-gia-cam/bang-gia-thi-truong/?type=vat-nuoi-price&amp;date='+r[0]+'" target="_blank" rel="noopener">'+fmtD(r[0])+"/"+r[0].slice(0,4)+"</a></td>"+[1,2,3,4,5,6,7,8].map(function(i){return '<td class="r num">'+fmt(r[i])+"</td>"}).join("")+"</tr>"});
+  $("gfTable").innerHTML=gh+"</tbody>";
+  drawProv();
+}
+function drawProv(){
+  var t=L(),P=D.gfProv;
+  if(!P||!P.rows||!P.rows.length){$("prov").innerHTML='<tbody><tr><td class="muted">'+t.noProv+"</td></tr></tbody>";$("provDate").textContent="";return}
+  $("provDate").innerHTML='GreenFeed · <a href="'+esc(P.url)+'" target="_blank" rel="noopener">'+fmtD(P.date)+"/"+P.date.slice(0,4)+"</a>";
+  var h="<thead><tr><th>"+t.thProv+"</th><th>"+t.thRegion+'</th><th class="r">'+t.gfHeo+'</th><th class="r">'+t.thChg+'</th><th class="r">'+t.gfGf+"</th></tr></thead><tbody>",cur="";
+  P.rows.forEach(function(r){var d=r[3];
+    h+='<tr><td>'+esc(r[0])+'</td><td class="muted">'+esc(t.gfRegName[r[1]]||r[1]||"")+'</td><td class="r num'+(thr.heo&&r[2]>thr.heo?" over":"")+'">'+fmt(r[2])+'</td><td class="r num '+(d>0?"up":d<0?"down":"muted")+'">'+(d==null?"–":(d>0?"▲ ":d<0?"▼ ":"■ ")+fmt(Math.abs(d)))+'</td><td class="r num">'+fmt(r[4])+"</td></tr>"});
+  $("prov").innerHTML=h+"</tbody>";
+}
+function drawRefs(){
+  var t=L();
+  $("refTable").innerHTML="<thead><tr><th>"+t.thDate+"</th><th>"+t.thType+"</th><th>"+t.thRegion+'</th><th class="r">'+t.thPrice+"</th><th>"+t.thSource+"</th></tr></thead><tbody>"+
+    (D.refs||[]).slice().sort(function(a,b){return a.date<b.date?1:-1}).map(function(f){return '<tr><td class="num">'+fmtD(f.date)+"</td><td>"+t.prod[f.p]+"</td><td>"+t.reg[f.r]+'</td><td class="r num">'+(f.min===f.max?fmt(f.min):fmt(f.min)+"–"+fmt(f.max))+'</td><td><a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.src[lang])+'</a><span class="d muted">'+esc(f.note[lang])+"</span></td></tr>"}).join("")+"</tbody>";
+  $("taList").innerHTML=(D.ta||[]).map(function(x){return "<li>"+esc(x[lang])+' <a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.src[lang])+"</a></li>"}).join("");
+}
+function drawNews(){
+  var t=L(),items=(LOCAL.news||[]).concat(D.news||[]),seen={};
+  items=items.filter(function(n){if(!n.title||seen[n.title])return false;seen[n.title]=1;return true}).sort(function(a,b){return (b.date||"")<(a.date||"")?-1:1}).slice(0,20);
+  $("news").innerHTML=items.length?items.map(function(n){return '<div class="it"><a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.title)+'</a><span class="note">'+esc(n.source||"")+(n.date?" · "+fmtD(n.date)+"/"+n.date.slice(0,4):"")+"</span></div>"}).join(""):'<span class="note">'+t.noNews+"</span>";
+  var men=(LOCAL.mentions||[]).concat(D.mentions||[]);
+  var kind={heo:lang==="vi"?"Heo/lợn":"Hog",bo:lang==="vi"?"Bò/trâu":"Cattle",de:lang==="vi"?"Dê/cừu":"Goat/sheep",khac:lang==="vi"?"Khác":"Other"};
+  $("mentions").innerHTML=men.some(function(m){return m.mentions&&m.mentions.length})?men.filter(function(m){return m.mentions&&m.mentions.length}).map(function(m){return '<div class="it"><a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+esc(m.name||m.title||m.url)+'</a><span class="note">'+(m.date?fmtD(m.date)+"/"+m.date.slice(0,4):"")+(m.local?' · <span class="badge b-amber">'+t.srcLocal+"</span>":"")+"</span>"+m.mentions.map(function(x){return '<div class="mention"><span class="badge b-grey">'+kind[x.kind]+(x.region?" · "+t.reg[x.region]:"")+"</span> "+esc(x.text)+"</div>"}).join("")+"</div>"}).join(""):'<span class="note">'+t.noMen+"</span>";
+}
+
+/* ===== NHẬN ĐỊNH ===== */
+function drawInsights(){
+  var t=L(),li=[],lm=lastM(),last=W[W.length-1],prev=W[W.length-2];
+  if(prev)PRODS.forEach(function(p){
+    var parts=REG.map(function(r){var a=last.r[IDX[p][r]],b=prev.r[IDX[p][r]],d=a-b;return t.reg[r]+" "+(d>0?"+":"")+fmt(d)}).join(" · ");
+    li.push(t.ins.last(t.prod[p],fmtD(last.r[0]),parts));
+  });
+  PRODS.forEach(function(p){var m0=monthly(p,"Bac");if(m0[0].v==null||lm<2)return;var parts=REG.map(function(r){var m=monthly(p,r);var a=m[0].v,b=m[lm-1].v;return t.reg[r]+" "+(b>a?"+":"")+fmt(b-a)}).join(" · ");li.push(t.ins.chg(t.prod[p],parts,lm))});
+  REG.forEach(function(r){var v=last.r[IDX.heo[r]],g=gfNear(last.r[0],"heo",r);if(g){var pct=(v>g?"+":"")+Math.round((v-g)/g*100)+"%";li.push(t.ins.gap(t.reg[r],fmt(v),fmt(g),pct))}});
+  var nf=0;W.forEach(function(x){PRODS.forEach(function(p){REG.forEach(function(r){if(flagInfo(x.r[0],p,r))nf++})})});
+  if(nf)li.push('<span class="badge b-amber">'+t.verifyShort+"</span> "+t.ins.flags(nf));
+  $("insights").innerHTML=li.map(function(x){return "<li>"+x+"</li>"}).join("");
+}
+
+/* ===== QUÉT & NGUỒN ===== */
+function drawScanStatus(){
+  var t=L(),ls=D.meta.lastScan,ok=D.log&&D.log[0]&&!D.log[0].errors;
+  $("status").innerHTML='<span><span class="sdot '+(ls?(ok?"ok":"err"):"")+'"></span>'+t.lastAuto+" <b>"+fmtDT(ls)+"</b></span><span>"+t.latestTable+" <b>"+fmtD(W[W.length-1].r[0])+"/2026</b></span><span>"+t.latestGf+" <b>"+(G.length?fmtD(G[G.length-1][0]):"–")+"</b></span>"+((LOCAL.weekly||[]).length||(LOCAL.gf||[]).length?"<span>"+t.localRows+" <b>"+((LOCAL.weekly||[]).length+(LOCAL.gf||[]).length)+"</b></span>":"");
+  if(!LOGLINES.length&&D.log&&D.log[0]){LOGLINES=[t.log.serverLog+" "+fmtDT(D.log[0].at),D.log[0].summary].concat((D.log[0].detail||[]).filter(function(x){return x!==D.log[0].summary}).slice(0,30))}
+  $("log").innerHTML=LOGLINES.map(function(s){return "<div>"+esc(s)+"</div>"}).join("");
+  $("scanBadge").innerHTML=D.log&&D.log[0]&&D.log[0].newTables&&D.log[0].newTables.length?'<span class="badge b-ok">+'+D.log[0].newTables.length+"</span>":"";
+}
+function drawSources(){
+  var t=L();
+  var fixed=[{n:"Chăn nuôi Việt Nam – file Excel giá tại trại cả nước",u:"https://channuoivietnam.com/portal-file/31cfb8bf-e284-494d-9354-41645b966d35",k:t.srcMain,c:"b-ok"},{n:"Tạp chí Chăn nuôi VN – bảng giá tại trại",u:"https://nguoichannuoi.vn/thi-truong/gia-ca/",k:t.srcBackup,c:"b-grey"},{n:"GreenFeed – bảng giá thị trường",u:"https://www.greenfeed.com.vn/thuc-an-chan-nuoi-gia-suc-gia-cam/bang-gia-thi-truong/",k:t.srcCmp,c:"b-blue"},{n:"Google News – \"giá heo hơi\" / \"giá bò hơi\"",u:"https://news.google.com/search?q=%22gi%C3%A1%20heo%20h%C6%A1i%22&hl=vi&gl=VN&ceid=VN%3Avi",k:t.srcNews,c:"b-grey"}];
+  var core=window.GSGS_CORE,kind=function(u){return core?t.srcKinds[core.classify(u)]:""};
+  var h=fixed.map(function(s){return '<div class="s"><span class="badge '+s.c+'">'+s.k+'</span><a href="'+s.u+'" target="_blank" rel="noopener">'+esc(s.n)+"</a></div>"}).join("");
+  h+=FIXEDSRC.map(function(s){return '<div class="s"><span class="badge b-grey">'+t.srcFixed+'</span><span class="badge b-grey">'+kind(s.url)+'</span><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name||s.url)+"</a></div>"}).join("");
+  h+=LOCALSRC.map(function(s,i){return '<div class="s"><span class="badge b-amber">'+t.srcLocal+'</span><span class="badge b-grey">'+kind(s.url)+'</span><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name||s.url)+'</a><button type="button" class="xbtn" data-i="'+i+'" aria-label="Xoá">✕</button></div>'}).join("");
+  $("srcs").innerHTML=h;
+  $("srcs").querySelectorAll(".xbtn").forEach(function(b){b.onclick=function(){LOCALSRC.splice(+b.dataset.i,1);store.set("gsgs26_src",LOCALSRC);LOCAL.mentions=(LOCAL.mentions||[]).filter(function(m){return LOCALSRC.some(function(s){return s.url===m.url})});store.set("gsgs26_local",LOCAL);drawSources();drawNews()}});
+}
+function logLine(s){LOGLINES.unshift(new Date().toLocaleTimeString(L().locale)+"  "+s);LOGLINES=LOGLINES.slice(0,80);$("log").innerHTML=LOGLINES.map(function(x){return "<div>"+esc(x)+"</div>"}).join("")}
+function setProg(p){$("prog").style.width=Math.round(p*100)+"%"}
+function fetchText(url){
+  var tries=[url].concat(PROXIES.map(function(p){return p+encodeURIComponent(url)}));
+  var i=0;
+  function next(){
+    if(i>=tries.length)return Promise.reject(new Error("all failed"));
+    var u=tries[i++],ctl=window.AbortController?new AbortController():null,tm=setTimeout(function(){if(ctl)ctl.abort()},20000);
+    return fetch(u,ctl?{signal:ctl.signal}:{}).then(function(r){clearTimeout(tm);if(!r.ok)throw new Error(r.status);return r.text()}).then(function(tx){if(!tx||tx.length<200)throw new Error("empty");return tx}).catch(function(){return next()});
+  }
+  return next();
+}
+function saveLocal(){LOCAL.at=new Date().toISOString();store.set("gsgs26_local",LOCAL)}
+function scanNow(extraOnly){
+  var core=window.GSGS_CORE,t=L();if(!core){logLine("scanner-core.js ✕");return Promise.resolve()}
+  var btn=$("scanNow");btn.disabled=true;$("addBtn").disabled=true;logLine(t.log.start);setProg(.05);
+  var have={};W.forEach(function(x){have[x.r[0]]=1});var gfHave={};G.forEach(function(g){gfHave[g[0]]=1});var found=0;
+  var p=Promise.resolve();
+  if(!extraOnly){
+    p=p.then(function(){logLine(t.log.ncn);return fetchText(core.NCN_LIST_PAGES(1)[0]).then(function(h){return core.parseNcnListing(h)}).catch(function(){logLine(t.log.fail("nguoichannuoi.vn"));return []})})
+    .then(function(posts){setProg(.3);var todo=posts.filter(function(x){return !have[x.date]&&x.date>="2026-01-01"});if(!todo.length)logLine(t.log.none);
+      return todo.reduce(function(q,x){return q.then(function(){return fetchText(x.url).then(function(h){var rec=core.parseNcnTable(h,x.url);if(rec&&[rec.heo.Bac,rec.heo.Trung,rec.heo.Nam].every(core.okPrice)){LOCAL.weekly=(LOCAL.weekly||[]).filter(function(r){return r[0]!==rec.date});LOCAL.weekly.push([rec.date,rec.heo.Bac,rec.heo.Trung,rec.heo.Nam]);found++;logLine(t.log.ncnNew(fmtD(rec.date)))}}).catch(function(){logLine(t.log.fail(x.url))})})},Promise.resolve())})
+    .then(function(){setProg(.55);logLine(t.log.gf);return fetchText(core.GF_URL()).then(function(h){
+      var dates=core.parseGfDates(h).filter(function(d){return !gfHave[d]&&d>="2026-01-01"}).slice(-6);
+      var first=core.parseGfTable(h,core.GF_URL());var n=0;
+      if(first&&first.date&&!gfHave[first.date]){addGf(first);n++;dates=dates.filter(function(d){return d!==first.date})}
+      return dates.reduce(function(q,d){return q.then(function(){return fetchText(core.GF_URL(d)).then(function(h2){var r=core.parseGfTable(h2,core.GF_URL(d));if(r){r.date=d;addGf(r);n++}}).catch(function(){})})},Promise.resolve()).then(function(){if(n){found+=n;logLine(t.log.gfNew(n))}});
+    }).catch(function(){logLine(t.log.fail("greenfeed.com.vn"))})});
+  }
+  p=p.then(function(){
+    var list=LOCALSRC.slice();if(!list.length)return;logLine(t.log.extra(list.length));
+    return list.reduce(function(q,s,i){return q.then(function(){setProg(.6+.35*i/list.length);var k=core.classify(s.url);
+      return fetchText(s.url).then(function(h){
+        if(k==="ncn-table"){var rec=core.parseNcnTable(h,s.url);if(rec&&!have[rec.date]&&[rec.heo.Bac,rec.heo.Trung,rec.heo.Nam].every(core.okPrice)){LOCAL.weekly=(LOCAL.weekly||[]).filter(function(r){return r[0]!==rec.date});LOCAL.weekly.push([rec.date,rec.heo.Bac,rec.heo.Trung,rec.heo.Nam]);found++;logLine(t.log.ncnNew(fmtD(rec.date)))}}
+        else if(k==="ncn-list"){/* danh mục: chỉ ghi nhận, quét bảng ở lượt chính */}
+        else if(k==="gf-table"){var r=core.parseGfTable(h,s.url);if(r&&!gfHave[r.date]){addGf(r);found++}}
+        else if(k==="rss"){var it=core.parseRss(h).filter(function(n){return /heo|lợn|bò|trâu|gia súc/i.test(n.title)}).map(function(n){n.source=n.source||s.name;return n});LOCAL.news=it.concat((LOCAL.news||[]).filter(function(n){return !it.some(function(m){return m.title===n.title})})).slice(0,40);logLine((s.name||s.url)+": "+it.length+" tin")}
+        else{var m=core.extractMentions(h,s.url,8);m.name=s.name||m.title;m.local=true;LOCAL.mentions=[m].concat((LOCAL.mentions||[]).filter(function(x){return x.url!==s.url}));logLine((s.name||m.title||s.url)+": "+m.mentions.length+(lang==="vi"?" câu có giá":" price quote(s)"))}
+      }).catch(function(){logLine(t.log.fail(s.url))})})},Promise.resolve());
+  });
+  return p.then(function(){saveLocal();setProg(1);logLine(t.log.done(found));btn.disabled=false;$("addBtn").disabled=false;rebuild();drawAll();setTimeout(function(){setProg(0)},1500)});
+}
+function addGf(r){var h=r.heo||{},q=r.heogf||{};LOCAL.gf=(LOCAL.gf||[]).filter(function(x){return x[0]!==r.date});LOCAL.gf.push([r.date,h.Bac||null,h.Trung||null,h.Nam||null,h.TNB||null,q.Bac||null,q.Trung||null,q.Nam||null,q.TNB||null])}
+
+/* ===== CSV ===== */
+function csv(){
+  var t=L(),lines=[t.csvHead];
+  PRODS.forEach(function(p){REG.forEach(function(r){monthly(p,r).forEach(function(x){if(x.v!=null)lines.push([x.m+"/2026",t.prod[p],t.reg[r],Math.round(x.v),x.n,x.min,x.max,x.flag?t.csvYes:""].join(","))})})});
+  lines.push("",t.csvHead2);W.forEach(function(x){var r=x.r;lines.push([r[0],r[1],r[2],r[3],t.origin[x.o],(D.meta.src||{})[r[0]]||ncnUrl(r[0])].join(","))});
+  lines.push("",t.csvHead3);G.forEach(function(r){lines.push(r.map(function(v){return v==null?"":v}).join(","))});
+  var blob=new Blob(["﻿"+lines.join("\n")],{type:"text/csv;charset=utf-8"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=t.csvFile;a.style.display="none";ROOT.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500);
+}
+
+/* ===== VẼ & ĐIỀU KHIỂN ===== */
+function drawAll(){drawKpis();drawChart();drawMatrix();drawLedger();drawRefs();drawNews();drawInsights();drawScanStatus();drawSources()}
+function bindSeg(id,cb){$(id).addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;[].forEach.call($(id).children,function(x){x.classList.toggle("on",x===b)});cb(b.dataset.v)})}
+bindSeg("segProd",function(v){prod=v;drawChart();$("readout").innerHTML='<span class="muted">'+L().hover+"</span>"});
+bindSeg("segGran",function(v){gran=v;drawChart()});
+$("lang").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;lang=b.dataset.v;store.setRaw("cgc_lang",lang);LOGLINES=[];applyStatic();drawAll()});
+$("theme").onclick=function(){theme=theme==="dark"?"light":"dark";store.setRaw("cgc_theme",theme);applyStatic();drawAll()};
+$("showRef").addEventListener("change",drawChart);
+$("csv").onclick=csv;
+$("scanNow").onclick=function(){scanNow(false)};
+$("reload").onclick=function(){loadData(true)};
+$("addBtn").onclick=function(){
+  var t=L(),lines=$("addSrc").value.split(/\n+/).map(function(s){return s.trim()}).filter(Boolean),n=0;
+  lines.forEach(function(l){var parts=l.split("|"),url=(parts.length>1?parts[1]:parts[0]).trim(),name=parts.length>1?parts[0].trim():"";
+    if(!/^https?:\/\/\S+$/i.test(url))return;if(LOCALSRC.some(function(s){return s.url===url})||FIXEDSRC.some(function(s){return s.url===url}))return;LOCALSRC.push({name:name,url:url});n++});
+  $("addMsg").textContent=n?t.added(n):t.noUrl;if(!n)return;store.set("gsgs26_src",LOCALSRC);$("addSrc").value="";drawSources();scanNow(true);
+};
+PRODS.forEach(function(p){var el=$("thr_"+p);if(thr[p])el.value=thr[p];el.addEventListener("change",function(){var v=Number(el.value);if(v>0)thr[p]=v;else delete thr[p];store.set("gsgs26_thr",thr);drawAll()})});
+
+function loadData(manual){
+  var bust="?t="+Date.now();
+  return Promise.all([
+    fetch(BASE+"data.json"+bust,{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}),
+    fetch(BASE+"sources.json"+bust,{cache:"no-store"}).then(function(r){return r.ok?r.json():{extra:[]}}).catch(function(){return {extra:[]}})
+  ]).then(function(res){
+    D=res[0];FIXEDSRC=(res[1].extra||[]);
+    // bỏ các dòng quét trên máy đã có trong dữ liệu chung
+    LOCAL.weekly=(LOCAL.weekly||[]).filter(function(r){return !D.weekly.some(function(x){return x[0]===r[0]})});
+    LOCAL.gf=(LOCAL.gf||[]).filter(function(r){return !(D.gf||[]).some(function(x){return x[0]===r[0]})});saveLocal();
+    if(manual){LOGLINES=[];}rebuild();drawAll();if(manual)logLine(L().log.reloaded);
+  }).catch(function(){if(!D){D=SNAPSHOT;rebuild();drawAll()}if(manual)logLine(L().log.reloadFail)});
+}
+D=SNAPSHOT;rebuild();applyStatic();drawAll();loadData(false);
+
+})();
+//]]>
+</script>
+<!-- ===== KẾT THÚC: THEO DÕI GIÁ GIA SÚC ===== -->
+
+<script>(function(){var r=document.getElementById("gsgs26");new MutationObserver(function(){document.documentElement.className=r.dataset.theme==="light"?"light":""}).observe(r,{attributes:true,attributeFilter:["data-theme"]})})();</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+{
+ "meta": {
+  "version": 1,
+  "updated": "2026-10-17T00:00:00Z",
+  "lastScan": null,
+  "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
+  "origin": {
+   "2026-10-13": "seed"
+  },
+  "src": {
+   "2026-10-13": "https://nguoichannuoi.vn/gia-san-pham-chan-nuoi-gia-tai-trai-ca-nuoc-ngay-13-10-2026/"
+  }
+ },
+ "weekly": [
+  [
+   "2026-10-13",
+   52300,
+   51500,
+   52400
+  ]
+ ],
+ "flags": [],
+ "gf": [
+  [
+   "2026-10-12",
+   53417,
+   51357,
+   53000,
+   52929,
+   54417,
+   52643,
+   54500,
+   53571
+  ]
+ ],
+ "gfProv": null,
+ "refs": [
+  {
+   "date": "2026-10-17",
+   "p": "heo",
+   "r": "Bac",
+   "min": 51000,
+   "max": 53000,
+   "src": {
+    "vi": "Báo Lào Cai",
+    "en": "Bao Lao Cai"
+   },
+   "url": "https://baolaocai.vn/gia-lon-hoi-hom-nay-1710-mien-bac-cao-nhat-53000-dongkg-post912142.html",
+   "note": {
+    "vi": "15 tỉnh miền Bắc",
+    "en": "15 northern provinces"
+   }
+  },
+  {
+   "date": "2026-10-17",
+   "p": "heo",
+   "r": "Trung",
+   "min": 50000,
+   "max": 53000,
+   "src": {
+    "vi": "Báo Lào Cai",
+    "en": "Bao Lao Cai"
+   },
+   "url": "https://baolaocai.vn/gia-lon-hoi-hom-nay-1710-mien-bac-cao-nhat-53000-dongkg-post912142.html",
+   "note": {
+    "vi": "Miền Trung – Tây Nguyên",
+    "en": "Central & Highlands"
+   }
+  },
+  {
+   "date": "2026-10-17",
+   "p": "heo",
+   "r": "Nam",
+   "min": 51000,
+   "max": 53000,
+   "src": {
+    "vi": "Báo Lào Cai",
+    "en": "Bao Lao Cai"
+   },
+   "url": "https://baolaocai.vn/gia-lon-hoi-hom-nay-1710-mien-bac-cao-nhat-53000-dongkg-post912142.html",
+   "note": {
+    "vi": "8 tỉnh/thành miền Nam",
+    "en": "8 southern provinces"
+   }
+  }
+ ],
+ "ta": [
+  {
+   "vi": "24/07/2026 · Thanh Hóa: bò hơi 80.000–95.000 đ/kg tùy giống, trọng lượng; bò BBB và bò lai chất lượng tốt 95.000–100.000 đ/kg trở lên.",
+   "en": "24/07/2026 · Thanh Hoa: live cattle 80,000–95,000 VND/kg depending on breed and weight; BBB and good crossbred cattle 95,000–100,000+ VND/kg.",
+   "src": {
+    "vi": "Báo Thanh Hóa",
+    "en": "Thanh Hoa newspaper"
+   },
+   "url": "https://baothanhhoa.vn/gia-bo-phuc-hoi-mo-ra-ky-vong-nbsp-cho-nguoi-chan-nuoi-295664.htm"
+  },
+  {
+   "vi": "10/03/2026 · Vĩnh Long: bò hơi 73.000–90.000 đ/kg (giai đoạn 12/2025–2/2026), tăng nhẹ so với 2025.",
+   "en": "10/03/2026 · Vinh Long: live cattle 73,000–90,000 VND/kg (Dec 2025–Feb 2026), slightly up on 2025.",
+   "src": {
+    "vi": "Báo Vĩnh Long",
+    "en": "Vinh Long newspaper"
+   },
+   "url": "https://baovinhlong.com.vn/kinh-te/thi-truong/202603/gia-bo-hoi-tang-nhe-bdd4361/"
+  }
+ ],
+ "news": [],
+ "mentions": [],
+ "log": []
+}
