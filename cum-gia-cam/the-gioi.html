@@ -134,7 +134,7 @@ textarea{width:100%;min-height:70px;background:var(--bg);color:var(--ink);border
   <div class="row">
     <span class="sub" data-i18n="refDate"></span><input type="date" id="refDate">
     <span class="sub" data-i18n="window"></span>
-    <select id="selWin"><option value="21">21</option><option value="30" selected>30</option><option value="60">60</option><option value="90">90</option></select>
+    <select id="selWin"><option value="21" selected>21</option><option value="30">30</option><option value="60">60</option><option value="90">90</option></select>
     <button id="btnScan" data-i18n="scan"></button>
     <label class="tbtn on"><input type="checkbox" id="autoScan" checked><span data-i18n="auto"></span></label>
     <a class="nav back" href="https://avian-influenza-situation.blogspot.com/" target="_top" data-i18n="back"></a>
@@ -431,8 +431,8 @@ function save(){try{localStorage.setItem(LS,JSON.stringify(records));}catch(e){}
 let records=load(),news=[];
 
 /* ================= NGÀY ================= */
-const DAY=86400000,HIST=90;let WINDOW=30;
-try{const w=+localStorage.getItem("cgcw_win");if([21,30,60,90].includes(w))WINDOW=w;}catch(e){}
+const DAY=86400000,HIST=90;let WINDOW=21;
+try{const w=+localStorage.getItem("cgcw_win_v2");if([21,30,60,90].includes(w))WINDOW=w;}catch(e){}
 const refInput=document.getElementById("refDate");refInput.value=new Date().toISOString().slice(0,10);
 const refDate=()=>new Date(refInput.value+"T23:59:59");
 const daysSince=d=>Math.floor((refDate()-new Date(d+"T00:00:00"))/DAY);
@@ -526,7 +526,7 @@ hostF.addEventListener("change",e=>{const h=e.target.dataset.h;if(!h)return;e.ta
 q.addEventListener("change",()=>{const v=q.value.trim();const a=CODES.find(x=>strip(cname(x))===strip(v))||findCountry(v);if(a){zoomTo(a);q.value="";}});
 document.querySelectorAll("header .tbtn input,.maptools > .tbtn input").forEach(i=>i.addEventListener("change",()=>i.parentElement.classList.toggle("on",i.checked)));
 ["optLabel","optPulse","optHist"].forEach(id=>document.getElementById(id).addEventListener("change",render));
-selWin.value=String(WINDOW);selWin.onchange=()=>{WINDOW=+selWin.value;try{localStorage.setItem("cgcw_win",WINDOW);}catch(e){}render();};
+selWin.value=String(WINDOW);selWin.onchange=()=>{WINDOW=+selWin.value;try{localStorage.setItem("cgcw_win_v2",WINDOW);}catch(e){}render();};
 btnFull.onclick=()=>{const b=document.getElementById("mapBox");document.fullscreenElement?document.exitFullscreen():b.requestFullscreen?.();setTimeout(()=>map.invalidateSize(),300);};
 document.addEventListener("fullscreenchange",()=>setTimeout(()=>map.invalidateSize(),200));
 btnPrint.onclick=()=>window.print();
