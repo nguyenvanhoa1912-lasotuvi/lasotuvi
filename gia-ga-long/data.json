@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-20T10:46:27.410Z",
-  "lastScan": "2026-10-20T10:46:27.410Z",
+  "updated": "2026-10-20T23:44:49.518Z",
+  "lastScan": "2026-10-20T23:44:49.518Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1215,8 +1215,8 @@
  ],
  "news": [
   {
-   "title": "Đón đọc Tạp chí Chăn nuôi Việt Nam số tháng 10 năm 2026 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaFB1d29GVEFaRTRRVFZ0SW80M1dETXBjUk0ybEtaUFIwM3dZUWoxYnlrcmZyTlZuYjJvdnJQMHRibWpUc0M1cGlFdVJDRHF5YnNlMy1sNEJUNGhyblhHYU9WQXlIT2lSbTR0Z3Z0alotVkZuOXUtblRhbTBFSHMyZnd4ZzhMZw?oc=5",
+   "title": "Thư mời đồng hành và tài trợ xuất bản sách \"Ứng dụng di truyền học trong sản xuất heo giống” của Tiến sĩ Kiều Minh Lực - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVkNLWHh0anpSajdnTF9FcmdzSTh5RW56OTJ5bXcwa01jQW91c0pBcWRReDkzN3VKMjl2SHIweWhPdHhMQm92TzRLeVY0amhwZmVjLXJUWUJFUy1yYUFJNU85bmVOdmVXTkVjZmdlNFNzWUZaTUFBeUE3bXh5WklmN1ZiNGJKalk2SmZSWkVsMF9uVUZhdmYzOE1Ma2F0VG1UN1lDeF9mTVhXcGRlM2R4Q2h5MWkwVlZvOFNXNkE4QjJaNjdDeV90Q00tZTlYLUF1ZlphZmwyVQ?oc=5",
    "date": "2026-10-19",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1287,22 +1287,10 @@
    "source": "Laodong.vn"
   },
   {
-   "title": "Những dấu hiệu bất thường trong hành vi của chó, mèo - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNF9yTGRBcTlTbUxYUG1QZUZndHhETnlDalU2OGVydndMalBtN2g3NXd5U2NVY2lyODJGMG8zVXk1dWNOQ2lrMUl1R0VTb3AtMjBEOUNuNi1yc1c2Y3hjLVR6TzgzcjVVQmxOVWN6bWNoZkNOcUE1Ml81SHFCRmlkQg?oc=5",
-   "date": "2026-10-13",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
    "title": "Trứng vịt muối đi Mỹ, ngành chăn nuôi đón dòng vốn đầu tư mới - Báo Dân trí",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQVJxSHVvVFhMRzc2WG9aWDE0RGxPb2NCQ0lJZENQeU5KS1ZlZS15czh0MHV3WkdWU0hyRF8xdHNiN05xWW5LWGVtcXB1Y285TmlWdGFMQkF1UDd3X013SW90WFdhbzF2dG9PMEplNzhqeU1JU0VJWDRaTGMzbnhwbm0xTlNWaEFkODlOMjFwRlA0LXRqX0lNbXUxb25Kb1dMR29FZVJfM2ZMVE1RSXE5VjlCaE91Zw?oc=5",
    "date": "2026-10-13",
    "source": "Báo Dân trí"
-  },
-  {
-   "title": "Rau gia vị đắt ngang thịt do mưa kéo dài - VnExpress",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQkhwU0NnQkk5X3hRbHdrcE52d1k4NG13bGxYNGRUSW1vUWJDNDFKTHpibnBXYnVxUi1yUzFMdFBSOUNZamg3M1hTeElzSWhXLTJFdXJLSXFjakRxeHc0UlZmc3R1Z2NVa3BTenAyS0luaEVPcVlEcjU4RFNrQVRaRA?oc=5",
-   "date": "2026-10-08",
-   "source": "VnExpress"
   },
   {
    "title": "Giá lợn hơi tiếp tục giảm mạnh - CafeF",
@@ -1365,6 +1353,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-20T23:44:49.518Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-20T10:46:27.410Z",
    "summary": "Bảng giá mới: 2026-10-20 · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
