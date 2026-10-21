@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-21T10:47:34.018Z",
-  "lastScan": "2026-10-21T10:47:34.018Z",
+  "updated": "2026-10-21T23:47:19.170Z",
+  "lastScan": "2026-10-21T23:47:19.170Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1221,10 +1221,22 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
+   "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
+   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
+   "date": "2026-10-21",
+   "source": "VTVgo"
+  },
+  {
    "title": "Trứng gà thả vườn giá gấp đôi gà công nghiệp vẫn hút khách - Báo Dân trí",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeS1taHI0eWMxNkZBblM5N3RMYWV6Tm1QdUhfLVhfMXJBZTlwazZhRTRKTUlVX2FCZUFWY2NIRmp3U2k1cHNCX19yeUxWVXlzUmd2OHRtSHpNcmsxTGtwQmxZRFlURGVHS0ZTQWk1X1BHcFMtQkdPLW5mU1hVcXd3WjctNzZBYnNWQXYzczZKcmxaSG1BZU44MXdTQkZ5MlVtM09NSzU2QXZ4Sk1uY1pnakRkZw?oc=5",
    "date": "2026-10-21",
    "source": "Báo Dân trí"
+  },
+  {
+   "title": "Gà Băng Qua Đường - FRVR",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1a19MYk5JbFNZMGdJVUNoTG13Mk8wUy1IRExoRHFQYlktUUxoQnFhZFRFbXg3VzBlQ3dlOVVlZGNYOVp3eU1OUmtpTWlQMlpiYWJjdw?oc=5",
+   "date": "2026-10-20",
+   "source": "FRVR"
   },
   {
    "title": "Thư mời đồng hành và tài trợ xuất bản sách \"Ứng dụng di truyền học trong sản xuất heo giống” của Tiến sĩ Kiều Minh Lực - Tạp chí Chăn nuôi Việt Nam",
@@ -1263,21 +1275,9 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
-   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
-   "date": "2026-10-15",
-   "source": "VTVgo"
-  },
-  {
-   "title": "Nông nghiệp Hòa Phát tăng 47% lượng heo xuất bán trong quý III/2026 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSTNmdldQTldJaDZGdHNlN1c1Q0VkVTZtdHktdDk1OEFCM2JlSXpxdUs0OVFnalZka2VmazU1dS10M01vVE5ybmY4ek1Xem1BNmlwbUdVSFN6QXM4dFFWNkF2SmY2ZWVoNi1FaFVJUHpfQUEzVjc0WkpET28tdEw2NTd1VkF4eFFBcC1oODJBVk9nRzVl?oc=5",
-   "date": "2026-10-15",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Thái Nguyên: Trang trại đổi địa danh, chủ sở hữu chỉ cần cấp đổi giấy chứng nhận - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcE11czlMSnUxTHdZa2V5WXpnM0ZUNUlOT213Y21OeGRHWUpUOHU2M1dvVWRjSlBZc1YyZ0JKRFVvS3Z0a0RDSmYtOEVTb0NtRmpkQ2Zrci1uSFNia3ItSmVWdmRaMi13dUFvbEZFZ2JyV3FXc21faEQ1am1GaVRFV1V5QjE2cVRSU2xlSzVBV2hvbXpjei16a2s0V0hpc3BybW1PZQ?oc=5",
-   "date": "2026-10-14",
+   "title": "Giá heo hơi ngày 16/10: Ba miền giảm giá, người nuôi chịu áp lực kép - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZy1VdUdzd2liQndpemhpSUZUeWF0dUVWZE5SbHNiUkxxOGVVZU5KUU5wVFN1c1JLb1gzd1ZLMFBhX2JSTXd2TGdneklKMGg2WlRvUmlTVV83Y0Y3bVktelVCQXFfSG9YbXlQV2hKTm9QOUhQWFUwWWt1NjhsTXhHYXFMUWt2UEROR2lNMnNhR2hlSW5I?oc=5",
+   "date": "2026-10-16",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
@@ -1287,10 +1287,16 @@
    "source": "Laodong.vn"
   },
   {
-   "title": "Trứng vịt muối đi Mỹ, ngành chăn nuôi đón dòng vốn đầu tư mới - Báo Dân trí",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQVJxSHVvVFhMRzc2WG9aWDE0RGxPb2NCQ0lJZENQeU5KS1ZlZS15czh0MHV3WkdWU0hyRF8xdHNiN05xWW5LWGVtcXB1Y285TmlWdGFMQkF1UDd3X013SW90WFdhbzF2dG9PMEplNzhqeU1JU0VJWDRaTGMzbnhwbm0xTlNWaEFkODlOMjFwRlA0LXRqX0lNbXUxb25Kb1dMR29FZVJfM2ZMVE1RSXE5VjlCaE91Zw?oc=5",
+   "title": "Trứng vịt muối đi Mỹ, ngành chăn nuôi đón dòng vốn đầu tư mới - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSkpmV2pTODc2MUVsWGR4OG9WVjMyd09QMlJHR1FKWjNWaUhLczk2YVJiOWNYQ2xEdzRVSHdnRXcyb0RTNVJTTGxDaXdIWktQdEdEOUxUcGExUUJraGNHc19iZHh0QmdyN3JuLS16dnVnMTlZWWtQNlBmNWhWQzFKdnQ1eklaa1lQaUY0?oc=5",
    "date": "2026-10-13",
-   "source": "Báo Dân trí"
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "'Đau tim' với nuôi heo, gà: Đừng chỉ đổ lỗi cho thịt nhập, chính chúng ta cũng đang tự hại mình - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVFhVWUM4Sk9RZGUtaHpQNEFkelY5NmE2U0RGMUdzNzBzLUNjcUtvWmRPeUlycDhRa2huNG5jelNFa3lHc2c0ZTBLVFgxWnhLN2VQWVpRQjd3bGFfem9SeDVIQVJlQ0JiZXUzQnZFcTc3MlYxZHRzM3JiRmdpd0FBLUlpM3FGdXdGc3A0VlNKT3h4WVMyYk9HenB2RHg3TW1tUEJjQ1MtXzZqYTd1UFIxVVJEdw?oc=5",
+   "date": "2026-10-11",
+   "source": "Vietnam.vn"
   }
  ],
  "mentions": [
@@ -1347,6 +1353,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-21T23:47:19.170Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-21T10:47:34.018Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
