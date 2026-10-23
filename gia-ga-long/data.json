@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-22T23:45:28.725Z",
-  "lastScan": "2026-10-22T23:45:28.725Z",
+  "updated": "2026-10-23T23:45:57.184Z",
+  "lastScan": "2026-10-23T23:45:57.184Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1215,6 +1215,12 @@
  ],
  "news": [
   {
+   "title": "Giá heo hơi ngày 23/10: Miền Trung chạm đáy 46.000 đồng/kg, miền Bắc giảm diện rộng - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSnJLeW45eW9PSV9DRXRfQ2Fia0Z1d19SY0dpUDlmdEMzQmVpUjFCQ1V0bEpHSXhYdWtQV0JaVzlRb0VIaEUzdV84LXU4ZnFfTVpIVWpSVXUyMGNHRHk5b3RXZjNyV0lCekdPRFV2U2tkZVhyZkJLRXR0aVFTX0VuR0FTcGpnNzI1ek9CTFpZeENzeTgyTEtXVFZ5NlBpbkluTERaUUtvaFg?oc=5",
+   "date": "2026-10-23",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Liên kết giá trị xanh vì một nền công nghiệp gà hạnh phúc - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS1V5VnFfVm5LYmVjamlxWGNuM3lkem1zci1vZ3pGVVVZbVVLcFpxQWNzdk9hd0tJTF9XcnNQN1JkQ3RJRGp6MHRock5fcnlhR0ZmNkk3bjdTTjBwck1TLVhDaEZIdUpKNGpXZkhvN0tRUTlwY1pCbnpkUUVjQWFlLU1TUXpfbE1o?oc=5",
    "date": "2026-10-22",
@@ -1272,18 +1278,6 @@
    "title": "Ông Đinh Công Toản được bầu làm Chủ tịch Hội Chăn nuôi Thú y Hải Phòng nhiệm kỳ I (2026-2031) - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcF9iWVRQcnNSalNiUlhSQmRkbnUyZkEtSjA5MXZES0p5aXlsUFJ3czktcXd3WDFBVjRMZjRyU2dMTllYTGlXWXBrS201bE50QmJ6Q1ZfMXFLUVd4WGhhWWhNSDI0b2R2V2ptUUtPZXVFT20ycG40TzVycmtaZk1nT1U0LXNvZWJhalh2RDBoZTF4Z0FNb0sxR09JOWpyQ0NEbmlIeGpnbG1ZdENjSF9pb0RaQms4QQ?oc=5",
    "date": "2026-10-18",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Giá lợn, gia cầm ở Đồng Tháp giảm sâu, người chăn nuôi gặp khó - Cổng thông tin đài tiếng nói Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeWswNFhsZnlTMlExWXNjdjBVX292cHo1cVhVWHppb0llajNxXzMyZkxLbUU4WE4xbWtMcEpmdTV1NVRZMWJ3THJfYWZ5enBfeUVjZFRsZ2ZfLURzRll2bUhVNVZVT1puTWNZb1BjVDM5YnRmT1pQR3QtcHJRS1RjbWduR0FEdENYM3hhMU1NaUFZU1BBeE01cg?oc=5",
-   "date": "2026-10-16",
-   "source": "Cổng thông tin đài tiếng nói Việt Nam"
-  },
-  {
-   "title": "Chẩn đoán hiện trường gia cầm: Phân biệt bệnh đường ruột và kỹ thuật mổ khám chuyên sâu - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc3R5S1liSXJfNjV3QWZ0ZzZKN00wUkNKelllekZyYWduRDliN0RwS3UycFFCa2JSWS01dUl3ZXBsdVZ6b1Y3OV9wWHlqSnNhNHNGMDVvWGpLc29ZR1R4eUJ4SEZJeGhZTGFrNHllOVZrdEFEVDBKdkhHZnNNQ2VLODJfMTV3RVhXdmI4OXhiSFNCaUZvMnY1MmxsVlQzdHYtWXNlUVJIR1pwbmF0RE9ETQ?oc=5",
-   "date": "2026-10-16",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
@@ -1359,6 +1353,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-23T23:45:57.184Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-22T23:45:28.725Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 15 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
