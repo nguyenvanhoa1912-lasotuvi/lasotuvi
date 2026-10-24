@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-23T23:58:04.252Z",
-  "lastScan": "2026-10-23T23:58:04.252Z",
+  "updated": "2026-10-24T23:54:21.516Z",
+  "lastScan": "2026-10-24T23:54:21.516Z",
   "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
   "origin": {
    "2026-10-13": "cnvn",
@@ -1230,10 +1230,64 @@
  ],
  "news": [
   {
-   "title": "Giá heo hơi hôm nay 23.10.2026: Thị trường chìm sâu - Thanh Niên",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOEdWQ29EZXJjanIwdEcwVFdlU2RPSEZQdWN0S2xXWFdHbzhVZHpHYkdnWHBtNDRQcVRJU0NiNFdDMHJ6UUdEZDJaMlkzaFZCVnZDbHhfX010TTFXZ3NhZGdiTFE2dU5rbFlRZ1dWN0t6Zl9aT1V6TGNWM3lQUGxYd2ZzdXRtaTdGbXBodmZQSEVyeURnV2Fn?oc=5",
-   "date": "2026-10-23",
-   "source": "Thanh Niên"
+   "title": "Giá heo hơi hôm nay 24.10.2026: Xuất hiện đáy mới - Báo Thanh Niên",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbEZtTWZ3d3Uzd2cxcEpDNmVJT3FyX2d1STI5Yk96OUMyeXl4eGhaaFRjMHhTaEdadl9wN1RPd0ZuUGVUSllYZUJya2QwRmJOU1dzNHlRX3hWU0VGcU9EcW1WREVucjlQOUM4bGFhMjZEXzNwQU41MTVRaXRQMUpEbzZyVzVoMmlFVHNrOHpkd01vRGZT?oc=5",
+   "date": "2026-10-24",
+   "source": "Báo Thanh Niên"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 24.10: Rớt giá mạnh, nhiều nơi giảm tới 2.000 đồng/kg - Laodong.vn",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ2wyQld0N0otTktmdlMxY1MwVEhnZk9oeUQ5X0lBM2psSFNOS1dxbEpkRjlGaWtkTWZBMVBoMzZMMmp0S09CUWtQOE9XaE55SVRIMDV5Q1J1Qk9oX25wLWlXN2ZJRkZ2Z2t3SWRQYkFwU0VhbTFDM1U1TjJnd0ItYlJMM09FNXAxbzNFTDd1a0Y2dEhub044TXByNUFaZVhubm9HRmk4UEFienB5Ny13?oc=5",
+   "date": "2026-10-24",
+   "source": "Laodong.vn"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 24/10/2026: Giá heo hơi tiếp tục giảm tại nhiều địa phương - Tạp chí Doanh nghiệp và Hội nhập",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeVF6N1RuZm1hN2dCXy1UT0ZtZ3BuMWI1Qmp6d1hlUlp1RHYycnhjTmRicm5qUWxpcXZndnBPRHY0U0IwRlJjbS1tWW1NeVY0R1ZZaEZ6TzY5cy0tcGZrWjlrMkdQSWpmNXk3NDk4X0lRU3JyZlprbUZDVTBwR3o0Z016NWlfTUEyVExFTm1mWVpOdXRmVFVkVm94WVNhQjdpVnZfcUdUY0xhemdjcEI3dDk1U0lfeDA0?oc=5",
+   "date": "2026-10-24",
+   "source": "Tạp chí Doanh nghiệp và Hội nhập"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 25/10: Giảm sâu, chạm đáy 45.000 đồng/kg - thuonghieucongluan.com.vn",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMzRrSVQxQmZEOWphaDR2NkRoWFBxVUZkbDVtSEUzOGpCU1VoQl9ZOGZVbzlmbU85RXpUWmhjMU9MR0JrbVZYNzM2emhCNGE1UmZPdGxGVVEtdjMyTjZEaDFGS3VNVGhia3VrRXF6ZjBteTh5Y3ZaYTdKa2h6RF9tcWlFSkFYam9LRkZkbndIQ1FlM3I3SnExT3lfNHREWmViVGV4VU9iY1M?oc=5",
+   "date": "2026-10-24",
+   "source": "thuonghieucongluan.com.vn"
+  },
+  {
+   "title": "Giá lợn hơi giảm sâu, người chăn nuôi lo ngại tái đàn - Báo Phú Thọ",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLWNPLXpqQlI5ejM5OUN3Ri1kajFvNVdRV2xGV1RkdVV4VnhUd25ZVnRyUnUxTTh4RXd2MWthVUVpWERVZWs3Sl9iRlFLVHh6U1lpaTNfd0o2ZzlZX0hwZHlkWGFOd2x0UE5RS2UxQ1ZqNEs2UVpMMFdLaENsMWNPVWxBSjJEVVFNd2g1Qw?oc=5",
+   "date": "2026-10-24",
+   "source": "Báo Phú Thọ"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 24/10: Xuất hiện mốc 45.000 đồng/kg - VietnamBiz",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUHY3cUc1aXJxN2lXTXlUTllCY2I0dllFclRUc1JWY3NXb0tndktyOEhudFA1ZVJnRXZGUzBoZkxiZFpIRzlXUk9zdlJVYW9uSEJ1MTl0TV9NQUstNXZzSGtfYnRvYjl5OXFKMzBadGVhVTFvRXRBRzdkRXNOVGNYRXVHZ0g3UVJWaHVmczF2Rkx0VlNTc3NUVzNOQQ?oc=5",
+   "date": "2026-10-24",
+   "source": "VietnamBiz"
+  },
+  {
+   "title": "Giá heo hơi chưa dứt đà giảm, có nơi còn 45.000 đồng/kg - Tạp chí Nông Thôn Việt",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDU4RmxjNzN5bEJnWjJqcXRhdjg5aDgwYWRJNXpnd2x3WkljWWlFcmxRbnM1TlN6Z1phdWhESnFDT29Ca1VYc1ppUTIyX1BJWkczbERCalpxaS03UWsxRnNZdWFUaEpOenQzXy1rQ3RNQVFsc2RMM2xraXBoQ0hnMGJlVGIyakNTQmc0Z29uWW4xMTA?oc=5",
+   "date": "2026-10-24",
+   "source": "Tạp chí Nông Thôn Việt"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 25.10.2026: Xuất hiện đáy mới - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGdDQ4Q0ttWnZlZkR2VG80ako5QzQzRm5OMXI0OXZuX3cwZDZLVDhoUEhFVE5BM2lFOVdHSTBpNExPVGlENDYwcGhCWUYwcC1uRjhyNGRkLWZPZlZuT1R1Q1dzSkhEUl9oSDJ4dk9Ta3A3MXBkSDN0cVVDbw?oc=5",
+   "date": "2026-10-24",
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 24/10: Sắc đỏ bao trùm trên diện rộng, lùi sâu về mốc 45.000 đồng/kg - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS3NJc2Q5UnNXNkxJcWRTZ2VUaVhEeGs1TmpJLU1qamYxMGFSZTRzOTZjbkNaVDk4d1NwcHJDeGVkSnFjdGczN3pqbExiOXlkdW1FQ2M2c0FqN3ZaV01oc0ZqOFlYWUx3ZWo3R3Bub3VKYWdhd1hock54RDdQWjdBSGFwdEZrZ2VkNXVMQmFXZUtBaW0tR3Q4TUYwSWdqenBPOUxhZlB2X2VTX0pDZVE?oc=5",
+   "date": "2026-10-24",
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 24/10/2026: Giảm mạnh, xuất hiện đáy mới - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSVJ5ZUF4VjVYOUZHdXlMUU1ycDFPZnN5Qmx4NTc1MFlDdlpjbGJWUFZJNTFfa19lQlFPZm1HeGppQTBGMjFVRDBUV19keEgtQ0UzSlNzWldzV3ozZmRqOXVReHhhTnl4ZjhFRWVkeVhGWkxIQUR3VXRENG1KRFlaV3cwR2VkSzFx?oc=5",
+   "date": "2026-10-24",
+   "source": "Vietnam.vn"
   },
   {
    "title": "Giá heo hơi hôm nay 23.10: Liên tục giảm giá, thấp nhất ở mức 46.000 đồng/kg - Laodong.vn",
@@ -1248,16 +1302,22 @@
    "source": "Tạp chí Doanh nghiệp và Hội nhập"
   },
   {
+   "title": "Giá heo hơi giảm về đáy gần 2 năm, kỳ vọng phục hồi dịp cuối năm - Tạp chí điện tử Thương Trường",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFdsaEppakM0QmxZOGxaSEQzaE1TaUVtQXhlcXRjXzUzZ3ZJbk5qZnJYZkhUUXU1eVNwdUhkUVNOMXNwb2JCM21tNnIzai1iZjlpcUxYRW1RZEtnYllYS3ltX3k4LWsyYlpfWUhhb1VqbFJIUFFpVXNRcG50VzVQM09seVFMTVZCRVZ4VFcxWUUwMWR0U24xTmlCd21wVXBGbDBPVFJuTnV6U0RT?oc=5",
+   "date": "2026-10-23",
+   "source": "Tạp chí điện tử Thương Trường"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 23.10.2026: Thị trường chìm sâu - Báo Thanh Niên",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOEdWQ29EZXJjanIwdEcwVFdlU2RPSEZQdWN0S2xXWFdHbzhVZHpHYkdnWHBtNDRQcVRJU0NiNFdDMHJ6UUdEZDJaMlkzaFZCVnZDbHhfX010TTFXZ3NhZGdiTFE2dU5rbFlRZ1dWN0t6Zl9aT1V6TGNWM3lQUGxYd2ZzdXRtaTdGbXBodmZQSEVyeURnV2Fn?oc=5",
+   "date": "2026-10-23",
+   "source": "Báo Thanh Niên"
+  },
+  {
    "title": "Giá heo hơi ngày 23/10: Miền Trung chạm đáy 46.000 đồng/kg, miền Bắc giảm diện rộng - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSnJLeW45eW9PSV9DRXRfQ2Fia0Z1d19SY0dpUDlmdEMzQmVpUjFCQ1V0bEpHSXhYdWtQV0JaVzlRb0VIaEUzdV84LXU4ZnFfTVpIVWpSVXUyMGNHRHk5b3RXZjNyV0lCekdPRFV2U2tkZVhyZkJLRXR0aVFTX0VuR0FTcGpnNzI1ek9CTFpZeENzeTgyTEtXVFZ5NlBpbkluTERaUUtvaFg?oc=5",
    "date": "2026-10-23",
    "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Giá lợn hơi hôm nay 24/10/2026: Thấp nhất 46.000 đồng/kg - Báo Lào Cai điện tử",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ0VxWEtvUHhCX05OS2ticTY5SldLODhWRkhDZmQzMjZSMWVJRklvaVU3cXN4NWZDRlJvVzhqaFRRb0RUNlBNTmRGRnFOU1ZBNURrdjNvQUlTUU5hNUpYcnNleTNGZmVqcHpOOUtEbzhPSkdfS29IV2tVQmxnU0k1bUtRZlFLLVk4Z0RKRXJqOFFndw?oc=5",
-   "date": "2026-10-23",
-   "source": "Báo Lào Cai điện tử"
   },
   {
    "title": "Giá heo hơi tại Quảng Ngãi giữ mức 48.000 đồng/kg - Truyền hình Quảng Ngãi",
@@ -1266,16 +1326,22 @@
    "source": "Truyền hình Quảng Ngãi"
   },
   {
-   "title": "Giá heo hơi hôm nay 24.10.2026: Theo dõi cung cầu sau đợt giảm - Báo Văn Hóa",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb1JTVE5YT1NsV2l2aTFVc0VyMjltUGFWSm82WE9oV1FhOUhWbkpZMVI3ajhGdFllMXR1MWl4ZTRySmU1MVJjQzZvWldtR3VvRVpWak5vbmhRMXNpME55NkJqN2lqWGZSQkdpWTduWVhHbXJHa0pJLURwTnltdWZBdzNMN3o4S0RYNGNYRi1FSHNIdy05eUtMWWJOMk4xTFlQdnc?oc=5",
+   "title": "Giá heo hơi hôm nay 23/10: Chạm đáy 46.000 đồng/kg, Đồng Nai giữ mức 52.000 đồng/kg - Tạp chí điện tử Thương Trường",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ2pzcVNHX1h2Zk82YnlqMTQtMDlVQUN2NUdNUG9FRmhuMVdkZk1SZzFSbzBZUXVReXVLQkNtUFcwaXNzSFVnOVV5djd5ZXlfYmMtb1RtUjBVbUNmUDRxU0hLbHhRTUkxY3RDelU4MGZUN0N0eTBDelVVQWJKNUVGbERCRTRQb0RRSEgzU3VNZWhocWJfLXNRVGNRNngzWnZnMW5RUUhycnNOZHRrazBVZUZRT1hzRU1oelVQakR3?oc=5",
    "date": "2026-10-23",
-   "source": "Báo Văn Hóa"
+   "source": "Tạp chí điện tử Thương Trường"
   },
   {
    "title": "Giá heo hơi hôm nay 24/10: Miền Bắc giảm mạnh, thấp nhất 46.000 đồng/kg - Thuonghieucongluan.com.vn",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONE9oMW91ZElVenJCaUtVVUF3LTlnTG5WNXRYS0pudVUxWnJsWEJVNkxVeTNPaUVBcmV4SkttOXp0dVphbGZubnMtXzJIVEhULWJpS0J0UjF4WTRibzNmUDJSNEFTc2kxa1N4WG02eldmS2QwQ3I4Uk1EbkV1Z2h3SkoxVXNDLW1wRU0tSnZ1V0RuYTIwUjZaX1dKMDlnQlRCTXBFbzNqQ1kzQzRJNk1ESmRxM3JyY3c?oc=5",
    "date": "2026-10-23",
    "source": "Thuonghieucongluan.com.vn"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 24.10.2026: Theo dõi cung cầu sau đợt giảm - Báo Văn Hóa",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb1JTVE5YT1NsV2l2aTFVc0VyMjltUGFWSm82WE9oV1FhOUhWbkpZMVI3ajhGdFllMXR1MWl4ZTRySmU1MVJjQzZvWldtR3VvRVpWak5vbmhRMXNpME55NkJqN2lqWGZSQkdpWTduWVhHbXJHa0pJLURwTnltdWZBdzNMN3o4S0RYNGNYRi1FSHNIdy05eUtMWWJOMk4xTFlQdnc?oc=5",
+   "date": "2026-10-23",
+   "source": "Báo Văn Hóa"
   },
   {
    "title": "Ngày 24/10: Giá heo hơi tiếp tục trượt giá ở cả 3 miền trên cả nước - Thời báo Tài chính Việt Nam",
@@ -1290,94 +1356,28 @@
    "source": "VTV.vn"
   },
   {
-   "title": "Giá heo hơi giảm về đáy gần 2 năm, kỳ vọng phục hồi dịp cuối năm - Tạp chí điện tử Thương Trường",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSkRYZHVfcUZVNWhHamw5RUVnRDVNbE1sQUhQNGpSbFhtV2FrMEE4WW5QTWpOanNHdjNSYjhSV2stVFR3RzdoMkU3eDJGSGFUOFRJd2xzdVFWZnRkOVlheFlWQ1hoVjc5eFhEc1VYcm4tWVJ6bkp4N2hMUXo3cTF5ZlREYngyRkVRMWsxbEZzNW5iOE1aR1A1TU5tMDNIYkFicUtFdURBVTNzZDBXT3c?oc=5",
+   "title": "Giá heo hơi hôm nay 24/10/2026: Giảm mạnh, xuất hiện đáy mới - Báo Công Thương",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZVNHNjQwd3hHMldFb0Fsb2psOTFnZ1h1amlPYkJJS2J3cnhpT19LREdnQ01LMm9rWGZTd19lMlZxQkxPZFZwaktuWFVhMHFQUU1PVXhaZVRrTGVLd0NHT3lXaVJWNVd4dGpKZ2Vla25vU0JMUkJzbmlTZkh3X3Zra0ROMVJNRWJwX3lNR2o3OU83c3UxNVFZWHk0V0I?oc=5",
+   "date": "2026-10-23",
+   "source": "Báo Công Thương"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 24/10: Miền Bắc giảm tại 13 địa phương - Tạp chí điện tử Thương Trường",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYmJvLUFrOXlwUVFyRWc2MUtncldJRnRRbVpkcV9GYURIOWZqaWMteE85Uk5yTXFYOFJuNWhlWGJZVjZmZHhaR2IxUmpNcGpKdmhxV1Fjb3pCY2c1YTR1c2pSRjRZUGctQnNqTEMwNUc3ZUdOaU9MbHFYbVpGVFdIWmNhM3BKQm9TUWRKZWRaMnJTWDlScHpNYUpkVEs5V1NRWXR3OA?oc=5",
    "date": "2026-10-23",
    "source": "Tạp chí điện tử Thương Trường"
   },
   {
-   "title": "Giá heo hơi hôm nay 23/10: Chạm đáy 46.000 đồng/kg, Đồng Nai giữ mức 52.000 đồng/kg - Tạp chí điện tử Thương Trường",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVpHaGIyR3FTQWtWUDJRWUQ2Y3ZqV2lLMXBIcERFQXlnMjd0NUF3NGoycVY1YldFN0RXZU5DcktzYTBpWVJVcjNkckJKNWZSM0FuX2ZrcWNlMXRVY3NOTXAyV2VQbVJBQWVvZHpuZnBhQTI3Ulg2TjBSS3dHYzdEMWJyazZfUC11Wm0zZkRBaHJzeW04RWJPdnpHTVFYcWJnLUJQbnNlZ1dPRnBLcjZLT05SRFR0Z1ZCS2JVQXlqOA?oc=5",
+   "title": "Giá heo hơi hôm nay 24/10/2026: Cao nhất ở mức 51.000 đồng/kg - Tạp chí Kinh tế chứng khoán Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUVNNemNFLUloM1hSN0Voc2Q4Xy1KaWphS0U1MndWYzlHZzFPcUJzWFRrQ3BJLUE4dUlXNDVGT045cC0yZldvYktYa2FIZW9YblF5ZUo5bndEaWE1WGZ1QUJpY3VDLW90U3NCQlBnTzFDeWZ4X05iMHV3X0g0NWQ0OW5aLU5yNkpLUWFqUQ?oc=5",
    "date": "2026-10-23",
-   "source": "Tạp chí điện tử Thương Trường"
+   "source": "Tạp chí Kinh tế chứng khoán Việt Nam"
   },
   {
    "title": "Giá heo hơi hôm nay 23/10/2026: Trượt dài đà giảm diện rộng - Vietnam.vn",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX0gtX0pINmw2Rm9FNmZiemUxdFE5RURDMjN3TGp6b20tZkd0NktwWXEzNnA5WHRQTEhFb2cwWENYZGIzWGk5WlRMcHE5aWFUdjBINlYyVXhlYWFYS2cwbHR2cjNYMFhOQTEzczVSNURmbWFyYjJHTGhuZTdfWENVbWRTcjQ5SHQy?oc=5",
    "date": "2026-10-23",
    "source": "Vietnam.vn"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 22.10: Liên tục rớt giá, nhiều nơi về dưới 50.000 đồng/kg - Laodong.vn",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ1F5bjhDRjBLWDAzOGJyWjQ3WVhpYTdhSkNGRW55LXdDQWNsdWptRDlodDdUdHQtTzdwREY0ZXNaaDFtUW0tb09qWG90S1MwRE9rR3VTdExON0hFcTZJVUU1UXpRd3dXb1Y0ODdVeG85OXVEZHBzdXVSNGZGbUswaUJ2Nk5adDUxaDk5S0tmWktvUDhHOXVCYlI4SE5DZUtsT0xFTnAtd0wtR3RlRENVMW5ONGc?oc=5",
-   "date": "2026-10-22",
-   "source": "Laodong.vn"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 22/10/2026: Giá heo hơi giảm trên cả ba miền - Tạp chí Doanh nghiệp và Hội nhập",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHc0RGFLenRsMy1zZlBEczcxOVRLcXZBT294Yl9rcURJYlMxU0VMWnhQUF9sODZmY3R1UEZNejJSVWNtbzgzMkhJUE9PdXBKMjE3S2J1S29tSS1LenkyR3hTNEc4TmhxaVUtMERxZ1g2NjJFRmRPeW1yaGdLOFZDdUNaTVh5WnVSX0pOcmFEZHBlemdldHFpTlBaSDJNTDdqZnZYMmdn?oc=5",
-   "date": "2026-10-22",
-   "source": "Tạp chí Doanh nghiệp và Hội nhập"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 22.10.2026: Tiếp tục thủng đáy - Thanh Niên",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmN5S2FPenJMWmRjUlZkUVlrRDdIWmk4dnlUSV9YVmItaGQ5U0NPZGwyUTF1ZWtKU1YyM2NZaF9GeEdWUnRkUUVlR3MwMkVrZXpHNUdjUzZBc2dUSVJRNUhKS2JiOEJZa0pEekZMOExMd01qWWQtMUhhZ1FJRVpXQ0xDbDNXMThxenZFM1BzUFlacDM4cEE?oc=5",
-   "date": "2026-10-22",
-   "source": "Thanh Niên"
-  },
-  {
-   "title": "Giá heo hơi ngày 22/10: Giảm sâu trên cả nước, chạm đáy 46.000 đồng/kg - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYXJJWXpqLXh2aGRiVFpUbC1BNmpsa2JFQmVUMlBvbDNDRllHVzB4eExoV092UnEwVkZ6S3hkQkVuTVVJVWVPVDczNEd0dUpCcnZkT003VlBBblhwbnpOa2h6SnRNa0VSYnNBMWx6cUJHczdTckVwR21KcXpsMFpKaE9MNTFOVDItNm9XT1k4QTlRSU5ldlY4?oc=5",
-   "date": "2026-10-22",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 23.10.2026: Miền Bắc chịu sức ép - Báo Văn Hóa",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHFhc0ZwRVVxb0tZakVOV09FSzlyUk94dUdSR2ZEYlNqNTg2SEFzcTcySEJRallOdlpSNmdBcmk3SEtvemlLdm43b3pmbWFENExWWXVoUlI2ajMyNDB6dVpURGVmSHVmRTFoMDgwMVZfbzU1aFVxcVFrWVQ5Nk9WTmNNZGpGVVI2U3RiaTFnWEpsWk1O?oc=5",
-   "date": "2026-10-22",
-   "source": "Báo Văn Hóa"
-  },
-  {
-   "title": "Ngày 23/10: Giá heo hơi rơi xuống mốc đáy kỷ lục mới - Thời báo Tài chính Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNckVOQ0NyUExnTEJBSTRha19wdGJwWjNDT1U4ckZhSUVmcVpuSWN1QTZhVm94NFRMM3FweGladGkzaml2a19kVDNaVnp2TDluMV9EbjRoRE5ucE1vMTNxcUtLQlpFTHlBRWxjNkpIQkh3Y09Janppa3pzSDltc2YxMEEtdl90SVUwNHJDZ2lDVVdUZ0F3RWdZUG9iUTNVQQ?oc=5",
-   "date": "2026-10-22",
-   "source": "Thời báo Tài chính Việt Nam"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 22/10: Nhiều địa phương xuống 47.000 đồng/kg - Tạp chí điện tử Thương Trường",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYkZJMlMtUnR3NVB4aDUxU0xaXzlhNWpYaFZOR3I4NkJtSzgyOUZDbW5FN1QzSUpIMTNkNnBmMXBncVctZE9sYm9lOUhkUUxySUdkUnQ5dFFRaVY0VGlTRVl3bE1GdEtQX2tmWHhkVXN4YThIWXd3VjhINVpxV1pBTURnN0lsQWloNUNDZWJ1eEE4ZnNQbThJbng0OUpaT3cyR25Yc2ZqMUs?oc=5",
-   "date": "2026-10-22",
-   "source": "Tạp chí điện tử Thương Trường"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 22/10/2026: Nối đà giảm, về sát mốc 45.000 đồng/kg - Báo Công Thương",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzNLSExGb1pFS3hEbkZ6M0ZSQkFVcS1KZmV4ZXUwX3gyd3JfWTY4RXp1V3lLZ21yS0JSdVEtNnU0dGpNQjdFTTd3RjBxRmJGdnRvcHlUQ01McTk2bjNlWjNCVXk4OVAtbjUyQUhQLWpvVG9TdHQ1ejVJUjdoQ2MydGRWbVFEM0lJSUdBaVVaZk1NSDF1aTRLWWp3WTVnMnNLRW1iMw?oc=5",
-   "date": "2026-10-22",
-   "source": "Báo Công Thương"
-  },
-  {
-   "title": "Giá heo hơi giảm khiến lãi ròng Dabaco 'bốc hơi' gần 42% - Vietstock",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGxrcUJPVHpFdW83eGlEeUltOTRYcnMzcGtSbTJCcjQwcEx3SDNwal9pLWpEV2t2MEtGM0ZPR3JodTBGQzBPYTlkRGZZR3BTWFYtNDRsSm9tYnBLeTFmdFN0akJxZzQ3WWpWVlhzMlpEXzdHVTh2OFBhQTZXN3ROcktSMF9OS0owZVlGaXlmWXFOUGRiUWVQQm9JbG5WLUU?oc=5",
-   "date": "2026-10-22",
-   "source": "Vietstock"
-  },
-  {
-   "title": "Dự báo giá heo hơi ngày 23/10: Đà rơi chưa dừng lại, thị trường sẽ tiếp tục đi xuống - VietnamBiz",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNek5LZmZiTGs4VmRCTUlTb3Q3SDg3U3AwNEwyTlUwbm9sTlNhaDE5TC13WEtGMUpuYlpvNG9rcklJaUR5b0Z2VlFoT2pnLXlfQ3pMSkwwTW9nVzJobE5rM0lBYmFjTmNnMXNudFUyaUgyc3B2UzdFYjlaUVhjamlUajNlYVlDSFBFQXpmem1Rb3ZGaHdtQi13dHRfOEF3VUQwbFZaTkliX0E3UlBnN0M5c2kyUng5OFJveTdlRWdSWWVrMG8?oc=5",
-   "date": "2026-10-22",
-   "source": "VietnamBiz"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 23/10: Nhiều địa phương giảm còn 46.000 đồng/kg - Hangthat.vn",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3p1d1Z1SjlnaHJ2NU1EWHMwNDZTLXlhTERWY2xTXzhMaTVWamlpaWYtZElKcThmOWpNQlBJcUY5OUc3SFcxLWZydHZXbXpPbmZOdUNheTRZS3hIQVcwSWlTdW8zUGZNTTRRc0hyNkJqcEJMbGIwQ3lGNE9xN0RHU0ZlbTg4VnRaMURVbE1NcUlUSGFaN2o1dF9SY19XYXBDc0h2cVBkVi1TazAzQjVDcHpob3VjNXFxZ1IyMUkwMA?oc=5",
-   "date": "2026-10-22",
-   "source": "Hangthat.vn"
-  },
-  {
-   "title": "Giá heo hơi ngày 22/10: Giá thu mua dao động từ 47.000-52.000 đồng/kg - VOH",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUVBaDZIckZQMlVIZjFBUXFVcnI4bUgxYVk5d0xtWm43WEVnQWtDZDNpMUluR08taWExTTZEVFI2aDBmVjgxbkNZYnhmZGdYQzRNelpReF9tbWxqY183UEhoNjBSQ2JhZnpOS0g5ZmJmeTAwRWx3eWN6djRnV0xMWHUzcWZveGxkaDU0TVZwYm0zVmdRMWhMNVlUeW56c284N0hGYy0xWHY5QQ?oc=5",
-   "date": "2026-10-22",
-   "source": "VOH"
   }
  ],
  "mentions": [
@@ -1417,14 +1417,14 @@
      "region": "Nam"
     },
     {
-     "text": "Giá lợn hơi hôm nay 21/10/2026: Thấp nhất 47.000 đồng/kg Thị trường 21/10/2026 05:27 Giá lợn hơi hôm nay 21/10/2026 trên cả nước dao động từ 47.000 - 52.000 đồng/kg.",
+     "text": "Giá lợn hơi hôm nay 22/10: Cả nước dao động 47.000 - 52.000 đồng/kg Thị trường 22/10/2026 05:45 Giá lợn hơi hôm nay 22/10/2026 trên cả nước dao động từ 47.000 - 52.000 đồng/kg.",
      "kind": "heo",
      "region": null
     },
     {
-     "text": "Giá lợn hơi hôm nay 20/10: Miền Bắc phổ biến 51.000 - 52.000 đồng/kg Thị trường 20/10/2026 05:43 Giá lợn hơi hôm nay 20/10/2026 trên cả nước dao động từ 50.000 - 53.000 đồng/kg.",
+     "text": "Giá lợn hơi hôm nay 21/10/2026: Thấp nhất 47.000 đồng/kg Thị trường 21/10/2026 05:27 Giá lợn hơi hôm nay 21/10/2026 trên cả nước dao động từ 47.000 - 52.000 đồng/kg.",
      "kind": "heo",
-     "region": "Bac"
+     "region": null
     }
    ],
    "name": "Báo Lào Cai – Giá lợn hơi hôm nay 17/10"
@@ -1444,6 +1444,21 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-24T23:54:21.516Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
+    "  GreenFeed 2026-10-15: 34 tỉnh/thành",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-23T23:58:04.252Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
