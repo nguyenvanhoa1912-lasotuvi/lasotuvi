@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-23T23:45:57.184Z",
-  "lastScan": "2026-10-23T23:45:57.184Z",
+  "updated": "2026-10-24T23:41:12.639Z",
+  "lastScan": "2026-10-24T23:41:12.639Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1215,8 +1215,32 @@
  ],
  "news": [
   {
+   "title": "Vinh danh các nhà đồng tài trợ AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWX2lNcmtRWW9xMlRFZnFzZGFaYUZjVnNjOUs3OTBORnRsc0dKVEIwWHgtNlBrMjRza0NWaVd5TjcyOEFNWElvRUdGaDNKVHp6QldkWUVsMlZKT3p4eS1uZC04Q3dMOFd0eUkwVXB0NV9Jdw?oc=5",
+   "date": "2026-10-23",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Hội Chăn nuôi Thỏ Việt Nam được công nhận kết quả Đại hội IV, nhiệm kỳ 2026-2031 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZVdLYVdOOGhSRFhiS2R0V0VrZmFiNFllU3F1elBNVGk2aHU0Uk5YdlZGY0N5UG0xcTRLX3JZSms3SHBkUEg1dVpIa3V5SDRuNV9pRDNDYUtOeGc0R3FiUkM2VVhrWlB4ZzlnUFFzb1MwWFlJRHJ0ZXQzR0x2UWNPMHA5bXZPNHFrSk9GVHA1Nk9ZT0VsN2Z5V2VYRUpabmh2ak9CcVVn?oc=5",
+   "date": "2026-10-23",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Giá heo hơi ngày 23/10: Miền Trung chạm đáy 46.000 đồng/kg, miền Bắc giảm diện rộng - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSnJLeW45eW9PSV9DRXRfQ2Fia0Z1d19SY0dpUDlmdEMzQmVpUjFCQ1V0bEpHSXhYdWtQV0JaVzlRb0VIaEUzdV84LXU4ZnFfTVpIVWpSVXUyMGNHRHk5b3RXZjNyV0lCekdPRFV2U2tkZVhyZkJLRXR0aVFTX0VuR0FTcGpnNzI1ek9CTFpZeENzeTgyTEtXVFZ5NlBpbkluTERaUUtvaFg?oc=5",
+   "date": "2026-10-23",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "AAAP 2026 | Hội thảo Kemin cập nhật giải pháp nâng cao sức khỏe và dinh dưỡng vật nuôi - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd0c4VFF3ekNGdHVnNFJCelhEY2h2ajQ2elBtY2tvNEJNc0FmWkp1YjNzVXhESkxCY21ZLUxCZ2l2UHlFSk5hSUtzcmlXaldJOU5XOXdMZGpOaFhBcVZxVFhsTU5lWTI4dkJOdExXRnNpcGhORUpUYWJ0bEhGZGxUT2pqUTNRSUg5dFhReDdOekpSZkxlZHlPNkhkVmdEeEx3ZVpvTXlaLTVNSzVS?oc=5",
+   "date": "2026-10-23",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Vinh danh Nhà tài trợ Kim cương Tập đoàn TH tại AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQajZCS2tuMkY5ZzhmbkxsWjZRcXdzanRfX0pSNzJkUUdjU3hqaXZQeTU5RmVLa0xrT2tib19qcTdRczlqVkhpQUZSbXlHZ0NoVGNxdXZWbk4teWZDMUliRWlWZFgtM1hDZlJNRzdDOExYUXhMa1Bubmx5NHM0MU9PVnJ3MV9DMGhY?oc=5",
    "date": "2026-10-23",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1251,16 +1275,22 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
+   "title": "Vinh danh các nhà tài trợ Đồng AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SNF9ZQXdwX3hFSk12cTBXd1NDWDBGZEdXOHF2cnpYQ2tQaWhVLTc0Rk5BY3QydjVjRW52ajNfOHpBd3VxOGtFZl9DMVQwTEg4TzJRZU9ZUDB2WWtIT3pSOU5yOHE0RThGTU5mUzdIUlBTdw?oc=5",
+   "date": "2026-10-21",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "AAAP 2026 nóng lên từng ngày, sẵn sàng đón hơn 1.400 đại biểu quốc tế - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnh2QllBaFNJTlN3My0wWVBHOTZvWFNqMXFDa2Q5QmJnWHVjQTY1NjI0TzZMQTFvVzZXU1E2M3ZiTWs1NEdMV1hlaWFNdDlDTU03X0dpa2NKR3RvdnVtc2pmZkRPWElwTG9XNFA1dVZuYW9HMHM2SXgwWVEtNGlpbnJfcml0SmVQVkFpZ1NGT3RLQjJ3aGZZ?oc=5",
+   "date": "2026-10-21",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Trứng gà thả vườn giá gấp đôi gà công nghiệp vẫn hút khách - Báo Dân trí",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeS1taHI0eWMxNkZBblM5N3RMYWV6Tm1QdUhfLVhfMXJBZTlwazZhRTRKTUlVX2FCZUFWY2NIRmp3U2k1cHNCX19yeUxWVXlzUmd2OHRtSHpNcmsxTGtwQmxZRFlURGVHS0ZTQWk1X1BHcFMtQkdPLW5mU1hVcXd3WjctNzZBYnNWQXYzczZKcmxaSG1BZU44MXdTQkZ5MlVtM09NSzU2QXZ4Sk1uY1pnakRkZw?oc=5",
    "date": "2026-10-21",
    "source": "Báo Dân trí"
-  },
-  {
-   "title": "Tân Tân Nguyên: Khánh thành nhà máy sản xuất thiết bị phục vụ ngành thức ăn chăn nuôi và thủy sản tại Việt Nam - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYW1mVkVtei1ELTk2VzBCcER1ZWVRcWpFLXFVT0ZwcmdPYWZocUlLUExoWUFQcTRMRkp3SnQ3TUdzMFpzWGNmajdTOW1VRVhSS1lZeU1pRHljSGxiSzJfXzducDFTVF82LWhlcEVTNU5IQ0NUQXk5c2R6dWxkOXNtdWRtTG9BLUstQVdvMHhuZ2d6bXVBb0VtNWNUSm1kZ1puM0N0SjJ1ZjIzUks0aGlhNGZJcXlsLUh1RTNHUktjX0p5NVVMMzl0UG5RTFJDZw?oc=5",
-   "date": "2026-10-20",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
    "title": "Thư mời đồng hành và tài trợ xuất bản sách \"Ứng dụng di truyền học trong sản xuất heo giống” của Tiến sĩ Kiều Minh Lực - Tạp chí Chăn nuôi Việt Nam",
@@ -1271,6 +1301,12 @@
   {
    "title": "Hà Nội: Tiêm vaccine Dịch tả lợn châu Phi AVAC ASF LIVE giúp người chăn nuôi giữ nghề nuôi lợn - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSzNvX0tFdVV6UVJPdktUbUp1cXo1dkdLMU14UDlGOWpMRFlZMV9kQTA0MHRWVlk0VTNuR3BOeHY3QjVEcFAzTWNMbkhSOV91Y1lXUXpqOFdtRGNSMEJ0VmdWU1FGTlZkblFnVTFJQ0RKWlpzenhXdDFyWnpYNDNfLVlJcDFsQ01CN0Z0bnN2dTRWZWdpNVY2NUhJRjByOVBGdWhwYzBHRFRaWHVJY0xPdXJ3Mk5MeWw1?oc=5",
+   "date": "2026-10-18",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Hội nghị AAAP 2026: Sắp khép lại cơ hội đăng ký trưng bày tại Không gian khoa học, công nghệ chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQlZtLXljRE42aTBLbktNNzA0TjlvT2lwR24wM0JqM09pUGlsT1RHWVRkRDRleVJBSV90RlZxZkJtYnJFdmhuSW9XRWxPY2RpUEVaWWdXc19lcTVKdmluNTdLdXliR1Z5am5HdDJ4SnRtM1JObUJXa0Nja3RZS3ItNWs2Z2l0SDM4TDdyYnRtejBRdkU3SlZqNE9RczdmZEhhUlNQcnJpMS1mQ1pqZUNUN0dzZjZpWm1Sc3RUcGdXTFp0QQ?oc=5",
    "date": "2026-10-18",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1353,6 +1389,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-24T23:41:12.639Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 20 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 20 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-23T23:45:57.184Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
