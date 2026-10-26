@@ -721,7 +721,8 @@ function loadData(manual){
     if(manual){LOGLINES=[];}rebuild();drawAll();if(manual)logLine(L().log.reloaded);
   }).catch(function(){if(!D){D=SNAPSHOT;rebuild();drawAll()}if(manual)logLine(L().log.reloadFail)});
 }
-D=SNAPSHOT;rebuild();applyStatic();drawAll();loadData(false);
+D=SNAPSHOT;rebuild();applyStatic();drawAll();loadData(false).then(function(){if(/CGCApp/.test(navigator.userAgent))scanNow(false)});
+if(/CGCApp/.test(navigator.userAgent))setInterval(function(){loadData(false).then(function(){scanNow(false)})},24*3600*1000);
 
 })();
 //]]>

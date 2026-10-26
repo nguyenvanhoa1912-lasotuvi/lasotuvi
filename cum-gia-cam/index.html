@@ -231,6 +231,7 @@ textarea{width:100%;min-height:70px;background:var(--bg);color:var(--ink);border
 /* =====================================================================
    NGÔN NGỮ / LANGUAGE
    ===================================================================== */
+const CGC_APP=/CGCApp/.test(navigator.userAgent);
 const I18N={
 vi:{title:"TÌNH HÌNH CÚM GIA CẦM – VIỆT NAM",subtitle:"34 tỉnh/thành (sau sắp xếp 2025) · Cảnh báo khi ổ dịch <b>chưa qua 21 ngày</b> kể từ ngày phát hiện",
  refDate:"Ngày tham chiếu",toLS:"🐖 Dịch bệnh gia súc",back:"← Về Blog",toWorld:"🌏 Bản đồ Thế giới",scan:"⟳ Quét tin báo",auto:"⏱ Tự quét 30′",light:"☀ Sáng",dark:"🌙 Tối",
@@ -597,6 +598,7 @@ const hostOf=u=>{try{return new URL(u).hostname.replace(/^www\./,"");}catch(e){r
 function itemDomain(it,link){const s=it.querySelector("source");const su=s?.getAttribute("url");if(su)return hostOf(su);
   const m=link.match(/[?&]url=([^&]+)/);if(m)return hostOf(decodeURIComponent(m[1]));const h=hostOf(link);return /news\.google|bing\.com/.test(h)?"":h;}
 async function pool(items,n,fn){let i=0;const w=Array.from({length:n},async()=>{while(i<items.length){const k=i++;await fn(items[k],k);}});await Promise.all(w);}
+if(CGC_APP){I18N.vi.auto="⏱ Tự quét 1 lần/ngày";I18N.en.auto="⏱ Auto-scan daily";}
 let lastScan=null,scanInfo={};
 function setScanStatus(){scanStatus.textContent=scanInfo.ok?t("scanDone",{t:lastScan.toLocaleTimeString(LOC()),ok:scanInfo.ok,n:scanInfo.n,k:news.length}):t("scanFail");}
 async function scan(){
@@ -619,7 +621,7 @@ async function scan(){
   srcStat.innerHTML=Object.entries(stat).map(([g,v])=>`<span class="badge b-grey">${g}: ${v.ok}/${v.n} · ${v.k}</span>`).join("");
   log(t("logDone",{ok,n:qs.length,k:news.length}));if(!ok)log(t("logHint"));btnScan.disabled=false;render();}
 btnScan.onclick=scan;
-let timer=null;const setAuto=()=>{clearInterval(timer);if(autoScan.checked)timer=setInterval(scan,30*60*1000);};autoScan.onchange=setAuto;
+let timer=null;const setAuto=()=>{clearInterval(timer);if(autoScan.checked)timer=setInterval(scan,(CGC_APP?24*60:30)*60*1000);};autoScan.onchange=setAuto;
 
 applyStatic();drawSrc();drawStrainF();drawIslands();scanStatus.textContent=t("notScanned");render();setAuto();scan();
 </script>

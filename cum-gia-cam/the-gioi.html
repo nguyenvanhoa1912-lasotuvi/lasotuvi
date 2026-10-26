@@ -235,6 +235,7 @@ textarea{width:100%;min-height:70px;background:var(--bg);color:var(--ink);border
 
 <script>
 /* ================= NGÔN NGỮ / LANGUAGE ================= */
+const CGC_APP=/CGCApp/.test(navigator.userAgent);
 const I18N={
 vi:{title:"TÌNH HÌNH CÚM GIA CẦM – THẾ GIỚI",subtitle:"Cảnh báo theo quốc gia/vùng lãnh thổ · Tô đỏ khi có ổ dịch/sự kiện trong cửa sổ theo dõi",
  refDate:"Ngày tham chiếu",toLS:"🐖 Dịch bệnh gia súc",back:"← Về Blog",window:"Cửa sổ (ngày)",scan:"⟳ Quét tin",auto:"⏱ Tự quét 30′",toVN:"🇻🇳 Bản đồ Việt Nam",light:"☀ Sáng",dark:"🌙 Tối",
@@ -600,6 +601,7 @@ function extract(raw){const tx=raw.toLowerCase().normalize("NFC");
 const hostOf=u=>{try{return new URL(u).hostname.replace(/^www\./,"");}catch(e){return "";}};
 function itemDomain(it,link){const s=it.querySelector("source");const su=s?.getAttribute("url");if(su)return hostOf(su);const m=link.match(/[?&]url=([^&]+)/);if(m)return hostOf(decodeURIComponent(m[1]));const h=hostOf(link);return /news\.google|bing\.com/.test(h)?"":h;}
 async function pool(items,n,fn){let i=0;await Promise.all(Array.from({length:n},async()=>{while(i<items.length){const k=i++;await fn(items[k]);}}));}
+if(CGC_APP){I18N.vi.auto="⏱ Tự quét 1 lần/ngày";I18N.en.auto="⏱ Auto-scan daily";}
 let lastScan=null,scanInfo={};
 function setScanStatus(){scanStatus.textContent=scanInfo.ok?t("scanDone",{t:lastScan.toLocaleTimeString(LOC()),ok:scanInfo.ok,n:scanInfo.n,k:news.length}):t("scanFail");}
 async function scan(){const qs=buildQueries();btnScan.disabled=true;log(t("logStart",{n:qs.length}));
@@ -616,7 +618,7 @@ async function scan(){const qs=buildQueries();btnScan.disabled=true;log(t("logSt
   news=found.sort((a,b)=>b.date.localeCompare(a.date));lastScan=new Date();scanInfo={ok,n:qs.length};setScanStatus();
   srcStat.innerHTML=Object.entries(stat).map(([g,v])=>`<span class="badge b-grey">${g}: ${v.ok}/${v.n} · ${v.k}</span>`).join("");
   log(t("logDone",{ok,n:qs.length,k:news.length}));if(!ok)log(t("logHint"));btnScan.disabled=false;render();}
-btnScan.onclick=scan;let timer=null;const setAuto=()=>{clearInterval(timer);if(autoScan.checked)timer=setInterval(scan,30*60*1000);};autoScan.onchange=setAuto;
+btnScan.onclick=scan;let timer=null;const setAuto=()=>{clearInterval(timer);if(autoScan.checked)timer=setInterval(scan,(CGC_APP?24*60:30)*60*1000);};autoScan.onchange=setAuto;
 
 applyStatic();drawTools();drawSrc();drawIslands();map.removeLayer(islLayer);scanStatus.textContent=t("notScanned");render();map.fitBounds(REG.world);setAuto();scan();
 </script>

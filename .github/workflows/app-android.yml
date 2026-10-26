@@ -1,0 +1,59 @@
+# Build app Android "Cúm & Giá Gia Cầm" trên máy chủ GitHub và đăng file APK lên mục Releases
+name: Build app Android
+
+on:
+  push:
+    branches: [main]
+    paths: ["app-android/**", ".github/workflows/app-android.yml"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      VERSION_CODE: ${{ github.run_number }}
+      VERSION_NAME: 1.0.${{ github.run_number }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.11.1"
+      - name: Nhận khóa ký từ Secrets (nếu có)
+        env:
+          KS_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          S_PASS: ${{ secrets.KS_PASS }}
+          S_ALIAS: ${{ secrets.KS_ALIAS }}
+          S_KEYPASS: ${{ secrets.KS_KEYPASS }}
+        run: |
+          if [ -n "$KS_B64" ] && [ -n "$S_PASS" ] && [ -n "$S_ALIAS" ] && [ -n "$S_KEYPASS" ]; then
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
+            { echo "KS_PATH=$RUNNER_TEMP/release.jks"; echo "KS_PASS=$S_PASS"; echo "KS_ALIAS=$S_ALIAS"; echo "KS_KEYPASS=$S_KEYPASS"; } >> "$GITHUB_ENV"
+            echo "::notice::Dùng khóa ký từ Secrets"
+          else
+            echo "::notice::Dùng khóa ký sideload trong repo"
+          fi
+      - name: Build APK
+        working-directory: app-android
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+          gradle assembleRelease --no-daemon --stacktrace
+          cp app/build/outputs/apk/release/app-release.apk "$RUNNER_TEMP/CumGiaCam.apk"
+          ls -la "$RUNNER_TEMP/CumGiaCam.apk"
+      - name: Đăng lên Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: app-v${{ env.VERSION_NAME }}
+          name: "Cúm & Giá Gia Cầm ${{ env.VERSION_NAME }}"
+          body: |
+            Bản cài đặt Android (APK). Tải file **CumGiaCam.apk** bên dưới về điện thoại và mở để cài.
+            Link cố định bản mới nhất: https://github.com/${{ github.repository }}/releases/latest/download/CumGiaCam.apk
+          files: ${{ runner.temp }}/CumGiaCam.apk
+          make_latest: true

@@ -1,0 +1,32 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'io.github.nguyenvanhoa1912.cumgiacam'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'io.github.nguyenvanhoa1912.cumgiacam'
+        minSdk 26
+        targetSdk 35
+        versionCode Integer.parseInt(System.getenv('VERSION_CODE') ?: '1')
+        versionName System.getenv('VERSION_NAME') ?: '1.0.0'
+    }
+    signingConfigs {
+        release {
+            // Khóa ký: ưu tiên biến môi trường (secrets), nếu không có dùng khóa cài đặt ngoài (sideload) trong repo
+            storeFile file(System.getenv('KS_PATH') ?: '../keystore/sideload.jks')
+            storePassword System.getenv('KS_PASS') ?: 'cumgiacam-sideload'
+            keyAlias System.getenv('KS_ALIAS') ?: 'cumgiacam'
+            keyPassword System.getenv('KS_KEYPASS') ?: 'cumgiacam-sideload'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
