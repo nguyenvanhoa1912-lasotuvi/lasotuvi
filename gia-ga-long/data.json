@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-26T23:48:20.076Z",
-  "lastScan": "2026-10-26T23:48:20.076Z",
+  "updated": "2026-10-27T10:51:17.838Z",
+  "lastScan": "2026-10-27T10:51:17.838Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1237,6 +1237,12 @@
  ],
  "news": [
   {
+   "title": "Ghé quán cơm bình dân, tài xế bức xúc vì nửa con gà giá 300.000 đồng - Báo Tiền Phong",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaF9iRkhpQktEcUk3S1VKVURXbTltbEI2OEJIRXpkbkRLOGFlbFhFam0yd2tQU2tFWUVDbU4tdTlOZC14MkZJUW1vVE9Sdk1ia1BmNnlzV3pucnlPN3gyXy1VSDU1UEwyTHBFbE9hSHNNVFBzTVlXcEtjcWdWanJIWU5XUl9lRXFpUEZZcmhHb3JIYnE0X0VBYmlTYVNDZmhKY0s2cy13?oc=5",
+   "date": "2026-10-27",
+   "source": "Báo Tiền Phong"
+  },
+  {
    "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
    "date": "2026-10-25",
@@ -1297,40 +1303,16 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Khai mạc Vietstock 2026: Kết nối ngành chăn nuôi hướng tới chuyển đổi xanh và nâng cao năng lực cạnh tranh - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWVdiQU1ieEpCS2lKaFFzdzRSVkZXdXdnOGZTVXRHZktlUGJHRlloWTd0a29yejRzYnM5S01NNl81T3VoU0FrTFRCSk9mZUdDNWtPR1BaXzFjNEo5eGhFbjNyaDlfcGtvNjlvREpYbHI5X3V1bnlkejQ3TGFkc2g3QkJvcG9xR0JKazZiekxTTGRLMDhFcnU3VjVHTm5SVVMwd09wcHRLdUlzc0o2bjhtX1lDM0o0bTFSb0RoVTgwZl9BYjZ3N1JiTg?oc=5",
-   "date": "2026-10-21",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
    "title": "Trứng gà thả vườn giá gấp đôi gà công nghiệp vẫn hút khách - Báo Dân trí",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeS1taHI0eWMxNkZBblM5N3RMYWV6Tm1QdUhfLVhfMXJBZTlwazZhRTRKTUlVX2FCZUFWY2NIRmp3U2k1cHNCX19yeUxWVXlzUmd2OHRtSHpNcmsxTGtwQmxZRFlURGVHS0ZTQWk1X1BHcFMtQkdPLW5mU1hVcXd3WjctNzZBYnNWQXYzczZKcmxaSG1BZU44MXdTQkZ5MlVtM09NSzU2QXZ4Sk1uY1pnakRkZw?oc=5",
    "date": "2026-10-21",
    "source": "Báo Dân trí"
   },
   {
-   "title": "58 thông báo SPS trong nửa đầu tháng 10, doanh nghiệp chăn nuôi cần lưu ý quy định mới - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQU95aFV1S1MxMFNoNTdFaUVuUElQUTB2TWFHN3JkVmc0ZDdnbG15Ml9SNEd0YjNSSjFZa1dpNUk1QV9CcWhYT3pZV3V2R0tiZzNDRGdYbUtzSjBHLVEzcmpkOHd5VEk2TS1UNm9pZ1pUbjFYY0pSUGcxZUZ3eHdzYU13TXpQdkVtbzlZRHh1WHJVaWNKbGNlWEtHZEUxSG55bzI3enI2OGtldmswMlE?oc=5",
-   "date": "2026-10-20",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Tân Tân Nguyên: Khánh thành nhà máy sản xuất thiết bị phục vụ ngành thức ăn chăn nuôi và thủy sản tại Việt Nam - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYW1mVkVtei1ELTk2VzBCcER1ZWVRcWpFLXFVT0ZwcmdPYWZocUlLUExoWUFQcTRMRkp3SnQ3TUdzMFpzWGNmajdTOW1VRVhSS1lZeU1pRHljSGxiSzJfXzducDFTVF82LWhlcEVTNU5IQ0NUQXk5c2R6dWxkOXNtdWRtTG9BLUstQVdvMHhuZ2d6bXVBb0VtNWNUSm1kZ1puM0N0SjJ1ZjIzUks0aGlhNGZJcXlsLUh1RTNHUktjX0p5NVVMMzl0UG5RTFJDZw?oc=5",
-   "date": "2026-10-20",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
    "title": "Trại gà khiến ruồi phát sinh dày đặc ở Quảng Trị cam kết khắc phục trước ngày 17.10 - Laodong.vn",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSnNaclA1TFY2UEJKVE5HVXNlaWktNXhiYjB5Uk9nTExsWk90Z0VSNkNSVng3bkxWWl9JVWRJak5VVVNvM3MtUVFtMExkUnNmaVBKaGhIZnRlT3B1d1BmZFdLd2pkNE9PRl85Z0RQMW5SVDUzYUo0MkF6RjVWLXQ4d1ZNRVM4djBuR0c1MVZ4NTlVMWE0dExvdEtUd1JOZ1M4aEs4ZlcxVkZDTXl6Q3EzOExqTEh2RlBPMFZfbzZveE5XZ3pxek5F?oc=5",
    "date": "2026-10-14",
    "source": "Laodong.vn"
-  },
-  {
-   "title": "Trứng vịt muối đi Mỹ, ngành chăn nuôi đón dòng vốn đầu tư mới - Báo Dân trí",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQVJxSHVvVFhMRzc2WG9aWDE0RGxPb2NCQ0lJZENQeU5KS1ZlZS15czh0MHV3WkdWU0hyRF8xdHNiN05xWW5LWGVtcXB1Y285TmlWdGFMQkF1UDd3X013SW90WFdhbzF2dG9PMEplNzhqeU1JU0VJWDRaTGMzbnhwbm0xTlNWaEFkODlOMjFwRlA0LXRqX0lNbXUxb25Kb1dMR29FZVJfM2ZMVE1RSXE5VjlCaE91Zw?oc=5",
-   "date": "2026-10-13",
-   "source": "Báo Dân trí"
   }
  ],
  "mentions": [
@@ -1381,12 +1363,31 @@
      "text": "So với cùng kỳ năm ngoái, giá gà thịt giảm từ 8-10 nghìn đồng/kg.",
      "kind": "khac",
      "region": null
+    },
+    {
+     "text": "Các trường bắt buộc được đánh dấu * Bài viết mới BAF đầu tư 1.250 tỷ đồng xây nhà máy chế biến thực phẩm tại Gia Lai Thêm sinh kế từ mô hình nuôi vịt trời Tăng cường công tác phòng, chống dịch bệnh động vật các tháng cuối năm Giá heo hơi hôm nay 27/10: Tiếp tục lao dốc, một số nơi xuống còn 44.000 đồng/kg Làm giàu nhờ nuôi gà Ai Cập ẤN PHẨM ĐÃ XUẤT BẢN Hỏi phương pháp nuôi lợn?",
+     "kind": "khac",
+     "region": null
     }
    ],
    "name": "Người Chăn Nuôi – Giá gà thịt giảm sâu (Thanh Hóa)"
   }
  ],
  "log": [
+  {
+   "at": "2026-10-27T10:51:17.838Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 8 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 55 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 8 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-26T23:48:20.076Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
