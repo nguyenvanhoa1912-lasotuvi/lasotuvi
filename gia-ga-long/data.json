@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-10-28T10:57:26.235Z",
-  "lastScan": "2026-10-28T10:57:26.235Z",
+  "updated": "2026-10-28T23:51:52.119Z",
+  "lastScan": "2026-10-28T23:51:52.119Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -45,7 +45,8 @@
    "2026-04-28": "cnvn",
    "2026-04-21": "cnvn",
    "2026-03-31": "cnvn",
-   "2026-10-20": "cnvn"
+   "2026-10-20": "cnvn",
+   "2026-10-27": "cnvn"
   },
   "src": {
    "2026-10-13": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=6142479c-d0aa-4900-a367-586e76d7eb1f&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.13.xlsx",
@@ -88,7 +89,8 @@
    "2026-01-20": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=3b0d7fd2-bf0f-433e-99fe-a161052300ac&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.01.20.xlsx",
    "2026-01-13": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=8c4a8b7f-f10a-4728-b12e-4e770a5e4c32&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.01.13.xlsx",
    "2026-01-06": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=076874c5-9b1e-4253-8f8e-2e46d99b61aa&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.01.06.xlsx",
-   "2026-10-20": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=30698472-2d1d-4f7a-abc1-9c0ccc153bcf&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.20.xlsx"
+   "2026-10-20": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=30698472-2d1d-4f7a-abc1-9c0ccc153bcf&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.20.xlsx",
+   "2026-10-27": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=2d37e6d2-6724-4de3-818a-5e3394b7f471&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.27.xlsx"
   }
  },
  "weekly": [
@@ -460,6 +462,15 @@
    37000,
    34000,
    32000
+  ],
+  [
+   "2026-10-27",
+   52000,
+   47200,
+   48000,
+   37000,
+   36000,
+   36000
   ]
  ],
  "flags": [
@@ -1237,16 +1248,22 @@
  ],
  "news": [
   {
+   "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
+   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
+   "date": "2026-10-28",
+   "source": "VTVgo"
+  },
+  {
+   "title": "Thực phẩm 24h ngày 28/10: Cá ngừ giảm 20%, đùi gà từ 40.000 đồng/vỉ - Báo Công Lý",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLXUzVkxmc08xUVpzZlJtN0E2QTlrejJieG5QRUl6bE9DV2I4dGdhd2FhVUNHem9TaVU5MFNVU1hWbk12OFNMbUVLbzk4YU5YdWtWa2QyV1lYMkpiR3BESXNmcXNsOC1jcDZlVUZsWm5iS3hTU3ZvcF9LZmtWZGN4NGl1c01ralNxX0VqdHY5R24zNTZvbThFNEs4RlBhQQ?oc=5",
+   "date": "2026-10-28",
+   "source": "Báo Công Lý"
+  },
+  {
    "title": "Ghé quán cơm bình dân, tài xế bức xúc vì nửa con gà giá 300.000 đồng - Tin tức 24h",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY1BzeVVBNGgtVXhWWTI4cXNyRmNSWGtUYVVYeDloN1NEVEI3cnZRTWhKWWpNWldGXzJpYUNfeWtNOTVGVHJjd19Rb3JtN2t1RVZIckdPVjdjVFlsaEVWeTlaRHNsYldLaTNMcHViZjNDNDBGVGRZNlBJZE1tcWFYNjNzRFVhTm1SN1RnZGtZdXQ2eTZLLU9NSnl3blFkOHRBN1VpUkFhdGpYbkdTY1dGVXpmTldveThxaldjckhuREEzZUk?oc=5",
    "date": "2026-10-27",
    "source": "Tin tức 24h"
-  },
-  {
-   "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
-   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
-   "date": "2026-10-25",
-   "source": "VTVgo"
   },
   {
    "title": "KoolTos: Bật vị bật mood - Tạp chí Chăn nuôi Việt Nam",
@@ -1267,14 +1284,20 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
+   "title": "Giá heo hơi ngày 23/10: Miền Trung chạm đáy 46.000 đồng/kg, miền Bắc giảm diện rộng - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSnJLeW45eW9PSV9DRXRfQ2Fia0Z1d19SY0dpUDlmdEMzQmVpUjFCQ1V0bEpHSXhYdWtQV0JaVzlRb0VIaEUzdV84LXU4ZnFfTVpIVWpSVXUyMGNHRHk5b3RXZjNyV0lCekdPRFV2U2tkZVhyZkJLRXR0aVFTX0VuR0FTcGpnNzI1ek9CTFpZeENzeTgyTEtXVFZ5NlBpbkluTERaUUtvaFg?oc=5",
+   "date": "2026-10-23",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "AAAP 2026 | Hội thảo Kemin cập nhật giải pháp nâng cao sức khỏe và dinh dưỡng vật nuôi - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd0c4VFF3ekNGdHVnNFJCelhEY2h2ajQ2elBtY2tvNEJNc0FmWkp1YjNzVXhESkxCY21ZLUxCZ2l2UHlFSk5hSUtzcmlXaldJOU5XOXdMZGpOaFhBcVZxVFhsTU5lWTI4dkJOdExXRnNpcGhORUpUYWJ0bEhGZGxUT2pqUTNRSUg5dFhReDdOekpSZkxlZHlPNkhkVmdEeEx3ZVpvTXlaLTVNSzVS?oc=5",
    "date": "2026-10-23",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Giá heo hơi ngày 23/10: Miền Trung chạm đáy 46.000 đồng/kg, miền Bắc giảm diện rộng - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSnJLeW45eW9PSV9DRXRfQ2Fia0Z1d19SY0dpUDlmdEMzQmVpUjFCQ1V0bEpHSXhYdWtQV0JaVzlRb0VIaEUzdV84LXU4ZnFfTVpIVWpSVXUyMGNHRHk5b3RXZjNyV0lCekdPRFV2U2tkZVhyZkJLRXR0aVFTX0VuR0FTcGpnNzI1ek9CTFpZeENzeTgyTEtXVFZ5NlBpbkluTERaUUtvaFg?oc=5",
+   "title": "Vinh danh Nhà tài trợ Kim cương Tập đoàn TH tại AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQajZCS2tuMkY5ZzhmbkxsWjZRcXdzanRfX0pSNzJkUUdjU3hqaXZQeTU5RmVLa0xrT2tib19qcTdRczlqVkhpQUZSbXlHZ0NoVGNxdXZWbk4teWZDMUliRWlWZFgtM1hDZlJNRzdDOExYUXhMa1Bubmx5NHM0MU9PVnJ3MV9DMGhY?oc=5",
    "date": "2026-10-23",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1291,10 +1314,16 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Trứng gà thả vườn giá gấp đôi gà công nghiệp vẫn hút khách - Báo Dân trí",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeS1taHI0eWMxNkZBblM5N3RMYWV6Tm1QdUhfLVhfMXJBZTlwazZhRTRKTUlVX2FCZUFWY2NIRmp3U2k1cHNCX19yeUxWVXlzUmd2OHRtSHpNcmsxTGtwQmxZRFlURGVHS0ZTQWk1X1BHcFMtQkdPLW5mU1hVcXd3WjctNzZBYnNWQXYzczZKcmxaSG1BZU44MXdTQkZ5MlVtM09NSzU2QXZ4Sk1uY1pnakRkZw?oc=5",
+   "title": "Trứng gà thả vườn giá gấp đôi gà công nghiệp vẫn hút khách - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZDlZZkNkLUZtZV9kM2pPVUZabmJMWXpobGhSRldSeFV4aUx3YmM4Mld5YTNCcjBSRW1sQjBkaU5kWkZySlFaMWE5R3IyNlJqWUlmcHhCeGd0WTdUYnZtRUx3bEo4WWFQMWNjODFqNlZYQVhTcWc3WUV1Q2EweUNueG9PYTVpTzlP?oc=5",
    "date": "2026-10-21",
-   "source": "Báo Dân trí"
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "Giá lợn, gia cầm ở Đồng Tháp giảm sâu, người chăn nuôi gặp khó - Cổng thông tin đài tiếng nói Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLV82T3lIalFBc0JvbGJpbXZad285cks0bUZ3SnlCSEZmdDJNamRNVkVEa1Nlelc0dGRPbzhpSFFPOG5hNElZaU91UktkZGFyRkxSaGdaSVlEbFg4akVqVGZqSFJlc1BTdkNGTnZDRjRLdU1yWDJXNGhxRzd3aXFJaG1SazJGeF9WSnA4RUNmbXlzdHZxajFsc0JuY3llbDUw?oc=5",
+   "date": "2026-10-16",
+   "source": "Cổng thông tin đài tiếng nói Việt Nam"
   }
  ],
  "mentions": [
@@ -1351,6 +1380,23 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-10-28T23:51:52.119Z",
+   "summary": "Bảng giá mới: 2026-10-27 · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [
+    "2026-10-27"
+   ],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 42 file Excel từ 2026-01-01, cần đọc 1",
+    "  + 2026-10-27: trắng 37000/36000/36000 · màu 52000/47200/48000",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 55 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: 2026-10-27 · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-10-28T10:57:26.235Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 10 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
