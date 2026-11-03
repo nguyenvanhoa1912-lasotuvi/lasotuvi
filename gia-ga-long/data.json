@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-03T03:57:33.545Z",
-  "lastScan": "2026-11-03T03:57:33.545Z",
+  "updated": "2026-11-03T11:05:56.174Z",
+  "lastScan": "2026-11-03T11:05:56.174Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1270,14 +1270,14 @@
  ],
  "news": [
   {
-   "title": "Giá cả đầu ngày: Trứng gà ác 40.000 đồng/chục, dừa khô tăng giá, lươn giảm sâu - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUdpOFpObXppcUE4SjFfZDhNRk9KRlFXRUZlNEYxZ2dUZFZ1QWRkcnVXdWFDSlhsYXl1WENOa2dBWmVhZlZ1NmZpbnE5aWYxZlRRckFJODVmS0QydUYwNUFkQ2gyaGYxQ0l2WXEwRjEzZjJza045SlhZREw1djFveXo3RE9xWU9XVC1LZkxkdG9nYzNSSlhBeEJrcnV1MW8?oc=5",
-   "date": "2026-11-01",
-   "source": "Vietnam.vn"
+   "title": "Vụ bữa ăn 640.000 đồng: Chủ quán bị phạt nặng vì bán món canh cải chênh 10 nghìn và không niêm yết giá gà - Techz.vn",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUnd4QzRVbkJxX21VT1VucVc5Y3RwRnlSa1B6YkJyeTJhNWhPbGIxdHJPQ0FSRDFpTUpaYV80emxpM1NKOVA5UzZEZHRpV2NRWUtwV1dGOS1aSnA1STdsYjdfdi05QVFvYUdlbEdsQzlnSEtaTF8tcUlsMTVXSDRsaDV4cTBDNW96VGdRcUFvOVBSZG5kNm5nZE8wUWRUdDBJT0tycUhVc2V6ZHFLMm1JLVR1Qko4UTl0RktKc0wwdllJUmtPS1M4czN3M283TF9FVXVkazRRek40MDVUei1jei1FYXI?oc=5",
+   "date": "2026-11-03",
+   "source": "Techz.vn"
   },
   {
-   "title": "Preços no início do dia: Ovos de galinha caipira a 40.000 VND/dúzia, coco seco com aumento de preço, preço da enguia com queda acentuada. - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ0dNTm5kY2ZJS1h3dFBsRGFJOE1FNXQ1ZHBxQnBOSXFnZHdKcEZsSlowVm5WSzktb3hPV2tUWFVYOUYydmduMnFOa29FV3lucG5kSUpPS1BtQ1IxRjhrLXBVb1RIR2ZoZ2NQT2NGcEU0blNJTXN4NEFyRVlicjM3Nzh6RXduaDZWRGRvc0RjTEtoMzMwRFNPeTgwbWI4VzhtNHdZ?oc=5",
+   "title": "Giá cả đầu ngày: Trứng gà ác 40.000 đồng/chục, dừa khô tăng giá, lươn giảm sâu - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUdpOFpObXppcUE4SjFfZDhNRk9KRlFXRUZlNEYxZ2dUZFZ1QWRkcnVXdWFDSlhsYXl1WENOa2dBWmVhZlZ1NmZpbnE5aWYxZlRRckFJODVmS0QydUYwNUFkQ2gyaGYxQ0l2WXEwRjEzZjJza045SlhZREw1djFveXo3RE9xWU9XVC1LZkxkdG9nYzNSSlhBeEJrcnV1MW8?oc=5",
    "date": "2026-11-01",
    "source": "Vietnam.vn"
   },
@@ -1328,18 +1328,6 @@
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLXUzVkxmc08xUVpzZlJtN0E2QTlrejJieG5QRUl6bE9DV2I4dGdhd2FhVUNHem9TaVU5MFNVU1hWbk12OFNMbUVLbzk4YU5YdWtWa2QyV1lYMkpiR3BESXNmcXNsOC1jcDZlVUZsWm5iS3hTU3ZvcF9LZmtWZGN4NGl1c01ralNxX0VqdHY5R24zNTZvbThFNEs4RlBhQQ?oc=5",
    "date": "2026-10-28",
    "source": "Báo Công Lý"
-  },
-  {
-   "title": "Ghé quán cơm bình dân, tài xế bức xúc vì nửa con gà giá 300.000 đồng - Tin tức 24h",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY1BzeVVBNGgtVXhWWTI4cXNyRmNSWGtUYVVYeDloN1NEVEI3cnZRTWhKWWpNWldGXzJpYUNfeWtNOTVGVHJjd19Rb3JtN2t1RVZIckdPVjdjVFlsaEVWeTlaRHNsYldLaTNMcHViZjNDNDBGVGRZNlBJZE1tcWFYNjNzRFVhTm1SN1RnZGtZdXQ2eTZLLU9NSnl3blFkOHRBN1VpUkFhdGpYbkdTY1dGVXpmTldveThxaldjckhuREEzZUk?oc=5",
-   "date": "2026-10-27",
-   "source": "Tin tức 24h"
-  },
-  {
-   "title": "Boehringer Ingelheim Việt Nam triển khai tập huấn giáo viên, nhân viên y tế lan tỏa kiến thức phòng chống bệnh dại đến 65.000 học sinh - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQm44VENGeG9UYWc3SlpuN1RDRHVqRnBFN0NTYWNIRnZDR0pKU0VPQ3RwZ1A0U0ZsLS16WjY1NkNkMGtjS0pfQzQxWi1BVHFhRHowT1JWTkdYVU96ZV9TMW13cVZsSy15aDdGelB1SXUzZlB6YktqSkMwZVk4NXl4ekY1OXE4eGpvMGhVb0hyckstWTVBVEVnVTc5ODdWdGpiWGt3R01yVWhzNmZ1Q1hZSVpQbzdRVUNfd21aNHloNTBfdGZybDVpZEVic0Yxclo5VFhTaWR5YkU2cE44WVpid3RmN3g0ZmNVcFppMEt3?oc=5",
-   "date": "2026-10-27",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
    "title": "Trứng gà thả vườn giá gấp đôi gà công nghiệp vẫn hút khách - Báo Dân trí",
@@ -1402,6 +1390,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-03T11:05:56.174Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 42 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-03T03:57:33.545Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
@@ -1829,25 +1831,6 @@
     "GreenFeed: 51 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-10-13T13:58:05.254Z",
-   "summary": "Bảng giá mới: 2026-10-06, 2026-09-08 · GreenFeed mới: 50 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [
-    "2026-10-06",
-    "2026-09-08"
-   ],
-   "gfNew": 50,
-   "errors": 0,
-   "detail": [
-    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
-    "  + 2026-10-06: trắng 33000/30000/30000 · màu 77800/47200/45700",
-    "  + 2026-09-08: trắng 30000/27000/27000 · màu 64800/44200/45700",
-    "GreenFeed: 51 ngày có bảng giá, cần đọc 51",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "  ⚠ GreenFeed 2026-02-03: bảng ghi ngày 2026-02-02",
-    "Bảng giá mới: 2026-10-06, 2026-09-08 · GreenFeed mới: 50 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
    ]
   }
  ]
