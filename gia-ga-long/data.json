@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-01T23:50:08.572Z",
-  "lastScan": "2026-11-01T23:50:08.572Z",
+  "updated": "2026-11-03T03:57:33.545Z",
+  "lastScan": "2026-11-03T03:57:33.545Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1117,6 +1117,28 @@
    33250,
    45071,
    33929
+  ],
+  [
+   "2026-10-26",
+   50414,
+   44192,
+   48500,
+   33583,
+   32571,
+   31750,
+   45750,
+   35786
+  ],
+  [
+   "2026-10-29",
+   50448,
+   43769,
+   44833,
+   34778,
+   29786,
+   36250,
+   46429,
+   34214
   ]
  ],
  "refs": [
@@ -1260,14 +1282,14 @@
    "source": "Vietnam.vn"
   },
   {
-   "title": "Ra mắt sản phẩm Poulvac® E. coli: Kiểm soát kháng kháng sinh, hướng tới chăn nuôi gia cầm bền vững - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQclNmcDFUR09CMUZuYzB0VzRweG55bWVSNDZ0Z0tPWlMtZnlwcklQa2t1U3pqVWR4QTE0X1U0YnlsNDlIVlkybkQydkJraU1nckFuOEU3MFVwWngzQVZCTGQ0SU45SHVoZk13dU5LVWhiOHlFU25ObjBYQy04MkltV3AwQkIyWi14ek1JZFdRdE5ROGs1UmYzZ0xPVXVaVmRCWHUyalZNQlR4bXV6Q2lwZDdnVzR3aU03UEE?oc=5",
+   "title": "Cargill khánh thành và bàn giao điểm trường thứ 129 tại Việt Nam - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdWVqR1k5clQzaGJVNXg2NGNweUc4YVJ6SXVOOXhJbm4tMkxWaDdIcm1QcTJ3R1NaTVpiaDNQUWxTTTZ4eDBKVjBYSl90RG5nSzNZSEFUTWFvejkyZmg0bFZVa3VPVVlNNlc1TENkYllOYmp5QXpVQnN2VXR6R0ZXRW9ibkhma3RVUmdKNVo5N3NCdw?oc=5",
    "date": "2026-10-31",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Cargill khánh thành và bàn giao điểm trường thứ 129 tại Việt Nam - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdWVqR1k5clQzaGJVNXg2NGNweUc4YVJ6SXVOOXhJbm4tMkxWaDdIcm1QcTJ3R1NaTVpiaDNQUWxTTTZ4eDBKVjBYSl90RG5nSzNZSEFUTWFvejkyZmg0bFZVa3VPVVlNNlc1TENkYllOYmp5QXpVQnN2VXR6R0ZXRW9ibkhma3RVUmdKNVo5N3NCdw?oc=5",
+   "title": "Ra mắt sản phẩm Poulvac® E. coli: Kiểm soát kháng kháng sinh, hướng tới chăn nuôi gia cầm bền vững - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQclNmcDFUR09CMUZuYzB0VzRweG55bWVSNDZ0Z0tPWlMtZnlwcklQa2t1U3pqVWR4QTE0X1U0YnlsNDlIVlkybkQydkJraU1nckFuOEU3MFVwWngzQVZCTGQ0SU45SHVoZk13dU5LVWhiOHlFU25ObjBYQy04MkltV3AwQkIyWi14ek1JZFdRdE5ROGs1UmYzZ0xPVXVaVmRCWHUyalZNQlR4bXV6Q2lwZDdnVzR3aU03UEE?oc=5",
    "date": "2026-10-31",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1276,12 +1298,6 @@
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQV9mN0lRNW5DdUo1T3JiVkZrUXF1RU1mUVhya1labUwxaWdHaU85OE9VWDdmSE52ekE0eWRiWUlSWm9kbmp2WUFsR3ZiTTB5b195Um13SE9sbkQ4NFFOcU16a3FHQ2RpcWtRVVBUNUlsN19uZTFBZGZicEhROTgwelB3aTVQRW1XcVZTNXZwLXBTV0lWWVF6OUdEcVJkbVZ4RlBRLXZGZjljT0QxSU9RZjh6RllLcTZo?oc=5",
    "date": "2026-10-30",
    "source": "CafeF"
-  },
-  {
-   "title": "GREENFEED thúc đẩy chăn nuôi thông minh dựa trên dữ liệu và trí tuệ nhân tạo tại AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2FSaHZHeVlOTjRxVzI4c3lIRFA5UWlaRXVTbGVJYkZ0TjhpTU42LV9xSWY0MXpnSy13b3RNWWt4N1BNOHhXSTV6TURwQTJZcS15OGZKQmstZElDaXBlRFJhQjhqTlMwN3R2aGlNbUUxMnVKU2xLYTlOOVRtWEQtbWJ5TnFRZlVaeHo2VDhibld6T0VmQVpUelE4UTdMcm5zUlhtQk9uZ0RMYmE5S0dpZW5ldUE?oc=5",
-   "date": "2026-10-30",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
    "title": "Giá lợn, gà giảm, người nuôi thua lỗ - Vietnam.vn",
@@ -1314,21 +1330,15 @@
    "source": "Báo Công Lý"
   },
   {
-   "title": "Ghé quán cơm bình dân, tài xế bức xúc vì nửa con gà giá 300.000 đồng - Báo Tiền Phong",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaF9iRkhpQktEcUk3S1VKVURXbTltbEI2OEJIRXpkbkRLOGFlbFhFam0yd2tQU2tFWUVDbU4tdTlOZC14MkZJUW1vVE9Sdk1ia1BmNnlzV3pucnlPN3gyXy1VSDU1UEwyTHBFbE9hSHNNVFBzTVlXcEtjcWdWanJIWU5XUl9lRXFpUEZZcmhHb3JIYnE0X0VBYmlTYVNDZmhKY0s2cy13?oc=5",
+   "title": "Ghé quán cơm bình dân, tài xế bức xúc vì nửa con gà giá 300.000 đồng - Tin tức 24h",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY1BzeVVBNGgtVXhWWTI4cXNyRmNSWGtUYVVYeDloN1NEVEI3cnZRTWhKWWpNWldGXzJpYUNfeWtNOTVGVHJjd19Rb3JtN2t1RVZIckdPVjdjVFlsaEVWeTlaRHNsYldLaTNMcHViZjNDNDBGVGRZNlBJZE1tcWFYNjNzRFVhTm1SN1RnZGtZdXQ2eTZLLU9NSnl3blFkOHRBN1VpUkFhdGpYbkdTY1dGVXpmTldveThxaldjckhuREEzZUk?oc=5",
    "date": "2026-10-27",
-   "source": "Báo Tiền Phong"
+   "source": "Tin tức 24h"
   },
   {
    "title": "Boehringer Ingelheim Việt Nam triển khai tập huấn giáo viên, nhân viên y tế lan tỏa kiến thức phòng chống bệnh dại đến 65.000 học sinh - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQm44VENGeG9UYWc3SlpuN1RDRHVqRnBFN0NTYWNIRnZDR0pKU0VPQ3RwZ1A0U0ZsLS16WjY1NkNkMGtjS0pfQzQxWi1BVHFhRHowT1JWTkdYVU96ZV9TMW13cVZsSy15aDdGelB1SXUzZlB6YktqSkMwZVk4NXl4ekY1OXE4eGpvMGhVb0hyckstWTVBVEVnVTc5ODdWdGpiWGt3R01yVWhzNmZ1Q1hZSVpQbzdRVUNfd21aNHloNTBfdGZybDVpZEVic0Yxclo5VFhTaWR5YkU2cE44WVpid3RmN3g0ZmNVcFppMEt3?oc=5",
    "date": "2026-10-27",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Miễn phí tham quan không gian trưng bày và kết nối doanh nghiệp tại AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNjRPWW9nc3Z5azBFMEFzemJla0s0emI5a1FCaUpYcUhyWlByN010TjRmQ0YyLUZia1VnRy04RzN2dC1ka0RFQ3pxajZ5cjIyNy1OZTlpUWw2V05xQmhEaXlQU2RnZ1RhTjRDUVlsMmlGYzNSOG9CanhlMUN6cVlFSmluV1NzYk1LZUd3VFhrckdWd1J0RG92aWtidEh1cVpnQVBF?oc=5",
-   "date": "2026-10-26",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
@@ -1392,6 +1402,23 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-03T03:57:33.545Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
+   "newTables": [],
+   "gfNew": 2,
+   "errors": 1,
+   "detail": [
+    "Chăn nuôi Việt Nam: 42 file Excel từ 2026-01-01, cần đọc 0",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/page/2/: fetch failed",
+    "Tạp chí Chăn nuôi: thấy 3 bảng giá trong danh mục",
+    "GreenFeed: 57 ngày có bảng giá, cần đọc 3",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 1"
+   ]
+  },
   {
    "at": "2026-11-01T23:50:08.572Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 15 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
