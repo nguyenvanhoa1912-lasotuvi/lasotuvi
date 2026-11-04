@@ -1,0 +1,42 @@
+name: Quét tin cúm gia cầm (máy chủ)
+on:
+  schedule:
+    - cron: "7 */3 * * *"   # mỗi 3 giờ
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["cum-gia-cam/scripts/**", ".github/workflows/cum-gia-cam-rss.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: cum-gia-cam-rss
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Cài trình duyệt không giao diện
+        run: |
+          npm i --no-save playwright@1.48.2
+          npx playwright install --with-deps chromium
+      - name: Quét tin
+        run: node cum-gia-cam/scripts/rss-cache.mjs
+      - name: Lưu kết quả
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cum-gia-cam/rss-cache.json
+          if git diff --cached --quiet; then echo "Không đổi"; exit 0; fi
+          git commit -m "Quét tin cúm gia cầm $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1

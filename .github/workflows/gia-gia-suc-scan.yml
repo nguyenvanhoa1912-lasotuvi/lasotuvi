@@ -5,6 +5,7 @@ on:
     - cron: "37 10 * * 2,3" # 17:37 thứ Ba, thứ Tư (ngày Tạp chí Chăn nuôi thường đăng bảng giá)
     - cron: "37 14 * * 2"   # 21:37 thứ Ba (file Excel đôi khi đăng muộn)
     - cron: "37 3 * * 3,4"  # 10:37 thứ Tư, thứ Năm (dự phòng khi GitHub bỏ lượt quét sáng)
+    - cron: "37 */2 * * 2,3" # mỗi 2 giờ từ sáng thứ Ba đến sáng thứ Năm (giờ VN) – kỳ đăng bảng giá
   workflow_dispatch: {}
   push:
     branches: [main]

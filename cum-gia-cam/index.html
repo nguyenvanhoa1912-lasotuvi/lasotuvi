@@ -583,7 +583,9 @@ refInput.onchange=()=>{news.forEach(n=>n.ds=daysSince(n.date));render();};
    Trình duyệt chặn đọc chéo domain (CORS) → đi qua proxy công cộng, thử lần lượt. */
 const PROXIES=[u=>"https://api.allorigins.win/raw?url="+encodeURIComponent(u),u=>"https://corsproxy.io/?url="+encodeURIComponent(u),u=>"https://api.codetabs.com/v1/proxy?quest="+encodeURIComponent(u)];
 const logEl=document.getElementById("log");const log=m=>{logEl.textContent=`[${new Date().toLocaleTimeString(LOC())}] ${m}\n`+logEl.textContent;};
-async function getXML(url){for(const px of PROXIES){try{const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),12000);
+/* Kết quả quét phía máy chủ (GitHub Actions, mỗi 3 giờ): dùng trước, không phụ thuộc proxy công cộng */
+let RSSC=null;const rssReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/rss-cache.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.feeds&&Date.now()-Date.parse(j.at)<12*3600*1000){RSSC=j;try{log((LANG==="en"?"Using server scan of ":"Dùng kết quả quét máy chủ lúc ")+new Date(j.at).toLocaleString(LOC()));}catch(e){}}}).catch(()=>{});
+async function getXML(url){await rssReady;if(RSSC&&Object.prototype.hasOwnProperty.call(RSSC.feeds,url))return new DOMParser().parseFromString("<rss><channel>"+RSSC.feeds[url]+"</channel></rss>","text/xml");for(const px of PROXIES){try{const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),12000);
   const r=await fetch(px(url),{signal:ctl.signal});clearTimeout(tm);if(!r.ok)continue;const x=new DOMParser().parseFromString(await r.text(),"text/xml");if(x.querySelector("item"))return x;}catch(e){}}return null;}
 const KW=/cum gia cam|h5n1|h5n6|h5n8|h7n9|h9n2/,OUTBREAK=/o dich|phat hien|xuat hien|duong tinh|cong bo dich|tieu huy|bung phat|chet|mac benh/;
 const FOREIGN=/dai loan|trung quoc|my |hoa ky|uc |australia|victoria|campuchia|nhat ban|han quoc|chau au|sec |an do|philippines|thai lan|indonesia/;
