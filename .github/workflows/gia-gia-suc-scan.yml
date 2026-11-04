@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "37 23 * * *"   # 06:37 sáng giờ Việt Nam, mỗi ngày
     - cron: "37 10 * * 2,3" # 17:37 thứ Ba, thứ Tư (ngày Tạp chí Chăn nuôi thường đăng bảng giá)
+    - cron: "37 14 * * 2"   # 21:37 thứ Ba (file Excel đôi khi đăng muộn)
+    - cron: "37 3 * * 3,4"  # 10:37 thứ Tư, thứ Năm (dự phòng khi GitHub bỏ lượt quét sáng)
   workflow_dispatch: {}
   push:
     branches: [main]
