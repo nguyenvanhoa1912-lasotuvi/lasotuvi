@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-04T17:59:58.562Z",
-  "lastScan": "2026-11-04T17:59:58.562Z",
+  "updated": "2026-11-04T19:47:35.163Z",
+  "lastScan": "2026-11-04T19:47:35.163Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1356,26 +1356,9 @@
  "mentions": [
   {
    "url": "https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/",
-   "title": "Giá gà bấp bênh, cần liên kết để ổn định sản xuất - Tin tức Chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
-   "date": "2026-10-06",
-   "mentions": [
-    {
-     "text": "Sau hơn 2 tháng giảm trong tháng 7 và 8-2026, giá gà bắt đầu phục hồi từ đầu tháng 9 và hiện cao hơn khoảng 10 nghìn đồng/kg so với mức thấp nhất.",
-     "kind": "khac",
-     "region": null
-    },
-    {
-     "text": "Khảo sát thực tế tại các cơ sở chăn nuôi trên địa bàn tỉnh, chúng tôi được biết tại thời điểm giá gà xuống thấp nhất, gà đồi Tân Khánh chỉ còn khoảng 52 nghìn đồng/kg, giảm 20 nghìn đồng/kg; gà màu nuôi chuồng kín khoảng 43 nghìn đồng/kg, giảm 15 nghìn đồng/kg; gà lông trắng khoảng 30 nghìn đồng/kg, giảm hơn 10 nghìn đồng/kg.",
-     "kind": "trang",
-     "region": null
-    },
-    {
-     "text": "Gia đình bà nuôi gà màu chuồng kín, có thời điểm giá xuống 35 – 36 nghìn đồng/kg rồi tăng lên 45 – 46 nghìn đồng/kg, trong khi theo tính toán của gia đình, giá phải đạt khoảng 50 nghìn đồng/kg mới có công.",
-     "kind": "mau",
-     "region": null
-    }
-   ],
-   "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)"
+   "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)",
+   "error": true,
+   "mentions": []
   },
   {
    "url": "https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/",
@@ -1407,6 +1390,27 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-04T19:47:35.163Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 4 · lỗi tải: 3",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 3,
+   "detail": [
+    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/page/2/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/page/2/: fetch failed",
+    "Tạp chí Chăn nuôi: thấy 1 bảng giá trong danh mục",
+    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Lỗi tải https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/: fetch failed",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 4 · lỗi tải: 3"
+   ]
+  },
   {
    "at": "2026-11-04T17:59:58.562Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
@@ -1838,20 +1842,6 @@
     "GreenFeed: 51 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-10-14T23:42:39.621Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 40 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 51 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
    ]
   }
  ]
