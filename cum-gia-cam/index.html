@@ -233,6 +233,8 @@ textarea{width:100%;min-height:70px;background:var(--bg);color:var(--ink);border
    NGÔN NGỮ / LANGUAGE
    ===================================================================== */
 const CGC_APP=/CGCApp/.test(navigator.userAgent);
+/* tránh trình duyệt giữ bản cũ: nếu có phiên bản mới thì tải lại 1 lần */
+const PAGE_VER="20261105c";fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/ver.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(j=>{if(j&&j.v&&j.v!==PAGE_VER){try{if(sessionStorage.getItem("cgc_rl")===j.v)return;sessionStorage.setItem("cgc_rl",j.v);}catch(e){}const u=new URL(location.href);u.searchParams.set("v",j.v);location.replace(u.toString());}}).catch(()=>{});
 const I18N={
 vi:{title:"TÌNH HÌNH CÚM GIA CẦM – VIỆT NAM",subtitle:"34 tỉnh/thành (sau sắp xếp 2025) · Cảnh báo khi ổ dịch <b>chưa qua 21 ngày</b> kể từ ngày phát hiện",
  refDate:"Ngày tham chiếu",toLS:"🐖 Dịch bệnh gia súc",back:"← Về Blog",toWorld:"🌏 Bản đồ Thế giới",scan:"⟳ Quét tin báo",auto:"⏱ Tự quét 30′",light:"☀ Sáng",dark:"🌙 Tối",
@@ -430,7 +432,7 @@ const noteOf=r=>LANG==="en"&&r.note_en?r.note_en:r.note;
 /* ===== TRẠNG THÁI TỈNH ===== */
 function provStatus(name){
   const rs=records.filter(r=>r.prov===name&&strainOn.has(r.strain||"Chưa xác định")).map(r=>({...r,ds:daysSince(r.date)})).filter(r=>r.ds>=0).sort((a,b)=>a.ds-b.ds);
-  const ns=news.filter(n=>n.prov===name&&!n.over&&n.ds>=0&&n.ds<=WINDOW&&strainOn.has(n.strain));
+  const ns=news.filter(n=>n.prov===name&&!n.over&&n.ds>=0&&n.ds<=WINDOW&&strainOn.has(n.strain)&&!isCovered(n));
   const active=rs.filter(r=>r.ds<=WINDOW),hist=rs.filter(r=>r.ds>WINDOW&&r.ds<=HIST);
   const level=active.length?"red":ns.length?"amber":"none";
   return {rs,active,ns,hist,level,last:rs[0],strains:[...new Set((active.length?active:ns).map(r=>r.strain))]};
@@ -590,7 +592,9 @@ let RSSC=null;const rssReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/
 const IGN=new Set();try{(JSON.parse(localStorage.getItem("cgc_ignore"))||[]).forEach(k=>IGN.add(k));}catch(e){}
 const IS_ADMIN=(()=>{try{return localStorage.getItem("lsv_admin")==="1"}catch(e){return false}})();
 let REVIEW=null;const reviewReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/review.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{const v=j&&j["vn"];if(!v)return;REVIEW=v;(v.ignore||[]).forEach(x=>{IGN.add(x.key);if(x.link)IGN.add(x.link);});let add=0;(v.confirm||[]).forEach(c=>{if(!c||!c.id||IGN.has("rec-"+c.id))return;const n1=records.length;records=records.filter(r=>!(/^[nu]/.test(r.id)&&(r.prov||r.a3)===(c.prov||c.a3)&&Math.abs(Date.parse(r.date)-Date.parse(c.date))<=21*864e5));const same=records.filter(r=>r.id===c.id);if(same.length!==1||JSON.stringify(same[0])!==JSON.stringify(c)){records=records.filter(r=>r.id!==c.id);records.push(c);add++;}if(n1!==records.length)add++;});const n0=records.length;records=records.filter(r=>!(r.id[0]!=="s"&&r.url&&IGN.has(r.url)));if(add||records.length!==n0)save();news=news.filter(n=>!IGN.has(n.key)&&!IGN.has(n.link));try{render();}catch(e){}}).catch(()=>{});
-const covered=n=>records.some(r=>(r.prov||r.a3)===(n.prov||n.a3)&&Math.abs(Date.parse(r.date)-Date.parse(n.date))<=21*864e5);
+/* tin đã có ổ dịch xác minh cùng tỉnh/nước (cách ≤21 ngày) */
+function isCovered(n){return records.some(r=>(r.prov||r.a3)===(n.prov||n.a3)&&Math.abs(Date.parse(r.date)-Date.parse(n.date))<=21*864e5);}
+const covered=isCovered;
 const revBtns=k=>`<span class="rev"><span class="note">${t("isOb")}</span><button type="button" class="tbtn rv-yes" data-yes="${esc(k)}">${t("yes")}</button><button type="button" class="tbtn rv-no" data-no="${esc(k)}">${t("no")}</button></span>`;
 function revSync(action,payload){if(!IS_ADMIN)return;const body="```json\n"+JSON.stringify({scope:"vn",action,...payload},null,1)+"\n```\n(Tạo tự động từ bản đồ – bấm Submit new issue để lưu)";
  window.open("https://github.com/nguyenvanhoa1912-lasotuvi/lasotuvi/issues/new?title="+encodeURIComponent("[review] "+action+" · "+(payload.title||payload.note||"").slice(0,60))+"&body="+encodeURIComponent(body),"_blank");log(t("revSync"));}
