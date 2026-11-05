@@ -33,12 +33,12 @@
     "prov": "Thanh Hóa",
     "area": "Xã Thiệu Tiến",
     "date": "2026-10-15",
-    "strain": "Chưa xác định",
+    "strain": "A/H5N1",
     "sick": null,
     "dead": null,
     "cull": 13009,
-    "note": "UBND xã Thiệu Tiến niêm yết kết quả thẩm định hồ sơ hỗ trợ hộ chăn nuôi bị thiệt hại do dịch cúm gia cầm từ 25/9 đến 15/10/2026. Anh Hòa xác nhận ổ dịch ngày 15/10/2026, số tiêu hủy 13.009 con (05/11/2026). Nguồn chưa nêu chủng virus.",
-    "note_en": "Thiệu Tiến commune posted assessed support claims for farms hit by avian influenza, 25 Sep–15 Oct 2026. Owner confirmed outbreak on 15 Oct 2026 with 13,009 birds culled (5 Nov 2026). Strain not stated.",
+    "note": "UBND xã Thiệu Tiến niêm yết kết quả thẩm định hồ sơ hỗ trợ hộ chăn nuôi bị thiệt hại do dịch cúm gia cầm từ 25/9 đến 15/10/2026. Anh Hòa xác nhận ổ dịch ngày 15/10/2026, số tiêu hủy 13.009 con (05/11/2026). Chủng A/H5N1 theo thông báo của UBND xã Thiệu Tiến.",
+    "note_en": "Thiệu Tiến commune posted assessed support claims for farms hit by avian influenza, 25 Sep–15 Oct 2026. Owner confirmed outbreak on 15 Oct 2026 with 13,009 birds culled (5 Nov 2026). Strain A/H5N1 per the commune notice.",
     "url": "https://thieutien.thanhhoa.gov.vn",
     "src": "UBND xã Thiệu Tiến"
    }
