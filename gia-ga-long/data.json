@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-05T00:54:46.130Z",
-  "lastScan": "2026-11-05T00:54:46.130Z",
+  "updated": "2026-11-05T03:33:08.501Z",
+  "lastScan": "2026-11-05T03:33:08.501Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1350,57 +1350,39 @@
  "mentions": [
   {
    "url": "https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/",
-   "title": "Giá gà bấp bênh, cần liên kết để ổn định sản xuất - Tin tức Chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
-   "date": "2026-10-06",
-   "mentions": [
-    {
-     "text": "Sau hơn 2 tháng giảm trong tháng 7 và 8-2026, giá gà bắt đầu phục hồi từ đầu tháng 9 và hiện cao hơn khoảng 10 nghìn đồng/kg so với mức thấp nhất.",
-     "kind": "khac",
-     "region": null
-    },
-    {
-     "text": "Khảo sát thực tế tại các cơ sở chăn nuôi trên địa bàn tỉnh, chúng tôi được biết tại thời điểm giá gà xuống thấp nhất, gà đồi Tân Khánh chỉ còn khoảng 52 nghìn đồng/kg, giảm 20 nghìn đồng/kg; gà màu nuôi chuồng kín khoảng 43 nghìn đồng/kg, giảm 15 nghìn đồng/kg; gà lông trắng khoảng 30 nghìn đồng/kg, giảm hơn 10 nghìn đồng/kg.",
-     "kind": "trang",
-     "region": null
-    },
-    {
-     "text": "Gia đình bà nuôi gà màu chuồng kín, có thời điểm giá xuống 35 – 36 nghìn đồng/kg rồi tăng lên 45 – 46 nghìn đồng/kg, trong khi theo tính toán của gia đình, giá phải đạt khoảng 50 nghìn đồng/kg mới có công.",
-     "kind": "mau",
-     "region": null
-    }
-   ],
-   "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)"
+   "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)",
+   "error": true,
+   "mentions": []
   },
   {
    "url": "https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/",
-   "title": "Giá gà thịt giảm sâu, người chăn nuôi lỗ nặng - Tin tức Chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
-   "date": "2026-09-21",
-   "mentions": [
-    {
-     "text": "Tương tự, trang trại nuôi gà thịt của gia đình ông Nguyễn Văn Quyền, xã Hoa Lộc cũng đang phải gánh lỗ khoảng 10 nghìn đồng/kg gà thịt xuất chuồng vì giá “chạm đáy” suốt thời gian qua.",
-     "kind": "khac",
-     "region": null
-    },
-    {
-     "text": "Theo ông Quyền, trang trại của gia đình ông chủ yếu nuôi gà lai, mấy tháng nay giá bán ra chỉ từ 42 – 48 nghìn đồng/kg, thấp nhất trong các loại gà nên đang bị thua lỗ.",
-     "kind": "mau",
-     "region": null
-    },
-    {
-     "text": "Hiện nay, giá gà lai xuất chuồng đang ở mức từ 40 – 48 nghìn đồng/kg; gà ri trên 70 nghìn đồng/kg; gà lông trắng chỉ hơn 30 nghìn đồng/kg, đây là mức giá thấp nhất trong những năm gần đây.",
-     "kind": "trang",
-     "region": null
-    },
-    {
-     "text": "So với cùng kỳ năm ngoái, giá gà thịt giảm từ 8-10 nghìn đồng/kg.",
-     "kind": "khac",
-     "region": null
-    }
-   ],
-   "name": "Người Chăn Nuôi – Giá gà thịt giảm sâu (Thanh Hóa)"
+   "name": "Người Chăn Nuôi – Giá gà thịt giảm sâu (Thanh Hóa)",
+   "error": true,
+   "mentions": []
   }
  ],
  "log": [
+  {
+   "at": "2026-11-05T03:33:08.501Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 0 · lỗi tải: 3",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 3,
+   "detail": [
+    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/page/2/: fetch failed",
+    "Tạp chí Chăn nuôi: thấy 3 bảng giá trong danh mục",
+    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Lỗi tải https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/: fetch failed",
+    "Lỗi tải https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/: fetch failed",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 0 · lỗi tải: 3"
+   ]
+  },
   {
    "at": "2026-11-05T00:54:46.130Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
@@ -1842,20 +1824,6 @@
     "GreenFeed: 52 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-10-16T23:42:05.281Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 1 ngày · tin: 19 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 1,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 40 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 52 ngày có bảng giá, cần đọc 2",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 1 ngày · tin: 19 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
    ]
   }
  ]
