@@ -123,6 +123,7 @@ textarea{width:100%;min-height:70px;background:var(--bg);color:var(--ink);border
 .dtype{font-size:10.5px;color:var(--muted);font-weight:500}
 .plabel .nm .ev{font-weight:600;color:#ffd0d6;font-size:10.5px}
 @media(max-width:600px){.wrap{padding:8px;gap:10px}header{padding:10px 12px}h1{font-size:16px}.info.leaflet-control{display:none}.card h2{flex-wrap:wrap}.card h2 .t{flex:1 1 100%}.maptools{padding:8px}.kpi b{font-size:20px}}
+.rev{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin:4px 0}.rev .tbtn{padding:2px 9px;font-size:12px;cursor:pointer}.rv-yes{border-color:#ff2e4d!important;color:#ff8a9b!important}.rv-no{border-color:#8d9cbd!important}
 </style>
 </head>
 <body>
@@ -258,7 +259,7 @@ vi:{title:"TÌNH HÌNH CÚM GIA CẦM – THẾ GIỚI",subtitle:"Cảnh báo th
  islH:"QĐ. HOÀNG SA<br><small>(Việt Nam)</small>",islT:"QĐ. TRƯỜNG SA<br><small>(Việt Nam)</small>",
  thC:"Quốc gia",thStrain:"Chủng",thHost:"Đối tượng",thDate:"Ngày",thEv:"Sự kiện",thCull:"Tiêu hủy",thPub:"Ngày đăng",thNews:"Tin",thExtract:"Trích",
  verify:"Cần xác minh",inWin:"Trong cửa sổ",days:"{d} ngày",noActive:"Không có quốc gia nào trong cửa sổ theo dữ liệu hiện có.",noNews:"Chưa có tin phù hợp (bấm \"Quét tin\").",
- toVerify:"Xác minh →",del:"xóa",srcLink:"nguồn",
+ toVerify:"Xác minh →",isOb:"Có phải ổ dịch?",yes:"✔ Có",no:"✖ Không",revYes:"Đã xác nhận ổ dịch",revNo:"Đã bỏ qua tin này",revSync:"Mở GitHub để lưu cho mọi người xem – bấm \"Submit new issue\"",del:"xóa",srcLink:"nguồn",
  kNote:"Tính đến {d} · cửa sổ {w} ngày · chỉ cộng dữ liệu đã xác minh; số gia cầm chỉ tính nơi có công bố",kAmber:" · <b style='color:var(--amber)'>{n}</b> QG có tin cần xác minh",
  h_poultry:"🐔 Gia cầm",h_wild:"🦆 Chim hoang dã",h_mammal:"🐄 Động vật có vú",h_human:"🧑 Người",h_mixed:"◐ Hỗn hợp",
  r_world:"🌐 Toàn cầu",r_sea:"Đông Nam Á",r_asia:"Châu Á",r_eu:"Châu Âu",r_na:"Bắc Mỹ",r_sa:"Nam Mỹ",r_af:"Châu Phi",r_oc:"Châu Đại Dương",
@@ -294,7 +295,7 @@ en:{title:"AVIAN INFLUENZA SITUATION – WORLD",subtitle:"Country/territory aler
  islH:"HOÀNG SA ARCH.<br><small>(Vietnam)</small>",islT:"TRƯỜNG SA ARCH.<br><small>(Vietnam)</small>",
  thC:"Country",thStrain:"Strain",thHost:"Host",thDate:"Date",thEv:"Events",thCull:"Culled",thPub:"Published",thNews:"Article",thExtract:"Extracted",
  verify:"Verify",inWin:"In window",days:"{d} day(s)",noActive:"No country within the window in the current data.",noNews:"No matching items yet (click \"Scan news\").",
- toVerify:"Verify →",del:"delete",srcLink:"source",
+ toVerify:"Verify →",isOb:"Is this an outbreak?",yes:"✔ Yes",no:"✖ No",revYes:"Outbreak confirmed",revNo:"Report ignored",revSync:"GitHub opened to save for everyone – press \"Submit new issue\"",del:"delete",srcLink:"source",
  kNote:"As of {d} · {w}-day window · verified data only; bird counts only where reported",kAmber:" · <b style='color:var(--amber)'>{n}</b> countries with reports to verify",
  h_poultry:"🐔 Poultry",h_wild:"🦆 Wild birds",h_mammal:"🐄 Mammals",h_human:"🧑 Human",h_mixed:"◐ Mixed",
  r_world:"🌐 World",r_sea:"SE Asia",r_asia:"Asia",r_eu:"Europe",r_na:"N. America",r_sa:"S. America",r_af:"Africa",r_oc:"Oceania",
@@ -467,7 +468,7 @@ function styleF(f){const s=ST[f.properties.a3]||{level:"none"};
   if(s.level==="hist"&&opt("optHist"))return {...base,fillColor:COL.hist,fillOpacity:.28,color:COL.hist,weight:1,dashArray:"2 3"};
   return base;}
 function obHTML(r,auto){const left=WINDOW-r.ds,pct=Math.min(100,Math.max(0,r.ds/WINDOW*100));
-  return `<div class="ob">${auto?`<b style="color:var(--amber)">${t("autoNews")}</b>`:""}
+  return `<div class="ob">${auto&&r.key?revBtns(r.key):""}${auto?`<b style="color:var(--amber)">${t("autoNews")}</b>`:""}
   <div class="row" style="gap:6px;margin-bottom:3px">${chip(r.strain)} ${auto?"":hostTag(r.host)}<span class="note">${esc(r.area||r.dom||"")}</span></div>
   <dl><dt>${t("dt_"+(auto?"pub":r.dt||"detect"))}</dt><dd>${fmtD(r.date)} · ${t("ago",{d:r.ds})}</dd>
   ${auto?"":`<dt>${t("events")}</dt><dd>${fmtN(r.events)}</dd>`}<dt>${t("sick")}</dt><dd>${fmtN(r.sick)}</dd><dt>${t("dead")}</dt><dd>${fmtN(r.dead)}</dd><dt>${t("cull")}</dt><dd>${fmtN(r.cull)}</dd></dl>
@@ -569,7 +570,7 @@ function render(){
   tNews.innerHTML=`<tr><th>${t("thPub")}</th><th>${t("thC")}</th><th>${t("thNews")}</th><th>${t("thExtract")}</th><th></th></tr>`+
    (news.length?news.map((n,i)=>`<tr><td>${fmtD(n.date)}<br><span class="badge ${n.ds<=WINDOW?"b-amber":"b-grey"}">${t("days",{d:n.ds})}</span></td>
     <td><a href="#" data-c="${n.a3}">${esc(cname(n.a3))}</a></td><td><a href="${esc(n.link)}" target="_blank">${esc(n.title)}</a><br><span class="note">${esc(n.dom||"")} · ${n.g}</span></td>
-    <td class="note">${chip(n.strain)}<br>${n.cull!=null?"🐔 "+fmtNum(n.cull):""}</td><td><a href="#" data-add="${i}">${t("toVerify")}</a></td></tr>`).join("")
+    <td class="note">${chip(n.strain)}<br>${n.cull!=null?"🐔 "+fmtNum(n.cull):""}</td><td>${revBtns(n.key)}<a href="#" data-add="${i}">${t("toVerify")}</a></td></tr>`).join("")
    :`<tr><td colspan="5" class="note">${t("noNews")}</td></tr>`);
   info.update();}
 document.addEventListener("click",e=>{const a=e.target.closest("a[data-c],a[data-del],a[data-add]");if(!a)return;e.preventDefault();
@@ -588,7 +589,21 @@ const PROXIES=[u=>"https://api.allorigins.win/raw?url="+encodeURIComponent(u),u=
 const logEl=document.getElementById("log");const log=m=>{logEl.textContent=`[${new Date().toLocaleTimeString(LOC())}] ${m}\n`+logEl.textContent;};
 /* Kết quả quét phía máy chủ (GitHub Actions, mỗi 3 giờ): dùng trước, không phụ thuộc proxy công cộng */
 let RSSC=null;const rssReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/rss-cache.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.feeds&&Date.now()-Date.parse(j.at)<12*3600*1000){RSSC=j;try{log((LANG==="en"?"Using server scan of ":"Dùng kết quả quét máy chủ lúc ")+new Date(j.at).toLocaleString(LOC()));}catch(e){}}}).catch(()=>{});
-async function getXML(url){await rssReady;if(RSSC&&Object.prototype.hasOwnProperty.call(RSSC.feeds,url))return new DOMParser().parseFromString("<rss><channel>"+RSSC.feeds[url]+"</channel></rss>","text/xml");for(const px of PROXIES){try{const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),12000);
+/* Xác minh tin: Có = thành ổ dịch, Không = bỏ qua. Lưu trên máy + review.json (chung cho mọi người, cập nhật qua GitHub) */
+const IGN=new Set();try{(JSON.parse(localStorage.getItem("cgcw_ignore"))||[]).forEach(k=>IGN.add(k));}catch(e){}
+const IS_ADMIN=(()=>{try{return localStorage.getItem("lsv_admin")==="1"}catch(e){return false}})();
+let REVIEW=null;const reviewReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/review.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{const v=j&&j["world"];if(!v)return;REVIEW=v;(v.ignore||[]).forEach(x=>IGN.add(x.key));let add=0;(v.confirm||[]).forEach(c=>{if(c&&c.id&&!records.some(r=>r.id===c.id)){records.push(c);add++;}});if(add)save();news=news.filter(n=>!IGN.has(n.key));try{render();}catch(e){}}).catch(()=>{});
+const revBtns=k=>`<span class="rev"><span class="note">${t("isOb")}</span><button type="button" class="tbtn rv-yes" data-yes="${esc(k)}">${t("yes")}</button><button type="button" class="tbtn rv-no" data-no="${esc(k)}">${t("no")}</button></span>`;
+function revSync(action,payload){if(!IS_ADMIN)return;const body="```json\n"+JSON.stringify({scope:"world",action,...payload},null,1)+"\n```\n(Tạo tự động từ bản đồ – bấm Submit new issue để lưu)";
+ window.open("https://github.com/nguyenvanhoa1912-lasotuvi/lasotuvi/issues/new?title="+encodeURIComponent("[review] "+action+" · "+(payload.title||payload.note||"").slice(0,60))+"&body="+encodeURIComponent(body),"_blank");log(t("revSync"));}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-yes],[data-no]");if(!b)return;e.preventDefault();e.stopPropagation();
+ const k=b.dataset.yes||b.dataset.no,n=news.find(x=>x.key===k);if(!n)return;
+ if(b.dataset.no){IGN.add(k);try{const L=JSON.parse(localStorage.getItem("cgcw_ignore"))||[];L.push(k);localStorage.setItem("cgcw_ignore",JSON.stringify(L));}catch(_){}
+  news=news.filter(x=>x.key!==k);log(t("revNo")+": "+n.title);revSync("ignore",{key:k,title:n.title,link:n.link,date:n.date});}
+ else{const rec={id:"n"+k.slice(0,28),a3:n.a3,area:"",date:n.date,dt:"detect",strain:STRAINS[n.strain]?n.strain:"Chưa xác định",host:"poultry",events:1,sick:null,dead:n.dead??null,cull:n.cull??null,url:n.link,src:n.dom||"",note:n.title};if(!records.some(r=>r.id===rec.id)){records.push(rec);save();}
+  IGN.add(k);news=news.filter(x=>x.key!==k);log(t("revYes")+": "+n.title);revSync("confirm",{key:k,title:n.title,record:rec});}
+ render();},true);
+async function getXML(url){await rssReady;await reviewReady;if(RSSC&&Object.prototype.hasOwnProperty.call(RSSC.feeds,url))return new DOMParser().parseFromString("<rss><channel>"+RSSC.feeds[url]+"</channel></rss>","text/xml");for(const px of PROXIES){try{const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),12000);
   const r=await fetch(px(url),{signal:ctl.signal});clearTimeout(tm);if(!r.ok)continue;const x=new DOMParser().parseFromString(await r.text(),"text/xml");if(x.querySelector("item"))return x;}catch(e){}}return null;}
 const KW=/bird flu|avian influenza|avian flu|hpai|h5n\d|h7n\d|h9n2|cum gia cam/;
 const OUTBREAK=/outbreak|confirm|detect|cull|depopulat|infected|positive|case|flock|farm|o dich|phat hien|tieu huy|bung phat|xac nhan|duong tinh/;
@@ -615,8 +630,8 @@ async function scan(){const qs=buildQueries();btnScan.disabled=true;log(t("logSt
       const pd=new Date(it.querySelector("pubDate")?.textContent||"");const full=title+" "+desc,s=strip(full);
       if(!KW.test(s)||!OUTBREAK.test(s)||EXCL.test(s)||isNaN(pd))return;const date=pd.toISOString().slice(0,10);if(daysSince(date)>45||daysSince(date)<0)return;
       const a3=findCountry(title)||findCountry(desc);if(!a3||!CP[a3])return;
-      const key=strip(title).replace(/[^a-z0-9]/g,"").slice(0,50);if(seen.has(key))return;seen.add(key);stat[q.g].k++;
-      found.push({title,link,a3,date,dom:itemDomain(it,link),g:q.g,ds:daysSince(date),...extract(full)});});});
+      const key=strip(title).replace(/[^a-z0-9]/g,"").slice(0,50);if(seen.has(key)||IGN.has(key)||IGN.has(link))return;seen.add(key);stat[q.g].k++;
+      found.push({key,title,link,a3,date,dom:itemDomain(it,link),g:q.g,ds:daysSince(date),...extract(full)});});});
   news=found.sort((a,b)=>b.date.localeCompare(a.date));lastScan=new Date();scanInfo={ok,n:qs.length};setScanStatus();
   srcStat.innerHTML=Object.entries(stat).map(([g,v])=>`<span class="badge b-grey">${g}: ${v.ok}/${v.n} · ${v.k}</span>`).join("");
   log(t("logDone",{ok,n:qs.length,k:news.length}));if(!ok)log(t("logHint"));btnScan.disabled=false;render();}

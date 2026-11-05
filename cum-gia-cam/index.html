@@ -120,6 +120,7 @@ textarea{width:100%;min-height:70px;background:var(--bg);color:var(--ink);border
 .st-o{border:1px solid var(--line);color:var(--muted)}
 .srcstat{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 @media(max-width:600px){.wrap{padding:8px;gap:10px}header{padding:10px 12px}h1{font-size:16px}.info.leaflet-control{display:none}.card h2{flex-wrap:wrap}.card h2 .t{flex:1 1 100%}.maptools{padding:8px}.kpi b{font-size:20px}}
+.rev{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin:4px 0}.rev .tbtn{padding:2px 9px;font-size:12px;cursor:pointer}.rv-yes{border-color:#ff2e4d!important;color:#ff8a9b!important}.rv-no{border-color:#8d9cbd!important}
 </style>
 </head>
 <body>
@@ -255,7 +256,7 @@ vi:{title:"TÌNH HÌNH CÚM GIA CẦM – VIỆT NAM",subtitle:"34 tỉnh/thành
  thProv:"Tỉnh",thStrain:"Chủng",thStatus:"Trạng thái",thDate:"Ngày",thSick:"Nhiễm",thDead:"Chết",thCull:"Tiêu hủy",thArea:"Tỉnh / địa bàn",thDetect:"Ngày PH",
  thPost:"Ngày đăng",thSrc:"Nguồn",thNews:"Tin",thExtract:"Trích",daysLeft:"Còn {d} ngày",verify:"Cần xác minh",le21:"≤21 ngày",days:"{d} ngày",
  noActive:"✅ Không có tỉnh nào có ổ dịch chưa qua 21 ngày theo dữ liệu hiện có.",noNews:"Chưa có tin phù hợp (bấm \"Quét tin báo\").",
- mentionOver:"nhắc \"qua 21 ngày/hết dịch\"",toVerify:"Xác minh →",del:"xóa",srcLink:"nguồn",
+ mentionOver:"nhắc \"qua 21 ngày/hết dịch\"",toVerify:"Xác minh →",isOb:"Có phải ổ dịch?",yes:"✔ Có",no:"✖ Không",revYes:"Đã xác nhận ổ dịch",revNo:"Đã bỏ qua tin này",revSync:"Mở GitHub để lưu cho mọi người xem – bấm \"Submit new issue\"",del:"xóa",srcLink:"nguồn",
  kNote:"Tính đến {d} · chỉ cộng ổ dịch đã xác minh",kMiss:" · một số ổ báo chưa tách số liệu",kAmber:" · <b style='color:var(--amber)'>{n}</b> tỉnh có tin cần xác minh",kNb:" · <b style='color:{c}'>{n}</b> tỉnh giáp ranh",
  tC:"Báo TW",tL:"Báo địa phương",tG:"Cổng TTĐT",tO:"Khác",all:"Tất cả",
  s_gn:"Google News – từ khóa chung",s_gn_d:"5 bộ từ khóa, giới hạn Việt Nam",s_bing:"Bing News – từ khóa chung",s_bing_d:"Công cụ thứ 2, có đoạn trích nội dung",
@@ -290,7 +291,7 @@ en:{title:"AVIAN INFLUENZA SITUATION – VIETNAM",subtitle:"34 provinces/cities 
  thProv:"Province",thStrain:"Strain",thStatus:"Status",thDate:"Date",thSick:"Infected",thDead:"Dead",thCull:"Culled",thArea:"Province / locality",thDetect:"Detected",
  thPost:"Published",thSrc:"Source",thNews:"Article",thExtract:"Extracted",daysLeft:"{d} days left",verify:"Verify",le21:"≤21 days",days:"{d} days",
  noActive:"✅ No province has an outbreak within 21 days in the current data.",noNews:"No matching items yet (click \"Scan news\").",
- mentionOver:"mentions \"21 days passed / outbreak over\"",toVerify:"Verify →",del:"delete",srcLink:"source",
+ mentionOver:"mentions \"21 days passed / outbreak over\"",toVerify:"Verify →",isOb:"Is this an outbreak?",yes:"✔ Yes",no:"✖ No",revYes:"Outbreak confirmed",revNo:"Report ignored",revSync:"GitHub opened to save for everyone – press \"Submit new issue\"",del:"delete",srcLink:"source",
  kNote:"As of {d} · verified outbreaks only",kMiss:" · some reports give combined figures",kAmber:" · <b style='color:var(--amber)'>{n}</b> province(s) with reports to verify",kNb:" · <b style='color:{c}'>{n}</b> bordering province(s)",
  tC:"National press",tL:"Local press",tG:"Gov. portal",tO:"Other",all:"All",
  s_gn:"Google News – general keywords",s_gn_d:"5 keyword sets, Vietnam edition",s_bing:"Bing News – general keywords",s_bing_d:"Second engine, includes text snippets",
@@ -452,7 +453,7 @@ function styleF(f){const n=f.properties.ten,s=ST.m[n];
   return base;}
 function obHTML(r,auto){
   const left=WINDOW-r.ds,pct=Math.min(100,Math.max(0,r.ds/WINDOW*100)),end=new Date(new Date(r.date).getTime()+WINDOW*DAY).toISOString().slice(0,10);
-  return `<div class="ob">${auto?`<b style="color:var(--amber)">${t("autoNews")}</b> <span class="badge st-${r.type}">${t("t"+r.type.toUpperCase())}</span>`:""}
+  return `<div class="ob">${auto&&r.key?revBtns(r.key):""}${auto?`<b style="color:var(--amber)">${t("autoNews")}</b> <span class="badge st-${r.type}">${t("t"+r.type.toUpperCase())}</span>`:""}
    <div class="row" style="gap:6px;margin-bottom:3px">${chip(r.strain)}<span class="note">${esc(r.area||r.dom||"")}</span></div>
    <dl><dt>${auto?t("dPost"):t("dDetect")}</dt><dd>${fmtD(r.date)} · ${t("ago",{d:r.ds})}</dd>
    <dt>${t("sick")}</dt><dd>${fmtN(r.sick)}</dd><dt>${t("dead")}</dt><dd>${fmtN(r.dead)}</dd><dt>${t("cull")}</dt><dd>${fmtN(r.cull)}</dd></dl>
@@ -558,7 +559,7 @@ function render(){
    (shown.length?shown.map(({n,i})=>`<tr><td>${fmtD(n.date)}<br><span class="badge ${n.ds<=WINDOW&&!n.over?"b-amber":"b-grey"}">${t("days",{d:n.ds})}</span></td>
     <td>${esc(n.prov)}</td><td><a href="${esc(n.link)}" target="_blank">${esc(n.title)}</a><br><span class="badge st-${n.type}">${t("t"+n.type.toUpperCase())}</span> <span class="note">${esc(n.dom||"")}</span>${n.over?` <span class="badge b-grey">${t("mentionOver")}</span>`:""}</td>
     <td class="note">${chip(n.strain)}<br>${t("thSick")[0]}:${n.sick??"–"} · ${t("thDead")[0]}:${n.dead??"–"} · ${LANG==="vi"?"TH":"Cu"}:${n.cull??"–"}</td>
-    <td><a href="#" data-add="${i}">${t("toVerify")}</a></td></tr>`).join("")
+    <td>${revBtns(n.key)}<a href="#" data-add="${i}">${t("toVerify")}</a></td></tr>`).join("")
    :`<tr><td colspan="5" class="note">${t("noNews")}</td></tr>`);
   info.update();
 }
@@ -585,7 +586,21 @@ const PROXIES=[u=>"https://api.allorigins.win/raw?url="+encodeURIComponent(u),u=
 const logEl=document.getElementById("log");const log=m=>{logEl.textContent=`[${new Date().toLocaleTimeString(LOC())}] ${m}\n`+logEl.textContent;};
 /* Kết quả quét phía máy chủ (GitHub Actions, mỗi 3 giờ): dùng trước, không phụ thuộc proxy công cộng */
 let RSSC=null;const rssReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/rss-cache.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.feeds&&Date.now()-Date.parse(j.at)<12*3600*1000){RSSC=j;try{log((LANG==="en"?"Using server scan of ":"Dùng kết quả quét máy chủ lúc ")+new Date(j.at).toLocaleString(LOC()));}catch(e){}}}).catch(()=>{});
-async function getXML(url){await rssReady;if(RSSC&&Object.prototype.hasOwnProperty.call(RSSC.feeds,url))return new DOMParser().parseFromString("<rss><channel>"+RSSC.feeds[url]+"</channel></rss>","text/xml");for(const px of PROXIES){try{const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),12000);
+/* Xác minh tin: Có = thành ổ dịch, Không = bỏ qua. Lưu trên máy + review.json (chung cho mọi người, cập nhật qua GitHub) */
+const IGN=new Set();try{(JSON.parse(localStorage.getItem("cgc_ignore"))||[]).forEach(k=>IGN.add(k));}catch(e){}
+const IS_ADMIN=(()=>{try{return localStorage.getItem("lsv_admin")==="1"}catch(e){return false}})();
+let REVIEW=null;const reviewReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/review.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{const v=j&&j["vn"];if(!v)return;REVIEW=v;(v.ignore||[]).forEach(x=>IGN.add(x.key));let add=0;(v.confirm||[]).forEach(c=>{if(c&&c.id&&!records.some(r=>r.id===c.id)){records.push(c);add++;}});if(add)save();news=news.filter(n=>!IGN.has(n.key));try{render();}catch(e){}}).catch(()=>{});
+const revBtns=k=>`<span class="rev"><span class="note">${t("isOb")}</span><button type="button" class="tbtn rv-yes" data-yes="${esc(k)}">${t("yes")}</button><button type="button" class="tbtn rv-no" data-no="${esc(k)}">${t("no")}</button></span>`;
+function revSync(action,payload){if(!IS_ADMIN)return;const body="```json\n"+JSON.stringify({scope:"vn",action,...payload},null,1)+"\n```\n(Tạo tự động từ bản đồ – bấm Submit new issue để lưu)";
+ window.open("https://github.com/nguyenvanhoa1912-lasotuvi/lasotuvi/issues/new?title="+encodeURIComponent("[review] "+action+" · "+(payload.title||payload.note||"").slice(0,60))+"&body="+encodeURIComponent(body),"_blank");log(t("revSync"));}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-yes],[data-no]");if(!b)return;e.preventDefault();e.stopPropagation();
+ const k=b.dataset.yes||b.dataset.no,n=news.find(x=>x.key===k);if(!n)return;
+ if(b.dataset.no){IGN.add(k);try{const L=JSON.parse(localStorage.getItem("cgc_ignore"))||[];L.push(k);localStorage.setItem("cgc_ignore",JSON.stringify(L));}catch(_){}
+  news=news.filter(x=>x.key!==k);log(t("revNo")+": "+n.title);revSync("ignore",{key:k,title:n.title,link:n.link,date:n.date});}
+ else{const rec={id:"n"+k.slice(0,28),prov:n.prov,area:"",date:n.date,strain:STRAINS[n.strain]?n.strain:"Chưa xác định",sick:n.sick??null,dead:n.dead??null,cull:n.cull??null,url:n.link,src:n.dom||"",note:n.title};if(!records.some(r=>r.id===rec.id)){records.push(rec);save();}
+  IGN.add(k);news=news.filter(x=>x.key!==k);log(t("revYes")+": "+n.title);revSync("confirm",{key:k,title:n.title,record:rec});}
+ render();},true);
+async function getXML(url){await rssReady;await reviewReady;if(RSSC&&Object.prototype.hasOwnProperty.call(RSSC.feeds,url))return new DOMParser().parseFromString("<rss><channel>"+RSSC.feeds[url]+"</channel></rss>","text/xml");for(const px of PROXIES){try{const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),12000);
   const r=await fetch(px(url),{signal:ctl.signal});clearTimeout(tm);if(!r.ok)continue;const x=new DOMParser().parseFromString(await r.text(),"text/xml");if(x.querySelector("item"))return x;}catch(e){}}return null;}
 const KW=/cum gia cam|h5n1|h5n6|h5n8|h7n9|h9n2/,OUTBREAK=/o dich|phat hien|xuat hien|duong tinh|cong bo dich|tieu huy|bung phat|chet|mac benh/;
 const FOREIGN=/dai loan|trung quoc|my |hoa ky|uc |australia|victoria|campuchia|nhat ban|han quoc|chau au|sec |an do|philippines|thai lan|indonesia/;
@@ -617,8 +632,8 @@ async function scan(){
       const dom=itemDomain(it,link);const pt=findProv(title);const prov=pt||findProv(desc)||provFromDomain(dom);if(!prov)return;
       if(FOREIGN.test(" "+strip(title)+" ")&&!pt)return;
       const date=pd.toISOString().slice(0,10);if(daysSince(date)>45)return;
-      const key=strip(title).replace(/[^a-z0-9]/g,"").slice(0,50);if(seen.has(key))return;seen.add(key);stat[q.g].k++;
-      found.push({title,link,prov,date,dom,type:srcType(dom),ds:daysSince(date),over:/qua 21 ngay|het dich/.test(s),...extract(full)});});});
+      const key=strip(title).replace(/[^a-z0-9]/g,"").slice(0,50);if(seen.has(key)||IGN.has(key)||IGN.has(link))return;seen.add(key);stat[q.g].k++;
+      found.push({key,title,link,prov,date,dom,type:srcType(dom),ds:daysSince(date),over:/qua 21 ngay|het dich/.test(s),...extract(full)});});});
   news=found.sort((a,b)=>b.date.localeCompare(a.date));lastScan=new Date();scanInfo={ok,n:qs.length};setScanStatus();
   srcStat.innerHTML=Object.entries(stat).map(([g,v])=>`<span class="badge b-grey">${g}: ${v.ok}/${v.n} · ${v.k}</span>`).join("");
   log(t("logDone",{ok,n:qs.length,k:news.length}));if(!ok)log(t("logHint"));btnScan.disabled=false;render();}

@@ -1,0 +1,40 @@
+name: Xác minh tin cúm gia cầm
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: cum-gia-cam-review
+  cancel-in-progress: false
+jobs:
+  save:
+    # chỉ nhận issue "[review]" do chính chủ repo tạo
+    if: startsWith(github.event.issue.title, '[review]') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Ghi review.json
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: node cum-gia-cam/scripts/review.mjs
+      - name: Lưu và đóng issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ github.event.issue.title }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cum-gia-cam/review.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Xác minh tin: $TITLE"
+            for i in 1 2 3; do git pull --rebase -X theirs origin main && git push origin HEAD:main && break; sleep 5; done
+          fi
+          gh issue close "$NUM" --repo "$GITHUB_REPOSITORY" --comment "Đã lưu vào cum-gia-cam/review.json – bản đồ áp dụng cho mọi người sau 1–2 phút."
