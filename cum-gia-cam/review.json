@@ -6,10 +6,43 @@
     "title": "Bắc Ninh phát hiện cúm gia cầm A/H5N1, H5N6, khẩn trương siết phòng dịch dịp cuối năm",
     "action": "ignore",
     "note": "Anh Hòa xác nhận: bài viết về công tác phòng dịch, không phải ổ dịch mới",
-    "at": "2026-11-05T06:20:20.709801Z"
+    "at": "2026-11-05T06:20:20.709801Z",
+    "links": [
+     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeFpkTVJEeU5fa19KRTdnZVFqWWdOMEM0a0xIb3YtRDh2TEVpVXdLOURheXVYT3FjU3p4T2N6d0FmMVNEenhYVjJXSUNUSFZVYjNsSEpaNFZJNmh4eFVkU185UkUxcWdldV9YVFFaY194OWJkdVI2aHp3Vk54TFN6cjJ5ZDR3dFhWQXBHejlncW5yRkNiNzVNTzgtT050bEliUUJWOUE5c3JPQzFXMVRjVDY4bEhKdWc?oc=5"
+    ],
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeFpkTVJEeU5fa19KRTdnZVFqWWdOMEM0a0xIb3YtRDh2TEVpVXdLOURheXVYT3FjU3p4T2N6d0FmMVNEenhYVjJXSUNUSFZVYjNsSEpaNFZJNmh4eFVkU185UkUxcWdldV9YVFFaY194OWJkdVI2aHp3Vk54TFN6cjJ5ZDR3dFhWQXBHejlncW5yRkNiNzVNTzgtT050bEliUUJWOUE5c3JPQzFXMVRjVDY4bEhKdWc?oc=5"
    }
   ],
-  "confirm": []
+  "confirm": [
+   {
+    "id": "r-dongthap-tanphudong-202610",
+    "prov": "Đồng Tháp",
+    "area": "Xã Tân Phú Đông (ấp Bà Lắm)",
+    "date": "2026-10-23",
+    "strain": "A/H5N6",
+    "sick": 167,
+    "dead": 77,
+    "cull": 518,
+    "note": "Vịt phát bệnh 12–17/10; kết quả xét nghiệm 23/10 dương tính A/H5N6. Đàn 562 con (560 vịt, 2 gà); 167 con mắc bệnh (77 chết); tiêu hủy 518 con (844 kg) đến 24/10. Anh Hòa đã xác nhận 05/11/2026.",
+    "note_en": "Ducks fell ill 12–17 Oct; lab result 23 Oct A/H5N6 positive. Flock 562 (560 ducks, 2 chickens); 167 sick (77 dead); 518 birds (844 kg) culled by 24 Oct. Confirmed by owner 5 Nov 2026.",
+    "url": "https://vov.vn/xa-hoi/phat-hien-o-dich-cum-gia-cam-tai-dong-thap-post1345459.vov",
+    "src": "VOV"
+   },
+   {
+    "id": "r-thanhhoa-thieutien-202610",
+    "prov": "Thanh Hóa",
+    "area": "Xã Thiệu Tiến",
+    "date": "2026-10-15",
+    "strain": "Chưa xác định",
+    "sick": null,
+    "dead": null,
+    "cull": null,
+    "note": "UBND xã Thiệu Tiến niêm yết kết quả thẩm định hồ sơ hỗ trợ hộ chăn nuôi bị thiệt hại do dịch cúm gia cầm từ 25/9 đến 15/10/2026. Nguồn chưa nêu chủng virus và số con; ngày tính = ngày cuối đợt thiệt hại (15/10). Anh Hòa đã xác nhận 05/11/2026.",
+    "note_en": "Thiệu Tiến commune posted assessed support claims for farms hit by avian influenza from 25 Sep to 15 Oct 2026. Strain and bird numbers not stated; date used = end of loss period (15 Oct). Confirmed by owner 5 Nov 2026.",
+    "url": "https://thieutien.thanhhoa.gov.vn",
+    "src": "UBND xã Thiệu Tiến"
+   }
+  ]
  },
  "world": {
   "ignore": [],
