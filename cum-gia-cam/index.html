@@ -256,7 +256,7 @@ vi:{title:"TÌNH HÌNH CÚM GIA CẦM – VIỆT NAM",subtitle:"34 tỉnh/thành
  thProv:"Tỉnh",thStrain:"Chủng",thStatus:"Trạng thái",thDate:"Ngày",thSick:"Nhiễm",thDead:"Chết",thCull:"Tiêu hủy",thArea:"Tỉnh / địa bàn",thDetect:"Ngày PH",
  thPost:"Ngày đăng",thSrc:"Nguồn",thNews:"Tin",thExtract:"Trích",daysLeft:"Còn {d} ngày",verify:"Cần xác minh",le21:"≤21 ngày",days:"{d} ngày",
  noActive:"✅ Không có tỉnh nào có ổ dịch chưa qua 21 ngày theo dữ liệu hiện có.",noNews:"Chưa có tin phù hợp (bấm \"Quét tin báo\").",
- mentionOver:"nhắc \"qua 21 ngày/hết dịch\"",toVerify:"Xác minh →",isOb:"Có phải ổ dịch?",notOb:"✖ Không phải ổ dịch",revDel:"Đã gỡ, không phải ổ dịch",yes:"✔ Có",no:"✖ Không",revYes:"Đã xác nhận ổ dịch",revNo:"Đã bỏ qua tin này",revSync:"Mở GitHub để lưu cho mọi người xem – bấm \"Submit new issue\"",del:"xóa",srcLink:"nguồn",
+ mentionOver:"nhắc \"qua 21 ngày/hết dịch\"",toVerify:"Xác minh →",isOb:"Có phải ổ dịch?",covered:"✔ Đã xác minh ổ dịch",notOb:"✖ Không phải ổ dịch",revDel:"Đã gỡ, không phải ổ dịch",yes:"✔ Có",no:"✖ Không",revYes:"Đã xác nhận ổ dịch",revNo:"Đã bỏ qua tin này",revSync:"Mở GitHub để lưu cho mọi người xem – bấm \"Submit new issue\"",del:"xóa",srcLink:"nguồn",
  kNote:"Tính đến {d} · chỉ cộng ổ dịch đã xác minh",kMiss:" · một số ổ báo chưa tách số liệu",kAmber:" · <b style='color:var(--amber)'>{n}</b> tỉnh có tin cần xác minh",kNb:" · <b style='color:{c}'>{n}</b> tỉnh giáp ranh",
  tC:"Báo TW",tL:"Báo địa phương",tG:"Cổng TTĐT",tO:"Khác",all:"Tất cả",
  s_gn:"Google News – từ khóa chung",s_gn_d:"5 bộ từ khóa, giới hạn Việt Nam",s_bing:"Bing News – từ khóa chung",s_bing_d:"Công cụ thứ 2, có đoạn trích nội dung",
@@ -291,7 +291,7 @@ en:{title:"AVIAN INFLUENZA SITUATION – VIETNAM",subtitle:"34 provinces/cities 
  thProv:"Province",thStrain:"Strain",thStatus:"Status",thDate:"Date",thSick:"Infected",thDead:"Dead",thCull:"Culled",thArea:"Province / locality",thDetect:"Detected",
  thPost:"Published",thSrc:"Source",thNews:"Article",thExtract:"Extracted",daysLeft:"{d} days left",verify:"Verify",le21:"≤21 days",days:"{d} days",
  noActive:"✅ No province has an outbreak within 21 days in the current data.",noNews:"No matching items yet (click \"Scan news\").",
- mentionOver:"mentions \"21 days passed / outbreak over\"",toVerify:"Verify →",isOb:"Is this an outbreak?",notOb:"✖ Not an outbreak",revDel:"Removed as not an outbreak",yes:"✔ Yes",no:"✖ No",revYes:"Outbreak confirmed",revNo:"Report ignored",revSync:"GitHub opened to save for everyone – press \"Submit new issue\"",del:"delete",srcLink:"source",
+ mentionOver:"mentions \"21 days passed / outbreak over\"",toVerify:"Verify →",isOb:"Is this an outbreak?",covered:"✔ Outbreak verified",notOb:"✖ Not an outbreak",revDel:"Removed as not an outbreak",yes:"✔ Yes",no:"✖ No",revYes:"Outbreak confirmed",revNo:"Report ignored",revSync:"GitHub opened to save for everyone – press \"Submit new issue\"",del:"delete",srcLink:"source",
  kNote:"As of {d} · verified outbreaks only",kMiss:" · some reports give combined figures",kAmber:" · <b style='color:var(--amber)'>{n}</b> province(s) with reports to verify",kNb:" · <b style='color:{c}'>{n}</b> bordering province(s)",
  tC:"National press",tL:"Local press",tG:"Gov. portal",tO:"Other",all:"All",
  s_gn:"Google News – general keywords",s_gn_d:"5 keyword sets, Vietnam edition",s_bing:"Bing News – general keywords",s_bing_d:"Second engine, includes text snippets",
@@ -453,7 +453,7 @@ function styleF(f){const n=f.properties.ten,s=ST.m[n];
   return base;}
 function obHTML(r,auto){
   const left=WINDOW-r.ds,pct=Math.min(100,Math.max(0,r.ds/WINDOW*100)),end=new Date(new Date(r.date).getTime()+WINDOW*DAY).toISOString().slice(0,10);
-  return `<div class="ob">${auto&&r.key?revBtns(r.key):""}${!auto&&r.id&&r.id[0]!=="s"?`<span class="rev"><button type="button" class="tbtn rv-no" data-unrec="${esc(r.id)}">${t("notOb")}</button></span>`:""}${auto?`<b style="color:var(--amber)">${t("autoNews")}</b> <span class="badge st-${r.type}">${t("t"+r.type.toUpperCase())}</span>`:""}
+  return `<div class="ob">${auto&&r.key?(covered(r)?`<span class="badge b-red">${t("covered")}</span> `:revBtns(r.key)):""}${!auto&&r.id&&r.id[0]!=="s"?`<span class="rev"><button type="button" class="tbtn rv-no" data-unrec="${esc(r.id)}">${t("notOb")}</button></span>`:""}${auto?`<b style="color:var(--amber)">${t("autoNews")}</b> <span class="badge st-${r.type}">${t("t"+r.type.toUpperCase())}</span>`:""}
    <div class="row" style="gap:6px;margin-bottom:3px">${chip(r.strain)}<span class="note">${esc(r.area||r.dom||"")}</span></div>
    <dl><dt>${auto?t("dPost"):t("dDetect")}</dt><dd>${fmtD(r.date)} · ${t("ago",{d:r.ds})}</dd>
    <dt>${t("sick")}</dt><dd>${fmtN(r.sick)}</dd><dt>${t("dead")}</dt><dd>${fmtN(r.dead)}</dd><dt>${t("cull")}</dt><dd>${fmtN(r.cull)}</dd></dl>
@@ -559,7 +559,7 @@ function render(){
    (shown.length?shown.map(({n,i})=>`<tr><td>${fmtD(n.date)}<br><span class="badge ${n.ds<=WINDOW&&!n.over?"b-amber":"b-grey"}">${t("days",{d:n.ds})}</span></td>
     <td>${esc(n.prov)}</td><td><a href="${esc(n.link)}" target="_blank">${esc(n.title)}</a><br><span class="badge st-${n.type}">${t("t"+n.type.toUpperCase())}</span> <span class="note">${esc(n.dom||"")}</span>${n.over?` <span class="badge b-grey">${t("mentionOver")}</span>`:""}</td>
     <td class="note">${chip(n.strain)}<br>${t("thSick")[0]}:${n.sick??"–"} · ${t("thDead")[0]}:${n.dead??"–"} · ${LANG==="vi"?"TH":"Cu"}:${n.cull??"–"}</td>
-    <td>${revBtns(n.key)}<a href="#" data-add="${i}">${t("toVerify")}</a></td></tr>`).join("")
+    <td>${covered(n)?`<span class="badge b-red">${t("covered")}</span>`:revBtns(n.key)+`<a href="#" data-add="${i}">${t("toVerify")}</a>`}</td></tr>`).join("")
    :`<tr><td colspan="5" class="note">${t("noNews")}</td></tr>`);
   info.update();
 }
@@ -589,7 +589,8 @@ let RSSC=null;const rssReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/
 /* Xác minh tin: Có = thành ổ dịch, Không = bỏ qua. Lưu trên máy + review.json (chung cho mọi người, cập nhật qua GitHub) */
 const IGN=new Set();try{(JSON.parse(localStorage.getItem("cgc_ignore"))||[]).forEach(k=>IGN.add(k));}catch(e){}
 const IS_ADMIN=(()=>{try{return localStorage.getItem("lsv_admin")==="1"}catch(e){return false}})();
-let REVIEW=null;const reviewReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/review.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{const v=j&&j["vn"];if(!v)return;REVIEW=v;(v.ignore||[]).forEach(x=>{IGN.add(x.key);if(x.link)IGN.add(x.link);});let add=0;(v.confirm||[]).forEach(c=>{if(c&&c.id&&!IGN.has("rec-"+c.id)&&!records.some(r=>r.id===c.id)){const n1=records.length;records=records.filter(r=>!(/^[nu]/.test(r.id)&&(r.prov||r.a3)===(c.prov||c.a3)&&Math.abs(Date.parse(r.date)-Date.parse(c.date))<=21*864e5));records.push(c);add+=1+n1-records.length;}});const n0=records.length;records=records.filter(r=>!(r.id[0]!=="s"&&r.url&&IGN.has(r.url)));if(add||records.length!==n0)save();news=news.filter(n=>!IGN.has(n.key)&&!IGN.has(n.link));try{render();}catch(e){}}).catch(()=>{});
+let REVIEW=null;const reviewReady=fetch("https://nguyenvanhoa1912-lasotuvi.github.io/lasotuvi/cum-gia-cam/review.json?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{const v=j&&j["vn"];if(!v)return;REVIEW=v;(v.ignore||[]).forEach(x=>{IGN.add(x.key);if(x.link)IGN.add(x.link);});let add=0;(v.confirm||[]).forEach(c=>{if(c&&c.id&&!IGN.has("rec-"+c.id)&&JSON.stringify(records.find(r=>r.id===c.id))!==JSON.stringify(c)){const n1=records.length;records=records.filter(r=>r.id!==c.id&&!(/^[nu]/.test(r.id)&&(r.prov||r.a3)===(c.prov||c.a3)&&Math.abs(Date.parse(r.date)-Date.parse(c.date))<=21*864e5));records.push(c);add+=1+n1-records.length;}});const n0=records.length;records=records.filter(r=>!(r.id[0]!=="s"&&r.url&&IGN.has(r.url)));if(add||records.length!==n0)save();news=news.filter(n=>!IGN.has(n.key)&&!IGN.has(n.link));try{render();}catch(e){}}).catch(()=>{});
+const covered=n=>records.some(r=>(r.prov||r.a3)===(n.prov||n.a3)&&Math.abs(Date.parse(r.date)-Date.parse(n.date))<=21*864e5);
 const revBtns=k=>`<span class="rev"><span class="note">${t("isOb")}</span><button type="button" class="tbtn rv-yes" data-yes="${esc(k)}">${t("yes")}</button><button type="button" class="tbtn rv-no" data-no="${esc(k)}">${t("no")}</button></span>`;
 function revSync(action,payload){if(!IS_ADMIN)return;const body="```json\n"+JSON.stringify({scope:"vn",action,...payload},null,1)+"\n```\n(Tạo tự động từ bản đồ – bấm Submit new issue để lưu)";
  window.open("https://github.com/nguyenvanhoa1912-lasotuvi/lasotuvi/issues/new?title="+encodeURIComponent("[review] "+action+" · "+(payload.title||payload.note||"").slice(0,60))+"&body="+encodeURIComponent(body),"_blank");log(t("revSync"));}
