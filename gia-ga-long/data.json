@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-07T02:53:36.900Z",
-  "lastScan": "2026-11-07T02:53:36.900Z",
+  "updated": "2026-11-08T02:33:20.010Z",
+  "lastScan": "2026-11-08T02:33:20.010Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1281,6 +1281,30 @@
  ],
  "news": [
   {
+   "title": "Giá gà thịt giảm sâu, người chăn nuôi gặp khó - Báo và phát thanh, truyền hình Đồng Tháp",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hTGpuZG5VdWNLbUxseDlsSHEtNFdHdk9veWxuS2NtSU1jdUdNaXlMY0tXa1hsWDFLdGZNTXo3UkY2a0lKcXZEMk1iSGlLRXZFYzVUZmlPak5jN29FODhLUzFDZ0lKNkc5R0JYWGR6VldpTF9OMjlz?oc=5",
+   "date": "2026-11-07",
+   "source": "Báo và phát thanh, truyền hình Đồng Tháp"
+  },
+  {
+   "title": "Tình hình chăn nuôi tháng 10.2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UTHd0Nks0WWpCcUlzb1FqN1ZBS3llWVRhY2VWdWtnU0Zoa1dDWjlraE9QR1RnbEVodFhEWks1SDJTS01FZzBfLW9rX0NtUkEtMThfUmhhcWxWckN0LVh1S1NCWlRScjdu?oc=5",
+   "date": "2026-11-06",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Kiểm soát E. coli trên gia cầm: Từ thách thức dịch bệnh đến giải pháp phòng ngừa chủ động - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ24xNFpIR2VodDRQRHdla0hPWTVQOHNuS3F3LXpRQWNXN2s4dUluVUhxVzlEMnBNcjhUUnhjM1NNUmVoMGFOWXROMlVpeWsxM2ozNGlsU25xQ3laNHM2UUxTSzdkRTZBQ29NYmhNWjRldXdPUWVwbTZHYWpiUzRJbUhOSHN2LXVVaTFGWHVHS1hXdFBLVEJka0U2R1FPS1VqbUxFbmZNYjQxdFhjNy0wWQ?oc=5",
+   "date": "2026-11-06",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "R.E.P Lab Tây Nguyên chính thức đi vào hoạt động - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyRjJwN1hMX0hZSGs1MkZfc2FjbzM3a3E5UHhqMURGVzVTSFdhNHB5QVlMZ3hnb1hQYldIR0FsamREZlM3a0RlbnY0SGwwN1hHV3FEZG03UjkxMWJlcG14SHk1ZDhIYWRYdk01UEJtR1I5dFpDLXpHZ0I5b3c?oc=5",
+   "date": "2026-11-06",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Nghịch lý ngành trứng gia cầm - Vietnam.vn",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YQ1lJWnVXSmhRYkZtbGhlcE1HaWYxQlRXMW9vQmVyZ093WVZHOTNYdGhva2ZqZWhWT2dpOHNya1lwQ2RObjIxdWdXcTI2Wm9kSzQzeG1qVEt2cHM4bGJhUFRR?oc=5",
    "date": "2026-11-06",
@@ -1311,14 +1335,14 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "GREENFEED thúc đẩy chăn nuôi thông minh dựa trên dữ liệu và trí tuệ nhân tạo tại AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2FSaHZHeVlOTjRxVzI4c3lIRFA5UWlaRXVTbGVJYkZ0TjhpTU42LV9xSWY0MXpnSy13b3RNWWt4N1BNOHhXSTV6TURwQTJZcS15OGZKQmstZElDaXBlRFJhQjhqTlMwN3R2aGlNbUUxMnVKU2xLYTlOOVRtWEQtbWJ5TnFRZlVaeHo2VDhibld6T0VmQVpUelE4UTdMcm5zUlhtQk9uZ0RMYmE5S0dpZW5ldUE?oc=5",
+   "title": "ANT khởi công trại heo giống quy mô 2.400 con tại Gia Lai - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjlaTlJOdVNNRm5adklPZloyZ3Y2RDBnbXFaMTIyRE5fdnpzSkZDWkxuNDd2MWR2eEJsM08xR09NVGl0VWxKQ0tqUXFMSzNwbmhyRnJfNi1RcWVGVEVFSU5OQlJNSGRWU0tvUjUwVWlWbUxIT0hkNERxV1VWVHNaRjNxc0pnU1RN?oc=5",
    "date": "2026-11-05",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "ANT khởi công trại heo giống quy mô 2.400 con tại Gia Lai - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjlaTlJOdVNNRm5adklPZloyZ3Y2RDBnbXFaMTIyRE5fdnpzSkZDWkxuNDd2MWR2eEJsM08xR09NVGl0VWxKQ0tqUXFMSzNwbmhyRnJfNi1RcWVGVEVFSU5OQlJNSGRWU0tvUjUwVWlWbUxIT0hkNERxV1VWVHNaRjNxc0pnU1RN?oc=5",
+   "title": "GREENFEED thúc đẩy chăn nuôi thông minh dựa trên dữ liệu và trí tuệ nhân tạo tại AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2FSaHZHeVlOTjRxVzI4c3lIRFA5UWlaRXVTbGVJYkZ0TjhpTU42LV9xSWY0MXpnSy13b3RNWWt4N1BNOHhXSTV6TURwQTJZcS15OGZKQmstZElDaXBlRFJhQjhqTlMwN3R2aGlNbUUxMnVKU2xLYTlOOVRtWEQtbWJ5TnFRZlVaeHo2VDhibld6T0VmQVpUelE4UTdMcm5zUlhtQk9uZ0RMYmE5S0dpZW5ldUE?oc=5",
    "date": "2026-11-05",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1353,12 +1377,6 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Chăn nuôi gặp khó ngay trước mùa tết - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zUmVlbFBBOFRfVGFOeXVVcXd2dWJLeVNmVGxvTnF5Q0ZieVZNY0NZNjdKVjJITXQ2OU5CQWl5WlROdWNTa3pMWFlWd3RuV3N1dDBaOHZGcEtQWmVXN1JGMlZDdnB5UG0xSG9v?oc=5",
-   "date": "2026-11-03",
-   "source": "Vietnam.vn"
-  },
-  {
    "title": "BAF hợp tác với Tập đoàn HKY, mở rộng đầu tư sang chăn nuôi gia cầm - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTmllZjdGWlpGZmNDVGJmdHRMbVBDdklGUGlZNUFSa2R3T2pUT25HeUd0UEItWjQyWGxpVUREY0xGTjhwZzhnQjR6bjF1V2FOWnRMOF91c2h0UEViY25Ld2EyQ2ZfellNQ2JHZ0h5Sl96d0VMRUg4cG5ycHMyWTFjWVNnd3J0bzNwMnBvenZuSWZoVGZ4?oc=5",
    "date": "2026-11-03",
@@ -1371,27 +1389,27 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
+   "title": "Chăn nuôi gặp khó ngay trước mùa tết - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zUmVlbFBBOFRfVGFOeXVVcXd2dWJLeVNmVGxvTnF5Q0ZieVZNY0NZNjdKVjJITXQ2OU5CQWl5WlROdWNTa3pMWFlWd3RuV3N1dDBaOHZGcEtQWmVXN1JGMlZDdnB5UG0xSG9v?oc=5",
+   "date": "2026-11-03",
+   "source": "Vietnam.vn"
+  },
+  {
+   "title": "Bà Nguyễn Thị Loan được bổ nhiệm làm Thứ trưởng Bộ Nông nghiệp và Môi trường - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdGFBQ1dLR2xJakczeGxTQ2tSQlB3SGlHQzJ4ajNfSUoyZmFHXzZJandLWE5qOEYyWkdJOG1HVVNFZlV4RnplcnRzMDRsWWtwY2N0czJwS3NJcFYxSVVFQTZmdkVwbkZYdjdqOWRRZGFmdFctdFNmb1laTm5HeWFIREZrcTJLYlNIT1FtUmEzS1RmY1UzYTRQLVY3ZjhtZUtmQmc?oc=5",
+   "date": "2026-11-02",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Giá cả đầu ngày: Trứng gà ác 40.000 đồng/chục, dừa khô tăng giá, lươn giảm sâu - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUdpOFpObXppcUE4SjFfZDhNRk9KRlFXRUZlNEYxZ2dUZFZ1QWRkcnVXdWFDSlhsYXl1WENOa2dBWmVhZlZ1NmZpbnE5aWYxZlRRckFJODVmS0QydUYwNUFkQ2gyaGYxQ0l2WXEwRjEzZjJza045SlhZREw1djFveXo3RE9xWU9XVC1LZkxkdG9nYzNSSlhBeEJrcnV1MW8?oc=5",
+   "date": "2026-11-01",
+   "source": "Vietnam.vn"
+  },
+  {
    "title": "Thông điệp Hà Nội về phát triển chăn nuôi bền vững - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Bb3o1QVVBcTE4QUFfRExqeGp0X2dTUDZ1WnhwVVhwNVVvd2RYOWFvY29GQnF5RmktTmVxNjFrX3d1M1ZJYlhiMW1HNGJ3a3RneGs4Q0ptZkVfWjBGaHpmc3FJSGhxYkpXcnlrS00tR3p0Zm9feDBUMnNpdG1MVWc?oc=5",
    "date": "2026-11-01",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "AAAP 2026: Khép lại 3 ngày hội nghị, thông qua Thông điệp Hà Nội về chăn nuôi bền vững - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTXNuc3RFQldVaEUtRnp1dGhiLVJkY2hVTWNUMlVjOHRyYjNLRTJDa1JaSlZTckNXaGxfQUR1NGF6VEgxa3hEcEhHUDVsT2tWY1haZkUtLWdjcUxFd0NrSzA4c0dZcUJxQ0h0eGxZaGFpYlhtcjFDbU9LQmFNeHVyQUpudGFjem1PWkJZY0ozbmpoLXJCbTdRRXdza25NLTM5cXNnWXluVDloa3VoeU5iYkFRNWR3cFE?oc=5",
-   "date": "2026-10-31",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Mavin đồng hành cùng khoa học chăn nuôi tại AAAP 2026 - Chăn nuôi Việt Nam - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbHJfV05kTHFDU1ZvckxlRThTQUJITVZxZDd5NGRJeDJVTW1wR01qc0JCMjhzM0poSEpZWWVBWnMwOUg4QnBUaWs1eFd3LUkwOHY1LXhmbVRoX0pHdkd5ek5yQkVSR2kzOEU4Tld2Ry11c0NuTC1NdERBSERvWDRZcnRNcw?oc=5",
-   "date": "2026-10-31",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Cargill khánh thành và bàn giao điểm trường thứ 129 tại Việt Nam - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdWVqR1k5clQzaGJVNXg2NGNweUc4YVJ6SXVOOXhJbm4tMkxWaDdIcm1QcTJ3R1NaTVpiaDNQUWxTTTZ4eDBKVjBYSl90RG5nSzNZSEFUTWFvejkyZmg0bFZVa3VPVVlNNlc1TENkYllOYmp5QXpVQnN2VXR6R0ZXRW9ibkhma3RVUmdKNVo5N3NCdw?oc=5",
-   "date": "2026-10-31",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   }
  ],
@@ -1449,6 +1467,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-08T02:33:20.010Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 22 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
+    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 22 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-07T02:53:36.900Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 19 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
@@ -1902,23 +1934,6 @@
     "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-10-20T10:46:27.410Z",
-   "summary": "Bảng giá mới: 2026-10-20 · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [
-    "2026-10-20"
-   ],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 1",
-    "  + 2026-10-20: trắng 37000/34000/32000 · màu 52000/47200/48000",
-    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
-    "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: 2026-10-20 · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
    ]
   }
  ]
