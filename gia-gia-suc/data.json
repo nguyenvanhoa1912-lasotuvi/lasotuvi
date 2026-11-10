@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-10T18:10:37.268Z",
-  "lastScan": "2026-11-10T18:10:37.268Z",
+  "updated": "2026-11-10T20:58:18.992Z",
+  "lastScan": "2026-11-10T20:58:18.992Z",
   "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
   "origin": {
    "2026-10-13": "cnvn",
@@ -1336,12 +1336,6 @@
    "source": "Gia Đình Mới"
   },
   {
-   "title": "Giá heo hơi hôm nay 10.11.2026: Chênh lệch ba miền ra sao? - Báo Văn Hóa",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdXNuWkxGd0RmRjd1X2VCb3BCWVdlN0lLbGpqQXRtSzJWbzhlZEtHRWRlWWY1XzNNUVlhbGlnSm5VcnM2NDB2T2lXdnVfMHVJNzU1S3ZZUXBnN2hweC1RU2RMQ01sWThIdXh1ZFNxTTNEU05adE5XWkkxbjlzR0stcUNaMlZnRGcycnc?oc=5",
-   "date": "2026-11-10",
-   "source": "Báo Văn Hóa"
-  },
-  {
    "title": "Giá heo hơi hôm nay 10/11: Miền Bắc giảm sâu, miền Nam xuất hiện điểm tăng - Tạp chí điện tử Thương Trường",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUFlpdDAxbGRxLVN1YW1pdG5OZ1JHYm9lV0o1c2YxTXk5eTlmM2IteVBic3lUVTZsQmFvLXhrcURaUHV3RXNoZzVMaXRXVm9fZWtvSkNZcEY5eTc5RHRGdUp6b3BtVTNFOVhJMzBMNFIzdHphOHppSHhwZG5CQlhpZWU2U2l0MExSX3dHTWJrNUxwcGdfeHpJQlpGaTJNSHJ5c1NyRFEyUW1LemJIWDFjZzh0TkdIaUk?oc=5",
    "date": "2026-11-10",
@@ -1384,6 +1378,12 @@
    "source": "Vietnam.vn"
   },
   {
+   "title": "Giá heo hơi hôm nay 10.11.2026: Chênh lệch ba miền ra sao? - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUWl3SUw5OHhMTnJxcVVvQ3l0SzNWN1VUMDVFMTdURUlCWmFXUkwzQlBLMzlYNzFDVjVXUFhDb3JaSEV5LVVoZzRrRTNtY2FvaEpWOHhVbjZzelJWdWdpcmN3RFBfRURPLWh4WTZLVEduWE0ydzFvRS04YUtZajBnTzk1ZG55UQ?oc=5",
+   "date": "2026-11-10",
+   "source": "Vietnam.vn"
+  },
+  {
    "title": "Giá lợn hơi hôm nay 10/11: Miền Bắc phổ biến 46.000 - 48.000 đồng/kg - Báo Lào Cai điện tử",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYVRlaDlTNy1RLWtfSzZqcEZqNzdJLV96dHd5OWV5Ym55RW1mQkltYTZsem55R1ZJekxUQlNNaW9VQ2R2VTF4b0JNcEQyTVNZTXIyMkNrVU95cVBGSFVLVmV6MUlWUXZndEJwREp5SE1GYzhiTWRfa0t3dU51ZmtrcS1JN1ZjWFM5UmFGWWtvVW1uTFN4N0x5NWFrcjM1YnM?oc=5",
    "date": "2026-11-09",
@@ -1400,12 +1400,6 @@
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSGFiQU9ZdlZTM1VLTFRjU3FhN1pLYXl5Qkk2TEtPSGNhWml6bi1ERUxERWtJcFV2UlAtZmo4bFFLUmNGOTRkSXBLZDNFTE85dk1CbDNVWTdiYTRrY1A1aThwV0h5R3JLWWtGNVU0N29ZVkloVUhXLVMybkc2Z3RSUkpMMXVHNm1INzlHU05sbGU2eFF0Xy04S1RlVnd6bjhPZU9B?oc=5",
    "date": "2026-11-09",
    "source": "Laodong.vn"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 9.11.2026: Gần trở lại mốc 50.000 đồng/kg - Báo Thanh Niên",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQXBNaVdXcndNQTBtZzJWMTRZVldGcktOYmxJb2x2RDVXUGZISm9VWS1YODI4OGtfNTdlVmdnbmFSeHFBakhiN3U0Nms5UU5pU05RY1ZxcnN3cE1nZFVvWWloYndPV1lERXJWYTFSS0RVeFRiLVZ0SEhUREMwdDh1TkZqcXZPQzdzQ1RvQWdsS2RlVURpRWYtLVJ0UXJ1a2I3WTFR?oc=5",
-   "date": "2026-11-09",
-   "source": "Báo Thanh Niên"
   },
   {
    "title": "Giá heo hơi hôm nay 9/11/2026: Tuần qua, giá heo hơi tăng mạnh trên cả ba miền - Tạp chí Doanh nghiệp và Hội nhập",
@@ -1454,6 +1448,12 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaTZnYzRHcjJ6X3R3QjJ0eWMxZkpDTFRkLVE1b1VXLXItVGVJZEUzdm1mRFhiSVItVXJFMVpFQVhEckViRFJ2UDh0dTROUjdUWERxQTk1QjlUWFMya2luajNwWG9wM0Mtb09iNlFBSlpaSV9CR1kwdnoyeThaUDU4UnR1bzRPdjk0RnByTnhSVjhLZw?oc=5",
    "date": "2026-11-09",
    "source": "VOH"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 9.11.2026: Gần trở lại mốc 50.000 đồng/kg - Báo Thanh Niên",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQXBNaVdXcndNQTBtZzJWMTRZVldGcktOYmxJb2x2RDVXUGZISm9VWS1YODI4OGtfNTdlVmdnbmFSeHFBakhiN3U0Nms5UU5pU05RY1ZxcnN3cE1nZFVvWWloYndPV1lERXJWYTFSS0RVeFRiLVZ0SEhUREMwdDh1TkZqcXZPQzdzQ1RvQWdsS2RlVURpRWYtLVJ0UXJ1a2I3WTFR?oc=5",
+   "date": "2026-11-09",
+   "source": "Báo Thanh Niên"
   },
   {
    "title": "Thị trường hàng hóa ngày 9/11: Giá heo hơi tiến sát 50.000 đồng/kg, hồ tiêu tiếp đà tăng - Tạp chí Nhịp sống thị trường",
@@ -1526,6 +1526,21 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-10T20:58:18.992Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
+    "  GreenFeed 2026-11-05: 34 tỉnh/thành",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-10T18:10:37.268Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
@@ -1999,21 +2014,6 @@
    "detail": [
     "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
     "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
-    "  GreenFeed 2026-10-15: 34 tỉnh/thành",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-10-24T23:54:21.516Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
     "GreenFeed: 53 ngày có bảng giá, cần đọc 1",
     "  GreenFeed 2026-10-15: 34 tỉnh/thành",
     "  Không đọc được GreenFeed 2026-02-02",
