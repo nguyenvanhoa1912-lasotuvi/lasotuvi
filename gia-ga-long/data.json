@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-11T02:51:01.912Z",
-  "lastScan": "2026-11-11T02:51:01.912Z",
+  "updated": "2026-11-11T06:25:29.248Z",
+  "lastScan": "2026-11-11T06:25:29.248Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1345,6 +1345,12 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
+   "title": "Cargill Việt Nam đồng hành cùng Hội nghị Khoa học Chăn nuôi Á-Úc lần thứ 21 (AAAP 2026) - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlUzRkg4VlpzSzhmaHVQVWJuT21Rb3FyMEpKTTJnV1UyMzRlTlBDX3RxdUhNTTBiSndFVFVCWktvdUxhcnJGTWw0OTlZd3pXaXloT09PNWVtWGhHOGVPTzdmcUFTWEdIX04yMmRsX0NtWWNGWVZSOWdDdGlraXJzTENOSXh6WDl4QVZDQlNZa1lXZXJSNktaMlo5aEtXVWptMlRERk1BTFNxQ05DNEE?oc=5",
+   "date": "2026-11-05",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Giá heo hơi liệu có tăng đột biến dịp cuối năm? - Tuổi Trẻ",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRjhUMEprS0lReU9lU0FzRmFRVlN0X3hCRjR3TzJtZWJRLVNtSWs1YUVUWkFvaTg2OUtkMEd3emg4d3pqeWl3Rm8tTjV5dU5vQjlOaTZYQjBDc180c1RjNjNWRGlCMXZqUDVnQXo2MWRfQ2F5T0RKcVVEWjVQcExVOTVUT2k4V3ptaVdVdHNSalVnZw?oc=5",
    "date": "2026-11-05",
@@ -1372,12 +1378,6 @@
    "title": "EuroTier 2026: Asserva giới thiệu công nghệ cho ăn cá thể hóa và ứng dụng AI trong quản lý trại heo nái - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYURsYkZOUzdEUkZSUzVmQkduRzhHQ1VtMVhWWWZGSUJwR1QxaFg1bGZBeHBjN0hHZ3FaM09MUzZhdEdNZlRQRElGMnByd08wQm9lZC1yVVRiSmpnMzdZWVJwSkplQUh2NWE0WGd4QXVuQzhySVRNR1NEdHpSbzBDcFh2LThENWdYYVlHSUFUS1JCdGtJd3pXbktJU2lIQm1nV2Fmdzl0Uk13X1FxbkR4ejVZRkVNV0l4VzlHVUw2anhxazFE?oc=5",
    "date": "2026-11-05",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "KOICA Việt Nam và Dự án KOICA–VNUA thúc đẩy hợp tác phát triển chăn nuôi bền vững tại AAAP 2026 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRnNFRlgxb1BvS2hfeXNIRWhsazNWN0JpV3lOVW1qU2VtUjhLRURETndnazA1Q3U1MllnZGJMVENxN0xRUlFSQ04yUE84V1BpVG42TkY4NEtPRlJHNVY1X1ZjRmdzVzlFNGJnU0tkTGxBYXB2MTZhRm82Q2FZbm53SHVoY1p1WXdTTXlaTTRWT3VPVDhXSzBycGFBQUwxeTZTSjgtUzd3d3djQ3Rpa1lkam9HbnBWbU9fd1gzbko4bVRpS0Z0NGtBOV90MmRQdzdpMnMyTWM1d0lPM1Z0LWZEMExnZ0s2MExOV3c?oc=5",
-   "date": "2026-11-04",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
@@ -1441,6 +1441,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-11T06:25:29.248Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-11T02:51:01.912Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
@@ -1894,20 +1908,6 @@
     "GreenFeed: 55 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-10-27T10:51:17.838Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 8 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
-    "GreenFeed: 55 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 8 · lỗi tải: 0"
    ]
   }
  ]
