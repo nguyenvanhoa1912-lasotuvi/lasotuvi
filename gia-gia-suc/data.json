@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-11T09:50:11.931Z",
-  "lastScan": "2026-11-11T09:50:11.931Z",
+  "updated": "2026-11-11T11:25:40.323Z",
+  "lastScan": "2026-11-11T11:25:40.323Z",
   "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
   "origin": {
    "2026-10-13": "cnvn",
@@ -1320,22 +1320,10 @@
  ],
  "news": [
   {
-   "title": "Giá heo hơi hôm nay 11.11.2026: Quay trở lại màu xanh - Báo Thanh Niên",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX20yZnF1NktCZlNuWk40d093VEJSajR4M3pzbGNIcFVyN0hWX3FzRmpkMGgwSXFmTVl1NE81cktEMERjS19vQ0xDS0xoNmpMTU9DNXh0TkJZbXhreXNfUTlwcktYSlA4YmpKSUd3cTY0ZDZmeWQxcHphdThNczEwa0lTWTlnVGszZFRDZUE0VkViaGxRcHZhXzN3?oc=5",
-   "date": "2026-11-11",
-   "source": "Báo Thanh Niên"
-  },
-  {
    "title": "Giá heo hơi hôm nay 11/11/2026: Giá heo hơi đồng loạt tăng tại miền Nam - Tạp chí Doanh nghiệp và Hội nhập",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOFBSUXB1cnBuQXgzbWQwcmZBZ1hNbVpaa0hSak9SN25yMWF6dHl4VGtXc3pmaFRqUFZrX3Uyclo3WDdZdXFlQmN5OUZlbjJOdDJsLVQxeHV1d2pFelNDZnJ5SFVjZ3A1akRPNE02NWpubnR4dmFtT3RMVEJucDc5c2dDd3VseVU2NERfTHBpb1JyZDUxUm1IQU04VWNGLWhKQWhlNy1sNDlyNElZSWlF?oc=5",
    "date": "2026-11-11",
    "source": "Tạp chí Doanh nghiệp và Hội nhập"
-  },
-  {
-   "title": "Ngày 11/11: Giá heo hơi ở miền Trung và miền Nam đồng loạt tăng - Thời báo Tài chính Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUnVweHFDRlpOclctU3FRVGVLdmhtVDZNcDZZY2IwX0hpRFdMaXJWdFpSY2ctMmlRRFlWWXl6OEhuZlllS0o4OG5ucTFmazNYYnJvUk5OUjRNa1NzNndRN3kwZjF4aWZ6dlk3QjlGMlNuVDBDMThkUVI3N1pIZzJHQlZfaUJyYnZxVW05aWIydUtYamRTa2RUbUYwM0M4WVhWVWRrSGpGakxjMUFB?oc=5",
-   "date": "2026-11-11",
-   "source": "Thời báo Tài chính Việt Nam"
   },
   {
    "title": "Giá heo hơi hôm nay 11.11: Tiếp đà tăng, sát mốc 50.000 đồng/kg - Laodong.vn",
@@ -1344,10 +1332,28 @@
    "source": "Laodong.vn"
   },
   {
+   "title": "Ngày 11/11: Giá heo hơi ở miền Trung và miền Nam đồng loạt tăng - Thời báo Tài chính Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUnVweHFDRlpOclctU3FRVGVLdmhtVDZNcDZZY2IwX0hpRFdMaXJWdFpSY2ctMmlRRFlWWXl6OEhuZlllS0o4OG5ucTFmazNYYnJvUk5OUjRNa1NzNndRN3kwZjF4aWZ6dlk3QjlGMlNuVDBDMThkUVI3N1pIZzJHQlZfaUJyYnZxVW05aWIydUtYamRTa2RUbUYwM0M4WVhWVWRrSGpGakxjMUFB?oc=5",
+   "date": "2026-11-11",
+   "source": "Thời báo Tài chính Việt Nam"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 11/11: Miền Nam tiếp đà tăng, khu vực Tây Bắc phục hồi nhẹ, giao dịch từ 46.000 - 49.000 đồng/kg - Báo Thế giới và Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOE5mclVCLXBoa3Z6ZE5uXzQ1Y0NMVEJNNkg1NDRIcjF0QkptWTVfR2hxNXhJWTZuRVFLOTJGU0tjZ2FRdjF0bUQ2Y0lkR0ZiSVFXbW9QZjlrR25nMnAzUkRlYVlOb2dpc1haY0ltM29JUjRRV1NaWTJRenZ2VHNMWEVvVGE2cy1YM1dnMF9kLUt1cXYtU3dCQzJrMXZxWHZnMjJFd181YTBHcy1lMFF6RnpWU1Fxc1pTSDVvak9FV3ZmVVpId1ppS3VoTmVKM2F1NUdXQ2dwNzJScG81?oc=5",
+   "date": "2026-11-11",
+   "source": "Báo Thế giới và Việt Nam"
+  },
+  {
    "title": "Giá heo hơi hôm nay 11/11/2026: Miền Nam tăng mạnh, Đồng Tháp chạm 49.000 đồng/kg - Gia Đình Mới",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbEJwU3FEeV9mWWUtM05tNWlTS0gwTnRRRmF6dVJPci1paWJCSXVfLW9DUEM4YXl1XzY0Q1YxTkNsVnFZOERINXZGcFZiRUFqMTlZSU9sdW00UlVtWWRuMkVVQ29BVEdmVjFXSDdPWFpIUWtEdmM4RE9kbm85QjAzV1ZMekpqU0tUOTJ3Vw?oc=5",
    "date": "2026-11-11",
    "source": "Gia Đình Mới"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 11.11.2026: Quay trở lại màu xanh - Báo Thanh Niên",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX20yZnF1NktCZlNuWk40d093VEJSajR4M3pzbGNIcFVyN0hWX3FzRmpkMGgwSXFmTVl1NE81cktEMERjS19vQ0xDS0xoNmpMTU9DNXh0TkJZbXhreXNfUTlwcktYSlA4YmpKSUd3cTY0ZDZmeWQxcHphdThNczEwa0lTWTlnVGszZFRDZUE0VkViaGxRcHZhXzN3?oc=5",
+   "date": "2026-11-11",
+   "source": "Báo Thanh Niên"
   },
   {
    "title": "Giá heo hơi hôm nay 11/11: Miền Nam đồng loạt tăng, chạm mốc 49.000 đồng/kg - Tạp chí điện tử Thương Trường",
@@ -1462,12 +1468,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRTAxWHlPZHJDMHlWYUxQTmloTTZaTGU1UXo2TkVhQkduRUpiZzR1ekQ2Q2J2WEJlUC1GbWJhaVJOa2FwWldjdlgwd3Q3N1R6bUR5aGlwRGhQcW94dmlncVZ5WHlRZ3UtNHVuUEQ2cjMzRWE3UV9rbHlaTS13M0tJNUVKNTl2SXRWanVvaHU1MWZEUUhZdlRF?oc=5",
    "date": "2026-11-10",
    "source": "Tạp chí Nông Thôn Việt"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 10/11: Tăng đồng loạt tại miền Trung - Tây Nguyên và miền Nam, vùng giá từ 46.000 - 49.000 đồng/kg - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc0o3QVFMM2FFd2tST0tuQnBFVk5vWWhTcy1xYzRacUg4eDRmV2lJalVBX00wd2NMZmJqVzJmbnlsWVRpZVBBN01qVThFaVQ3ajZlcW9yV0dSSVhWcF9sWWlNSFdxT1k3MjdBbFN4amV5WlJkSXNkeEd4UlBva1h4QVY0Rlk2enlIdERZamFaT0lGMTE0bDA5TV95LVZhQXQ2WlNabXpvQ2JUQUoyQzllZEdkMnBDNjN1YTN6UXJrTl9BVDFZNnZpT2pvQ0k4dmN1?oc=5",
-   "date": "2026-11-10",
-   "source": "Vietnam.vn"
   }
  ],
  "mentions": [
@@ -1534,6 +1534,21 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-11T11:25:40.323Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 44 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
+    "  GreenFeed 2026-11-05: 34 tỉnh/thành",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-11T09:50:11.931Z",
    "summary": "Bảng giá mới: 2026-11-10 · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
@@ -2012,21 +2027,6 @@
     "  GreenFeed 2026-10-22: 34 tỉnh/thành",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: 2026-10-27 · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-10-28T11:17:04.926Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 41 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
-    "GreenFeed: 55 ngày có bảng giá, cần đọc 1",
-    "  GreenFeed 2026-10-22: 34 tỉnh/thành",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
    ]
   }
  ]
