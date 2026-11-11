@@ -2,7 +2,7 @@
  "meta": {
   "version": 1,
   "updated": "2026-11-11T18:00:39.180Z",
-  "lastScan": "2026-11-11T18:00:39.180Z",
+  "lastScan": "2026-11-11T18:02:11.701Z",
   "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
   "origin": {
    "2026-10-13": "cnvn",
@@ -1535,6 +1535,21 @@
  ],
  "log": [
   {
+   "at": "2026-11-11T18:02:11.701Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 44 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
+    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
+    "  GreenFeed 2026-11-05: 34 tỉnh/thành",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
+   ]
+  },
+  {
    "at": "2026-11-11T18:00:39.180Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
    "newTables": [],
@@ -1998,21 +2013,6 @@
   },
   {
    "at": "2026-10-31T00:07:33.036Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 42 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
-    "GreenFeed: 55 ngày có bảng giá, cần đọc 1",
-    "  GreenFeed 2026-10-22: 34 tỉnh/thành",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-10-30T00:07:34.767Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
    "newTables": [],
    "gfNew": 0,
