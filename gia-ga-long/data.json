@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-12T10:59:18.961Z",
-  "lastScan": "2026-11-12T10:59:18.961Z",
+  "updated": "2026-11-13T03:27:32.572Z",
+  "lastScan": "2026-11-13T03:27:32.572Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1326,14 +1326,32 @@
    "source": "Báo Tin tức và Dân tộc - TTXVN"
   },
   {
+   "title": "Giá heo hơi ngày 12/11: Ba miền đồng loạt tăng, nhiều nơi đạt 49.000 đồng/kg - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY2pQXzNaZHZnUVFQT2dENFFIZlFIWnhvTmpzRGlKbE5hNXNWQ1hYYnN6Vl9QNFF4M0tjYTRoR01jdG9lY0xFSnctRElJN0doOEgwRGJqbEZHNmE5clpic1F2X2dTWENOeFlwaHlYNURoTUpuZFlLWkJFbVVoT09vU18yWnpFc1ZjN08zLUV5SjdfazhCd3hNYXFzaUhHc0U?oc=5",
+   "date": "2026-11-12",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
    "date": "2026-11-11",
    "source": "VTVgo"
   },
   {
+   "title": "DANFORTH Vietnam: Đưa trải nghiệm số vào hoạt động truyền thông ngành chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUTRsWHl1SjlaU3BIMmJ5VUpGUktOSWlPQmV3ZkdWQkU2cEM4M1FRZ241Y0ZyZDB3Z09rQ2x6T2w4ZXNiR2UwVTFsTjdBN2UxN0FuTFI0UVlkblNvdzFIZ042cFZWajJNQjY0WEZuQloyWkxHOHlSS0VIYTRoby1wWUhfN1hTbHN3U2tiaUhobFhoam9SQnU5cVMyX0lnbmkzTjZqTA?oc=5",
+   "date": "2026-11-11",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Vắc xin Tembusu: Phòng bệnh lật ngửa và giảm đẻ do virus Tembusu gây ra trên vịt - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLWlmOXZEcEw4TzhSRUt1NTJVZUJxLW5kdlVtRVh2UkwtUUNWMmlwSDQ1cVplSWFCUE92YmdFSjZ5a09objd5NGE5SVBIb1A0cy1ETGtEcUd4ejEzUXRzQlJpOVl3SW5nVzlBbHYzenlBajhXMlJjMHFTUzg5MGY5cnZPTllXbGRPY01VZDFYNXNuNDVySWRtNE96Q1lKcnRjdGhnTDl3?oc=5",
+   "date": "2026-11-10",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Thanh Hóa: Mạnh dạn tiêm vắc xin, một xã khống chế được dịch ASF - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZXM4dEx4aTRweFpqbjdGd25IVmtDblJkWUlxN09fVE5kNTR2MFFjRWU3RlBkaUdsay1EN0lGZEhsc0V6ZjN6R1FQaEdpcHZ2SWVuZEx2bHVGTTR4ZFpxc1NYai1KRDk3U1hoQWlHb0Y0eFNlSXFMa01Cc084M05GcngtX3hZZUpaUlFiLUVSUQ?oc=5",
    "date": "2026-11-10",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1358,12 +1376,6 @@
   {
    "title": "Tình hình chăn nuôi tháng 10.2026 - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UTHd0Nks0WWpCcUlzb1FqN1ZBS3llWVRhY2VWdWtnU0Zoa1dDWjlraE9QR1RnbEVodFhEWks1SDJTS01FZzBfLW9rX0NtUkEtMThfUmhhcWxWckN0LVh1S1NCWlRScjdu?oc=5",
-   "date": "2026-11-06",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "R.E.P Lab Tây Nguyên chính thức đi vào hoạt động - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyRjJwN1hMX0hZSGs1MkZfc2FjbzM3a3E5UHhqMURGVzVTSFdhNHB5QVlMZ3hnb1hQYldIR0FsamREZlM3a0RlbnY0SGwwN1hHV3FEZG03UjkxMWJlcG14SHk1ZDhIYWRYdk01UEJtR1I5dFpDLXpHZ0I5b3c?oc=5",
    "date": "2026-11-06",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1400,6 +1412,11 @@
      "text": "Gia đình bà nuôi gà màu chuồng kín, có thời điểm giá xuống 35 – 36 nghìn đồng/kg rồi tăng lên 45 – 46 nghìn đồng/kg, trong khi theo tính toán của gia đình, giá phải đạt khoảng 50 nghìn đồng/kg mới có công.",
      "kind": "mau",
      "region": null
+    },
+    {
+     "text": "Eckel mang giải pháp dinh dưỡng chăn nuôi mới đến EuroTier 2026 Dabaco hỗ trợ gà giống, thức ăn chăn nuôi tiếp sức sinh kế cho Làng Nủ Tăng cường kết nối đa ngành, bảo vệ sức khỏe vật nuôi và cộng đồng ẤN PHẨM ĐÃ XUẤT BẢN Giá heo hơi hôm nay 9/7: Đồng loạt tăng, có nơi lên mức 65.000 đ/kg TVOne chính thức trở thành hội viên Hiệp hội Gia cầm Việt Nam Lo lắng của những người chăn nuôi…",
+     "kind": "khac",
+     "region": null
     }
    ],
    "name": "Người Chăn Nuôi – Giá gà bấp bênh (Thái Nguyên)"
@@ -1434,6 +1451,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-13T03:27:32.572Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 8 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 44 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
+    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 13 · câu trích nguồn bổ sung: 8 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-12T10:59:18.961Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
@@ -1887,20 +1918,6 @@
     "GreenFeed: 57 ngày có bảng giá, cần đọc 3",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 1"
-   ]
-  },
-  {
-   "at": "2026-11-01T23:50:08.572Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 15 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 42 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
-    "GreenFeed: 55 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 15 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
    ]
   }
  ]
