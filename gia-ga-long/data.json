@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-17T05:07:44.360Z",
-  "lastScan": "2026-11-17T05:07:44.360Z",
+  "updated": "2026-11-17T07:56:47.570Z",
+  "lastScan": "2026-11-17T07:56:47.570Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1360,6 +1360,12 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
+   "title": "Siêu thị bán trứng chỉ 2.000 đồng/quả, người nuôi gà sống sao? - Báo Tuổi Trẻ",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaXBWb01ielluc3N1UWVYZWp4dlBQUl90YzdJUTJLSkdzLVRlYkNESV85clg1ZlNodTJNNWtwLUV5dzJsNjVEeGl0U190SGU4NHkxVG8tRzVBb0lhWnRRZk8zOHVjVE5oSDZ0ckN3X3o2MzNrZTVwUmpJQ2tvQ2dDMTVFdUlZM3ZvSk1VZnNYQUFaVEtrU25xYm5mM0tYNVRvNS1j?oc=5",
+   "date": "2026-11-14",
+   "source": "Báo Tuổi Trẻ"
+  },
+  {
    "title": "Giá vật nuôi giảm sâu, chi phí nuôi tăng cao, nhiều người chăn nuôi ở Nghệ An thua lỗ - Vietnam.vn",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM3AxRmZBTEZTQTRfOHZlWWZwR2hEVTNJeEJqNWVKVlg3MXZLLTc1SHo4R09QMWMtczlOdlpqS0IwT0pkOEpMeDRPWTAxbURyaEZ4c2xBdjdja2tPOFVBVGMzRFF6SGRDVGk5UEpwaTJqdkVvNVd0dTRWZ0hTdXUtX2lvYzhRUzQ2c0o3ZDliM0xGU1ByUkpRMUo4d2VZSEdST0FSUnBGNHl3UQ?oc=5",
    "date": "2026-11-13",
@@ -1390,27 +1396,15 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "DANFORTH Vietnam: Đưa trải nghiệm số vào hoạt động truyền thông ngành chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUTRsWHl1SjlaU3BIMmJ5VUpGUktOSWlPQmV3ZkdWQkU2cEM4M1FRZ241Y0ZyZDB3Z09rQ2x6T2w4ZXNiR2UwVTFsTjdBN2UxN0FuTFI0UVlkblNvdzFIZ042cFZWajJNQjY0WEZuQloyWkxHOHlSS0VIYTRoby1wWUhfN1hTbHN3U2tiaUhobFhoam9SQnU5cVMyX0lnbmkzTjZqTA?oc=5",
-   "date": "2026-11-11",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
    "title": "Quản lý thức ăn chăn nuôi: Tháo gỡ vướng mắc từ thực tiễn - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXVoMld0TW5pczgyTmVpckJlaU1JR21nYTdCMGF1Q05SRmhERWFCaHhNSlFEeVIxRVE2a0x1S29VTTFJMkg2WVU3d0NFQ1MxbWdoQWZ6Nk8wcEctNWwtVkY4Znl4dW1feUtSMDZFV3lOS2pYWXREMk9PYWZLZDdvQjdfWGdjdFU?oc=5",
    "date": "2026-11-11",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Vắc xin Tembusu: Phòng bệnh lật ngửa và giảm đẻ do virus Tembusu gây ra trên vịt - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLWlmOXZEcEw4TzhSRUt1NTJVZUJxLW5kdlVtRVh2UkwtUUNWMmlwSDQ1cVplSWFCUE92YmdFSjZ5a09objd5NGE5SVBIb1A0cy1ETGtEcUd4ejEzUXRzQlJpOVl3SW5nVzlBbHYzenlBajhXMlJjMHFTUzg5MGY5cnZPTllXbGRPY01VZDFYNXNuNDVySWRtNE96Q1lKcnRjdGhnTDl3?oc=5",
-   "date": "2026-11-10",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Hòa Phát đạt 94% kế hoạch lợi nhuận sau 9 tháng, kỳ vọng hoàn thành mục tiêu năm 2026 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX19VYjlfZlFhZVBJX2hoUUFvMkM0ME5JRHV2SlIxZ2ZWWVR1Z196d2YwcHUzZkFQUU5FM0lLY2phcHlOdmd3YWE1OEdZbXRUTWJHZFBCVHRWalAzeWhRd1FHaDRBVkxRSEdoNU1IYTRNWFVvOUR2Wm1mcEkzT0paaFNlajlkZHNtZFMtcERlbEgxWG5zVDF0eTQ1b2oxeWpfTFhEak5wWDdtTlE?oc=5",
-   "date": "2026-11-10",
+   "title": "DANFORTH Vietnam: Đưa trải nghiệm số vào hoạt động truyền thông ngành chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUTRsWHl1SjlaU3BIMmJ5VUpGUktOSWlPQmV3ZkdWQkU2cEM4M1FRZ241Y0ZyZDB3Z09rQ2x6T2w4ZXNiR2UwVTFsTjdBN2UxN0FuTFI0UVlkblNvdzFIZ042cFZWajJNQjY0WEZuQloyWkxHOHlSS0VIYTRoby1wWUhfN1hTbHN3U2tiaUhobFhoam9SQnU5cVMyX0lnbmkzTjZqTA?oc=5",
+   "date": "2026-11-11",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   }
  ],
@@ -1468,6 +1462,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-17T07:56:47.570Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 44 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-17T05:07:44.360Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
@@ -1907,23 +1915,6 @@
     "Lỗi tải https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/: fetch failed",
     "Lỗi tải https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/: fetch failed",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 4 · lỗi tải: 1"
-   ]
-  },
-  {
-   "at": "2026-11-04T10:50:24.683Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 1,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/page/2/: fetch failed",
-    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
-    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 1"
    ]
   }
  ]
