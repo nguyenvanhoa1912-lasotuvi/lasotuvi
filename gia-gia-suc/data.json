@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-17T17:52:03.778Z",
-  "lastScan": "2026-11-17T17:52:03.778Z",
+  "updated": "2026-11-17T19:19:05.154Z",
+  "lastScan": "2026-11-17T19:19:05.154Z",
   "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
   "origin": {
    "2026-10-13": "cnvn",
@@ -1380,6 +1380,12 @@
    "source": "Gia Đình Mới"
   },
   {
+   "title": "Giá heo hơi hôm nay 17.11.2026: Tăng đồng loạt, cao nhất 3.000 đồng - Thanh Niên",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM0xibGtPZ3ZaMGFwenVWZ21GeTdRc3BTS0hzVlBuMXJhWkJLNk1neDhQeW5kWUZLME1OTTl4THpzZ3JHdndEVERuTmgxX2MyQ3dwb3B2X0hTV21sZE82TC1jYWs4VTFnVjhfVW1NYUstb052REtuenJHby10cGhvVWlnVUtYcUJYSk1HY3MxcEk5VWhxdnVnbzlaZDNJdnNxeTNUZ3lXTVQxZw?oc=5",
+   "date": "2026-11-17",
+   "source": "Thanh Niên"
+  },
+  {
    "title": "Giá heo hơi hôm nay 17/11: Nhiều địa phương chạm mốc 52.000 đồng/kg - Tạp chí điện tử Thương Trường",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaEZVaTlKaUtLQUZta3dJN3ZqYXNlN0Y0Z0NxTkFFcG1Va25fTVZ1cjI0QmV1a3lvMVl2VU0tUFVxdTE2cy1KaVM4X2QydV96NzU4emVBTXMxckJ5RHh0QzVZZHlsNWJLT3BUSWU4elR6VExnbkRBVkJoVU1zZ1JtaWZZcHNQMjBFRnV5MkNjVkNZdDMxT2cxc0o1RjNmNmVSMlJjc1cwV2lZRUhj?oc=5",
    "date": "2026-11-17",
@@ -1396,12 +1402,6 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVVNcmZDYW1lMGtDV3B0YkpUMHBLeUc2TmFYc3NaNXZJRDZZNlg2dkx0bWtoM1B6MWRKekJ1MExlYkpBcUcwenhfTm9pUHBucFdPT2hwQkczc2pOVjJaRlRRUHd3dEdBejJoaklVNEpOZ2t4QnRsSG1xemlLWS1XVVB3dXRBeHRxa21pMTBORk9XODUxQ0cyQzZBTXdyZTRnNmpmOWk3TjBjWjVqZGVzY1A4QQ?oc=5",
    "date": "2026-11-17",
    "source": "Thể Thao 247"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 17.11.2026: Tăng đồng loạt, cao nhất 3.000 đồng - Thanh Niên",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM0xibGtPZ3ZaMGFwenVWZ21GeTdRc3BTS0hzVlBuMXJhWkJLNk1neDhQeW5kWUZLME1OTTl4THpzZ3JHdndEVERuTmgxX2MyQ3dwb3B2X0hTV21sZE82TC1jYWs4VTFnVjhfVW1NYUstb052REtuenJHby10cGhvVWlnVUtYcUJYSk1HY3MxcEk5VWhxdnVnbzlaZDNJdnNxeTNUZ3lXTVQxZw?oc=5",
-   "date": "2026-11-17",
-   "source": "Thanh Niên"
   },
   {
    "title": "Giá heo hơi hôm nay 17/11: Tăng mạnh - Thuonghieucongluan.com.vn",
@@ -1564,6 +1564,21 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-17T19:19:05.154Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 45 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  GreenFeed 2026-11-12: 34 tỉnh/thành",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-17T17:52:03.778Z",
    "summary": "Bảng giá mới: 2026-11-17 · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
@@ -2020,24 +2035,6 @@
     "  GreenFeed 2026-10-29: 34 tỉnh/thành",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-04T20:00:34.942Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 1",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 1,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/page/2/: fetch failed",
-    "Tạp chí Chăn nuôi: thấy 3 bảng giá trong danh mục",
-    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
-    "  GreenFeed 2026-10-29: 34 tỉnh/thành",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 1"
    ]
   }
  ]
