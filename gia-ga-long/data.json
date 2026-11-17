@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-17T07:56:47.570Z",
-  "lastScan": "2026-11-17T07:56:47.570Z",
+  "updated": "2026-11-17T17:38:35.829Z",
+  "lastScan": "2026-11-17T17:38:35.829Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -48,7 +48,8 @@
    "2026-10-20": "cnvn",
    "2026-10-27": "cnvn",
    "2026-11-03": "cnvn",
-   "2026-11-10": "cnvn"
+   "2026-11-10": "cnvn",
+   "2026-11-17": "cnvn"
   },
   "src": {
    "2026-10-13": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=6142479c-d0aa-4900-a367-586e76d7eb1f&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.13.xlsx",
@@ -94,7 +95,8 @@
    "2026-10-20": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=30698472-2d1d-4f7a-abc1-9c0ccc153bcf&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.20.xlsx",
    "2026-10-27": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=2d37e6d2-6724-4de3-818a-5e3394b7f471&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.27.xlsx",
    "2026-11-03": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=bc3b6228-fe23-4519-af73-b581e0a432bb&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.11.03.xlsx",
-   "2026-11-10": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=30b50b99-e006-456e-8798-579864b5ad3d&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.11.10.xlsx"
+   "2026-11-10": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=30b50b99-e006-456e-8798-579864b5ad3d&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.11.10.xlsx",
+   "2026-11-17": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=25980e74-f232-4a12-90b1-d29471725045&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.11.17.xlsx"
   }
  },
  "weekly": [
@@ -491,6 +493,15 @@
    49800,
    49500,
    37000,
+   34000,
+   34000
+  ],
+  [
+   "2026-11-17",
+   50000,
+   49800,
+   49500,
+   33000,
    34000,
    34000
   ]
@@ -1342,6 +1353,24 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
+   "title": "Logo Lanxess - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBpMGlzWURVWHRGTXIwclJQMmlZeGtEZktoU0dqb3RnSTdUMDh2SDV0RzV4ejB2ZkRHdVhDSmFURnlNSE5QeHNYRHMyUmM?oc=5",
+   "date": "2026-11-16",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Trung Quốc tái cấu trúc ngành chăn nuôi lợn, kỳ vọng chu kỳ mới từ năm 2027 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdG9WUDY3VW83YUUyQ0FTRWtzcTFaVjlJTDJMaW9fdnZxZERfNUt0bTkybnVGMktQU053WUNpamJFZ3lhVURCM3NWbXRNWmNyYWZxTVRVLUxrcDBNcjNKdHphU3JsREg5V3JJa1FMUzBacUV2TFdNOF83SlljOXJJZnlFZ20wakpOZFo3X2YwaWtUTmpZNmpCeEtianlfUVE?oc=5",
+   "date": "2026-11-16",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Zoetis ra mắt sản phẩm Poulvac® E. coli: Tiên phong phòng vệ – Nâng tầm năng suất - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX1RRSE54ckZjWVlZRmprcG5XSWMtMVpzMmFPZDhiY25CalVjaTlITXJZQkhMYThaVk5FSFpONUUzOWtNY29wdGotaWNDdkdWd1VhUkdIWnFJT2JpSmU1cXZTandxZXJMckFrc2ZFTzhkSmRoUU1oeWFUakx1bmFBbnZUZ1NwbUx6ODdnSXhIdkNwZTdYZWNkLXFvR0dES2xHTmc?oc=5",
+   "date": "2026-11-16",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
    "date": "2026-11-15",
@@ -1378,12 +1407,6 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Các ấn phẩm đã xuất bản - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KNFMxNUxWUzA1S015aVB2c3ZURmZzcjlaVDBPd09WRXdYVzBjYUM5elBhXzBsa2duZG9rNWRqZ0pjRm14VDVBZHdVdWNSQmUxVExIMVctdmNKRk10S2hB?oc=5",
-   "date": "2026-11-12",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
    "title": "Đồng Tháp: Giá thức ăn tăng, người nuôi gia cầm lỗ vốn - Báo Tin tức và Dân tộc - TTXVN",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUmlpU1A4bk5jdDE3dkxhcW82X0RKUFVBT0p0Rjg3SXZMZ0E2WF93cGRWVmxpR0RmaElIcmYyR2ctTHZ1OHl5U1FWRERMWWFUVi1kSURLX0FESWYxLW14QUF3aVUwb2dqbmpqZndlRjN6S2plRlN2LTRuNnhLODllVm8tcjRDVVFWUE1wVnBNdWpfUVlu?oc=5",
    "date": "2026-11-12",
@@ -1396,14 +1419,14 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Quản lý thức ăn chăn nuôi: Tháo gỡ vướng mắc từ thực tiễn - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXVoMld0TW5pczgyTmVpckJlaU1JR21nYTdCMGF1Q05SRmhERWFCaHhNSlFEeVIxRVE2a0x1S29VTTFJMkg2WVU3d0NFQ1MxbWdoQWZ6Nk8wcEctNWwtVkY4Znl4dW1feUtSMDZFV3lOS2pYWXREMk9PYWZLZDdvQjdfWGdjdFU?oc=5",
+   "title": "DANFORTH Vietnam: Đưa trải nghiệm số vào hoạt động truyền thông ngành chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUTRsWHl1SjlaU3BIMmJ5VUpGUktOSWlPQmV3ZkdWQkU2cEM4M1FRZ241Y0ZyZDB3Z09rQ2x6T2w4ZXNiR2UwVTFsTjdBN2UxN0FuTFI0UVlkblNvdzFIZ042cFZWajJNQjY0WEZuQloyWkxHOHlSS0VIYTRoby1wWUhfN1hTbHN3U2tiaUhobFhoam9SQnU5cVMyX0lnbmkzTjZqTA?oc=5",
    "date": "2026-11-11",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "DANFORTH Vietnam: Đưa trải nghiệm số vào hoạt động truyền thông ngành chăn nuôi - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUTRsWHl1SjlaU3BIMmJ5VUpGUktOSWlPQmV3ZkdWQkU2cEM4M1FRZ241Y0ZyZDB3Z09rQ2x6T2w4ZXNiR2UwVTFsTjdBN2UxN0FuTFI0UVlkblNvdzFIZ042cFZWajJNQjY0WEZuQloyWkxHOHlSS0VIYTRoby1wWUhfN1hTbHN3U2tiaUhobFhoam9SQnU5cVMyX0lnbmkzTjZqTA?oc=5",
+   "title": "Quản lý thức ăn chăn nuôi: Tháo gỡ vướng mắc từ thực tiễn - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXVoMld0TW5pczgyTmVpckJlaU1JR21nYTdCMGF1Q05SRmhERWFCaHhNSlFEeVIxRVE2a0x1S29VTTFJMkg2WVU3d0NFQ1MxbWdoQWZ6Nk8wcEctNWwtVkY4Znl4dW1feUtSMDZFV3lOS2pYWXREMk9PYWZLZDdvQjdfWGdjdFU?oc=5",
    "date": "2026-11-11",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   }
@@ -1462,6 +1485,23 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-17T17:38:35.829Z",
+   "summary": "Bảng giá mới: 2026-11-17 · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [
+    "2026-11-17"
+   ],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 45 file Excel từ 2026-01-01, cần đọc 1",
+    "  + 2026-11-17: trắng 33000/34000/34000 · màu 50000/49800/49500",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: 2026-11-17 · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-17T07:56:47.570Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
@@ -1898,23 +1938,6 @@
     "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 1"
-   ]
-  },
-  {
-   "at": "2026-11-04T12:10:56.584Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 4 · lỗi tải: 1",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 1,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Lỗi tải https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/: fetch failed",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 4 · lỗi tải: 1"
    ]
   }
  ]
