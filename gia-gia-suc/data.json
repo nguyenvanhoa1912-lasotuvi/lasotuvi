@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-17T08:27:34.886Z",
-  "lastScan": "2026-11-17T08:27:34.886Z",
+  "updated": "2026-11-17T17:52:03.778Z",
+  "lastScan": "2026-11-17T17:52:03.778Z",
   "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
   "origin": {
    "2026-10-13": "cnvn",
@@ -48,7 +48,8 @@
    "2026-10-20": "cnvn",
    "2026-10-27": "cnvn",
    "2026-11-03": "cnvn",
-   "2026-11-10": "cnvn"
+   "2026-11-10": "cnvn",
+   "2026-11-17": "cnvn"
   },
   "src": {
    "2026-10-13": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=6142479c-d0aa-4900-a367-586e76d7eb1f&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.13.xlsx",
@@ -94,7 +95,8 @@
    "2026-10-20": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=30698472-2d1d-4f7a-abc1-9c0ccc153bcf&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.20.xlsx",
    "2026-10-27": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=2d37e6d2-6724-4de3-818a-5e3394b7f471&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.10.27.xlsx",
    "2026-11-03": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=bc3b6228-fe23-4519-af73-b581e0a432bb&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.11.03.xlsx",
-   "2026-11-10": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=30b50b99-e006-456e-8798-579864b5ad3d&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.11.10.xlsx"
+   "2026-11-10": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=30b50b99-e006-456e-8798-579864b5ad3d&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.11.10.xlsx",
+   "2026-11-17": "https://channuoivietnam.com/sys_file.ctr/downloadFile?id=25980e74-f232-4a12-90b1-d29471725045&file_name=Thi%20truong%20SPCN%20ca%20nuoc.%20Phuong.%202026.11.17.xlsx"
   }
  },
  "weekly": [
@@ -361,6 +363,12 @@
    47500,
    46500,
    48300
+  ],
+  [
+   "2026-11-17",
+   54300,
+   52400,
+   52800
   ]
  ],
  "flags": [],
@@ -1372,12 +1380,6 @@
    "source": "Gia Đình Mới"
   },
   {
-   "title": "Giá heo hơi hôm nay 17.11.2026: Tăng đồng loạt, cao nhất 3.000 đồng - Thanh Niên",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM0xibGtPZ3ZaMGFwenVWZ21GeTdRc3BTS0hzVlBuMXJhWkJLNk1neDhQeW5kWUZLME1OTTl4THpzZ3JHdndEVERuTmgxX2MyQ3dwb3B2X0hTV21sZE82TC1jYWs4VTFnVjhfVW1NYUstb052REtuenJHby10cGhvVWlnVUtYcUJYSk1HY3MxcEk5VWhxdnVnbzlaZDNJdnNxeTNUZ3lXTVQxZw?oc=5",
-   "date": "2026-11-17",
-   "source": "Thanh Niên"
-  },
-  {
    "title": "Giá heo hơi hôm nay 17/11: Nhiều địa phương chạm mốc 52.000 đồng/kg - Tạp chí điện tử Thương Trường",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaEZVaTlKaUtLQUZta3dJN3ZqYXNlN0Y0Z0NxTkFFcG1Va25fTVZ1cjI0QmV1a3lvMVl2VU0tUFVxdTE2cy1KaVM4X2QydV96NzU4emVBTXMxckJ5RHh0QzVZZHlsNWJLT3BUSWU4elR6VExnbkRBVkJoVU1zZ1JtaWZZcHNQMjBFRnV5MkNjVkNZdDMxT2cxc0o1RjNmNmVSMlJjc1cwV2lZRUhj?oc=5",
    "date": "2026-11-17",
@@ -1394,6 +1396,12 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVVNcmZDYW1lMGtDV3B0YkpUMHBLeUc2TmFYc3NaNXZJRDZZNlg2dkx0bWtoM1B6MWRKekJ1MExlYkpBcUcwenhfTm9pUHBucFdPT2hwQkczc2pOVjJaRlRRUHd3dEdBejJoaklVNEpOZ2t4QnRsSG1xemlLWS1XVVB3dXRBeHRxa21pMTBORk9XODUxQ0cyQzZBTXdyZTRnNmpmOWk3TjBjWjVqZGVzY1A4QQ?oc=5",
    "date": "2026-11-17",
    "source": "Thể Thao 247"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 17.11.2026: Tăng đồng loạt, cao nhất 3.000 đồng - Thanh Niên",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM0xibGtPZ3ZaMGFwenVWZ21GeTdRc3BTS0hzVlBuMXJhWkJLNk1neDhQeW5kWUZLME1OTTl4THpzZ3JHdndEVERuTmgxX2MyQ3dwb3B2X0hTV21sZE82TC1jYWs4VTFnVjhfVW1NYUstb052REtuenJHby10cGhvVWlnVUtYcUJYSk1HY3MxcEk5VWhxdnVnbzlaZDNJdnNxeTNUZ3lXTVQxZw?oc=5",
+   "date": "2026-11-17",
+   "source": "Thanh Niên"
   },
   {
    "title": "Giá heo hơi hôm nay 17/11: Tăng mạnh - Thuonghieucongluan.com.vn",
@@ -1430,6 +1438,12 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbUFJMmFVRDVOd1diQ3AzcDM5Wll1MlhPbV9EblpYSGpuaVBuMDY3MlYxb2J2b2xreWh4WS1CUEtHZTJQMHF1OVBBTER2d0xxTGlZTjZocU9VUXR4ZENxcVBxNDNoNkoxRF9JTjhRUTRvc01tdVZEcVFrSkVVVFNQY0VGSm8tOE4zRjNRVGZwdFpsVEZ0bVN2Ng?oc=5",
    "date": "2026-11-16",
    "source": "Báo Văn Hóa"
+  },
+  {
+   "title": "Giá heo hơi hôm nay 16.11.2026: Nhiều địa phương chạm mốc 52.000 đồng/kg - Thanh Niên",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcjFxY18xN2hvVElHRzA1NEFzOUtTQlF3ZS1XNnAwT1kyaUdDdW5YaWlQbW1xRzhyOUhWOTJldzdJZlE3dFhIZGlBQjVWUWoxRkMtSDRvV0VaWXNucUY1N1ZlaXhWdnVYY3Vpby1fR3JPZFhzdDhmTFZqQnpNNFhHWDkyTjV5MzlHRXpXRFJCLU5xbWtvZGNta2drOWtxdGs4R2N0TnQxNms2bkpKeVlPcTBB?oc=5",
+   "date": "2026-11-16",
+   "source": "Thanh Niên"
   },
   {
    "title": "Giá heo hơi hôm nay 16/11/2026: Tiếp đà tăng, nhiều địa phương chạm mốc 52.000 đồng/kg - Gia Đình Mới",
@@ -1484,12 +1498,6 @@
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTmh0UHVqSVh3SGZfTnZRQ2Rwa3I3ckF3a0x2VGZFTDMzVTA5VnNWSjBYMWY2a2R3X2NyM1hXR1J3UWxxbWFEYnFPcjRaSlNaekVWc1llcmM2T0hObjVkckloay1wVkx5M1BENXBLNkxPdEozSFYxTXBxT1VYVnJJNGE1aUpfSDZ5bGZnbDg1YjlSeV9PZkdyVUNzTGhBRVJPLXBVemVDbGgwSHk5bTFhMmM1dHNYQ2NqUVBVcTJHQlB5T1hUb1hCbGdzVGFwbUFXTkotYw?oc=5",
    "date": "2026-11-16",
    "source": "Vietnam.vn"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 16/11: 31 địa phương tăng, cao nhất 52.000 đồng/kg - Thể Thao 247",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOamFJZmpuR3F2SmsxZmFEUlF4WjExZ2c1V3d5VXE0M0d6ZXNabERNdHJOTGxSbEFKUDREUWd5b0hxR1BKbXBKLXRRU25UUTc0eXNGaXlDVEtEUlhRWkVZQ25nM1ZGLTUxeTdMeG1lYkU3ZGpOZUx1YWY0MUx3LVAxcGJOZ2tlb1NpbkFEZHRXV256TWF5VmFyYTZjTnk3cTZNSW5yYUpBbWhfRmRLU184?oc=5",
-   "date": "2026-11-16",
-   "source": "Thể Thao 247"
   }
  ],
  "mentions": [
@@ -1556,6 +1564,24 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-17T17:52:03.778Z",
+   "summary": "Bảng giá mới: 2026-11-17 · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
+   "newTables": [
+    "2026-11-17"
+   ],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 45 file Excel từ 2026-01-01, cần đọc 1",
+    "  + 2026-11-17: heo hơi 54300/52400/52800",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  GreenFeed 2026-11-12: 34 tỉnh/thành",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: 2026-11-17 · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-17T08:27:34.886Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
@@ -2007,23 +2033,6 @@
     "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
     "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
     "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/page/2/: fetch failed",
-    "Tạp chí Chăn nuôi: thấy 3 bảng giá trong danh mục",
-    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
-    "  GreenFeed 2026-10-29: 34 tỉnh/thành",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 1"
-   ]
-  },
-  {
-   "at": "2026-11-04T18:12:26.887Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 1",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 1,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
     "Tạp chí Chăn nuôi: thấy 3 bảng giá trong danh mục",
     "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
     "  GreenFeed 2026-10-29: 34 tỉnh/thành",
