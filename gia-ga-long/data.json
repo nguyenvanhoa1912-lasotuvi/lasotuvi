@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-17T17:38:35.829Z",
-  "lastScan": "2026-11-17T17:38:35.829Z",
+  "updated": "2026-11-17T19:11:50.842Z",
+  "lastScan": "2026-11-17T19:11:50.842Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1359,14 +1359,14 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Trung Quốc tái cấu trúc ngành chăn nuôi lợn, kỳ vọng chu kỳ mới từ năm 2027 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdG9WUDY3VW83YUUyQ0FTRWtzcTFaVjlJTDJMaW9fdnZxZERfNUt0bTkybnVGMktQU053WUNpamJFZ3lhVURCM3NWbXRNWmNyYWZxTVRVLUxrcDBNcjNKdHphU3JsREg5V3JJa1FMUzBacUV2TFdNOF83SlljOXJJZnlFZ20wakpOZFo3X2YwaWtUTmpZNmpCeEtianlfUVE?oc=5",
+   "title": "Zoetis ra mắt sản phẩm Poulvac® E. coli: Tiên phong phòng vệ – Nâng tầm năng suất - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX1RRSE54ckZjWVlZRmprcG5XSWMtMVpzMmFPZDhiY25CalVjaTlITXJZQkhMYThaVk5FSFpONUUzOWtNY29wdGotaWNDdkdWd1VhUkdIWnFJT2JpSmU1cXZTandxZXJMckFrc2ZFTzhkSmRoUU1oeWFUakx1bmFBbnZUZ1NwbUx6ODdnSXhIdkNwZTdYZWNkLXFvR0dES2xHTmc?oc=5",
    "date": "2026-11-16",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Zoetis ra mắt sản phẩm Poulvac® E. coli: Tiên phong phòng vệ – Nâng tầm năng suất - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX1RRSE54ckZjWVlZRmprcG5XSWMtMVpzMmFPZDhiY25CalVjaTlITXJZQkhMYThaVk5FSFpONUUzOWtNY29wdGotaWNDdkdWd1VhUkdIWnFJT2JpSmU1cXZTandxZXJMckFrc2ZFTzhkSmRoUU1oeWFUakx1bmFBbnZUZ1NwbUx6ODdnSXhIdkNwZTdYZWNkLXFvR0dES2xHTmc?oc=5",
+   "title": "Trung Quốc tái cấu trúc ngành chăn nuôi lợn, kỳ vọng chu kỳ mới từ năm 2027 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdG9WUDY3VW83YUUyQ0FTRWtzcTFaVjlJTDJMaW9fdnZxZERfNUt0bTkybnVGMktQU053WUNpamJFZ3lhVURCM3NWbXRNWmNyYWZxTVRVLUxrcDBNcjNKdHphU3JsREg5V3JJa1FMUzBacUV2TFdNOF83SlljOXJJZnlFZ20wakpOZFo3X2YwaWtUTmpZNmpCeEtianlfUVE?oc=5",
    "date": "2026-11-16",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1485,6 +1485,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-17T19:11:50.842Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 45 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-17T17:38:35.829Z",
    "summary": "Bảng giá mới: 2026-11-17 · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
@@ -1921,23 +1935,6 @@
     "Lỗi tải https://nguoichannuoi.vn/gia-ga-bap-benh-can-lien-ket-de-on-dinh-san-xuat/: fetch failed",
     "Lỗi tải https://nguoichannuoi.vn/gia-ga-thit-giam-sau-nguoi-chan-nuoi-lo-nang/: fetch failed",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 4 · lỗi tải: 3"
-   ]
-  },
-  {
-   "at": "2026-11-04T17:59:58.562Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 1,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/page/2/: fetch failed",
-    "Tạp chí Chăn nuôi: thấy 3 bảng giá trong danh mục",
-    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 1"
    ]
   }
  ]
