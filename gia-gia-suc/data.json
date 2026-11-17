@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-17T19:19:05.154Z",
-  "lastScan": "2026-11-17T19:19:05.154Z",
+  "updated": "2026-11-17T22:36:16.145Z",
+  "lastScan": "2026-11-17T22:36:16.145Z",
   "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
   "origin": {
    "2026-10-13": "cnvn",
@@ -1404,6 +1404,12 @@
    "source": "Thể Thao 247"
   },
   {
+   "title": "Dự báo giá heo hơi ngày 17/11: Thị trường vẫn giữ đà tăng mạnh - tin.skydoor.net",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaHEwclgtYXRFc2ZVMjhUajc2V0tzY3Q4U2NWLWpPMGl5R1F6S2NfVVNOMzMtdWVGWVhYZHF0OHQ4SDBJbF9EMkFRQWRnNUwxc2JJS24xTWxYbklsRzBOVVh2ZnJqUm5yR3dvaVlUUUpyMG9OZlA2UUxta2pCVzRLV2E0R2syOWFyN1dCRGJ1cTAtZDBxcER6RDJxa2o1WmNidFRR?oc=5",
+   "date": "2026-11-17",
+   "source": "tin.skydoor.net"
+  },
+  {
    "title": "Giá heo hơi hôm nay 17/11: Tăng mạnh - Thuonghieucongluan.com.vn",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLXcwNEtyODY1VGMybW5nV01uV3gyVTJud0JqZjY5dVV3dFdHQWtjQ3VWNWNQTTdtNE9xbjVqZ0U5YWdtdVVweXRMSkZNSXpCSnM3RllLODdPakRGZFZyZE02YkxxMUlINklhZVJCZURKdmpoNkVqN1VObnA2QVN3dGd3aGhpQ0NSTmc?oc=5",
    "date": "2026-11-16",
@@ -1492,12 +1498,6 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc20tWnVFb2ptMktzbzRXdjNleVgyT3ZxMWZsUnhZVWdnR1JCVjRWdmx3bnB5S3MxLVNEaXMwc0VLOC1hNUtFMjVVV0gzRXcyd0VIZk9zQXRIcDNhaDJxQ3RadHIxQ1ZvRmR2TGpMSlg0ajBWVEZqVmVJT2d4TXFBaW5TbHg?oc=5",
    "date": "2026-11-16",
    "source": "VOH"
-  },
-  {
-   "title": "Giá heo hơi hôm nay 16/11: 31/34 địa phương ghi nhận mức điều chỉnh tăng, vùng giá giao dịch từ 49.000 - 52.000 đồng/kg - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTmh0UHVqSVh3SGZfTnZRQ2Rwa3I3ckF3a0x2VGZFTDMzVTA5VnNWSjBYMWY2a2R3X2NyM1hXR1J3UWxxbWFEYnFPcjRaSlNaekVWc1llcmM2T0hObjVkckloay1wVkx5M1BENXBLNkxPdEozSFYxTXBxT1VYVnJJNGE1aUpfSDZ5bGZnbDg1YjlSeV9PZkdyVUNzTGhBRVJPLXBVemVDbGgwSHk5bTFhMmM1dHNYQ2NqUVBVcTJHQlB5T1hUb1hCbGdzVGFwbUFXTkotYw?oc=5",
-   "date": "2026-11-16",
-   "source": "Vietnam.vn"
   }
  ],
  "mentions": [
@@ -1564,6 +1564,22 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-17T22:36:16.145Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 1",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 1,
+   "detail": [
+    "Chăn nuôi Việt Nam: 45 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  GreenFeed 2026-11-12: 34 tỉnh/thành",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "HTTP 429 https://news.google.com/rss/search?q=%22gi%C3%A1+b%C3%B2+h%C6%A1i%22+OR+%22gi%C3%A1+tr%C3%A2u+b%C3%B2%22+when:30d&hl=vi&gl=VN&ceid=VN:vi",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 1"
+   ]
+  },
   {
    "at": "2026-11-17T19:19:05.154Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
@@ -2007,22 +2023,6 @@
   },
   {
    "at": "2026-11-05T03:41:38.135Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Lỗi tải https://nguoichannuoi.vn/thi-truong/gia-ca/: fetch failed",
-    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
-    "  GreenFeed 2026-10-29: 34 tỉnh/thành",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-05T01:03:05.017Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
    "newTables": [],
    "gfNew": 0,
