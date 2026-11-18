@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-18T18:52:23.714Z",
-  "lastScan": "2026-11-18T18:52:23.714Z",
+  "updated": "2026-11-18T18:52:50.433Z",
+  "lastScan": "2026-11-18T18:52:50.433Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1389,12 +1389,6 @@
    "source": "Báo Tuổi Trẻ"
   },
   {
-   "title": "Siêu thị bán trứng chỉ 2.000 đồng/quả, người nuôi gà sống sao? - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM0x5dlN5WlltZXIzMDF3X1liRmJLdmFQdTRvSDJWc3ZCaVhWXzFiUTR2ejB3cng5WkRaY1RURjJOUnhSMlBsQzdnMUNwRWZGbGpNTEhUS05lbjU5LVJWcU14Wng0Q0M4T1BvdGlsN0xDTm5sTi1PR2ZSRVBlcjVoS3diVHo5eDlLek9v?oc=5",
-   "date": "2026-11-14",
-   "source": "Vietnam.vn"
-  },
-  {
    "title": "C.P. Việt Nam được vinh danh tại châu Á với những sáng kiến trong sản xuất và phát triển bền vững - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWEpFV0FBcWVNaDZLWnlSZEtKQzRfd1Z5bzZxOGJ1akNaLWZZQVNralFEZXZCVzBNdldoOXJyQzgzbmJPRk9PU1dnS21BR0g5Sy00c1hxX29NNkFqRHgyZnpLY0tOM01QdFpndWJObWdybnF0bFg2Z3lnRjh4UmhlS3ZwUWg0Nmh4X1BwaWhoQ0hwRE5jZ3B1YmZ3ZUVadmxEbzlHZDNZX2lCVGh6cmU0TDY3bXBBcXpiSmZFNw?oc=5",
    "date": "2026-11-14",
@@ -1491,6 +1485,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-18T18:52:50.433Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 45 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-18T18:52:23.714Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 15 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
@@ -1902,20 +1910,6 @@
     "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 21 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-08T02:33:20.010Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 22 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
-    "GreenFeed: 57 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 22 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
    ]
   }
  ]
