@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-19T04:14:55.011Z",
-  "lastScan": "2026-11-19T04:14:55.011Z",
+  "updated": "2026-11-19T11:31:24.665Z",
+  "lastScan": "2026-11-19T11:31:24.665Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1347,6 +1347,12 @@
  ],
  "news": [
   {
+   "title": "Gà thả vườn giá vài chục nghìn đồng/con, chất lượng có như quảng cáo? - Tin tức 24h",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSmlJY0UtaXhyaEhsOUlsRXJaQm1ISzRiNWI2N2g3a0lDT0ZaN2dYUGs3UFJGVXZaRXFYNWY1NEVvdTZkUlhrcU9Bc0lBRElUcUY5dFNhc0c1QXpqbTNiOVZqWENPTU04Y2V6Q3FPdjdpUWVJenFUcE05ZF9YR0o1M1p1dV81YV9TNDhPb0RHemtENDBGSHkwMWpQX2l5R3plQmRzUl9VdW9ER0E4U2pIWG44VnFWaEpORVJvdVFuRlJ3dVpLajlr?oc=5",
+   "date": "2026-11-19",
+   "source": "Tin tức 24h"
+  },
+  {
    "title": "Xây 3 năng lực công dân toàn cầu cho học sinh: Học giỏi nhưng không phải 'gà công nghiệp' - VietnamFinance",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFpCV1IzLU1jSzllWVFaYjd1aUJOVTBzZ1d1cUlNTGdhdTh0aTEzWUFpX09jdDhYbFM4MFV5ZEJzNUhxM2k4aXBCRnR1andDZ1ROR3A1VkVBWEYzaW03a3hEQnlkRTBXZDFOb20wQUJERWRHR3Y1OTRuQnlwTlR4ZXk3aUpGUWJCeGM3WkJqUkFmTWVoa2NxZmExY2xIZlZ2MHdzajY5SjVKdktTbUZ4OGFvTXlfbHJ5YVlVTDFnMkNLblk?oc=5",
    "date": "2026-11-18",
@@ -1389,14 +1395,14 @@
    "source": "Báo Tuổi Trẻ"
   },
   {
-   "title": "C.P. Việt Nam được vinh danh tại châu Á với những sáng kiến trong sản xuất và phát triển bền vững - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWEpFV0FBcWVNaDZLWnlSZEtKQzRfd1Z5bzZxOGJ1akNaLWZZQVNralFEZXZCVzBNdldoOXJyQzgzbmJPRk9PU1dnS21BR0g5Sy00c1hxX29NNkFqRHgyZnpLY0tOM01QdFpndWJObWdybnF0bFg2Z3lnRjh4UmhlS3ZwUWg0Nmh4X1BwaWhoQ0hwRE5jZ3B1YmZ3ZUVadmxEbzlHZDNZX2lCVGh6cmU0TDY3bXBBcXpiSmZFNw?oc=5",
+   "title": "Nhiều doanh nghiệp tiếp tục tăng giá thức ăn chăn nuôi trong tháng 11 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdjl6d2p5TWlzS1NwelFicFI1Q2UwOTYzU0xMck9qQmQtN2VJV29OekktVW54MDJ0Y0lib09GSE5JczdMSFJMSUFyY05QUVNoUHJVZHBYVk9vVWN3NTBYeS0zbkNZR1pHb1N0RllZeTFKS0Zqa0NRb2hRMTJBV2xWcmx4bkNMa3l2MHJwWlI3NlJjT3RkdUp4Xw?oc=5",
    "date": "2026-11-14",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Nhiều doanh nghiệp tiếp tục tăng giá thức ăn chăn nuôi trong tháng 11 - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdjl6d2p5TWlzS1NwelFicFI1Q2UwOTYzU0xMck9qQmQtN2VJV29OekktVW54MDJ0Y0lib09GSE5JczdMSFJMSUFyY05QUVNoUHJVZHBYVk9vVWN3NTBYeS0zbkNZR1pHb1N0RllZeTFKS0Zqa0NRb2hRMTJBV2xWcmx4bkNMa3l2MHJwWlI3NlJjT3RkdUp4Xw?oc=5",
+   "title": "C.P. Việt Nam được vinh danh tại châu Á với những sáng kiến trong sản xuất và phát triển bền vững - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWEpFV0FBcWVNaDZLWnlSZEtKQzRfd1Z5bzZxOGJ1akNaLWZZQVNralFEZXZCVzBNdldoOXJyQzgzbmJPRk9PU1dnS21BR0g5Sy00c1hxX29NNkFqRHgyZnpLY0tOM01QdFpndWJObWdybnF0bFg2Z3lnRjh4UmhlS3ZwUWg0Nmh4X1BwaWhoQ0hwRE5jZ3B1YmZ3ZUVadmxEbzlHZDNZX2lCVGh6cmU0TDY3bXBBcXpiSmZFNw?oc=5",
    "date": "2026-11-14",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1419,15 +1425,15 @@
    "source": "Vietnam.vn"
   },
   {
-   "title": "Vietstock 2026 khẳng định vai trò nền tảng kết nối quan trọng của ngành chăn nuôi Việt Nam - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaGxIVXQ1WEZTZVdyQTBkUDNKRWVrM3VGUnZTX0dibHFfYUpOd2tNYWoyY2RjdzEza0pqcFJBN21hSXh3T3JlSjh4b3JaRktzZjB0WEgza1dIY09ZX2k4N2ZoaVAwZkpuMWwyc1UxZmpRdDNkOUxkdFUwWS14M21WQkJpVTRIUTJRanpIWlJPYXlVUlNSNndDamR5eGxxeVlGU1ZwUEdPVktIMFR2NXFXb3FLRWw?oc=5",
+   "title": "Giá heo hơi ngày 13/11: Tiếp tục tăng, đạt mốc 50.000 đồng/kg - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdHFldUdvTmwwbHd3WHFPdGhuTkFjUFQ2bmFoczFvUzdFS1BKSDdqM2JpbzRZV1V3MmZ0SW1lbXBnRV80bDRxSUU3ZUNhVzVLVjNaNXFkdTFTWFlaRFBzZl9MLWlqRzUzeTM1YnFZb3BVbG4zbDdMRl9FQ0RGNXZDNnpkekIwTTFyTU9Z?oc=5",
    "date": "2026-11-13",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Việt Nam học tập kinh nghiệm về phân hạng thịt, truy xuất nguồn gốc và ứng dụng công nghệ DNA tại Hàn Quốc - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSGtaRFVWbHlTUzlDS2Jtb1gyVGNXYmZlOWNYZ0xMTEVDSTZQS1hFbFpDcm5vTmdnYmZMRGU1aXU5TjlWQzBUWFBod3lBaERqRUFId1ctZFR3TUlUVDMzeXl4UFc4d2IzdE5mRTZsM0cza0dnMU04eU9KQjlOUmo3Nm5WOFUzX0R6YS1UaWZsOGRuZnNtWmRrMFFUR3dnRTlIOURTdEdFYzQ3bi12Qm5XOHktWm1WcmJxVldOUWNsVXJsRG9rSVduMg?oc=5",
-   "date": "2026-11-12",
+   "title": "Vietstock 2026 khẳng định vai trò nền tảng kết nối quan trọng của ngành chăn nuôi Việt Nam - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaGxIVXQ1WEZTZVdyQTBkUDNKRWVrM3VGUnZTX0dibHFfYUpOd2tNYWoyY2RjdzEza0pqcFJBN21hSXh3T3JlSjh4b3JaRktzZjB0WEgza1dIY09ZX2k4N2ZoaVAwZkpuMWwyc1UxZmpRdDNkOUxkdFUwWS14M21WQkJpVTRIUTJRanpIWlJPYXlVUlNSNndDamR5eGxxeVlGU1ZwUEdPVktIMFR2NXFXb3FLRWw?oc=5",
+   "date": "2026-11-13",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   }
  ],
@@ -1485,6 +1491,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-19T11:31:24.665Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 15 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 45 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 15 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-19T04:14:55.011Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
@@ -1896,20 +1916,6 @@
     "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-10T07:21:36.331Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
    ]
   }
  ]
