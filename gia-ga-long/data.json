@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-20T04:02:07.370Z",
-  "lastScan": "2026-11-21T04:01:35.269Z",
+  "updated": "2026-11-22T03:15:53.043Z",
+  "lastScan": "2026-11-22T03:15:53.043Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1347,10 +1347,112 @@
  ],
  "news": [
   {
+   "title": "Bữa tối Lễ Tạ ơn năm 2026 đắt đỏ hơn, một phần nguyên nhân do giá gà tây - Nhật Báo Calitoday",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZnBPcUNxWjJfV0wxdWQtUWxEOHNPSkp3YXVfeGREZ196ODl4aVJwX2F5YVdCTnVhbEFUX2V2UHY4TDkyMUdiV1VtSU52c3UzS3Q1VmpfckdpNlJRZzlXMDRaZUItYmdueGEtaExuNmlhZzktR200N3RnWElOSmNwRm1oaFlYcmJZWW9NMk5YdC1jZUlmZDJxOV9kRE9WLUM4ZjUwNDI0N18xaWdKV2dDR0VlQ29jeTZ1bTRR?oc=5",
+   "date": "2026-11-21",
+   "source": "Nhật Báo Calitoday"
+  },
+  {
+   "title": "Các ấn phẩm đã xuất bản - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kQkN6Q3E2Q2RTR3kwLUxCQTlZZmxhVm9oYWFMazc3bXBlbVdHNGtUUTRFV2s3QXFHSG5aSC1IbG10ZzZhX3d2bVdwUVZVR3JheUV5dkotWHBlMXR0WV9r?oc=5",
+   "date": "2026-11-20",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "65.000 đồng một con gà mái ôm trứng, chất lượng ra sao? - Báo Dân trí",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORGNqMzBWS2ZYUVN0d3QxbXgyVm5SaVBCUUdFeU5tbGwxRmdJdFRnbEJpN3V1TW9vLXo3ZkFGQU52SWJvZHN4VjFpNzN0Z3NiNkVrTjRVcnE3UjdKTFlUN0hfQWQ2eEticlJ6bVZlcmtqSk5rWmplMkxZbjNtZUxCTjZKZ21lMEg0Z2g2M0FGZ3Rkb1REaGRsbUw3Zm9pNXB3MFF3ODV3RnpmeEE?oc=5",
+   "date": "2026-11-20",
+   "source": "Báo Dân trí"
+  },
+  {
+   "title": "Gà mái ôm trứng giá chỉ 65.000 đồng/con bán đầy trên mạng: Chất lượng thực sự thế nào? - Docnhanh.vn",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd1dRYlBKZy1zMW14R2VEZGU1ZWk2Q1ViQm1IeWZyaW45UUlrOHhkeVd0MWFlbnN4WFJ1TXFZTUYwZFFBVldBY0VXQXl0OURfUjFyZ2FTU004ekIxUnRaSzBjV0VzQk9KRTBGdW50Y0xMZHdLLURtRU5DZEp2VEtJVTRFRkNuMFhuOTA4YjFaV3EyZlRxejBYQzNQZDNwQmlncDI4bUZjS1gwd1ViT0xyT0NKV3hCQjN5SV9nYmJBd2dqZw?oc=5",
+   "date": "2026-11-20",
+   "source": "Docnhanh.vn"
+  },
+  {
+   "title": "Đón đọc Tạp chí Chăn nuôi Việt Nam số tháng 11 năm 2026 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWDE0U1Iwam9NaUdoRllKRjlJekNqZ3doVXdNUGcyVHBuemt6cFZXNlJWMTN4OEd6N1lhLUNUU2FFYXZQUlJfWkE1RU5OeE8yQVRIOHVnZlVkeHlPLVQ4T1piTHFFVW1lYURwMHJPR3U5eUxweWJhZXVNTU1relF4WExpb3l2Zw?oc=5",
+   "date": "2026-11-20",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "AgriS đón nhận Huân chương Lao động hạng Nhất, cùng VINASME kiến tạo hệ sinh thái hỗ trợ doanh nghiệp phía Nam - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVzNoa21PaTRGTVEyTUNHRFNLakgtOTBkbDVOUUJuaDNzcTZiSklFWmZyUmdBelE3ZTZ1Wmg4SWNFcFk2THpnblI4Tmh2MEJQeWJCUlBzMEl6QmMtQmtFWTF3X3J2bU5NbFY0Y3haakVuQ2lXVTBBRW8wVzJsVUZzSWZ6R0p4dENIWTJ2WTBEak1FZC1aYnZKOVlWZzl4MWRycVdCUmMxTHlDbXhQOGVBdGZWNE1ocVhjTE1kYVkxeE9zMUM4anJvVWJxR0FOQQ?oc=5",
+   "date": "2026-11-20",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Thư mời hợp tác quảng cáo, truyền thông và cộng tác nội dung: Ấn phẩm Đặc biệt Xuân Đinh Mùi 2027 - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVEtUYjJRa1FYbTl1LWRVT2dLQ3dXYlJyQmMwVFI2YldzUHR5cjIxVzRaVFZfVEE0UW15eWhBbTRpX21SbWdmdHpERUFUZC1YbFl2dENOSjhGLUxfMVlwMnBYcHdyeDl0T2pyM3FJYk42RGhYUEMxUC1uT0VNZWM5YmRrSFhYOGJVelZwemYxcVZVVmZnU0c1dDVITThkdEthVEl4ZTZ4TzllanV3WkFnUktOR2tVQ0lGaXM2QVptSFl2Z1M3TVM3eldXRm9sc054UlZBek5XOU4xblR3Wm93?oc=5",
+   "date": "2026-11-20",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
+   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
+   "date": "2026-11-19",
+   "source": "VTVgo"
+  },
+  {
+   "title": "Gà thả vườn giá vài chục nghìn đồng/con, chất lượng có như quảng cáo? - Tin tức 24h",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSmlJY0UtaXhyaEhsOUlsRXJaQm1ISzRiNWI2N2g3a0lDT0ZaN2dYUGs3UFJGVXZaRXFYNWY1NEVvdTZkUlhrcU9Bc0lBRElUcUY5dFNhc0c1QXpqbTNiOVZqWENPTU04Y2V6Q3FPdjdpUWVJenFUcE05ZF9YR0o1M1p1dV81YV9TNDhPb0RHemtENDBGSHkwMWpQX2l5R3plQmRzUl9VdW9ER0E4U2pIWG44VnFWaEpORVJvdVFuRlJ3dVpLajlr?oc=5",
+   "date": "2026-11-19",
+   "source": "Tin tức 24h"
+  },
+  {
+   "title": "Argentina mở rộng chuỗi cung ứng khô đậu tương sang Việt Nam - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdV9xVGxhZE1DcGFYMEhYM0hrd19VSk1CYlNJSHpZYW94c0RZNzBfVlJkenk3TVFfeHRjYTFMLVQwSmxfTVVWNHRUSy1ucE5NZXc5UGx6VmRHREFMd0MyUjlibGIwRDhKdW1oTUJqWk1vZTBBeDhqLXE2Q05DcXJieUFqQW1IMFpCTWlnWg?oc=5",
+   "date": "2026-11-19",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Việt Nam đăng cai Hội nghị quốc tế lần thứ 5 về giám sát sức khỏe động vật - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdEF4dDI1SzlLTlJBQ0wzc2RzTkx0RFZWZTM4N0d5SEFsZHBsdWRFTm40emlSTGVFMk5JYVNra1dYZnE4c2c0c0Z0ZVotUkp6dUJZMlRUelhjcXBUOEt3c01HSDRKWllLSlBQdVE4V1d5NFlCSk9SRnFsT3c4dGxtN1NRNnpfYzBHT1E3cVRCUnh3MFJQODN1UXpQN1FLWFk?oc=5",
+   "date": "2026-11-19",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Bacillus subtilis và licheniformis là “đồng minh” của nhà chăn nuôi, tăng cường tiêu hoá, hấp thu dinh dưỡng và bảo vệ hàng rào ruột - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdDhGcnZrQmdLWldUeVBJWlpodzZNM2hfbFVyS2ZPVTBORFNRWHRUVDQyS0FjSWlNMWQyRldLSk1oNkZqeDJsN0pvMmJJXzBHLWFOVGl4b0dtTmpQNWRxa2FjclZPb0ZIczV6R0VkbmJlRkRxXy1NRDRwYmdxZ0MzRVQyUUJpMGlwRXZJUVM4TFUxbjBoRUxiRGJmY3BoRWQ3LVR5emxpUTdrTktsc2xZcXl4UGg4WGhodlVZSlZSNkZVX0luNFZoYTR5ZlVWaDNVenhDUnRDQUgwakFKUEZxdGZPejlEUk0?oc=5",
+   "date": "2026-11-19",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Bộ Chính trị thống nhất một đầu mối quản lý an toàn thực phẩm - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWjVNTE1kdDBRNUhzUDdWN3h6T3AyU2pQY3Ryb3VBaG5GeElLSm44emRpdW1acEpZOEdBejlXRVBaMUs3NTVxRjZYTXpsSTFzd2N1RVZxSHZmVlRrUF9NNGEwUlExSHhSem9tVWN0NDZBdUY4dklWQkVXZ3pISjNOejl3SEE4MUNGVUR3Wlp3?oc=5",
+   "date": "2026-11-18",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Xây 3 năng lực công dân toàn cầu cho học sinh: Học giỏi nhưng không phải 'gà công nghiệp' - VietnamFinance",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFpCV1IzLU1jSzllWVFaYjd1aUJOVTBzZ1d1cUlNTGdhdTh0aTEzWUFpX09jdDhYbFM4MFV5ZEJzNUhxM2k4aXBCRnR1andDZ1ROR3A1VkVBWEYzaW03a3hEQnlkRTBXZDFOb20wQUJERWRHR3Y1OTRuQnlwTlR4ZXk3aUpGUWJCeGM3WkJqUkFmTWVoa2NxZmExY2xIZlZ2MHdzajY5SjVKdktTbUZ4OGFvTXlfbHJ5YVlVTDFnMkNLblk?oc=5",
    "date": "2026-11-18",
    "source": "VietnamFinance"
+  },
+  {
+   "title": "VISSAN đầu tư gần 1.600 tỷ đồng xây dựng nhà máy chế biến thực phẩm - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRnhNRk9YZFk4QmFwb1VjQjRmcUJqY3B1Rmp0XzZWZVBtRHgzWTNBLWVER3Iwd3p5OFhINXNIbHZCeU15dXdsTXdSLVdjY053TVJydE4wZF95enIwbFh3c0hiMkJ1NWVqUHlURGhpdDI0RUJ5U2F0RWpCM0pwblRvNHRUeVNHZlZLaVhUVjRSZ0NQOFlkYkE?oc=5",
+   "date": "2026-11-17",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Logo Lanxess - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBpMGlzWURVWHRGTXIwclJQMmlZeGtEZktoU0dqb3RnSTdUMDh2SDV0RzV4ejB2ZkRHdVhDSmFURnlNSE5QeHNYRHMyUmM?oc=5",
+   "date": "2026-11-16",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Bà Nguyễn Thị Bích Thủy được bổ nhiệm giữ chức Phó Cục trưởng Cục Chăn nuôi và Thú y - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVHVWTGdqX25La2FlX1dSLUVnSlhoMFo0NU5jQWtVSjdmb3hzcmtTYXFyWUwzQVoyMk1tT2FKMjEtNTVSMmdxNVNmRTllUTlRUzdMNTU2OWFqd1R2dGt4cnJYSmJuSlNYU1NGR1hCOFJKUkxCZVJIcjR3Yjg3elE5ZXJYWVlJWlRiRnhWMWMtMGt4SVRvSW4wTktfd2ZaSDQ2algwVk9TUGkwTjBt?oc=5",
+   "date": "2026-11-16",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Zoetis ra mắt sản phẩm Poulvac® E. coli: Tiên phong phòng vệ – Nâng tầm năng suất - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX1RRSE54ckZjWVlZRmprcG5XSWMtMVpzMmFPZDhiY25CalVjaTlITXJZQkhMYThaVk5FSFpONUUzOWtNY29wdGotaWNDdkdWd1VhUkdIWnFJT2JpSmU1cXZTandxZXJMckFrc2ZFTzhkSmRoUU1oeWFUakx1bmFBbnZUZ1NwbUx6ODdnSXhIdkNwZTdYZWNkLXFvR0dES2xHTmc?oc=5",
+   "date": "2026-11-16",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
    "title": "Siêu thị bán trứng chỉ 2.000 đồng/quả, người nuôi gà sống sao? - Báo Tuổi Trẻ",
@@ -1419,6 +1521,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-22T03:15:53.043Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 20 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 45 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 20 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-21T04:01:35.269Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 3 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
@@ -1822,20 +1938,6 @@
   },
   {
    "at": "2026-11-10T23:25:02.986Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 43 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-10T20:48:31.975Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 16 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
    "newTables": [],
    "gfNew": 0,
