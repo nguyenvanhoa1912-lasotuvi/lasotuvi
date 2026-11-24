@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-24T20:40:31.019Z",
-  "lastScan": "2026-11-24T20:40:58.084Z",
+  "updated": "2026-11-24T23:28:54.481Z",
+  "lastScan": "2026-11-24T23:28:54.481Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1358,6 +1358,12 @@
  ],
  "news": [
   {
+   "title": "Doanh nghiệp Đan Mạch tìm đối tác Việt Nam sản xuất protein thay thế cho ngành chăn nuôi, thủy sản - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdU5nZHZhMU1ZNmxOT2JhTkJqQlRjN0RJZ0VBS1h4R0RNMGhZTmNRNU93cFJnWFQ2X2ZMNWVTRDRvTmhzTTVSSUgxWDV2OFhSX0xyOU1nTnpZWUtmQ0VWa1FONkdzTjc2ZjdTQmNIQjBlT0ZsZWVNUmpBazZyX1hReEhIX3BiZ3ZJWnVpZUlYczZTM3VyUkU4RWQ5WktiLXFKRnZEMGFZTVo3MkdlNUM5ZDdlbTlqc0RITm9Dc3BR?oc=5",
+   "date": "2026-11-23",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
    "title": "Bữa tối Lễ Tạ ơn năm 2026 đắt đỏ hơn, một phần nguyên nhân do giá gà tây - Nhật Báo Calitoday",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZnBPcUNxWjJfV0wxdWQtUWxEOHNPSkp3YXVfeGREZ196ODl4aVJwX2F5YVdCTnVhbEFUX2V2UHY4TDkyMUdiV1VtSU52c3UzS3Q1VmpfckdpNlJRZzlXMDRaZUItYmdueGEtaExuNmlhZzktR200N3RnWElOSmNwRm1oaFlYcmJZWW9NMk5YdC1jZUlmZDJxOV9kRE9WLUM4ZjUwNDI0N18xaWdKV2dDR0VlQ29jeTZ1bTRR?oc=5",
    "date": "2026-11-21",
@@ -1390,6 +1396,12 @@
   {
    "title": "Thư mời hợp tác quảng cáo, truyền thông và cộng tác nội dung: Ấn phẩm Đặc biệt Xuân Đinh Mùi 2027 - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVEtUYjJRa1FYbTl1LWRVT2dLQ3dXYlJyQmMwVFI2YldzUHR5cjIxVzRaVFZfVEE0UW15eWhBbTRpX21SbWdmdHpERUFUZC1YbFl2dENOSjhGLUxfMVlwMnBYcHdyeDl0T2pyM3FJYk42RGhYUEMxUC1uT0VNZWM5YmRrSFhYOGJVelZwemYxcVZVVmZnU0c1dDVITThkdEthVEl4ZTZ4TzllanV3WkFnUktOR2tVQ0lGaXM2QVptSFl2Z1M3TVM3eldXRm9sc054UlZBek5XOU4xblR3Wm93?oc=5",
+   "date": "2026-11-20",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "TP. Hồ Chí Minh: Nguồn cung sản phẩm chăn nuôi tại chỗ chỉ đáp ứng 10–15% nhu cầu - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORXdrUHlLSmxWZkFyMFVtV1YyMDhzRHAwd20wSnA2QW5ab2psTkM3SGdrWXpsM0s4VnoyaGtqZE16c2J3YkZmZnJReE1yN195Und5U2ZEV2g5dUt4YkRTXzR1bGozZThnWWZ0MnpqLW5JU3pYWFpWbzhXeEJwN0NBc2JQazlXdHdPamFOWTE0VkpuTzBOdWRkTGlOaEZCdEg3RGNtWQ?oc=5",
    "date": "2026-11-20",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1446,12 +1458,6 @@
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFpCV1IzLU1jSzllWVFaYjd1aUJOVTBzZ1d1cUlNTGdhdTh0aTEzWUFpX09jdDhYbFM4MFV5ZEJzNUhxM2k4aXBCRnR1andDZ1ROR3A1VkVBWEYzaW03a3hEQnlkRTBXZDFOb20wQUJERWRHR3Y1OTRuQnlwTlR4ZXk3aUpGUWJCeGM3WkJqUkFmTWVoa2NxZmExY2xIZlZ2MHdzajY5SjVKdktTbUZ4OGFvTXlfbHJ5YVlVTDFnMkNLblk?oc=5",
    "date": "2026-11-18",
    "source": "VietnamFinance"
-  },
-  {
-   "title": "VISSAN đầu tư gần 1.600 tỷ đồng xây dựng nhà máy chế biến thực phẩm - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRnhNRk9YZFk4QmFwb1VjQjRmcUJqY3B1Rmp0XzZWZVBtRHgzWTNBLWVER3Iwd3p5OFhINXNIbHZCeU15dXdsTXdSLVdjY053TVJydE4wZF95enIwbFh3c0hiMkJ1NWVqUHlURGhpdDI0RUJ5U2F0RWpCM0pwblRvNHRUeVNHZlZLaVhUVjRSZ0NQOFlkYkE?oc=5",
-   "date": "2026-11-17",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
    "title": "Siêu thị bán trứng chỉ 2.000 đồng/quả, người nuôi gà sống sao? - Báo Tuổi Trẻ",
@@ -1514,6 +1520,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-24T23:28:54.481Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 46 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-24T20:40:58.084Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
@@ -1927,20 +1947,6 @@
     "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 14 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-11T17:54:49.683Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 44 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
-    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
    ]
   }
  ]
