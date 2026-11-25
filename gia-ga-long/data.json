@@ -2,7 +2,7 @@
  "meta": {
   "version": 1,
   "updated": "2026-11-25T04:54:15.652Z",
-  "lastScan": "2026-11-25T04:54:15.652Z",
+  "lastScan": "2026-11-25T05:28:59.145Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1537,6 +1537,20 @@
  ],
  "log": [
   {
+   "at": "2026-11-25T05:28:59.145Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 46 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 4 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
+   ]
+  },
+  {
    "at": "2026-11-25T04:54:15.652Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 17 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
    "newTables": [],
@@ -1939,20 +1953,6 @@
   },
   {
    "at": "2026-11-12T10:59:18.961Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 44 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 6 bảng giá trong danh mục",
-    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-12T03:53:10.225Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 11 · câu trích nguồn bổ sung: 7 · lỗi tải: 0",
    "newTables": [],
    "gfNew": 0,
