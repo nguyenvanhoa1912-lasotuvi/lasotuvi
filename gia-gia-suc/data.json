@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-25T17:36:31.523Z",
-  "lastScan": "2026-11-25T17:36:31.523Z",
+  "updated": "2026-11-25T20:07:44.429Z",
+  "lastScan": "2026-11-25T20:07:44.429Z",
   "note": "Chuỗi chính: heo thịt hơi tại trại – bảng giá sản phẩm chăn nuôi cả nước (channuoivietnam.com / Tạp chí Chăn nuôi VN), giá ngày. gf: GreenFeed – cột HEO HƠI bình quân vùng (Nam = Đông Nam Bộ, thêm Tây Nam Bộ) và cột HEO GREENFEED. Số đ/kg.",
   "origin": {
    "2026-10-13": "cnvn",
@@ -1428,10 +1428,10 @@
    "source": "Tạp chí điện tử Thương Trường"
   },
   {
-   "title": "Giá heo hơi hôm nay 25/11/2026: Đi ngang trên cả nước, dao động 51.000 - 55.000 đồng/kg - Tạp chí Gia Đình Mới",
+   "title": "Giá heo hơi hôm nay 25/11/2026: Đi ngang trên cả nước, dao động 51.000 - 55.000 đồng/kg - Gia Đình Mới",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORmN6dEZNX0RkeGJOeXJUUDcxNGhhTksxZDlZdkFDamRvNHFSeXc1enZRbXdnMTdqdVZ0SVhCY3pOQ2hxU2tfb2tqUjNxdDJSZFlJc0N6Y0gtOU9WenhzdGg0VWRTa2J5RGFBT3RFcnlIS3puUTQtQldrWml2STM3MmdpNERpZnFBQ2luNFVRdzE5NDdNbWlNYm5n?oc=5",
    "date": "2026-11-25",
-   "source": "Tạp chí Gia Đình Mới"
+   "source": "Gia Đình Mới"
   },
   {
    "title": "Thị trường hàng hóa ngày 25/11/2026: Giá heo hơi, cà phê đồng loạt giảm, vàng tiếp tục chịu sức ép - Hangthat.vn",
@@ -1594,6 +1594,21 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-25T20:07:44.429Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 46 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  GreenFeed 2026-11-19: 34 tỉnh/thành",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-25T17:36:31.523Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
@@ -2028,21 +2043,6 @@
   },
   {
    "at": "2026-11-15T03:00:41.890Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
-   "newTables": [],
-   "gfNew": 0,
-   "errors": 0,
-   "detail": [
-    "Chăn nuôi Việt Nam: 44 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 59 ngày có bảng giá, cần đọc 1",
-    "  GreenFeed 2026-11-05: 34 tỉnh/thành",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-14T03:30:47.074Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 25 · câu trích nguồn bổ sung: 9 · lỗi tải: 0",
    "newTables": [],
    "gfNew": 0,
