@@ -1,8 +1,8 @@
 {
  "meta": {
   "version": 1,
-  "updated": "2026-11-26T05:09:44.437Z",
-  "lastScan": "2026-11-26T05:09:44.437Z",
+  "updated": "2026-11-26T12:21:53.350Z",
+  "lastScan": "2026-11-26T12:21:53.350Z",
   "note": "Chuỗi chính: bảng giá tại trại Tạp chí Chăn nuôi VN (giá ngày). gf: GreenFeed BQ vùng (Nam = Đông Nam Bộ). Số đ/kg.",
   "origin": {
    "2026-01-06": "cnvn",
@@ -1380,6 +1380,12 @@
  ],
  "news": [
   {
+   "title": "Đừng nuôi con thành 'gà công nghiệp', làm việc đơn giản cũng lúng túng - Tuổi Trẻ",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcGh3U1lZTi1RdGN5ZW1JRFJJdW9HRG1SeVZvMGlieTRNalByY2FNa0MtR1JXU29ROHJ3cUtsZnBvWThyQVppN29pbWRBekM1X1diWmZVeG40dDhtRHdXeTZ3d21OZnhaWmw4cFc5MzFSemlSVE5GQnFNV1lhYkswS1o4em1vaXBwcXA0TERWU2phMWlTdHpXUnRUTF91bm13UzNMbzFyWWdnVUxFQWc?oc=5",
+   "date": "2026-11-26",
+   "source": "Tuổi Trẻ"
+  },
+  {
    "title": "Giá trứng gà giảm mạnh tại TP. Hồ Chí Minh - VTVgo",
    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9LLTFQRDRPTVA5eEF3T0lQU05yNDNNaG1LMzZmMzVTSlFtZzFZc3Jsbk9BcGZmVXEtbzlEdU1pSk8?oc=5",
    "date": "2026-11-25",
@@ -1440,8 +1446,8 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "TP. Hồ Chí Minh: Nguồn cung sản phẩm chăn nuôi tại chỗ chỉ đáp ứng 10–15% nhu cầu - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORXdrUHlLSmxWZkFyMFVtV1YyMDhzRHAwd20wSnA2QW5ab2psTkM3SGdrWXpsM0s4VnoyaGtqZE16c2J3YkZmZnJReE1yN195Und5U2ZEV2g5dUt4YkRTXzR1bGozZThnWWZ0MnpqLW5JU3pYWFpWbzhXeEJwN0NBc2JQazlXdHdPamFOWTE0VkpuTzBOdWRkTGlOaEZCdEg3RGNtWQ?oc=5",
+   "title": "Giá heo hơi ngày 20/11: Tiếp tục tăng, miền Nam đạt mốc 57.000 đồng/kg - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVFJjeXBSNzE4MUJwbnhRYWF0Xy1idndDSG1KdkJPeUxCWkRaaTBEbjhoZEc2eXFmYUQ0OTRwNWlCU0lSY2lXdkNDZGh3WEZDd3k2bGFIZkZKRm90ZWE2aWVRVUNGU2xBaWNjSW45am44cUF2dk93Vk1URV9xY244WmNjR296a3RUMWdWSzVvcldlTWJsSnpJ?oc=5",
    "date": "2026-11-20",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1452,20 +1458,20 @@
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
   {
-   "title": "Gà thả vườn giá vài chục nghìn đồng/con, chất lượng có như quảng cáo? - CafeF",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWNIcTl0bGR5ZVRicE50NDFPamhCSTRKZGhBeTlFXy04OXU3WW1ydWVXQkthYzM5ZjRYYVlRYmpaekRvdkJoUlcyQnROMkV3NEhjWDlnMzA1M1JQMzFfUUN5QUlocjZnbjFsXzY4Q2hLdWxOOG9ETXRuVTNjZ1RaNkgzblZUZms5aWFoOUhhNTg4UnJrOHdkMzd5S2Ixc1gtbUhJcU1OOV9oVUU?oc=5",
+   "title": "TP. Hồ Chí Minh: Nguồn cung sản phẩm chăn nuôi tại chỗ chỉ đáp ứng 10–15% nhu cầu - Tạp chí Chăn nuôi Việt Nam",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORXdrUHlLSmxWZkFyMFVtV1YyMDhzRHAwd20wSnA2QW5ab2psTkM3SGdrWXpsM0s4VnoyaGtqZE16c2J3YkZmZnJReE1yN195Und5U2ZEV2g5dUt4YkRTXzR1bGozZThnWWZ0MnpqLW5JU3pYWFpWbzhXeEJwN0NBc2JQazlXdHdPamFOWTE0VkpuTzBOdWRkTGlOaEZCdEg3RGNtWQ?oc=5",
+   "date": "2026-11-20",
+   "source": "Tạp chí Chăn nuôi Việt Nam"
+  },
+  {
+   "title": "Gà thả vườn giá vài chục nghìn đồng/con, chất lượng có như quảng cáo? - Chuyển động Thị trường",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM05FSWxNN3ctbEh6Y0o4NnM3Q2RGWDNiLTFzM3ZmbTdrWnc3RHd0ZGJrWkVYWWFwRno3REhCZE0xWVlySnV1a0lfQVEwblM2emJaLUw4OVhTelFMNDctX0lYZGtqbTc0VFhnT0N4QlRkcm4yQ0hRRndjRzdfajNidHFlbGFYdUlxWFRGNXJMNmNfbC1OVWlvMWFZd2FtU1RMZmFQQ0p1U3BJVDhmakRKdmNIcw?oc=5",
    "date": "2026-11-19",
-   "source": "CafeF"
+   "source": "Chuyển động Thị trường"
   },
   {
    "title": "Argentina mở rộng chuỗi cung ứng khô đậu tương sang Việt Nam - Tạp chí Chăn nuôi Việt Nam",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdV9xVGxhZE1DcGFYMEhYM0hrd19VSk1CYlNJSHpZYW94c0RZNzBfVlJkenk3TVFfeHRjYTFMLVQwSmxfTVVWNHRUSy1ucE5NZXc5UGx6VmRHREFMd0MyUjlibGIwRDhKdW1oTUJqWk1vZTBBeDhqLXE2Q05DcXJieUFqQW1IMFpCTWlnWg?oc=5",
-   "date": "2026-11-19",
-   "source": "Tạp chí Chăn nuôi Việt Nam"
-  },
-  {
-   "title": "Bacillus subtilis và licheniformis là “đồng minh” của nhà chăn nuôi, tăng cường tiêu hoá, hấp thu dinh dưỡng và bảo vệ hàng rào ruột - Tạp chí Chăn nuôi Việt Nam",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdDhGcnZrQmdLWldUeVBJWlpodzZNM2hfbFVyS2ZPVTBORFNRWHRUVDQyS0FjSWlNMWQyRldLSk1oNkZqeDJsN0pvMmJJXzBHLWFOVGl4b0dtTmpQNWRxa2FjclZPb0ZIczV6R0VkbmJlRkRxXy1NRDRwYmdxZ0MzRVQyUUJpMGlwRXZJUVM4TFUxbjBoRUxiRGJmY3BoRWQ3LVR5emxpUTdrTktsc2xZcXl4UGg4WGhodlVZSlZSNkZVX0luNFZoYTR5ZlVWaDNVenhDUnRDQUgwakFKUEZxdGZPejlEUk0?oc=5",
    "date": "2026-11-19",
    "source": "Tạp chí Chăn nuôi Việt Nam"
   },
@@ -1476,10 +1482,10 @@
    "source": "VietnamFinance"
   },
   {
-   "title": "Siêu thị bán trứng chỉ 2.000 đồng/quả, người nuôi gà sống sao? - Tuổi Trẻ",
+   "title": "Siêu thị bán trứng chỉ 2.000 đồng/quả, người nuôi gà sống sao? - Báo Tuổi Trẻ",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaXBWb01ielluc3N1UWVYZWp4dlBQUl90YzdJUTJLSkdzLVRlYkNESV85clg1ZlNodTJNNWtwLUV5dzJsNjVEeGl0U190SGU4NHkxVG8tRzVBb0lhWnRRZk8zOHVjVE5oSDZ0ckN3X3o2MzNrZTVwUmpJQ2tvQ2dDMTVFdUlZM3ZvSk1VZnNYQUFaVEtrU25xYm5mM0tYNVRvNS1j?oc=5",
    "date": "2026-11-14",
-   "source": "Tuổi Trẻ"
+   "source": "Báo Tuổi Trẻ"
   }
  ],
  "mentions": [
@@ -1541,6 +1547,20 @@
   }
  ],
  "log": [
+  {
+   "at": "2026-11-26T12:21:53.350Z",
+   "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 8 · lỗi tải: 0",
+   "newTables": [],
+   "gfNew": 0,
+   "errors": 0,
+   "detail": [
+    "Chăn nuôi Việt Nam: 46 file Excel từ 2026-01-01, cần đọc 0",
+    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
+    "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
+    "  Không đọc được GreenFeed 2026-02-02",
+    "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 18 · câu trích nguồn bổ sung: 8 · lỗi tải: 0"
+   ]
+  },
   {
    "at": "2026-11-26T05:09:44.437Z",
    "summary": "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 17 · câu trích nguồn bổ sung: 8 · lỗi tải: 0",
@@ -1953,21 +1973,6 @@
     "GreenFeed: 60 ngày có bảng giá, cần đọc 1",
     "  Không đọc được GreenFeed 2026-02-02",
     "Bảng giá mới: không · GreenFeed mới: 0 ngày · tin: 12 · câu trích nguồn bổ sung: 7 · lỗi tải: 0"
-   ]
-  },
-  {
-   "at": "2026-11-17T05:07:44.360Z",
-   "summary": "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 1",
-   "newTables": [],
-   "gfNew": 2,
-   "errors": 1,
-   "detail": [
-    "Chăn nuôi Việt Nam: 44 file Excel từ 2026-01-01, cần đọc 0",
-    "Tạp chí Chăn nuôi: thấy 5 bảng giá trong danh mục",
-    "GreenFeed: 60 ngày có bảng giá, cần đọc 3",
-    "  Không đọc được GreenFeed 2026-02-02",
-    "HTTP 429 https://news.google.com/rss/search?q=%22g%C3%A0+l%C3%B4ng+tr%E1%BA%AFng%22+OR+%22g%C3%A0+c%C3%B4ng+nghi%E1%BB%87p%22+when:14d&hl=vi&gl=VN&ceid=VN:vi",
-    "Bảng giá mới: không · GreenFeed mới: 2 ngày · tin: 13 · câu trích nguồn bổ sung: 7 · lỗi tải: 1"
    ]
   }
  ]
